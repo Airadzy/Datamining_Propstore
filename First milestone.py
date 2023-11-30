@@ -7,10 +7,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains
 
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-}
-
 
 def get_page_content(driver):
     """function to download all movie content"""
@@ -78,8 +74,6 @@ def main():
     driver = webdriver.Chrome()  # initialize webbrowser (Chrome in this instance)
     driver.get(url)
     scroll_website(driver)
-    # soup = download_archive(url)
-    # links = extract_data(soup)
 
 
 if __name__ == "__main__":
