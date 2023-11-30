@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import time
-import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -14,28 +13,18 @@ headers = {
 
 
 def get_page_content(driver):
-    """docstring placeholder"""
+    """function to download all movie content"""
     return driver.page_source
 
 
 def extract_data(html_content):
-    """docstring placeholder"""
+    """function to extract movie name, sale date and price (either sold or offer if live) from website"""
+
     soup = BeautifulSoup(html_content, "html.parser")
-
-    # movie reference: <div class="card__movie" title="STAR TREK: ENTERPRISE (2001-2005)">STAR TREK: ENTERPRISE (2001-2005)"
-    # sold on: <span class="card__price-soldon">Sold on 3 Nov, 2023</span>
-    # <span class="card__price-title">$695</span>
-    for item_tag in soup.findAll("div", class_="card__movie"):
-        item_reference = item_tag.get("title")
-        print(f"Movie URL: {item_reference}\n")
-
-    for sold_on in soup.findAll("span", class_="card__price-soldon"):
-        sold_date = sold_on.text.strip(" ")
-        print(f"sold date: {sold_date}")
-
-    for price_tag in soup.findAll("span", class_="card__price-title"):
-        price = price_tag.text.strip(" ")
-        print(f"price tag: {price}")
+    for item_tag in soup.find_all(["div", "span"], class_=["card__movie", "card__price-soldon",
+                                                           "card__price-title"]):  # TODO update based on categories and show date sold on if archive sale
+        item_content = item_tag.text.strip()
+        print(item_content, end="\n")  # Print on the same line
 
 
 def can_scroll(driver):
@@ -51,7 +40,25 @@ def scroll_to_bottom(driver):
     time.sleep(1)
 
 
+def login(driver, username, password):  # TODO update login method
+    """function to login to website (IN CONSTRUCTION)"""
+    pass
+    # signin_button = driver.find_element(By.XPATH, '//a[text()="Sign In"]')
+    # signin_button.click()
+    #
+    # username_field = driver.find_element(By.ID,"email")
+    # username_field.send_keys(username)
+    #
+    # password_field = driver.find_element(By.ID,"password")
+    # password_field.send_keys(password)
+    #
+    # login_button = driver.find_element(By.ID,"Submit")
+
+
 def scroll_website(driver):
+    """function to check if we can scroll down further on website (via can_scroll function) and if True, scroll down website (via scroll_to_bottom function). Next
+     get all prop data from get_page_content function and then take relevant info via extract_data function before quitting"""
+    login(driver, "a.radzyminski@icloud.com", "xxx")  # TODO: update login method
     try:
         while can_scroll(driver):
             scroll_to_bottom(driver)
@@ -66,8 +73,8 @@ def scroll_website(driver):
 
 
 def main():
-    """main function"""
-    url = "https://propstore.com/products/?auction=1&buyNow=1&archive=1"
+    """main function to run through propstore.com, scroll to the bottom of the page and take movie information"""
+    url = "https://propstore.com/products/?sortType=5&buyNow=1&archive=1&scroll=220"
     driver = webdriver.Chrome()  # initialize webbrowser (Chrome in this instance)
     driver.get(url)
     scroll_website(driver)
