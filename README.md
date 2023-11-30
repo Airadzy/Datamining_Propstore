@@ -6,8 +6,8 @@ and extract relevant information, including movie name, price(either sold at for
 
 ## Prerequisites
 - Python 3.x
-- Chrome Browser
-- ChromeDriver (Ensure it's in your system PATH or provide its path)
+- Chrome Browser (or alternatively specify Browser in driver)
+- ChromeDriver (Ensure it's in your system PATH)
 
 ## Installation
 1. Clone the repository:
@@ -21,8 +21,6 @@ and extract relevant information, including movie name, price(either sold at for
 
 3. Configure ChromeDriver:
 Download the appropriate version of ChromeDriver based on your Chrome browser version from ChromeDriver Downloads.
-
-4. Update chromedriver_path variable in the script (script.py) with the path to your ChromeDriver executable.
 
 ## Usage
 Run the script by executing the following command:
