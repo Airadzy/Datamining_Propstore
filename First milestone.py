@@ -56,11 +56,13 @@ def scroll_website(driver):
      get all prop data from get_page_content function and then take relevant info via extract_data function before quitting"""
     login(driver, "a.radzyminski@icloud.com", "xxx")  # TODO: update login method
     try:
-        while can_scroll(driver):
+        i = 0
+        while can_scroll(driver) and i < 3:
             scroll_to_bottom(driver)
             html_content = get_page_content(driver)
             extract_data(html_content)
             WebDriverWait(driver, 5).until(ec.presence_of_element_located((By.TAG_NAME, "body")))
+            i += 1
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
@@ -72,6 +74,7 @@ def main():
     """main function to run through propstore.com, scroll to the bottom of the page and take movie information"""
     url = "https://propstore.com/products/?sortType=5&buyNow=1&archive=1&scroll=220"
     driver = webdriver.Chrome()  # initialize webbrowser (Chrome in this instance)
+    print("1",driver)
     driver.get(url)
     scroll_website(driver)
 
