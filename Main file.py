@@ -8,9 +8,11 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains
 import json
 from multiprocessing import Pool
+import logging
 
-
-
+logging.basicConfig(filename='Propstore.log',
+                    format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
+                    level=logging.INFO)
 
 def read_config():
     """function to read json configuration file"""
@@ -21,6 +23,7 @@ def read_config():
 
 def get_page_content(driver):
     """function to download all movie content in text format"""
+    logging.info(f"Fetching page content via {driver}")
     return driver.page_source
 
 
@@ -37,10 +40,10 @@ def extract_data(html_content, category_url):
             card_title = " ".join(card_title.split())
             price = card.find("span", class_="card__price-title").text.strip()
             card_dict[number] = [category, movie_name, card_title, price]
-            # print(f"Movie: {movie_name}, Title: {card_title}, Price: {price}")
         except Exception as error:
             print(f"error {error}")
             continue
+    logging.info(f"\nCreated dict from {category} with: {len(card_dict)} items\n")
     print(card_dict)
 
 
@@ -57,17 +60,18 @@ def scroll_to_bottom(driver):
     time.sleep(1)
 
 
-def scroll_website(driver, username, password,category_url):
+def scroll_website(driver, username, password, category_url):
     """function to check if we can scroll down further on website (via can_scroll function) and if True, scroll down website (via scroll_to_bottom function). Next
      get all prop data from get_page_content function and then take relevant info via extract_data function before quitting"""
     login(driver, username, password)
+    logging.info(f"Ran function {login}")
     time.sleep(3)
     try:
         i = 0
         while can_scroll(driver) and i < 3:
             scroll_to_bottom(driver)
             html_content = get_page_content(driver)
-            extract_data(html_content,category_url)
+            extract_data(html_content, category_url)
             WebDriverWait(driver, 5).until(ec.presence_of_element_located((By.TAG_NAME, "body")))
             i += 1
     except Exception as e:
@@ -93,13 +97,16 @@ def login(driver, username, password):
     login_button.click()
     WebDriverWait(driver, 10)
 
+
 def go_through_categories(url):
     """docstring placeholder"""
-    category_list = ["props", "costumes", "artwork", "posters", "toys", "production", "autographs", "music", "promotional-items"]
+    category_list = ["props", "costumes", "artwork", "posters", "toys", "production", "autographs", "music",
+                     "promotional-items"]
     category_url_list = [url.replace("products", f"category/{category}") for category in category_list]
     return category_url_list
 
-def process_category(category_url,username,password):
+
+def process_category(category_url, username, password):
     driver = webdriver.Chrome()
     driver.get(category_url)
     scroll_website(driver, username, password, category_url)
