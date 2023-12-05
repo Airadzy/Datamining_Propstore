@@ -1,0 +1,214 @@
+2023-12-05 15:29:43,169-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000001C442F17E20>
+2023-12-05 15:29:43,195-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x0000010E308B7E20>
+2023-12-05 15:29:43,216-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000001B1FF787E20>
+2023-12-05 15:29:43,466-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000002C25AB67E20>
+2023-12-05 15:29:43,512-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x00000212D1DC7E20>
+2023-12-05 15:29:43,697-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000002185CC17E20>
+2023-12-05 15:29:43,712-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000002E2672C7E20>
+2023-12-05 15:29:43,808-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000001F1E0177E20>
+2023-12-05 15:29:43,847-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x0000021E6E617E20>
+2023-12-05 15:29:47,248-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="73ab9f071bcefb795635a7b932bfc128")>
+2023-12-05 15:29:47,258-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="e7a60715cc8a5e67abc877b6cb49d4e3")>
+2023-12-05 15:29:47,264-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="b5c434ee17c7dbe2d76dffbda87bbeaa")>
+2023-12-05 15:29:47,384-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from promotional-items with: 1 items
+
+2023-12-05 15:29:47,518-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="23713ad6d9d89d0e47823b4ec8b9751a")>
+2023-12-05 15:29:47,563-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="322e38d93d47e0b1310382196f9f93e8")>
+2023-12-05 15:29:47,615-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from costumes with: 34 items
+
+2023-12-05 15:29:47,750-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0c5737d100cf3e142dbe83059e5d963e")>
+2023-12-05 15:29:47,763-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="aeba8a1dca3cf05a97d1c00908134f97")>
+2023-12-05 15:29:47,811-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from production with: 36 items
+
+2023-12-05 15:29:47,833-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from artwork with: 36 items
+
+2023-12-05 15:29:47,844-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="7fe7d79a2c281e2e6a8a4ec7ece8bdf0")>
+2023-12-05 15:29:47,878-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f18b4ab53aae2ac959f5e602e84b5a27")>
+2023-12-05 15:29:47,896-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from music with: 0 items
+
+2023-12-05 15:29:48,113-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from posters with: 36 items
+
+2023-12-05 15:29:48,229-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from props with: 35 items
+
+2023-12-05 15:29:48,249-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from toys with: 36 items
+
+2023-12-05 15:29:48,415-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="e7a60715cc8a5e67abc877b6cb49d4e3")>
+2023-12-05 15:29:48,666-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="b5c434ee17c7dbe2d76dffbda87bbeaa")>
+2023-12-05 15:29:48,854-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="23713ad6d9d89d0e47823b4ec8b9751a")>
+2023-12-05 15:29:48,980-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="322e38d93d47e0b1310382196f9f93e8")>
+2023-12-05 15:29:49,050-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0c5737d100cf3e142dbe83059e5d963e")>
+2023-12-05 15:29:49,260-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="aeba8a1dca3cf05a97d1c00908134f97")>
+2023-12-05 15:29:49,311-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="7fe7d79a2c281e2e6a8a4ec7ece8bdf0")>
+2023-12-05 15:29:49,312-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f18b4ab53aae2ac959f5e602e84b5a27")>
+2023-12-05 15:29:54,624-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from promotional-items with: 2 items
+
+2023-12-05 15:29:55,432-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from production with: 39 items
+
+2023-12-05 15:29:56,011-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="e7a60715cc8a5e67abc877b6cb49d4e3")>
+2023-12-05 15:29:56,207-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from promotional-items with: 2 items
+
+2023-12-05 15:29:56,843-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from posters with: 40 items
+
+2023-12-05 15:29:56,868-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from costumes with: 38 items
+
+2023-12-05 15:29:56,938-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from props with: 38 items
+
+2023-12-05 15:29:57,413-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from artwork with: 40 items
+
+2023-12-05 15:29:57,969-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from toys with: 39 items
+
+2023-12-05 15:29:57,982-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="aeba8a1dca3cf05a97d1c00908134f97")>
+2023-12-05 15:29:58,014-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="b5c434ee17c7dbe2d76dffbda87bbeaa")>
+2023-12-05 15:29:58,152-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f18b4ab53aae2ac959f5e602e84b5a27")>
+2023-12-05 15:29:58,496-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="322e38d93d47e0b1310382196f9f93e8")>
+2023-12-05 15:29:58,750-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from costumes with: 78 items
+
+2023-12-05 15:29:58,781-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from posters with: 79 items
+
+2023-12-05 15:29:58,826-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from props with: 76 items
+
+2023-12-05 15:29:59,158-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from artwork with: 80 items
+
+2023-12-05 15:29:59,206-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="7fe7d79a2c281e2e6a8a4ec7ece8bdf0")>
+2023-12-05 15:29:59,299-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from autographs with: 40 items
+
+2023-12-05 15:29:59,459-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from music with: 3 items
+
+2023-12-05 15:29:59,776-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from toys with: 75 items
+
+2023-12-05 15:30:00,360-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="23713ad6d9d89d0e47823b4ec8b9751a")>
+2023-12-05 15:30:00,363-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="73ab9f071bcefb795635a7b932bfc128")>
+2023-12-05 15:30:00,578-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0c5737d100cf3e142dbe83059e5d963e")>
+2023-12-05 15:30:00,689-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from music with: 3 items
+
+2023-12-05 15:30:00,748-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from production with: 39 items
+
+2023-12-05 15:30:01,034-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from autographs with: 40 items
+
+2023-12-05 15:57:24,924-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x00000229F23A7E20>
+2023-12-05 15:57:25,032-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x00000232C53E7E20>
+2023-12-05 15:57:25,455-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000001C091A87E20>
+2023-12-05 15:57:25,736-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x0000022A7CA37E20>
+2023-12-05 15:57:25,739-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000001EA6E327E20>
+2023-12-05 15:57:26,059-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x0000022742E17E20>
+2023-12-05 15:57:26,722-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000001FEF8567E20>
+2023-12-05 15:57:28,197-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x000001CA78807E20>
+2023-12-05 15:57:28,810-INFO-FILE:Main file.py-FUNC:scroll_website-LINE:67-Ran function <function login at 0x0000014F561A7E20>
+2023-12-05 15:57:29,080-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="d232b3dff1bad73c3aaf69f2273539af")>
+2023-12-05 15:57:29,086-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="489e86986c3f879bc9ae6cddbf53c47f")>
+2023-12-05 15:57:29,426-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from production with: 36 items
+
+2023-12-05 15:57:29,500-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a60d2f755702f070ec922c30f65ae05d")>
+2023-12-05 15:57:29,774-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f3a05c05bcbd80b151c927ffb7c29902")>
+2023-12-05 15:57:29,780-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a388100e5a2e4f9aabb0812286741f23")>
+2023-12-05 15:57:29,960-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from promotional-items with: 1 items
+
+2023-12-05 15:57:30,094-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="aa271fb9c232452414f23c78ff702eb6")>
+2023-12-05 15:57:30,216-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from costumes with: 34 items
+
+2023-12-05 15:57:30,766-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="dddd01897567c9742239f90792eeaa6c")>
+2023-12-05 15:57:31,051-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a388100e5a2e4f9aabb0812286741f23")>
+2023-12-05 15:57:36,819-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from toys with: 39 items
+
+2023-12-05 15:57:37,408-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from promotional-items with: 2 items
+
+2023-12-05 15:57:38,381-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="dddd01897567c9742239f90792eeaa6c")>
+2023-12-05 15:57:38,691-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a388100e5a2e4f9aabb0812286741f23")>
+2023-12-05 15:57:38,916-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from promotional-items with: 2 items
+
+2023-12-05 15:57:39,128-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="489e86986c3f879bc9ae6cddbf53c47f")>
+2023-12-05 15:57:39,582-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from toys with: 39 items
+
+2023-12-05 15:57:39,745-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="3af8f354a1c780f0d5497432866aec13")>
+2023-12-05 15:57:39,934-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from production with: 39 items
+
+2023-12-05 15:57:40,257-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from artwork with: 40 items
+
+2023-12-05 15:57:40,277-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from autographs with: 40 items
+
+2023-12-05 15:57:40,289-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="471a63a74461dde1ebad6cc71c80dc94")>
+2023-12-05 15:57:40,723-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="dddd01897567c9742239f90792eeaa6c")>
+2023-12-05 15:57:40,950-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f3a05c05bcbd80b151c927ffb7c29902")>
+2023-12-05 15:57:40,983-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="489e86986c3f879bc9ae6cddbf53c47f")>
+2023-12-05 15:57:41,214-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from props with: 76 items
+
+2023-12-05 15:57:41,215-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from posters with: 40 items
+
+2023-12-05 15:57:41,299-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from costumes with: 38 items
+
+2023-12-05 15:57:41,438-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="aa271fb9c232452414f23c78ff702eb6")>
+2023-12-05 15:57:41,588-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from music with: 3 items
+
+2023-12-05 15:57:41,701-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from toys with: 75 items
+
+2023-12-05 15:57:41,713-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from production with: 79 items
+
+2023-12-05 15:57:41,807-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from autographs with: 40 items
+
+2023-12-05 15:57:42,401-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a60d2f755702f070ec922c30f65ae05d")>
+2023-12-05 15:57:42,519-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f3a05c05bcbd80b151c927ffb7c29902")>
+2023-12-05 15:57:42,660-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="d232b3dff1bad73c3aaf69f2273539af")>
+2023-12-05 15:57:42,785-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from music with: 3 items
+
+2023-12-05 15:57:42,854-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from posters with: 40 items
+
+2023-12-05 15:57:43,140-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="aa271fb9c232452414f23c78ff702eb6")>
+2023-12-05 15:57:43,334-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from costumes with: 116 items
+
+2023-12-05 15:57:43,797-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from autographs with: 120 items
+
+2023-12-05 15:57:43,824-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="d232b3dff1bad73c3aaf69f2273539af")>
+2023-12-05 15:57:43,895-INFO-FILE:Main file.py-FUNC:get_page_content-LINE:26-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a60d2f755702f070ec922c30f65ae05d")>
+2023-12-05 15:57:43,998-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from music with: 3 items
+
+2023-12-05 15:57:44,440-INFO-FILE:Main file.py-FUNC:extract_data-LINE:46-
+Created dict from posters with: 79 items
+
