@@ -10,17 +10,20 @@ def login(driver, username, password):
     :param password:
     :return:
     """
+    try:
+        WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.XPATH, '//a[text()="Sign In"]')))
+        signin_button = driver.find_element(By.XPATH, '//a[text()="Sign In"]')
+        signin_button.click()
 
-    signin_button = driver.find_element(By.XPATH, '//a[text()="Sign In"]')
-    signin_button.click()
+        WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.XPATH, '//input[@id="email"]')))
+        username_field = driver.find_element(By.XPATH, '//input[@id="email"]')
+        username_field.send_keys(username)
+        password_field = driver.find_element(By.XPATH, '//input[@id="password"]')
+        password_field.send_keys(password)
 
-    WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.XPATH, '//input[@id="email"]')))
-    username_field = driver.find_element(By.XPATH, '//input[@id="email"]')
-    username_field.send_keys(username)
-    password_field = driver.find_element(By.XPATH, '//input[@id="password"]')
-    password_field.send_keys(password)
-
-    login_button = WebDriverWait(driver, 30).until(
-        ec.element_to_be_clickable((By.CSS_SELECTOR, 'button.modal-register__submit')))
-    login_button.click()
-    WebDriverWait(driver, 10)
+        login_button = WebDriverWait(driver, 30).until(
+            ec.element_to_be_clickable((By.CSS_SELECTOR, 'button.modal-register__submit')))
+        login_button.click()
+        WebDriverWait(driver, 10)
+    except Exception as error:
+        print(f"ERROR IN LOGIN METHOD: {error}")

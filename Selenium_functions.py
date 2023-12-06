@@ -41,7 +41,6 @@ def scroll_to_bottom(driver):
     actions.send_keys(Keys.END).perform()
     time.sleep(1)
 
-
 def login(driver, username, password):
     """
     Function to log in to Propstore website using username / password credentials.
@@ -94,18 +93,20 @@ def scroll_website(driver, username, password, category_url):
     :return: n/a
     """
 
-    login(driver, username, password)
-    logging.info(f"Ran function {login(driver, username, password)}")
-    time.sleep(3)
     try:
-        # i = 0
-        while can_scroll(driver):  # and i < 3
+        login(driver, username, password)
+        logging.info(f"Ran function {login(driver, username, password)}")
+        time.sleep(3)
+        last_height = driver.execute_script("return document.body.scrollHeight")
+        while True:
             scroll_to_bottom(driver)
             html_content = get_page_content(driver)
             Extract_data_function.extract_data(html_content, category_url)
-            WebDriverWait(driver, 5).until(ec.presence_of_element_located((By.TAG_NAME, "body")))
-            # i += 1
+            new_height = driver.execute_script("return document.body.scrollHeight")
+            if new_height == last_height:
+                break
+            last_height = new_height
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"ERROR IN THE SCROLL WEBSITE FUNCTION: {e}")
     finally:
         driver.quit()

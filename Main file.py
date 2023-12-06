@@ -24,15 +24,14 @@ def go_through_categories(url):
     :param url: main url from Propstore website
     :return: list of urls for each prop category
     """
-    category_list = ["props", "costumes", "artwork", "posters", "toys", "production", "autographs", "music",
-                     "promotional-items"]
+    category_list = ["promotional-items"] #"props", "costumes", "artwork", "posters", "toys", "production", "autographs",
     category_url_list = [url.replace("products", f"category/{category}") for category in category_list]
     return category_url_list
 
 
 def main():
     """
-    main function to open propstore.com through Selenium, scroll to the bottom of the page, and take relevant movie information
+    main function to open Propstore.com through Selenium, scroll to the bottom of the page, and take relevant movie information
     :return: key movie information (Movie name, item name, price, and category) from Propstore.com in dictionary format
     """
 
