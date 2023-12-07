@@ -64,16 +64,21 @@ def main():
     args = parser.parse_args()
 
     if args.all:
+        print("Scraping Propstore for all category items")
         category_url_list = scrape_all_categories(url)
     elif args.categories:
+        print(f"Scraping Propstore for categories: {args.categories}")
         category_url_list = scrape_select_categories(url,args.categories)
     else:
         print("Please provide valid arguments. Use --help for more info.")
 
 
-    with Pool() as pool:
-        pool.starmap(Selenium_functions.process_category,
-                     [(category_url, username, password) for category_url in category_url_list])
+    try:
+        with Pool() as pool:
+            pool.starmap(Selenium_functions.process_category,
+                         [(category_url, username, password) for category_url in category_url_list])
+    except UnboundLocalError as error:
+        print(f"Please define the scrape method")
 
 
 if __name__ == "__main__":

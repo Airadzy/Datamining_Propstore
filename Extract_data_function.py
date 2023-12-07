@@ -2,9 +2,10 @@ from bs4 import BeautifulSoup
 import logging
 import csv
 from pathlib import Path
+import argparse
 
 
-def extract_to_csv(items_list,category):
+def extract_to_csv(items_list, category):
     """
     function to take data created in extract_data function and write into a csv file
     :param items_list: list with category items and details
@@ -18,20 +19,19 @@ def extract_to_csv(items_list,category):
             logging.warning("items_list is empty. NO CSV file created.")
             return
 
-        field_names = ["category", "movie_name", "card_title", "price"]
+        field_names = ["category", "movie_name", "card_title", "price", "sold_date"]
         if path.exists() is not True:
-            with open("Propstore_data.csv", "w",newline="") as file:
+            with open("Propstore_data.csv", "w", newline="") as file:
                 writer = csv.writer(file)
                 writer.writerow(field_names)
                 writer.writerows(items_list)
         else:
-            count = 0
-            with open("Propstore_data.csv", "a",newline="") as file:
+            with open("Propstore_data.csv", "a", newline="") as file:
                 writer = csv.writer(file)
                 writer.writerows(items_list)
-                count +=1
-        logging.info(f"\nSuccessfully created csv file from {category} with {count} items\n")
-        return f"\nSuccessfully created csv file from {category} with {count} items\n"
+        logging.info(f"\nSuccessfully created csv file from {category}\n")
+        print(f"Successfully loaded data from {category} into csv file\n")
+        return f"Successfully created csv file from {category}\n"
     except Exception as error:
         print(f"ERROR IN WRITE CSV FILE: {error}")
 
@@ -54,17 +54,19 @@ def extract_data(html_content, category_url):
             card_title = " ".join(card_title.split())
             price_element = card.find("span", class_="card__price-title")
             price = price_element.text.strip() if price_element else None
-            item_tuple = (category, movie_name, card_title, price)
+            sold_date_element = card.find("span", class_="card__price-soldon")
+            sold_date = sold_date_element.text.strip() if sold_date_element else None
+            item_tuple = (category, movie_name, card_title, price, sold_date)
             if item_tuple not in items_set:
                 items_set.add(item_tuple)
         except Exception as error:
             print(f"ERROR in EXTRACT DATA {error} in {card.text}")
             continue
     items_list = list(items_set)
-    print(len(items_list))
+    print(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")
     logging.info(f"\nSuccessfully created dict from {category} with: {len(items_list)} items\n")
-    extract_to_csv(items_list,category)
-    return f"\nSuccessfully created dict from {category} with: {len(items_list)} items\n"
+    extract_to_csv(items_list, category)
+    return f"\nSuccessfully created dict from {category} with: {len(items_list)} items"
 
 
 def main():

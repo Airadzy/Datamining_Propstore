@@ -65,7 +65,7 @@ def login(driver, username, password):
         login_button.click()
         WebDriverWait(driver, 10)
     except Exception as error:
-        print(f"Error: {error}")
+        print(f"CONNECTING TO WEBSITE: {error}")
 
 
 
