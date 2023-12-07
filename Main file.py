@@ -24,7 +24,7 @@ def go_through_categories(url):
     :param url: main url from Propstore website
     :return: list of urls for each prop category
     """
-    category_list = ["promotional-items"] #"props", "costumes", "artwork", "posters", "toys", "production", "autographs",
+    category_list = ["props","costumes","artwork","posters","toys","production","autographs","promotional-items"] # "props","costumes","artwork","posters","toys","production","autographs","promotional-items"
     category_url_list = [url.replace("products", f"category/{category}") for category in category_list]
     return category_url_list
 

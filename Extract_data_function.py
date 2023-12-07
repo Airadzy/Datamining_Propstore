@@ -25,11 +25,13 @@ def extract_to_csv(items_list,category):
                 writer.writerow(field_names)
                 writer.writerows(items_list)
         else:
+            count = 0
             with open("Propstore_data.csv", "a",newline="") as file:
                 writer = csv.writer(file)
                 writer.writerows(items_list)
-        logging.info(f"\nSuccessfully created csv file from {category}\n")
-        return f"\nSuccessfully created csv file from {category}\n"
+                count +=1
+        logging.info(f"\nSuccessfully created csv file from {category} with {count} items\n")
+        return f"\nSuccessfully created csv file from {category} with {count} items\n"
     except Exception as error:
         print(f"ERROR IN WRITE CSV FILE: {error}")
 
@@ -59,6 +61,7 @@ def extract_data(html_content, category_url):
             print(f"ERROR in EXTRACT DATA {error} in {card.text}")
             continue
     items_list = list(items_set)
+    print(len(items_list))
     logging.info(f"\nSuccessfully created dict from {category} with: {len(items_list)} items\n")
     extract_to_csv(items_list,category)
     return f"\nSuccessfully created dict from {category} with: {len(items_list)} items\n"
