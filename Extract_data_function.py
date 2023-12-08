@@ -2,76 +2,74 @@ from bs4 import BeautifulSoup
 import logging
 import csv
 from pathlib import Path
-import argparse
+import logging
 
 
-def extract_to_csv(items_list, category):
+def extract_to_csv(items_list, category, config):
     """
-    function to take data created in extract_data function and write into a csv file
-    :param items_list: list with category items and details
-    :return:
+    Write data from the items_list into a CSV file.
+    :param items_list: List containing category items and details.
+    :param category: Category for which data is being written to the CSV file.
+    :return: None
     """
-
+    path = Path(config["csv_file_path"])
     try:
-        path = Path("./Propstore_data.csv")
-
         if not items_list:
-            logging.warning("items_list is empty. NO CSV file created.")
-            return
-
-        field_names = ["category", "movie_name", "card_title", "price", "sold_date"]
-        if path.exists() is not True:
-            with open("Propstore_data.csv", "w", newline="") as file:
-                writer = csv.writer(file)
+            logging.warning(config["empty_item_list_warning"])
+            print(config["empty_item_list_warning"])
+        field_names = config["field_names"]
+        mode = "w" if not path.exists() else "a"
+        with open(path, mode, newline="") as file:
+            writer = csv.writer(file)
+            if mode == "w":
                 writer.writerow(field_names)
-                writer.writerows(items_list)
-        else:
-            with open("Propstore_data.csv", "a", newline="") as file:
-                writer = csv.writer(file)
-                writer.writerows(items_list)
-        logging.info(f"\nSuccessfully created csv file from {category}\n")
-        print(f"Successfully loaded data from {category} into csv file\n")
-        return f"Successfully created csv file from {category}\n"
+            writer.writerows(items_list)
+        logging.info(config["csv_success_message"])
+        print(config["csv_success_message"])
     except Exception as error:
-        print(f"ERROR IN WRITE CSV FILE: {error}")
+        logging.error(config["csv_error_message"])
+        print(config["csv_error_message"])
 
 
-def extract_data(html_content, category_url):
+def extract_data(html_content, category_url, option, config):
     """
     Extract movie name, sale date and price (either sold or offer if live) from website
-    :param html_content:
-    :param category_url:
+    :param html_content: The HTML content of the webpage.
+    :param category_url: The URL of the category.
+    :param option: The scraping option (live_items, sold_items, all_items).
+    :param config (dict): Configuration dictionary containing messages and settings.
     :return: n/a
     """
-    soup = BeautifulSoup(html_content, "html.parser")
-    cards = soup.find_all("div", class_="card__info")
-    items_set = set()
-    category = category_url.split("/")[4]
-    for number, card in enumerate(cards):
-        try:
-            movie_name = card.find("div", class_="card__movie").text.strip()
-            card_title = card.find("div", class_="card__title").text.strip()
-            card_title = " ".join(card_title.split())
-            price_element = card.find("span", class_="card__price-title")
-            price = price_element.text.strip() if price_element else None
-            sold_date_element = card.find("span", class_="card__price-soldon")
-            sold_date = sold_date_element.text.strip() if sold_date_element else None
-            item_tuple = (category, movie_name, card_title, price, sold_date)
-            if item_tuple not in items_set:
-                items_set.add(item_tuple)
-        except Exception as error:
-            print(f"ERROR in EXTRACT DATA {error} in {card.text}")
-            continue
-    items_list = list(items_set)
-    print(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")
-    logging.info(f"\nSuccessfully created dict from {category} with: {len(items_list)} items\n")
-    extract_to_csv(items_list, category)
-    return f"\nSuccessfully created dict from {category} with: {len(items_list)} items"
+    try:
+        button_dict = {config["button_dict"]}
 
+        soup = BeautifulSoup(html_content, "html.parser")
+        cards = soup.find_all("div", class_="card__info")
+        items_set = set()
+        category = category_url.split("/")[4]
+        for number, card in enumerate(cards):
+            try:
+                button = card.find("button").text.strip()
+                movie_name = card.find("div", class_="card__movie").text.strip()
+                card_title = " ".join(card.find("div", class_="card__title").text.strip().split())
+                price_element = card.find("span", class_="card__price-title")
+                price = price_element.text.strip() if price_element else None
+                sold_date_element = card.find("span", class_="card__price-soldon")
+                sold_date = sold_date_element.text.strip() if sold_date_element else None
 
-def main():
-    print("No relevance to this function standalone")
+                item_tuple = (button, category, movie_name, card_title, price, sold_date)
+                if item_tuple not in items_set and button in button_dict[option]:
+                    items_set.add(item_tuple)
+            except Exception as error:
+                logging.error(config["extract_data_item_error"])
+                print(config["extract_data_item_error"])
+                continue
 
+        items_list = list(items_set)
+        print(config["extract_data_success"])
+        logging.info(config["extract_data_success"])
+        extract_to_csv(items_list, category, config)
 
-if __name__ == "__main__":
-    main()
+    except Exception as error:
+        logging.error(config["extract_data_error"])
+        print(config["extract_data_error"])

@@ -35603,3 +35603,123 @@ Successfully created dict from props with: 1354 items
 2023-12-07 16:26:46,799-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
 Successfully created csv file from props
 
+2023-12-08 07:46:35,236-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 07:46:36,601-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 07:46:40,437-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="c84dbbc077684c3071cf66feb8cbd393")>
+2023-12-08 07:46:40,569-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from costumes with: 36 items
+
+2023-12-08 07:46:40,570-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from costumes
+
+2023-12-08 07:48:12,794-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="ace9d94952c5fa320bdf426d09077b4f")>
+2023-12-08 07:48:15,941-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from props with: 984 items
+
+2023-12-08 07:48:15,949-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from props
+
+2023-12-08 07:50:48,747-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 07:50:48,891-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 07:50:48,965-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 07:50:49,114-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 07:50:49,224-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 07:50:50,493-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 07:50:58,795-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="83e8dcb4a8f64295aa62f44eac89b8f1")>
+2023-12-08 07:50:58,918-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from promotional-items with: 2 items
+
+2023-12-08 07:50:58,922-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from promotional-items
+
+2023-12-08 07:51:31,353-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0d611d9f161f32fd48083cbaf7c940fe")>
+2023-12-08 07:51:32,087-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="d6ba0ee966fb39f9f8dcb1dd92adf81e")>
+2023-12-08 07:51:32,222-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="cf09beb4910c593738c0c44f0472714d")>
+2023-12-08 07:51:32,252-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="95e7d32b955b7dddacf4b578d57e742a")>
+2023-12-08 07:51:32,322-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="5e250859d030e481056c84ee752ae702")>
+2023-12-08 07:51:32,413-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="9e0f0eaaee17ac393e22b2e0334eafb2")>
+2023-12-08 07:51:32,619-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="4280025da7b48da895a16236b21b93c4")>
+2023-12-08 07:51:32,654-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from toys with: 798 items
+
+2023-12-08 07:51:32,662-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from toys
+
+2023-12-08 07:51:33,786-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from autographs with: 711 items
+
+2023-12-08 07:51:33,793-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from autographs
+
+2023-12-08 07:51:33,885-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from production with: 745 items
+
+2023-12-08 07:51:33,891-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from production
+
+2023-12-08 07:51:33,999-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from posters with: 753 items
+
+2023-12-08 07:51:34,008-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from posters
+
+2023-12-08 07:51:34,207-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from props with: 789 items
+
+2023-12-08 07:51:34,213-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from props
+
+2023-12-08 07:51:34,333-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from costumes with: 739 items
+
+2023-12-08 07:51:34,338-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from costumes
+
+2023-12-08 07:51:34,582-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-
+Successfully created dict from artwork with: 788 items
+
+2023-12-08 07:51:34,588-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:32-
+Successfully created csv file from artwork
+
+2023-12-08 11:44:21,675-INFO-FILE:main_file.py-FUNC:main-LINE:75-Scraping {option} on Propstore.com for categories: {args.categories}
+2023-12-08 11:57:13,676-INFO-FILE:main_file.py-FUNC:main-LINE:75-Scraping {option} on Propstore.com for categories: {category_url_list}
+2023-12-08 12:01:11,766-INFO-FILE:main_file.py-FUNC:main-LINE:75-Scraping all_items on Propstore.com for categories: ['https://propstore.com/category/props/?sortType=5&buyNow=1&archive=1&scroll=220', 'https://propstore.com/category/costumes/?sortType=5&buyNow=1&archive=1&scroll=220', 'https://propstore.com/category/artwork/?sortType=5&buyNow=1&archive=1&scroll=220', 'https://propstore.com/category/posters/?sortType=5&buyNow=1&archive=1&scroll=220', 'https://propstore.com/category/toys/?sortType=5&buyNow=1&archive=1&scroll=220', 'https://propstore.com/category/production/?sortType=5&buyNow=1&archive=1&scroll=220', 'https://propstore.com/category/autographs/?sortType=5&buyNow=1&archive=1&scroll=220', 'https://propstore.com/category/promotional-items/?sortType=5&buyNow=1&archive=1&scroll=220']
+2023-12-08 12:01:23,836-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:01:24,082-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:01:24,368-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:01:24,386-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:01:24,436-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:01:24,506-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:01:24,688-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:01:27,771-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:01:31,972-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0beef597aaff3ad6a1cd33365b3220fe")>
+2023-12-08 12:01:34,745-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="71bb51e6662d3689653385081ba74cef")>
+2023-12-08 12:02:10,599-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="94f7ca0a3519b1d507e2386d443d0798")>
+2023-12-08 12:02:10,785-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="33eba9d340c1147054dacbd266d9967b")>
+2023-12-08 12:02:10,930-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="2858644cc4573faafc81f3ae73e3fa31")>
+2023-12-08 12:02:11,137-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="326705bd930504ebe28e5d58242ba010")>
+2023-12-08 12:02:11,857-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="cdb2c093b9a91fffd28f034426f3e4e3")>
+2023-12-08 12:02:11,906-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="41983eb0174bf8e1e1cbeb849c04a42b")>
+2023-12-08 12:03:33,445-INFO-FILE:main_file.py-FUNC:main-LINE:75-Scraping all_items on Propstore.com
+2023-12-08 12:03:38,078-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:03:38,113-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:03:38,114-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:03:38,123-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:03:38,232-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:03:38,358-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:03:38,582-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:03:38,624-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:03:41,916-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f6df9d0cf706c440790c32066a138f54")>
+2023-12-08 12:03:41,926-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:03:41,981-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="89ee558b6542ad0addc8cad1974d26d8")>
+2023-12-08 12:03:41,983-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="6f0a057eb7cfbded93ab7d2bd15e705b")>
+2023-12-08 12:03:41,984-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="878d0b0ebf802eca660b7acf78ba9155")>
+2023-12-08 12:03:41,995-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:03:41,997-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:03:41,997-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:03:42,061-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="dca72bb7341b6de6e7efb532e16f13e0")>
+2023-12-08 12:03:42,067-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:03:42,212-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="1db2e2ad24f58309ec4136f1664354ad")>
+2023-12-08 12:03:42,218-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:03:42,451-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="863d5d7c5e3db1ca51ab6598bd7a2374")>
+2023-12-08 12:03:42,457-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}

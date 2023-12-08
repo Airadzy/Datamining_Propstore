@@ -4,14 +4,18 @@ import logging
 import Selenium_functions
 import argparse
 
-logging.basicConfig(filename='Propstore.log',
+log_filename = 'Propstore.log'
+config_filename = "config.json"
+
+logging.basicConfig(filename=log_filename,
                     format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
                     level=logging.INFO)
 
 
-def read_config():
+def load_config(config_filename):
     """
-    function to read json configuration file
+    Function to read json configuration file
+    :param config_filename: the respective configuration file with key variables
     :return: json_dict that contains key variables
     """
     with open("config.json", "r") as json_file:
@@ -19,65 +23,64 @@ def read_config():
         return json_dict
 
 
-def scrape_all_categories(url):
+def parse_argument(config):
     """
-    function to create  urls for each category on Propstore page
-    :param url: main url from Propstore website
-    :return: list of urls for each prop category
+    Parse command-line arguments for Propstore scraping.
+    :return: argparse.Namespace: An object containing parsed arguments.
     """
-    category_list = ["props", "costumes", "artwork", "posters", "toys", "production", "autographs",
-                     "promotional-items"]  # "props","costumes","artwork","posters","toys","production","autographs","promotional-items"
-    category_url_list = [url.replace("products", f"category/{category}") for category in category_list]
-    return category_url_list
 
-def scrape_select_categories(url,categories):
-    full_category_list = ["props", "costumes", "artwork", "posters", "toys", "production", "autographs",
-                     "promotional-items"]
-    select_category_list = []
-    for category in categories:
-        if category not in full_category_list:
-            print(f"Warning: The category '{category}' doesn't exist or has not been included. Skipping...")
-        else:
-            select_category_list.append(category)
+    parser = argparse.ArgumentParser(description=config["argparse_help_text"])
+    parser.add_argument("--all", action="store_true", help="Scrape everything")
+    parser.add_argument("--categories", nargs="+",
+                        help="Specify categories to scrape. Note if wrong categories are given, they will be ignored")
+    parser.add_argument("--live", action="store_true", help="Only scrape live items")
+    parser.add_argument("--sold", action="store_true", help="Only scrape already sold items")
+    return parser.parse_args()
 
+
+def scrape_select_categories(url, categories, full_category_list):
+    """
+    Select categories from the given list that are present in the full category list and construct corresponding URLs.
+    :param url: The base URL to replace for category URLs.
+    :param categories: List of categories to filter.
+    :param full_category_list: Full list of available categories.
+    :return: List of category URLs based on the selected categories.
+    """
+    select_category_list = [category for category in categories if category in full_category_list]
     category_url_list = [url.replace("products", f"category/{category}") for category in select_category_list]
     return category_url_list
+
 
 def main():
     """
     main function to open Propstore.com through Selenium, scroll to the bottom of the page, and take relevant movie information
     :return: key movie information (Movie name, item name, price, and category) from Propstore.com in dictionary format
     """
-    config = read_config()
+    config = load_config(config_filename)
     url = config["url"]
     username = config["username"]
     password = config["password"]
 
-    parser = argparse.ArgumentParser(
-        description="Welcome to the Propstore mining tool. Please enter your desired items to be scraped in this format: function item_#1_to_be scraped item_#2_to_be_scraped ...")
-
-    parser.add_argument("--all", action="store_true", help="Scrape everything")
-    parser.add_argument("--categories", nargs="+",
-                        help="Specify categories to scrape (can choose multiple): props, costumes, artwork, posters, toys, production, autographs, promotional-items")
-    # parser.add_argument("-__previous",action="store_true",help="Only scrape items that have already been sold (not currently live ones)")
-    # parser.add_argument("-__live", action="store_true", help="Only scrape items that are  currently live on website")
-    args = parser.parse_args()
+    args = parse_argument(config)
 
     if args.all:
-        print("Scraping Propstore for all category items")
-        category_url_list = scrape_all_categories(url)
+        category_url_list = scrape_select_categories(url, config["category_list"], config["category_list"])
+        categories = " ".join(config["category_list"])
     elif args.categories:
-        print(f"Scraping Propstore for categories: {args.categories}")
-        category_url_list = scrape_select_categories(url,args.categories)
+        category_url_list = scrape_select_categories(url, args.categories, config["category_list"])
+        categories = " ".join(args.categories)
     else:
         print("Please provide valid arguments. Use --help for more info.")
 
-
     try:
+        option = "live_items" if args.live else "sold_items" if args.sold else "all_items"
+        logging.info(f"Scraping {option} on Propstore.com for {categories}")
+        print(f"Scraping {option} on Propstore.com for {categories}")
         with Pool() as pool:
             pool.starmap(Selenium_functions.process_category,
-                         [(category_url, username, password) for category_url in category_url_list])
+                         [(category_url, username, password, option, config) for category_url in category_url_list])
     except UnboundLocalError as error:
+        logging.error(f"Error: {error}")
         print(f"Please define the scrape method")
 
 

@@ -1,14 +1,17 @@
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+import logging
 
-def login(driver, username, password):
+
+def login(driver, username, password, config):
     """
-    function to log in to website
-    :param driver:
-    :param username:
-    :param password:
-    :return:
+    Log in to the website using the provided credentials.
+    :param driver: The Selenium WebDriver instance.
+    :param username: The username for login.
+    :param password: The password for login.
+    :param config: Configuration dictionary containing messages and settings.
+    :return: None
     """
     try:
         WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.XPATH, '//a[text()="Sign In"]')))
@@ -26,4 +29,5 @@ def login(driver, username, password):
         login_button.click()
         WebDriverWait(driver, 10)
     except Exception as error:
-        print(f"ERROR IN LOGIN METHOD: {error}")
+        logging.info(config["error_in_login"])
+        print(config["error_in_login"])

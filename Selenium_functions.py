@@ -13,7 +13,7 @@ def can_scroll(driver):
     """
     Checks if the user has scrolled to the bottom of the page or not.
     :param driver: driver with url for each category site
-    :return: n/a
+    :return: None
     """
 
     return driver.execute_script(
@@ -34,12 +34,13 @@ def scroll_to_bottom(driver):
     """
     Function to go to bottom of website.
     :param driver: driver with url for each category site
-    :return: n/a
+    :return: None
     """
 
     actions = ActionChains(driver)
     actions.send_keys(Keys.END).perform()
     time.sleep(0.8)
+
 
 def login(driver, username, password):
     """
@@ -47,7 +48,7 @@ def login(driver, username, password):
     :param driver: driver with url for each category site
     :param username: Propstore username
     :param password: Propstore website
-    :return: n/a
+    :return: None
     """
 
     try:
@@ -68,21 +69,20 @@ def login(driver, username, password):
         print(f"CONNECTING TO WEBSITE: {error}")
 
 
-
-def process_category(category_url, username, password):
+def process_category(category_url, username, password, option, config):
     """
     Function to open a url in Selenium and act on it by calling the next function that scrolls through it.
     :param category_url: url of category site (e.g. toys)
     :param username: Propstore username
     :param password: Propstore password
-    :return: n/a
+    :return: None
     """
     driver = webdriver.Chrome()
     driver.get(category_url)
-    scroll_website(driver, username, password, category_url)
+    scroll_website(driver, username, password, category_url, option, config)
 
 
-def scroll_website(driver, username, password, category_url):
+def scroll_website(driver, username, password, category_url, option, config):
     """
     Function to log in to website, scroll down website as long as possible and extract key information.
     This is executed by calling other functions.
@@ -90,7 +90,7 @@ def scroll_website(driver, username, password, category_url):
     :param username: Propstore username
     :param password: Propstore password
     :param category_url: url of category site (e.g. toys)
-    :return: n/a
+    :return: None
     """
 
     try:
@@ -106,7 +106,7 @@ def scroll_website(driver, username, password, category_url):
                 break
             last_height = new_height
         html_content = get_page_content(driver)
-        Extract_data_function.extract_data(html_content, category_url)
+        Extract_data_function.extract_data(html_content, category_url, option,config)
     except Exception as e:
         print(f"ERROR IN THE SCROLL WEBSITE FUNCTION: {e}")
     finally:
