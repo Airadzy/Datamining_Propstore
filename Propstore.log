@@ -35723,3 +35723,3665 @@ Successfully created csv file from artwork
 2023-12-08 12:03:42,218-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
 2023-12-08 12:03:42,451-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="863d5d7c5e3db1ca51ab6598bd7a2374")>
 2023-12-08 12:03:42,457-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:06:02,853-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:06:07,744-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:06:07,819-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:06:07,955-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:06:07,957-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:06:08,112-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:06:08,131-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:06:11,591-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="7b1927a059eb2cdcce093eb2ef15cfd1")>
+2023-12-08 12:06:11,605-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:06:11,688-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="8d198f6f97b15788defb1dae45d95507")>
+2023-12-08 12:06:11,707-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:06:11,786-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="3284f6d9440c45fa5dfa9aa14cd2f998")>
+2023-12-08 12:06:11,792-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:06:11,792-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:06:11,792-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:06:11,951-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="eabbcd4c04c8e7062b2fbcb7507c70d7")>
+2023-12-08 12:06:11,959-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:06:11,984-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="5cdd5846a2cdbca8f283f9ae772c0773")>
+2023-12-08 12:06:11,992-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:27:22,931-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:27:33,967-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:27:34,254-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:27:34,408-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:27:34,440-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:27:34,534-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:27:34,603-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:27:34,803-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:98-Ran function None
+2023-12-08 12:27:38,105-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="33be662c5f0bd09f53e66b020d7ea5ac")>
+2023-12-08 12:27:38,133-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:27:38,393-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="1cde2e58c0920ab4e37584f43dfa59c2")>
+2023-12-08 12:27:38,424-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:27:38,463-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="dbe0f1a5cb1a731d7eabfa7c09b514b2")>
+2023-12-08 12:27:38,500-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:27:38,656-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0c53377b310b649a9d011905f224f258")>
+2023-12-08 12:27:38,684-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:27:44,927-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="94b301dd7ee9c8cd78c7d8626224b3c5")>
+2023-12-08 12:27:44,944-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:29:06,078-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="10cec6b0330c585f26df76da33716cb2")>
+2023-12-08 12:29:06,184-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="61e820920359f68fa0ebb5e925aff249")>
+2023-12-08 12:29:06,416-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="67cef676c91a8b3503c106e06525b0b1")>
+2023-12-08 12:29:06,706-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:29:06,707-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:29:07,053-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:43:20,572-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:46:01,665-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:46:14,438-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-ERROR IN LOGIN METHOD: {error}
+2023-12-08 12:46:14,440-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-ERROR IN LOGIN METHOD: {error}
+2023-12-08 12:46:14,441-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:46:14,442-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:46:14,470-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-ERROR IN LOGIN METHOD: {error}
+2023-12-08 12:46:14,471-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:46:14,586-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-ERROR IN LOGIN METHOD: {error}
+2023-12-08 12:46:14,588-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:46:14,766-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-ERROR IN LOGIN METHOD: {error}
+2023-12-08 12:46:14,768-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:46:14,886-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-ERROR IN LOGIN METHOD: {error}
+2023-12-08 12:46:14,888-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:46:15,170-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-ERROR IN LOGIN METHOD: {error}
+2023-12-08 12:46:15,171-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:46:26,395-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="933bff9d1c4a7978b421446d9bc35a10")>
+2023-12-08 12:46:26,421-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:46:54,891-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="9fbbe196cb2ed589783dc9cfe3b8776d")>
+2023-12-08 12:46:54,958-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="33d509ae9ebdf5cc931f69848adc216c")>
+2023-12-08 12:46:55,089-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:46:55,109-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:46:55,357-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="9f4a62fedc04a0db2d7ab9ea90e51f2d")>
+2023-12-08 12:46:55,499-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="10c42474849cb5b223b1e23ee13c7f91")>
+2023-12-08 12:46:55,599-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:46:55,621-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="4fbb86058efa13dbcdef89ed79acb5f3")>
+2023-12-08 12:46:55,626-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:46:55,726-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:46:55,860-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:46:55,934-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="b8df6abe74719f18bb19efd897fcb2cf")>
+2023-12-08 12:46:56,134-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: {error}
+2023-12-08 12:50:39,980-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:50:48,173-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:48,175-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:48,176-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:99-Ran function None
+2023-12-08 12:50:48,897-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:48,901-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:48,902-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:99-Ran function None
+2023-12-08 12:50:49,108-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: target frame detached
+  (failed to check if window was closed: disconnected: unable to send message to renderer)
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A045D]
+	(No symbol) [0x00007FF7C438E703]
+	(No symbol) [0x00007FF7C438CF0E]
+	(No symbol) [0x00007FF7C438D9CE]
+	(No symbol) [0x00007FF7C439A20F]
+	(No symbol) [0x00007FF7C43AB794]
+	(No symbol) [0x00007FF7C441A865]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:49,113-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C438E19B]
+	(No symbol) [0x00007FF7C438DDF0]
+	(No symbol) [0x00007FF7C43A24A1]
+	(No symbol) [0x00007FF7C441A18F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:49,113-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:99-Ran function None
+2023-12-08 12:50:49,946-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:49,948-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:49,948-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:99-Ran function None
+2023-12-08 12:50:50,179-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:50,665-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:50,668-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:50,669-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:99-Ran function None
+2023-12-08 12:50:50,905-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:51,117-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C438E19B]
+	(No symbol) [0x00007FF7C438DDF0]
+	(No symbol) [0x00007FF7C43A24A1]
+	(No symbol) [0x00007FF7C441A18F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:51,692-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:51,695-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:51,695-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:99-Ran function None
+2023-12-08 12:50:51,950-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:52,677-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:53,699-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:53,777-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C438E19B]
+	(No symbol) [0x00007FF7C438DDF0]
+	(No symbol) [0x00007FF7C43A24A1]
+	(No symbol) [0x00007FF7C441A18F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:53,781-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:70-CONNECTING TO WEBSITE: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C438E19B]
+	(No symbol) [0x00007FF7C438DDF0]
+	(No symbol) [0x00007FF7C43A24A1]
+	(No symbol) [0x00007FF7C441A18F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:50:53,781-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:99-Ran function None
+2023-12-08 12:50:55,783-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C438E19B]
+	(No symbol) [0x00007FF7C438DDF0]
+	(No symbol) [0x00007FF7C43A24A1]
+	(No symbol) [0x00007FF7C441A18F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:51:54,751-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:52:04,482-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E7A77]
+	(No symbol) [0x00007FF7C43E5E39]
+	(No symbol) [0x00007FF7C43E3C08]
+	(No symbol) [0x00007FF7C43E2C8A]
+	(No symbol) [0x00007FF7C43D87BF]
+	(No symbol) [0x00007FF7C44020AA]
+	(No symbol) [0x00007FF7C43D80CF]
+	(No symbol) [0x00007FF7C44022C0]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:52:04,483-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:52:04,729-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E7A77]
+	(No symbol) [0x00007FF7C43E5E39]
+	(No symbol) [0x00007FF7C43E3C08]
+	(No symbol) [0x00007FF7C43E2C8A]
+	(No symbol) [0x00007FF7C43D87BF]
+	(No symbol) [0x00007FF7C44020AA]
+	(No symbol) [0x00007FF7C43D80CF]
+	(No symbol) [0x00007FF7C44022C0]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:52:04,729-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:52:04,866-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E7A77]
+	(No symbol) [0x00007FF7C43E5E39]
+	(No symbol) [0x00007FF7C43E3C08]
+	(No symbol) [0x00007FF7C43E2C8A]
+	(No symbol) [0x00007FF7C43D87BF]
+	(No symbol) [0x00007FF7C44020AA]
+	(No symbol) [0x00007FF7C43D80CF]
+	(No symbol) [0x00007FF7C44022C0]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:52:04,867-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:52:05,253-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E7A77]
+	(No symbol) [0x00007FF7C43E5E39]
+	(No symbol) [0x00007FF7C43E3C08]
+	(No symbol) [0x00007FF7C43E2C8A]
+	(No symbol) [0x00007FF7C43D87BF]
+	(No symbol) [0x00007FF7C44020AA]
+	(No symbol) [0x00007FF7C43D80CF]
+	(No symbol) [0x00007FF7C44022C0]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:52:05,254-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:52:05,281-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E7A77]
+	(No symbol) [0x00007FF7C43E5E39]
+	(No symbol) [0x00007FF7C43E3C08]
+	(No symbol) [0x00007FF7C43E2C8A]
+	(No symbol) [0x00007FF7C43D87BF]
+	(No symbol) [0x00007FF7C44020AA]
+	(No symbol) [0x00007FF7C43D80CF]
+	(No symbol) [0x00007FF7C44022C0]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:52:05,281-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:52:05,845-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E7A77]
+	(No symbol) [0x00007FF7C43E5E39]
+	(No symbol) [0x00007FF7C43E3C08]
+	(No symbol) [0x00007FF7C43E2C8A]
+	(No symbol) [0x00007FF7C43D87BF]
+	(No symbol) [0x00007FF7C44020AA]
+	(No symbol) [0x00007FF7C43D80CF]
+	(No symbol) [0x00007FF7C44022C0]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:52:05,846-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:52:05,970-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E7A77]
+	(No symbol) [0x00007FF7C43E5E39]
+	(No symbol) [0x00007FF7C43E3C08]
+	(No symbol) [0x00007FF7C43E2C8A]
+	(No symbol) [0x00007FF7C43D87BF]
+	(No symbol) [0x00007FF7C44020AA]
+	(No symbol) [0x00007FF7C43D80CF]
+	(No symbol) [0x00007FF7C44022C0]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:52:05,971-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:52:08,966-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E7A77]
+	(No symbol) [0x00007FF7C43E5E39]
+	(No symbol) [0x00007FF7C43E3C08]
+	(No symbol) [0x00007FF7C43E2C8A]
+	(No symbol) [0x00007FF7C43D87BF]
+	(No symbol) [0x00007FF7C44020AA]
+	(No symbol) [0x00007FF7C43D80CF]
+	(No symbol) [0x00007FF7C44022C0]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:52:08,967-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:52:12,491-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="6d3a2ea5ea235d30ae3286e37519a10f")>
+2023-12-08 12:52:12,519-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: unhashable type: 'dict'
+2023-12-08 12:52:45,062-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="447481a98623e4588601aaf7ba02d0cf")>
+2023-12-08 12:52:45,358-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: unhashable type: 'dict'
+2023-12-08 12:52:45,675-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="6b337033c79cb8827e63395ca499be68")>
+2023-12-08 12:52:45,997-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: unhashable type: 'dict'
+2023-12-08 12:52:46,043-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="6047f922c77d747b3ab6429a650db5e3")>
+2023-12-08 12:52:46,228-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0b66a2684138d5198fd67c4572841174")>
+2023-12-08 12:52:46,231-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="b64b49a5fb5ce6979d7f2060407548d1")>
+2023-12-08 12:52:46,237-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="34dec9cb5c1d72425c86ad7cefcb28ae")>
+2023-12-08 12:52:46,356-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: unhashable type: 'dict'
+2023-12-08 12:52:46,435-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="ca2af50d3d87ef5b7992e93d733873e4")>
+2023-12-08 12:52:46,478-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: unhashable type: 'dict'
+2023-12-08 12:52:46,495-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: unhashable type: 'dict'
+2023-12-08 12:52:46,540-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: unhashable type: 'dict'
+2023-12-08 12:52:46,756-ERROR-FILE:Extract_data_function.py-FUNC:extract_data-LINE:74-Error in extract_data: unhashable type: 'dict'
+2023-12-08 12:53:52,821-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:54:03,302-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:03,306-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:03,307-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:03,866-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:03,868-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:03,868-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:04,778-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:04,780-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:04,781-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:05,310-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:05,872-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:06,783-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:07,110-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:07,674-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:07,708-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:07,893-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:17,568-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:17,568-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:17,571-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:17,571-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:18,084-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:18,084-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:18,087-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:18,087-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:18,205-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:18,205-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:21,406-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="dde05e6ee86af2d3f0ee90805fcc9bb2")>
+2023-12-08 12:54:21,414-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:70-FINISHED EXTRACTING artwork. Number of items fetched: 0
+2023-12-08 12:54:21,415-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-08 12:54:21,415-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="bc505a06fe609740bdbdaf88ca3a1c09")>
+2023-12-08 12:54:21,417-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-
+Successfully created csv file from {category}
+
+2023-12-08 12:54:21,422-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:70-FINISHED EXTRACTING costumes. Number of items fetched: 0
+2023-12-08 12:54:21,423-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-08 12:54:21,423-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-
+Successfully created csv file from {category}
+
+2023-12-08 12:54:21,912-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:21,919-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="3395bc5dbb58cc7260b1daaf118dff6f")>
+2023-12-08 12:54:21,924-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:70-FINISHED EXTRACTING posters. Number of items fetched: 0
+2023-12-08 12:54:21,925-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-08 12:54:21,926-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-
+Successfully created csv file from {category}
+
+2023-12-08 12:54:22,039-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="466444d274e73e52f4319ed8dc00bb6a")>
+2023-12-08 12:54:22,046-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:70-FINISHED EXTRACTING toys. Number of items fetched: 0
+2023-12-08 12:54:22,046-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-08 12:54:22,047-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-
+Successfully created csv file from {category}
+
+2023-12-08 12:54:45,054-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:54:51,439-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:51,442-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:51,442-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:52,152-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:52,155-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:52,155-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:52,274-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:52,276-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:52,276-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:53,128-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:53,131-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:53,131-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:53,283-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:53,285-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:53,287-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:53,446-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:53,846-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:53,847-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:53,847-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:54,159-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:54,279-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:54,615-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:54,619-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:54,619-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:55,136-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:55,202-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:55,205-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:55,205-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:54:55,289-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:55,851-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:56,622-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:54:57,207-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:22,251-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:55:36,229-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:37,145-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:37,148-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:37,154-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:37,259-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:37,265-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:37,358-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:37,770-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:46,523-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:46,524-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:55:47,043-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:47,043-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:55:47,548-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:47,548-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:55:47,553-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:47,553-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:55:47,553-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:47,553-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:55:47,560-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:47,561-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:55:47,562-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:47,562-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:55:47,635-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C43E175C]
+	(No symbol) [0x00007FF7C43E18DC]
+	(No symbol) [0x00007FF7C441CBC7]
+	(No symbol) [0x00007FF7C44020EF]
+	(No symbol) [0x00007FF7C441AAA4]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:47,635-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:55:49,045-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:49,550-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:49,555-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:49,564-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:49,664-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:50,354-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="e8657b7fb77b4314e4c834ac7b2d8629")>
+2023-12-08 12:55:50,359-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:70-FINISHED EXTRACTING posters. Number of items fetched: 0
+2023-12-08 12:55:50,360-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-08 12:55:50,361-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-
+Successfully created csv file from {category}
+
+2023-12-08 12:55:51,373-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:55:51,377-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:03,446-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:57:13,338-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:13,341-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:13,343-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:13,914-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:13,917-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:13,918-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:14,282-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:14,285-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:14,285-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:14,627-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:14,629-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:14,629-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:15,347-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:15,468-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:15,470-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:15,472-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:15,920-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:15,986-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:15,989-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:15,989-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:16,288-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:16,506-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:16,510-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:16,510-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:16,657-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:17,027-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:17,030-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:17,030-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:17,477-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:17,991-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:18,514-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:19,033-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:28,340-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-08 12:57:34,828-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:34,831-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:34,831-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:35,471-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:35,472-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:35,473-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:35,947-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:35,949-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:35,949-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:36,381-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:36,382-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:36,383-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:36,836-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:37,153-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:37,157-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:37,157-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:37,403-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:37,405-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:37,406-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:37,475-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:37,952-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:38,139-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:38,141-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:38,141-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:38,386-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:39,013-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:39,015-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:39,016-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-08 12:57:39,161-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:39,407-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:40,145-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+
+2023-12-08 12:57:41,020-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C45782B2+55298]
+	(No symbol) [0x00007FF7C44E5E02]
+	(No symbol) [0x00007FF7C43A05AB]
+	(No symbol) [0x00007FF7C4380038]
+	(No symbol) [0x00007FF7C4406BC7]
+	(No symbol) [0x00007FF7C441A15F]
+	(No symbol) [0x00007FF7C4401E83]
+	(No symbol) [0x00007FF7C43D670A]
+	(No symbol) [0x00007FF7C43D7964]
+	GetHandleVerifier [0x00007FF7C48F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7C494728E+4048862]
+	GetHandleVerifier [0x00007FF7C493F173+4015811]
+	GetHandleVerifier [0x00007FF7C46147D6+695590]
+	(No symbol) [0x00007FF7C44F0CE8]
+	(No symbol) [0x00007FF7C44ECF34]
+	(No symbol) [0x00007FF7C44ED062]
+	(No symbol) [0x00007FF7C44DD3A3]
+	BaseThreadInitThunk [0x00007FFAF3A6257D+29]
+	RtlUserThreadStart [0x00007FFAF496AA58+40]
+

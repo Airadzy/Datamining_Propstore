@@ -42,17 +42,19 @@ def scroll_to_bottom(driver):
     time.sleep(0.8)
 
 
-def login(driver, username, password):
+def login(driver, username, password, config):
     """
-    Function to log in to Propstore website using username / password credentials.
-    :param driver: driver with url for each category site
-    :param username: Propstore username
-    :param password: Propstore website
+    Log in to the website using the provided credentials.
+    :param driver: The Selenium WebDriver instance.
+    :param username: The username for login.
+    :param password: The password for login.
     :return: None
     """
 
     try:
-        signin_button = driver.find_element(By.XPATH, '//a[text()="Sign In"]')
+        signin_button = WebDriverWait(driver, 10).until(
+            ec.presence_of_element_located((By.XPATH, '//a[text()="Sign In"]')))
+        # signin_button = driver.find_element(By.XPATH, '//a[text()="Sign In"]')
         signin_button.click()
 
         WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.XPATH, '//input[@id="email"]')))
@@ -66,7 +68,7 @@ def login(driver, username, password):
         login_button.click()
         WebDriverWait(driver, 10)
     except Exception as error:
-        print(f"CONNECTING TO WEBSITE: {error}")
+        logging.error(f"CONNECTING TO WEBSITE: {error}")
 
 
 def process_category(category_url, username, password, option, config):
@@ -94,8 +96,8 @@ def scroll_website(driver, username, password, category_url, option, config):
     """
 
     try:
-        login(driver, username, password)
-        logging.info(f"Ran function {login(driver, username, password)}")
+        login(driver, username, password, config)
+        logging.info(f"Ran function {login(driver, username, password, config)}")
         time.sleep(2)
         last_height = driver.execute_script("return document.body.scrollHeight")
         while True:
@@ -106,8 +108,9 @@ def scroll_website(driver, username, password, category_url, option, config):
                 break
             last_height = new_height
         html_content = get_page_content(driver)
-        Extract_data_function.extract_data(html_content, category_url, option,config)
+        Extract_data_function.extract_data(html_content, category_url, option, config)
     except Exception as e:
+        logging.error(f"ERROR IN THE SCROLL WEBSITE FUNCTION: {e}")
         print(f"ERROR IN THE SCROLL WEBSITE FUNCTION: {e}")
     finally:
         driver.quit()

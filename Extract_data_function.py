@@ -41,7 +41,7 @@ def extract_data(html_content, category_url, option, config):
     :return: n/a
     """
     try:
-        button_dict = {config["button_dict"]}
+        button_dict = config["button_dict"]
 
         soup = BeautifulSoup(html_content, "html.parser")
         cards = soup.find_all("div", class_="card__info")
@@ -61,15 +61,15 @@ def extract_data(html_content, category_url, option, config):
                 if item_tuple not in items_set and button in button_dict[option]:
                     items_set.add(item_tuple)
             except Exception as error:
-                logging.error(config["extract_data_item_error"])
-                print(config["extract_data_item_error"])
+                logging.error(f"Error in extracting data: {error} in {card.text}")
+                print(f"Error in extracting data: {error} in {card.text}")
                 continue
 
         items_list = list(items_set)
-        print(config["extract_data_success"])
-        logging.info(config["extract_data_success"])
+        print(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")
+        logging.info(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")
         extract_to_csv(items_list, category, config)
 
     except Exception as error:
-        logging.error(config["extract_data_error"])
-        print(config["extract_data_error"])
+        logging.error(f"Error in extract_data: {error}")
+        print(f"Error in extract_data: {error}")
