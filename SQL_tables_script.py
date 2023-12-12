@@ -1,14 +1,15 @@
 import pymysql
+import pymysql.err
 
 connection = pymysql.connect(host='localhost', user='root', password='root', cursorclass=pymysql.cursors.DictCursor)
 
 with connection.cursor() as cursor:
     try:
-        cursor.execute("CREATE DATABASE Propstore_details;")
-        cursor.execute("USE Propstore_details;")
-    except Exception as error:
-        print(f"ERROR: {error}")
+        cursor.execute("CREATE DATABASE propstore_details6;")
+    except (pymysql.err.ProgrammingError, pymysql.err.InternalError) as error:
+        print(f"Database already exists: {error}")
     try:
+        cursor.execute("USE propstore_details6;")
         cursor.execute("""
                 CREATE TABLE IF NOT EXISTS categories(
                     categories_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -41,6 +42,7 @@ with connection.cursor() as cursor:
                     categories_id INT,
                     status_id INT,
                     movies_id INT,
+                    price VARCHAR(255),
                     currencies_id INT,
                     FOREIGN KEY (categories_id) REFERENCES categories (categories_id),
                     FOREIGN KEY (status_id) REFERENCES status (status_id),

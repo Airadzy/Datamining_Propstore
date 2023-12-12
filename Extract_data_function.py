@@ -29,6 +29,8 @@ def extract_to_csv(items_list, category, config):
     except Exception as error:
         logging.error(config["csv_error_message"])
         print(config["csv_error_message"])
+    finally:
+        pass
 
 
 def extract_data(html_content, category_url, option, config):
