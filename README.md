@@ -72,3 +72,7 @@ status_id (integer primary key): A unique identifier for each status.
 status_description (varchar(50)): A textual description of the status (e.g., 'Buy Now', 'Just Sold'), with a maximum length of 50 characters.
 
 sold_date (date): The date on which the item was sold. This field stores dates in the format YYYY-MM-DD.
+
+
+![PropStore Scraper (3)](https://github.com/Airadzy/Datamining_Propstore/assets/114605683/c0dae16a-a2e4-441f-a7a1-b600fb53b1f8)
+
