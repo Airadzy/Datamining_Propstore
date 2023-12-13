@@ -2,6 +2,7 @@
 
 ## Owners
 Adrian: https://www.linkedin.com/in/adrianradzyminski/
+
 Nick: https://www.linkedin.com/in/nickmishkin/
 
 ## Description
