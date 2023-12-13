@@ -3,19 +3,8 @@ import csv
 from pathlib import Path
 from datetime import datetime
 
-connection = pymysql.connect(host='localhost', user='root', password='root', database="Propstore_details5",
+connection = pymysql.connect(host='localhost', user='root', password='root', database="Propstore_details",
                              cursorclass=pymysql.cursors.DictCursor)
-
-
-def insert_query(query, data):
-    try:
-        with connection.cursor() as cursor:
-            cursor.execute(query, data)
-            connection.commit()
-            return cursor.lastrowid
-    except Exception as error:
-        print(f"SQL error: {error}")
-        return None
 
 
 def parse_price(price_str):
@@ -38,26 +27,52 @@ def parse_date(date_str):
         return None
 
 
+def create_or_get_id(cursor, table, column, value):
+    cursor.execute(f"SELECT {table}_id FROM {table} WHERE {column} = %s", (value,))
+    result = cursor.fetchone()
+    if result:
+        return result[f"{table}_id"]
+
+    # If not, insert the new record and return the new ID
+    cursor.execute(f"INSERT INTO {table} ({column}) VALUES (%s)", (value,))
+    return cursor.lastrowid
+
+
+def create_or_get_status_id(cursor, status, sold_date):
+    # Check if the status record already exists and get its ID
+    cursor.execute("SELECT status_id FROM status WHERE status = %s AND sold_date = %s", (status, sold_date))
+    result = cursor.fetchone()
+    if result:
+        return result['status_id']
+
+    # If not, insert the new record and return the new ID
+    cursor.execute("INSERT INTO status (status, sold_date) VALUES (%s, %s)", (status, sold_date))
+    return cursor.lastrowid
+
+
 path = Path("./Propstore_data.csv")
 
-with open(path, "r") as file:
-    reader = csv.DictReader(file)
-    for count, row in enumerate(reader,start=1):
-        status = row["button"]
-        categories = row["category"]
-        movie_name = row["movie_name"]
-        card_title = row["card_title"]
-        price, currencies = parse_price(row["price"]) if row["price"] else (None, None)
-        sold_date = parse_date(row["sold_date"]) if row["sold_date"].strip() else None
+with connection.cursor() as cursor:
+    with open(path, "r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            price, currencies = parse_price(row["price"]) if row["price"] else (None, None)
+            sold_date = parse_date(row["sold_date"]) if row["sold_date"].strip() else None
 
-        categories_id = insert_query("INSERT IGNORE INTO categories (categories) VALUES (%s)", (categories,))
-        movies_id = insert_query("INSERT IGNORE INTO movies (movies_name) VALUES (%s)", (movie_name,))
-        status_id = insert_query("INSERT IGNORE INTO status (status, sold_date) VALUES (%s, %s)",
-                                 (status, sold_date))
-        currencies_id = insert_query("INSERT IGNORE into currencies (currencies) VALUES (%s)", (currencies,))
-        if categories_id and movies_id and status_id and currencies_id:
-            insert_query(
-                "INSERT INTO items (description,categories_id,status_id,movies_id,price,currencies_id) VALUES (%s,%s,%s,%s,%s,%s)",
-                (card_title, categories_id, status_id, movies_id, price, currencies_id))
+            categories = row["category"]
+            movie_name = row["movie_name"]
+            card_title = row["card_title"]
+            status = row["button"]
+
+            categories_id = create_or_get_id(cursor, 'categories', 'categories', categories)
+            movies_id = create_or_get_id(cursor, 'movies', 'movies_name', movie_name)
+            currencies_id = create_or_get_id(cursor, 'currencies', 'currencies', currencies)
+            status_id = create_or_get_status_id(cursor, status, sold_date)
+
+            if categories_id and movies_id and status_id and currencies_id:
+                cursor.execute(
+                    "INSERT INTO items (description,categories_id,status_id,movies_id,price,currencies_id) VALUES (%s,%s,%s,%s,%s,%s)",
+                    (card_title, categories_id, status_id, movies_id, price, currencies_id))
 
             connection.commit()
+connection.close()

@@ -5,34 +5,34 @@ connection = pymysql.connect(host='localhost', user='root', password='root', cur
 
 with connection.cursor() as cursor:
     try:
-        cursor.execute("CREATE DATABASE propstore_details6;")
+        cursor.execute("CREATE DATABASE propstore_details;")
     except (pymysql.err.ProgrammingError, pymysql.err.InternalError) as error:
         print(f"Database already exists: {error}")
     try:
-        cursor.execute("USE propstore_details6;")
+        cursor.execute("USE propstore_details;")
         cursor.execute("""
                 CREATE TABLE IF NOT EXISTS categories(
                     categories_id INT AUTO_INCREMENT PRIMARY KEY,
-                    categories VARCHAR(255) UNIQUE NOT NULL
+                    categories VARCHAR(255) UNIQUE
                 )
             """)
         cursor.execute("""
                 CREATE TABLE IF NOT EXISTS movies (
                     movies_id INT AUTO_INCREMENT PRIMARY KEY,
-                    movies_name VARCHAR(255) UNIQUE NOT NULL
+                    movies_name VARCHAR(255) UNIQUE 
                 )
             """)
         cursor.execute("""
                 CREATE TABLE IF NOT EXISTS status (
                     status_id INT AUTO_INCREMENT PRIMARY KEY,
-                    status VARCHAR(255) NOT NULL,
+                    status VARCHAR(255) ,
                     sold_date DATE
                 )
             """)
         cursor.execute("""
                 CREATE TABLE IF NOT EXISTS currencies (
                     currencies_id INT AUTO_INCREMENT PRIMARY KEY,
-                    currencies VARCHAR(255) UNIQUE NOT NULL
+                    currencies VARCHAR(255) UNIQUE
                 )
             """)
         cursor.execute("""
