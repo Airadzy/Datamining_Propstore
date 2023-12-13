@@ -1,5 +1,9 @@
 # PropStore Scraper
 
+## Owners
+Adrian: https://www.linkedin.com/in/adrianradzyminski/
+Nick: https://www.linkedin.com/in/nickmishkin/
+
 ## Description
 PropStore Scraper is a Python script using Selenium and BeautifulSoup to scrape data from the PropStore website (https://propstore.com/) which shows historic prices paid and current listings for prop items from film & music. It uses a combination of Selenium and beautifulsoup to log in, scroll through the product listings, 
 and extract relevant information, including movie name, price(either sold at for archived items or price offered for live items) from each prop.
