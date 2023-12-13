@@ -1,0 +1,24 @@
+{
+    "url": "https://propstore.com/products/?sortType=5&buyNow=1&archive=1&scroll=220",
+    "username": "[XXX]",
+    "password": "[XXX]",
+    "category_list": ["props", "costumes", "artwork", "posters", "toys", "production", "autographs", "promotional-items"],
+    "scrape_category_warning": "Warning: The category '{category}' doesn't exist or has not been included. Skipping...",
+    "argparse_help_text": "Welcome to the Propstore mining tool. Please enter your desired items to be scraped in this format: function [--all / --categories Category Category 2 ...] [--live / --sold] Categories to choose from (can select multiple): props, costumes, artwork, posters, toys, production, autographs, promotional-items Examples: 1. propstore_scraper.py --all | Scrape all content on website 2. propstore_scraper.py --categories props costumes | Scrape only categories props and costumes 3. propstore_scraper.py --all --live | Scrape across all categories only the items that are currently being sold 4. propstore_scraper.py --categories artwork posters --sold | Scrape across categories artwork and posters, only the items that have already been sold",
+    "logging_configuration": {},
+    "error_in_login": "ERROR IN LOGIN METHOD: {error}",
+    "button_dict": {
+        "live_items": ["Add to cart", "Reserved"],
+        "sold_items": [" Just sold ", "Sold Archive"],
+        "all_items": ["Add to cart", "Reserved", " Just sold ", "Sold Archive"]
+    },
+    "scraping_message": "Scraping {option} on Propstore.com for categories: {category_url_list}",
+    "field_names": ["button", "category", "movie_name", "card_title", "price", "sold_date"],
+    "csv_success_message": "\nSuccessfully created csv file from {category}\n",
+    "empty_item_list_warning": "items_list is empty. No CSV file created.",
+    "csv_error_message": "ERROR IN WRITE CSV FILE: {error}",
+    "csv_file_path": "./Propstore_data.csv",
+    "extract_data_item_error": "Error in extracting data: {error} in {card.text}",
+    "extract_data_success": "FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}",
+    "extract_data_error": "Error in extract_data: {error}"
+}
