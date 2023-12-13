@@ -1,3 +1,4 @@
 seleniumtest.py
 *.json
 chromedriver.exe
+Propstore_data.csv
