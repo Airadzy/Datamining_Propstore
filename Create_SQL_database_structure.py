@@ -1,6 +1,7 @@
 import pymysql
 import pymysql.err
-from SQL_tables_script import load_data
+from SQL_data_loading import load_data
+from pathlib import Path
 
 connection = pymysql.connect(host='localhost', user='root', password='root', cursorclass=pymysql.cursors.DictCursor)
 
@@ -61,8 +62,13 @@ def create_database():
 
 def main():
     create_database()
-    load_data()
+    print("database created")
+    path = Path("./Propstore_data.csv")
+    if path:
+        load_data(path)
+    else:
+        print(f"Need to create propstore csv file first")
 
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
     main()
