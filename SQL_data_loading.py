@@ -2,12 +2,20 @@ import pymysql
 import csv
 from pathlib import Path
 from datetime import datetime
+import logging
 
-connection = pymysql.connect(host='localhost', user='root', password='root', database="propstore_details",
+
+def get_connection():
+    """
+    Establishes and returns a database connection
+    :return: Database connection
+    """
+    connection = pymysql.connect(host='localhost', user='root', password='root', database="propstore_details",
                              cursorclass=pymysql.cursors.DictCursor)
+    return connection
 
 
-def load_data(path):
+def load_data(path,connection):
     """
     Main function to load data from a CSV file into the Propstore_details database.
     It processes each row in the CSV, parses various fields, and inserts them into the database.

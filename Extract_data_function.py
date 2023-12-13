@@ -24,8 +24,8 @@ def extract_to_csv(items_list, category, config):
             if mode == "w":
                 writer.writerow(field_names)
             writer.writerows(items_list)
-        logging.info(f"Successfully created csv file from {category}")
-        print(f"Successfully created csv file from {category}")
+        logging.info(f"Successfully inserted into csv file data from {category}")
+        print(f"Successfully inserted into csv file data from {category}")
     except Exception as error:
         logging.error(config["csv_error_message"])
         print(config["csv_error_message"])

@@ -1,17 +1,23 @@
 import pymysql
 import pymysql.err
-from SQL_data_loading import load_data
+import SQL_data_loading
 from pathlib import Path
+import logging
+import main_file
 
-connection = pymysql.connect(host='localhost', user='root', password='root', cursorclass=pymysql.cursors.DictCursor)
+logging.basicConfig(filename=main_file.log_filename,
+                    format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
+                    level=logging.INFO)
+connection_without_database = pymysql.connect(host='localhost', user='root', password='root',
+                                              cursorclass=pymysql.cursors.DictCursor)
 
 
 def create_database():
-    with connection.cursor() as cursor:
+    with connection_without_database.cursor() as cursor:
         try:
             cursor.execute("CREATE DATABASE propstore_details;")
         except (pymysql.err.ProgrammingError, pymysql.err.InternalError) as error:
-            print(f"Database already exists: {error}")
+            print(f"Database already exists so inserting new data into database")
         try:
             cursor.execute("USE propstore_details;")
             cursor.execute("""
@@ -54,18 +60,23 @@ def create_database():
                         FOREIGN KEY (currencies_id) REFERENCES currencies (currencies_id)
                     )
                 """)
-            connection.commit()
+            connection_without_database.commit()
 
         finally:
-            connection.close()
+            print("Finished creating database")
 
 
 def main():
     create_database()
-    print("database created")
+    try:
+        connection = SQL_data_loading.get_connection()
+    except Exception as error:
+        logging.error(f"Couldnt get connection: {error}")
+        print(f"Couldnt get connection: {error}")
     path = Path("./Propstore_data.csv")
     if path:
-        load_data(path)
+        SQL_data_loading.load_data(path, connection)
+        print("finished loading items into database")
     else:
         print(f"Need to create propstore csv file first")
 

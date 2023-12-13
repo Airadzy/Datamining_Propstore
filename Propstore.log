@@ -39637,3 +39637,547 @@ Successfully created csv file from {category}
 2023-12-11 16:06:09,748-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-
 Successfully created csv file from {category}
 
+2023-12-13 21:43:28,067-ERROR-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:19-Database already exists: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-13 21:43:40,810-ERROR-FILE:main_file.py-FUNC:main-LINE:83-Error: cannot access local variable 'categories' where it is not associated with a value
+2023-12-13 21:44:12,082-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-13 21:44:14,849-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:44:14,851-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:44:14,855-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:44:14,866-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:44:14,875-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:44:28,119-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:44:28,119-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:44:28,433-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:44:28,435-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:44:28,445-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:44:28,445-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:44:28,562-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:44:28,563-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:44:29,088-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:44:29,088-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:44:30,887-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:44:30,887-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:44:30,890-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:44:31,334-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:44:31,335-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:44:39,482-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="e23addd7ea5747057e497ea232739476")>
+2023-12-13 21:44:39,689-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING promotional-items. Number of items fetched: 1
+2023-12-13 21:44:39,691-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully created csv file from promotional-items
+2023-12-13 21:45:24,796-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a3fd943b960841da45288a5b3da631f1")>
+2023-12-13 21:45:25,278-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="db3cb56fb9fae15c4026df76248b32d0")>
+2023-12-13 21:45:25,416-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="269a0b0a49d9444188a4f8403da7337b")>
+2023-12-13 21:45:25,963-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="dd35f82a0d2b1bc414615ddf718ca7a6")>
+2023-12-13 21:45:26,112-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a4274048ca7389feee13e596eb018440")>
+2023-12-13 21:45:26,130-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="5758e74918f7e4eb479993fa3d2520ca")>
+2023-12-13 21:45:26,373-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="5b3d10b32711996c72cd0367a16d0a65")>
+2023-12-13 21:45:27,551-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING costumes. Number of items fetched: 977
+2023-12-13 21:45:27,555-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING props. Number of items fetched: 1062
+2023-12-13 21:45:27,558-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully created csv file from costumes
+2023-12-13 21:45:27,560-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully created csv file from props
+2023-12-13 21:45:27,627-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING posters. Number of items fetched: 1070
+2023-12-13 21:45:27,638-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully created csv file from posters
+2023-12-13 21:45:28,190-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING toys. Number of items fetched: 1052
+2023-12-13 21:45:28,204-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully created csv file from toys
+2023-12-13 21:45:28,481-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING autographs. Number of items fetched: 1026
+2023-12-13 21:45:28,490-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully created csv file from autographs
+2023-12-13 21:45:29,023-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING production. Number of items fetched: 1052
+2023-12-13 21:45:29,031-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING artwork. Number of items fetched: 1064
+2023-12-13 21:45:29,032-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully created csv file from production
+2023-12-13 21:45:29,041-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully created csv file from artwork
+2023-12-13 21:46:44,314-ERROR-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:19-Database already exists: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-13 21:58:51,398-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-13 21:58:53,140-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:58:53,142-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:58:53,144-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:58:53,149-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:58:53,155-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:58:53,156-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-13 21:59:05,870-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:59:05,872-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:59:06,274-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:59:06,275-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:59:06,426-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:59:06,426-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:59:06,635-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:59:06,635-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:59:06,740-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:59:06,741-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:59:06,787-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:59:06,788-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:59:07,159-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:59:07,159-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:59:08,490-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <button type="submit" class="waves-effect waves-light btn modal-register__submit">...</button> is not clickable at point (518, 656). Other element would receive the click: <div class="modal__title modal-mail__title">...</div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:59:09,636-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7447F82B2+55298]
+	(No symbol) [0x00007FF744765E02]
+	(No symbol) [0x00007FF7446205AB]
+	(No symbol) [0x00007FF744667A77]
+	(No symbol) [0x00007FF744665E39]
+	(No symbol) [0x00007FF744663C08]
+	(No symbol) [0x00007FF744662C8A]
+	(No symbol) [0x00007FF7446587BF]
+	(No symbol) [0x00007FF7446820AA]
+	(No symbol) [0x00007FF7446580CF]
+	(No symbol) [0x00007FF7446822C0]
+	(No symbol) [0x00007FF74469AAA4]
+	(No symbol) [0x00007FF744681E83]
+	(No symbol) [0x00007FF74465670A]
+	(No symbol) [0x00007FF744657964]
+	GetHandleVerifier [0x00007FF744B70AAB+3694587]
+	GetHandleVerifier [0x00007FF744BC728E+4048862]
+	GetHandleVerifier [0x00007FF744BBF173+4015811]
+	GetHandleVerifier [0x00007FF7448947D6+695590]
+	(No symbol) [0x00007FF744770CE8]
+	(No symbol) [0x00007FF74476CF34]
+	(No symbol) [0x00007FF74476D062]
+	(No symbol) [0x00007FF74475D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-13 21:59:09,637-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-13 21:59:13,636-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="7d599b0dc569b19d8b3b5c928fba78ff")>
+2023-12-13 21:59:14,022-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING artwork. Number of items fetched: 38
+2023-12-13 21:59:14,024-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2023-12-13 21:59:15,878-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="52d387d7bddd244bcf5a72bf255c373f")>
+2023-12-13 21:59:15,981-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING promotional-items. Number of items fetched: 1
+2023-12-13 21:59:15,985-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from promotional-items
+2023-12-13 22:00:01,172-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="9f4082e0476a3307ac07cd3cc7df2fdc")>
+2023-12-13 22:00:01,658-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="e2cfe56ef70ad0af72facf73725eb1f6")>
+2023-12-13 22:00:01,860-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="809e394b357020082b65de49ed8d97fe")>
+2023-12-13 22:00:02,001-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="6135fbc24afb6a75ed9536b5cbf091ee")>
+2023-12-13 22:00:03,009-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="1bfc895571391bbfdc6442a9dc114ef5")>
+2023-12-13 22:00:03,688-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="3f7403e61a0e45c5dc555ab7bd68adcb")>
+2023-12-13 22:00:04,215-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING props. Number of items fetched: 1024
+2023-12-13 22:00:04,222-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2023-12-13 22:00:04,358-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING posters. Number of items fetched: 1070
+2023-12-13 22:00:04,369-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2023-12-13 22:00:04,573-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING production. Number of items fetched: 1024
+2023-12-13 22:00:04,581-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from production
+2023-12-13 22:00:04,866-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING costumes. Number of items fetched: 1017
+2023-12-13 22:00:04,873-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2023-12-13 22:00:05,754-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING autographs. Number of items fetched: 1065
+2023-12-13 22:00:05,764-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2023-12-13 22:00:05,806-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING toys. Number of items fetched: 1052
+2023-12-13 22:00:05,819-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
