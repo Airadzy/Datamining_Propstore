@@ -1,9 +1,11 @@
 import pymysql
 import pymysql.err
+from SQL_tables_script import load_data
 
-def load_data():
-    connection = pymysql.connect(host='localhost', user='root', password='root', cursorclass=pymysql.cursors.DictCursor)
+connection = pymysql.connect(host='localhost', user='root', password='root', cursorclass=pymysql.cursors.DictCursor)
 
+
+def create_database():
     with connection.cursor() as cursor:
         try:
             cursor.execute("CREATE DATABASE propstore_details;")
@@ -55,3 +57,12 @@ def load_data():
 
         finally:
             connection.close()
+
+
+def main():
+    create_database()
+    load_data()
+
+
+if "__name__" == "__main__":
+    main()
