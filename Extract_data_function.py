@@ -24,11 +24,13 @@ def extract_to_csv(items_list, category, config):
             if mode == "w":
                 writer.writerow(field_names)
             writer.writerows(items_list)
-        logging.info(config["csv_success_message"])
-        print(config["csv_success_message"])
+        logging.info(f"Successfully created csv file from {category}")
+        print(f"Successfully created csv file from {category}")
     except Exception as error:
         logging.error(config["csv_error_message"])
         print(config["csv_error_message"])
+    finally:
+        pass
 
 
 def extract_data(html_content, category_url, option, config):
