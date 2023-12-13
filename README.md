@@ -2,6 +2,7 @@
 
 ## Owners
 Adrian: https://www.linkedin.com/in/adrianradzyminski/
+
 Nick: https://www.linkedin.com/in/nickmishkin/
 
 ## Description
@@ -25,6 +26,9 @@ and extract relevant information, including movie name, price(either sold at for
 
 3. Configure ChromeDriver:
 Download the appropriate version of ChromeDriver based on your Chrome browser version from ChromeDriver Downloads.
+
+4. Create Propstore log-in details and update in config.json file
+On Propstore.com, create a username and password and update the config.json file with those
 
 ## Usage
 Run the script by executing the following command:
