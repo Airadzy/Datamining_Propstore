@@ -4,11 +4,19 @@ import SQL_data_loading
 from pathlib import Path
 import logging
 import main_file
+import json
+from main_file import load_config
+
+config_filename = "config.json"
+config = load_config(config_filename)
 
 logging.basicConfig(filename=main_file.log_filename,
                     format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
                     level=logging.INFO)
-connection_without_database = pymysql.connect(host='localhost', user='root', password='root',
+
+connection_without_database = pymysql.connect(host='localhost',
+                                              user=config["mysql_username"],
+                                              password=config["mysql_password"],
                                               cursorclass=pymysql.cursors.DictCursor)
 
 

@@ -40181,3 +40181,1166 @@ Stacktrace:
 2023-12-13 22:00:05,764-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
 2023-12-13 22:00:05,806-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING toys. Number of items fetched: 1052
 2023-12-13 22:00:05,819-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2023-12-14 13:21:32,650-ERROR-FILE:main_file.py-FUNC:main-LINE:83-Error: cannot access local variable 'categories' where it is not associated with a value
+2023-12-14 13:24:13,704-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:74-Couldnt get connection: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2023-12-14 13:42:29,939-ERROR-FILE:main_file.py-FUNC:main-LINE:83-Error: cannot access local variable 'categories' where it is not associated with a value
+2023-12-14 13:57:15,817-ERROR-FILE:main_file.py-FUNC:main-LINE:83-Error: cannot access local variable 'categories' where it is not associated with a value
+2023-12-14 15:21:18,424-ERROR-FILE:main_file.py-FUNC:main-LINE:83-Error: cannot access local variable 'categories' where it is not associated with a value
+2023-12-14 15:23:24,915-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-14 17:57:35,202-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-14 17:57:56,835-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010a1f9c48 chromedriver + 4852808
+1   chromedriver                        0x000000010a1f11b3 chromedriver + 4817331
+2   chromedriver                        0x0000000109dbd7bd chromedriver + 411581
+3   chromedriver                        0x0000000109d912f8 chromedriver + 230136
+4   chromedriver                        0x0000000109e3f41f chromedriver + 943135
+5   chromedriver                        0x0000000109e56226 chromedriver + 1036838
+6   chromedriver                        0x0000000109e379a3 chromedriver + 911779
+7   chromedriver                        0x0000000109dff103 chromedriver + 680195
+8   chromedriver                        0x0000000109e0071e chromedriver + 685854
+9   chromedriver                        0x000000010a1b9792 chromedriver + 4589458
+10  chromedriver                        0x000000010a1be99c chromedriver + 4610460
+11  chromedriver                        0x000000010a19ecb1 chromedriver + 4480177
+12  chromedriver                        0x000000010a1bf716 chromedriver + 4613910
+13  chromedriver                        0x000000010a19023c chromedriver + 4420156
+14  chromedriver                        0x000000010a1df798 chromedriver + 4745112
+15  chromedriver                        0x000000010a1df94e chromedriver + 4745550
+16  chromedriver                        0x000000010a1f0df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:57:56,893-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010a1f9c48 chromedriver + 4852808
+1   chromedriver                        0x000000010a1f11b3 chromedriver + 4817331
+2   chromedriver                        0x0000000109dbd7bd chromedriver + 411581
+3   chromedriver                        0x0000000109d912f8 chromedriver + 230136
+4   chromedriver                        0x0000000109e3f41f chromedriver + 943135
+5   chromedriver                        0x0000000109e56226 chromedriver + 1036838
+6   chromedriver                        0x0000000109e379a3 chromedriver + 911779
+7   chromedriver                        0x0000000109dff103 chromedriver + 680195
+8   chromedriver                        0x0000000109e0071e chromedriver + 685854
+9   chromedriver                        0x000000010a1b9792 chromedriver + 4589458
+10  chromedriver                        0x000000010a1be99c chromedriver + 4610460
+11  chromedriver                        0x000000010a19ecb1 chromedriver + 4480177
+12  chromedriver                        0x000000010a1bf716 chromedriver + 4613910
+13  chromedriver                        0x000000010a19023c chromedriver + 4420156
+14  chromedriver                        0x000000010a1df798 chromedriver + 4745112
+15  chromedriver                        0x000000010a1df94e chromedriver + 4745550
+16  chromedriver                        0x000000010a1f0df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:57:56,989-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:57:57,531-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x00000001101c1c48 chromedriver + 4852808
+1   chromedriver                        0x00000001101b91b3 chromedriver + 4817331
+2   chromedriver                        0x000000010fd857bd chromedriver + 411581
+3   chromedriver                        0x000000010fd592f8 chromedriver + 230136
+4   chromedriver                        0x000000010fe0741f chromedriver + 943135
+5   chromedriver                        0x000000010fe1e226 chromedriver + 1036838
+6   chromedriver                        0x000000010fdff9a3 chromedriver + 911779
+7   chromedriver                        0x000000010fdc7103 chromedriver + 680195
+8   chromedriver                        0x000000010fdc871e chromedriver + 685854
+9   chromedriver                        0x0000000110181792 chromedriver + 4589458
+10  chromedriver                        0x000000011018699c chromedriver + 4610460
+11  chromedriver                        0x0000000110166cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000110187716 chromedriver + 4613910
+13  chromedriver                        0x000000011015823c chromedriver + 4420156
+14  chromedriver                        0x00000001101a7798 chromedriver + 4745112
+15  chromedriver                        0x00000001101a794e chromedriver + 4745550
+16  chromedriver                        0x00000001101b8df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:57:57,560-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x00000001101c1c48 chromedriver + 4852808
+1   chromedriver                        0x00000001101b91b3 chromedriver + 4817331
+2   chromedriver                        0x000000010fd857bd chromedriver + 411581
+3   chromedriver                        0x000000010fd592f8 chromedriver + 230136
+4   chromedriver                        0x000000010fe0741f chromedriver + 943135
+5   chromedriver                        0x000000010fe1e226 chromedriver + 1036838
+6   chromedriver                        0x000000010fdff9a3 chromedriver + 911779
+7   chromedriver                        0x000000010fdc7103 chromedriver + 680195
+8   chromedriver                        0x000000010fdc871e chromedriver + 685854
+9   chromedriver                        0x0000000110181792 chromedriver + 4589458
+10  chromedriver                        0x000000011018699c chromedriver + 4610460
+11  chromedriver                        0x0000000110166cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000110187716 chromedriver + 4613910
+13  chromedriver                        0x000000011015823c chromedriver + 4420156
+14  chromedriver                        0x00000001101a7798 chromedriver + 4745112
+15  chromedriver                        0x00000001101a794e chromedriver + 4745550
+16  chromedriver                        0x00000001101b8df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:57:57,589-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:57:59,092-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010a1f9c48 chromedriver + 4852808
+1   chromedriver                        0x000000010a1f11b3 chromedriver + 4817331
+2   chromedriver                        0x0000000109dbd7bd chromedriver + 411581
+3   chromedriver                        0x0000000109d912f8 chromedriver + 230136
+4   chromedriver                        0x0000000109e3f41f chromedriver + 943135
+5   chromedriver                        0x0000000109e56226 chromedriver + 1036838
+6   chromedriver                        0x0000000109e379a3 chromedriver + 911779
+7   chromedriver                        0x0000000109dff103 chromedriver + 680195
+8   chromedriver                        0x0000000109e0071e chromedriver + 685854
+9   chromedriver                        0x000000010a1b9792 chromedriver + 4589458
+10  chromedriver                        0x000000010a1be99c chromedriver + 4610460
+11  chromedriver                        0x000000010a19ecb1 chromedriver + 4480177
+12  chromedriver                        0x000000010a1bf716 chromedriver + 4613910
+13  chromedriver                        0x000000010a19023c chromedriver + 4420156
+14  chromedriver                        0x000000010a1df798 chromedriver + 4745112
+15  chromedriver                        0x000000010a1df94e chromedriver + 4745550
+16  chromedriver                        0x000000010a1f0df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:57:59,428-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010309fc48 chromedriver + 4852808
+1   chromedriver                        0x00000001030971b3 chromedriver + 4817331
+2   chromedriver                        0x0000000102c637bd chromedriver + 411581
+3   chromedriver                        0x0000000102c372f8 chromedriver + 230136
+4   chromedriver                        0x0000000102ce541f chromedriver + 943135
+5   chromedriver                        0x0000000102cfc226 chromedriver + 1036838
+6   chromedriver                        0x0000000102cdd9a3 chromedriver + 911779
+7   chromedriver                        0x0000000102ca5103 chromedriver + 680195
+8   chromedriver                        0x0000000102ca671e chromedriver + 685854
+9   chromedriver                        0x000000010305f792 chromedriver + 4589458
+10  chromedriver                        0x000000010306499c chromedriver + 4610460
+11  chromedriver                        0x0000000103044cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000103065716 chromedriver + 4613910
+13  chromedriver                        0x000000010303623c chromedriver + 4420156
+14  chromedriver                        0x0000000103085798 chromedriver + 4745112
+15  chromedriver                        0x000000010308594e chromedriver + 4745550
+16  chromedriver                        0x0000000103096df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:57:59,431-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010309fc48 chromedriver + 4852808
+1   chromedriver                        0x00000001030971b3 chromedriver + 4817331
+2   chromedriver                        0x0000000102c637bd chromedriver + 411581
+3   chromedriver                        0x0000000102c372f8 chromedriver + 230136
+4   chromedriver                        0x0000000102ce541f chromedriver + 943135
+5   chromedriver                        0x0000000102cfc226 chromedriver + 1036838
+6   chromedriver                        0x0000000102cdd9a3 chromedriver + 911779
+7   chromedriver                        0x0000000102ca5103 chromedriver + 680195
+8   chromedriver                        0x0000000102ca671e chromedriver + 685854
+9   chromedriver                        0x000000010305f792 chromedriver + 4589458
+10  chromedriver                        0x000000010306499c chromedriver + 4610460
+11  chromedriver                        0x0000000103044cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000103065716 chromedriver + 4613910
+13  chromedriver                        0x000000010303623c chromedriver + 4420156
+14  chromedriver                        0x0000000103085798 chromedriver + 4745112
+15  chromedriver                        0x000000010308594e chromedriver + 4745550
+16  chromedriver                        0x0000000103096df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:57:59,432-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:57:59,658-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x00000001101c1c48 chromedriver + 4852808
+1   chromedriver                        0x00000001101b91b3 chromedriver + 4817331
+2   chromedriver                        0x000000010fd857bd chromedriver + 411581
+3   chromedriver                        0x000000010fd592f8 chromedriver + 230136
+4   chromedriver                        0x000000010fe0741f chromedriver + 943135
+5   chromedriver                        0x000000010fe1e226 chromedriver + 1036838
+6   chromedriver                        0x000000010fdff9a3 chromedriver + 911779
+7   chromedriver                        0x000000010fdc7103 chromedriver + 680195
+8   chromedriver                        0x000000010fdc871e chromedriver + 685854
+9   chromedriver                        0x0000000110181792 chromedriver + 4589458
+10  chromedriver                        0x000000011018699c chromedriver + 4610460
+11  chromedriver                        0x0000000110166cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000110187716 chromedriver + 4613910
+13  chromedriver                        0x000000011015823c chromedriver + 4420156
+14  chromedriver                        0x00000001101a7798 chromedriver + 4745112
+15  chromedriver                        0x00000001101a794e chromedriver + 4745550
+16  chromedriver                        0x00000001101b8df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:01,440-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010309fc48 chromedriver + 4852808
+1   chromedriver                        0x00000001030971b3 chromedriver + 4817331
+2   chromedriver                        0x0000000102c637bd chromedriver + 411581
+3   chromedriver                        0x0000000102c372f8 chromedriver + 230136
+4   chromedriver                        0x0000000102ce541f chromedriver + 943135
+5   chromedriver                        0x0000000102cfc226 chromedriver + 1036838
+6   chromedriver                        0x0000000102cdd9a3 chromedriver + 911779
+7   chromedriver                        0x0000000102ca5103 chromedriver + 680195
+8   chromedriver                        0x0000000102ca671e chromedriver + 685854
+9   chromedriver                        0x000000010305f792 chromedriver + 4589458
+10  chromedriver                        0x000000010306499c chromedriver + 4610460
+11  chromedriver                        0x0000000103044cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000103065716 chromedriver + 4613910
+13  chromedriver                        0x000000010303623c chromedriver + 4420156
+14  chromedriver                        0x0000000103085798 chromedriver + 4745112
+15  chromedriver                        0x000000010308594e chromedriver + 4745550
+16  chromedriver                        0x0000000103096df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:02,119-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000100987c48 chromedriver + 4852808
+1   chromedriver                        0x000000010097f1b3 chromedriver + 4817331
+2   chromedriver                        0x000000010054b7bd chromedriver + 411581
+3   chromedriver                        0x000000010051f2f8 chromedriver + 230136
+4   chromedriver                        0x00000001005cd41f chromedriver + 943135
+5   chromedriver                        0x00000001005e4226 chromedriver + 1036838
+6   chromedriver                        0x00000001005c59a3 chromedriver + 911779
+7   chromedriver                        0x000000010058d103 chromedriver + 680195
+8   chromedriver                        0x000000010058e71e chromedriver + 685854
+9   chromedriver                        0x0000000100947792 chromedriver + 4589458
+10  chromedriver                        0x000000010094c99c chromedriver + 4610460
+11  chromedriver                        0x000000010092ccb1 chromedriver + 4480177
+12  chromedriver                        0x000000010094d716 chromedriver + 4613910
+13  chromedriver                        0x000000010091e23c chromedriver + 4420156
+14  chromedriver                        0x000000010096d798 chromedriver + 4745112
+15  chromedriver                        0x000000010096d94e chromedriver + 4745550
+16  chromedriver                        0x000000010097edf3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:02,124-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000100987c48 chromedriver + 4852808
+1   chromedriver                        0x000000010097f1b3 chromedriver + 4817331
+2   chromedriver                        0x000000010054b7bd chromedriver + 411581
+3   chromedriver                        0x000000010051f2f8 chromedriver + 230136
+4   chromedriver                        0x00000001005cd41f chromedriver + 943135
+5   chromedriver                        0x00000001005e4226 chromedriver + 1036838
+6   chromedriver                        0x00000001005c59a3 chromedriver + 911779
+7   chromedriver                        0x000000010058d103 chromedriver + 680195
+8   chromedriver                        0x000000010058e71e chromedriver + 685854
+9   chromedriver                        0x0000000100947792 chromedriver + 4589458
+10  chromedriver                        0x000000010094c99c chromedriver + 4610460
+11  chromedriver                        0x000000010092ccb1 chromedriver + 4480177
+12  chromedriver                        0x000000010094d716 chromedriver + 4613910
+13  chromedriver                        0x000000010091e23c chromedriver + 4420156
+14  chromedriver                        0x000000010096d798 chromedriver + 4745112
+15  chromedriver                        0x000000010096d94e chromedriver + 4745550
+16  chromedriver                        0x000000010097edf3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:02,124-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:58:03,141-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000101debc48 chromedriver + 4852808
+1   chromedriver                        0x0000000101de31b3 chromedriver + 4817331
+2   chromedriver                        0x00000001019af7bd chromedriver + 411581
+3   chromedriver                        0x00000001019832f8 chromedriver + 230136
+4   chromedriver                        0x0000000101a3141f chromedriver + 943135
+5   chromedriver                        0x0000000101a48226 chromedriver + 1036838
+6   chromedriver                        0x0000000101a299a3 chromedriver + 911779
+7   chromedriver                        0x00000001019f1103 chromedriver + 680195
+8   chromedriver                        0x00000001019f271e chromedriver + 685854
+9   chromedriver                        0x0000000101dab792 chromedriver + 4589458
+10  chromedriver                        0x0000000101db099c chromedriver + 4610460
+11  chromedriver                        0x0000000101d90cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000101db1716 chromedriver + 4613910
+13  chromedriver                        0x0000000101d8223c chromedriver + 4420156
+14  chromedriver                        0x0000000101dd1798 chromedriver + 4745112
+15  chromedriver                        0x0000000101dd194e chromedriver + 4745550
+16  chromedriver                        0x0000000101de2df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:03,145-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000101debc48 chromedriver + 4852808
+1   chromedriver                        0x0000000101de31b3 chromedriver + 4817331
+2   chromedriver                        0x00000001019af7bd chromedriver + 411581
+3   chromedriver                        0x00000001019832f8 chromedriver + 230136
+4   chromedriver                        0x0000000101a3141f chromedriver + 943135
+5   chromedriver                        0x0000000101a48226 chromedriver + 1036838
+6   chromedriver                        0x0000000101a299a3 chromedriver + 911779
+7   chromedriver                        0x00000001019f1103 chromedriver + 680195
+8   chromedriver                        0x00000001019f271e chromedriver + 685854
+9   chromedriver                        0x0000000101dab792 chromedriver + 4589458
+10  chromedriver                        0x0000000101db099c chromedriver + 4610460
+11  chromedriver                        0x0000000101d90cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000101db1716 chromedriver + 4613910
+13  chromedriver                        0x0000000101d8223c chromedriver + 4420156
+14  chromedriver                        0x0000000101dd1798 chromedriver + 4745112
+15  chromedriver                        0x0000000101dd194e chromedriver + 4745550
+16  chromedriver                        0x0000000101de2df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:03,145-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:58:04,178-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000100987c48 chromedriver + 4852808
+1   chromedriver                        0x000000010097f1b3 chromedriver + 4817331
+2   chromedriver                        0x000000010054b7bd chromedriver + 411581
+3   chromedriver                        0x000000010051f2f8 chromedriver + 230136
+4   chromedriver                        0x00000001005cd41f chromedriver + 943135
+5   chromedriver                        0x00000001005e4226 chromedriver + 1036838
+6   chromedriver                        0x00000001005c59a3 chromedriver + 911779
+7   chromedriver                        0x000000010058d103 chromedriver + 680195
+8   chromedriver                        0x000000010058e71e chromedriver + 685854
+9   chromedriver                        0x0000000100947792 chromedriver + 4589458
+10  chromedriver                        0x000000010094c99c chromedriver + 4610460
+11  chromedriver                        0x000000010092ccb1 chromedriver + 4480177
+12  chromedriver                        0x000000010094d716 chromedriver + 4613910
+13  chromedriver                        0x000000010091e23c chromedriver + 4420156
+14  chromedriver                        0x000000010096d798 chromedriver + 4745112
+15  chromedriver                        0x000000010096d94e chromedriver + 4745550
+16  chromedriver                        0x000000010097edf3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:04,298-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010f06fc48 chromedriver + 4852808
+1   chromedriver                        0x000000010f0671b3 chromedriver + 4817331
+2   chromedriver                        0x000000010ec337bd chromedriver + 411581
+3   chromedriver                        0x000000010ec072f8 chromedriver + 230136
+4   chromedriver                        0x000000010ecb541f chromedriver + 943135
+5   chromedriver                        0x000000010eccc226 chromedriver + 1036838
+6   chromedriver                        0x000000010ecad9a3 chromedriver + 911779
+7   chromedriver                        0x000000010ec75103 chromedriver + 680195
+8   chromedriver                        0x000000010ec7671e chromedriver + 685854
+9   chromedriver                        0x000000010f02f792 chromedriver + 4589458
+10  chromedriver                        0x000000010f03499c chromedriver + 4610460
+11  chromedriver                        0x000000010f014cb1 chromedriver + 4480177
+12  chromedriver                        0x000000010f035716 chromedriver + 4613910
+13  chromedriver                        0x000000010f00623c chromedriver + 4420156
+14  chromedriver                        0x000000010f055798 chromedriver + 4745112
+15  chromedriver                        0x000000010f05594e chromedriver + 4745550
+16  chromedriver                        0x000000010f066df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:04,302-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010f06fc48 chromedriver + 4852808
+1   chromedriver                        0x000000010f0671b3 chromedriver + 4817331
+2   chromedriver                        0x000000010ec337bd chromedriver + 411581
+3   chromedriver                        0x000000010ec072f8 chromedriver + 230136
+4   chromedriver                        0x000000010ecb541f chromedriver + 943135
+5   chromedriver                        0x000000010eccc226 chromedriver + 1036838
+6   chromedriver                        0x000000010ecad9a3 chromedriver + 911779
+7   chromedriver                        0x000000010ec75103 chromedriver + 680195
+8   chromedriver                        0x000000010ec7671e chromedriver + 685854
+9   chromedriver                        0x000000010f02f792 chromedriver + 4589458
+10  chromedriver                        0x000000010f03499c chromedriver + 4610460
+11  chromedriver                        0x000000010f014cb1 chromedriver + 4480177
+12  chromedriver                        0x000000010f035716 chromedriver + 4613910
+13  chromedriver                        0x000000010f00623c chromedriver + 4420156
+14  chromedriver                        0x000000010f055798 chromedriver + 4745112
+15  chromedriver                        0x000000010f05594e chromedriver + 4745550
+16  chromedriver                        0x000000010f066df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:04,303-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:58:05,151-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000101debc48 chromedriver + 4852808
+1   chromedriver                        0x0000000101de31b3 chromedriver + 4817331
+2   chromedriver                        0x00000001019af7bd chromedriver + 411581
+3   chromedriver                        0x00000001019832f8 chromedriver + 230136
+4   chromedriver                        0x0000000101a3141f chromedriver + 943135
+5   chromedriver                        0x0000000101a48226 chromedriver + 1036838
+6   chromedriver                        0x0000000101a299a3 chromedriver + 911779
+7   chromedriver                        0x00000001019f1103 chromedriver + 680195
+8   chromedriver                        0x00000001019f271e chromedriver + 685854
+9   chromedriver                        0x0000000101dab792 chromedriver + 4589458
+10  chromedriver                        0x0000000101db099c chromedriver + 4610460
+11  chromedriver                        0x0000000101d90cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000101db1716 chromedriver + 4613910
+13  chromedriver                        0x0000000101d8223c chromedriver + 4420156
+14  chromedriver                        0x0000000101dd1798 chromedriver + 4745112
+15  chromedriver                        0x0000000101dd194e chromedriver + 4745550
+16  chromedriver                        0x0000000101de2df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:05,159-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000109f43c48 chromedriver + 4852808
+1   chromedriver                        0x0000000109f3b1b3 chromedriver + 4817331
+2   chromedriver                        0x0000000109b077bd chromedriver + 411581
+3   chromedriver                        0x0000000109adb2f8 chromedriver + 230136
+4   chromedriver                        0x0000000109b8941f chromedriver + 943135
+5   chromedriver                        0x0000000109ba0226 chromedriver + 1036838
+6   chromedriver                        0x0000000109b819a3 chromedriver + 911779
+7   chromedriver                        0x0000000109b49103 chromedriver + 680195
+8   chromedriver                        0x0000000109b4a71e chromedriver + 685854
+9   chromedriver                        0x0000000109f03792 chromedriver + 4589458
+10  chromedriver                        0x0000000109f0899c chromedriver + 4610460
+11  chromedriver                        0x0000000109ee8cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000109f09716 chromedriver + 4613910
+13  chromedriver                        0x0000000109eda23c chromedriver + 4420156
+14  chromedriver                        0x0000000109f29798 chromedriver + 4745112
+15  chromedriver                        0x0000000109f2994e chromedriver + 4745550
+16  chromedriver                        0x0000000109f3adf3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:05,194-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000109f43c48 chromedriver + 4852808
+1   chromedriver                        0x0000000109f3b1b3 chromedriver + 4817331
+2   chromedriver                        0x0000000109b077bd chromedriver + 411581
+3   chromedriver                        0x0000000109adb2f8 chromedriver + 230136
+4   chromedriver                        0x0000000109b8941f chromedriver + 943135
+5   chromedriver                        0x0000000109ba0226 chromedriver + 1036838
+6   chromedriver                        0x0000000109b819a3 chromedriver + 911779
+7   chromedriver                        0x0000000109b49103 chromedriver + 680195
+8   chromedriver                        0x0000000109b4a71e chromedriver + 685854
+9   chromedriver                        0x0000000109f03792 chromedriver + 4589458
+10  chromedriver                        0x0000000109f0899c chromedriver + 4610460
+11  chromedriver                        0x0000000109ee8cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000109f09716 chromedriver + 4613910
+13  chromedriver                        0x0000000109eda23c chromedriver + 4420156
+14  chromedriver                        0x0000000109f29798 chromedriver + 4745112
+15  chromedriver                        0x0000000109f2994e chromedriver + 4745550
+16  chromedriver                        0x0000000109f3adf3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:05,194-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:58:06,311-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010f06fc48 chromedriver + 4852808
+1   chromedriver                        0x000000010f0671b3 chromedriver + 4817331
+2   chromedriver                        0x000000010ec337bd chromedriver + 411581
+3   chromedriver                        0x000000010ec072f8 chromedriver + 230136
+4   chromedriver                        0x000000010ecb541f chromedriver + 943135
+5   chromedriver                        0x000000010eccc226 chromedriver + 1036838
+6   chromedriver                        0x000000010ecad9a3 chromedriver + 911779
+7   chromedriver                        0x000000010ec75103 chromedriver + 680195
+8   chromedriver                        0x000000010ec7671e chromedriver + 685854
+9   chromedriver                        0x000000010f02f792 chromedriver + 4589458
+10  chromedriver                        0x000000010f03499c chromedriver + 4610460
+11  chromedriver                        0x000000010f014cb1 chromedriver + 4480177
+12  chromedriver                        0x000000010f035716 chromedriver + 4613910
+13  chromedriver                        0x000000010f00623c chromedriver + 4420156
+14  chromedriver                        0x000000010f055798 chromedriver + 4745112
+15  chromedriver                        0x000000010f05594e chromedriver + 4745550
+16  chromedriver                        0x000000010f066df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:06,533-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010918ec48 chromedriver + 4852808
+1   chromedriver                        0x00000001091861b3 chromedriver + 4817331
+2   chromedriver                        0x0000000108d527bd chromedriver + 411581
+3   chromedriver                        0x0000000108d262f8 chromedriver + 230136
+4   chromedriver                        0x0000000108dd441f chromedriver + 943135
+5   chromedriver                        0x0000000108deb226 chromedriver + 1036838
+6   chromedriver                        0x0000000108dcc9a3 chromedriver + 911779
+7   chromedriver                        0x0000000108d94103 chromedriver + 680195
+8   chromedriver                        0x0000000108d9571e chromedriver + 685854
+9   chromedriver                        0x000000010914e792 chromedriver + 4589458
+10  chromedriver                        0x000000010915399c chromedriver + 4610460
+11  chromedriver                        0x0000000109133cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000109154716 chromedriver + 4613910
+13  chromedriver                        0x000000010912523c chromedriver + 4420156
+14  chromedriver                        0x0000000109174798 chromedriver + 4745112
+15  chromedriver                        0x000000010917494e chromedriver + 4745550
+16  chromedriver                        0x0000000109185df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:06,555-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010918ec48 chromedriver + 4852808
+1   chromedriver                        0x00000001091861b3 chromedriver + 4817331
+2   chromedriver                        0x0000000108d527bd chromedriver + 411581
+3   chromedriver                        0x0000000108d262f8 chromedriver + 230136
+4   chromedriver                        0x0000000108dd441f chromedriver + 943135
+5   chromedriver                        0x0000000108deb226 chromedriver + 1036838
+6   chromedriver                        0x0000000108dcc9a3 chromedriver + 911779
+7   chromedriver                        0x0000000108d94103 chromedriver + 680195
+8   chromedriver                        0x0000000108d9571e chromedriver + 685854
+9   chromedriver                        0x000000010914e792 chromedriver + 4589458
+10  chromedriver                        0x000000010915399c chromedriver + 4610460
+11  chromedriver                        0x0000000109133cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000109154716 chromedriver + 4613910
+13  chromedriver                        0x000000010912523c chromedriver + 4420156
+14  chromedriver                        0x0000000109174798 chromedriver + 4745112
+15  chromedriver                        0x000000010917494e chromedriver + 4745550
+16  chromedriver                        0x0000000109185df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:06,555-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:58:07,200-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000109f43c48 chromedriver + 4852808
+1   chromedriver                        0x0000000109f3b1b3 chromedriver + 4817331
+2   chromedriver                        0x0000000109b077bd chromedriver + 411581
+3   chromedriver                        0x0000000109adb2f8 chromedriver + 230136
+4   chromedriver                        0x0000000109b8941f chromedriver + 943135
+5   chromedriver                        0x0000000109ba0226 chromedriver + 1036838
+6   chromedriver                        0x0000000109b819a3 chromedriver + 911779
+7   chromedriver                        0x0000000109b49103 chromedriver + 680195
+8   chromedriver                        0x0000000109b4a71e chromedriver + 685854
+9   chromedriver                        0x0000000109f03792 chromedriver + 4589458
+10  chromedriver                        0x0000000109f0899c chromedriver + 4610460
+11  chromedriver                        0x0000000109ee8cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000109f09716 chromedriver + 4613910
+13  chromedriver                        0x0000000109eda23c chromedriver + 4420156
+14  chromedriver                        0x0000000109f29798 chromedriver + 4745112
+15  chromedriver                        0x0000000109f2994e chromedriver + 4745550
+16  chromedriver                        0x0000000109f3adf3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:08,564-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010918ec48 chromedriver + 4852808
+1   chromedriver                        0x00000001091861b3 chromedriver + 4817331
+2   chromedriver                        0x0000000108d527bd chromedriver + 411581
+3   chromedriver                        0x0000000108d262f8 chromedriver + 230136
+4   chromedriver                        0x0000000108dd441f chromedriver + 943135
+5   chromedriver                        0x0000000108deb226 chromedriver + 1036838
+6   chromedriver                        0x0000000108dcc9a3 chromedriver + 911779
+7   chromedriver                        0x0000000108d94103 chromedriver + 680195
+8   chromedriver                        0x0000000108d9571e chromedriver + 685854
+9   chromedriver                        0x000000010914e792 chromedriver + 4589458
+10  chromedriver                        0x000000010915399c chromedriver + 4610460
+11  chromedriver                        0x0000000109133cb1 chromedriver + 4480177
+12  chromedriver                        0x0000000109154716 chromedriver + 4613910
+13  chromedriver                        0x000000010912523c chromedriver + 4420156
+14  chromedriver                        0x0000000109174798 chromedriver + 4745112
+15  chromedriver                        0x000000010917494e chromedriver + 4745550
+16  chromedriver                        0x0000000109185df3 chromedriver + 4816371
+17  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:58:16,867-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-14 17:59:07,363-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <button type="submit" class="waves-effect waves-light btn modal-register__submit">...</button> is not clickable at point (600, 644). Other element would receive the click: <div class="modal-content modal-mail__content">...</div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010a4f4c48 chromedriver + 4852808
+1   chromedriver                        0x000000010a4ec1b3 chromedriver + 4817331
+2   chromedriver                        0x000000010a0b87bd chromedriver + 411581
+3   chromedriver                        0x000000010a111472 chromedriver + 775282
+4   chromedriver                        0x000000010a10ec06 chromedriver + 764934
+5   chromedriver                        0x000000010a10bea7 chromedriver + 753319
+6   chromedriver                        0x000000010a10a9bb chromedriver + 747963
+7   chromedriver                        0x000000010a0fc80d chromedriver + 690189
+8   chromedriver                        0x000000010a132c02 chromedriver + 912386
+9   chromedriver                        0x000000010a0fc068 chromedriver + 688232
+10  chromedriver                        0x000000010a13325e chromedriver + 914014
+11  chromedriver                        0x000000010a151ae2 chromedriver + 1039074
+12  chromedriver                        0x000000010a1329a3 chromedriver + 911779
+13  chromedriver                        0x000000010a0fa103 chromedriver + 680195
+14  chromedriver                        0x000000010a0fb71e chromedriver + 685854
+15  chromedriver                        0x000000010a4b4792 chromedriver + 4589458
+16  chromedriver                        0x000000010a4b999c chromedriver + 4610460
+17  chromedriver                        0x000000010a499cb1 chromedriver + 4480177
+18  chromedriver                        0x000000010a4ba716 chromedriver + 4613910
+19  chromedriver                        0x000000010a48b23c chromedriver + 4420156
+20  chromedriver                        0x000000010a4da798 chromedriver + 4745112
+21  chromedriver                        0x000000010a4da94e chromedriver + 4745550
+22  chromedriver                        0x000000010a4ebdf3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:59:08,646-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010a4f4c48 chromedriver + 4852808
+1   chromedriver                        0x000000010a4ec1b3 chromedriver + 4817331
+2   chromedriver                        0x000000010a0b87bd chromedriver + 411581
+3   chromedriver                        0x000000010a111472 chromedriver + 775282
+4   chromedriver                        0x000000010a10ec06 chromedriver + 764934
+5   chromedriver                        0x000000010a10bea7 chromedriver + 753319
+6   chromedriver                        0x000000010a10a9bb chromedriver + 747963
+7   chromedriver                        0x000000010a0fc80d chromedriver + 690189
+8   chromedriver                        0x000000010a132c02 chromedriver + 912386
+9   chromedriver                        0x000000010a0fc068 chromedriver + 688232
+10  chromedriver                        0x000000010a13325e chromedriver + 914014
+11  chromedriver                        0x000000010a151ae2 chromedriver + 1039074
+12  chromedriver                        0x000000010a1329a3 chromedriver + 911779
+13  chromedriver                        0x000000010a0fa103 chromedriver + 680195
+14  chromedriver                        0x000000010a0fb71e chromedriver + 685854
+15  chromedriver                        0x000000010a4b4792 chromedriver + 4589458
+16  chromedriver                        0x000000010a4b999c chromedriver + 4610460
+17  chromedriver                        0x000000010a499cb1 chromedriver + 4480177
+18  chromedriver                        0x000000010a4ba716 chromedriver + 4613910
+19  chromedriver                        0x000000010a48b23c chromedriver + 4420156
+20  chromedriver                        0x000000010a4da798 chromedriver + 4745112
+21  chromedriver                        0x000000010a4da94e chromedriver + 4745550
+22  chromedriver                        0x000000010a4ebdf3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:59:08,647-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:59:09,867-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010ae8bc48 chromedriver + 4852808
+1   chromedriver                        0x000000010ae831b3 chromedriver + 4817331
+2   chromedriver                        0x000000010aa4f7bd chromedriver + 411581
+3   chromedriver                        0x000000010aaa8472 chromedriver + 775282
+4   chromedriver                        0x000000010aaa5c06 chromedriver + 764934
+5   chromedriver                        0x000000010aaa2ea7 chromedriver + 753319
+6   chromedriver                        0x000000010aaa19bb chromedriver + 747963
+7   chromedriver                        0x000000010aa9380d chromedriver + 690189
+8   chromedriver                        0x000000010aac9c02 chromedriver + 912386
+9   chromedriver                        0x000000010aa93068 chromedriver + 688232
+10  chromedriver                        0x000000010aaca25e chromedriver + 914014
+11  chromedriver                        0x000000010aae8ae2 chromedriver + 1039074
+12  chromedriver                        0x000000010aac99a3 chromedriver + 911779
+13  chromedriver                        0x000000010aa91103 chromedriver + 680195
+14  chromedriver                        0x000000010aa9271e chromedriver + 685854
+15  chromedriver                        0x000000010ae4b792 chromedriver + 4589458
+16  chromedriver                        0x000000010ae5099c chromedriver + 4610460
+17  chromedriver                        0x000000010ae30cb1 chromedriver + 4480177
+18  chromedriver                        0x000000010ae51716 chromedriver + 4613910
+19  chromedriver                        0x000000010ae2223c chromedriver + 4420156
+20  chromedriver                        0x000000010ae71798 chromedriver + 4745112
+21  chromedriver                        0x000000010ae7194e chromedriver + 4745550
+22  chromedriver                        0x000000010ae82df3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:59:09,870-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:59:11,111-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x00000001099a0c48 chromedriver + 4852808
+1   chromedriver                        0x00000001099981b3 chromedriver + 4817331
+2   chromedriver                        0x00000001095647bd chromedriver + 411581
+3   chromedriver                        0x00000001095bd472 chromedriver + 775282
+4   chromedriver                        0x00000001095bac06 chromedriver + 764934
+5   chromedriver                        0x00000001095b7ea7 chromedriver + 753319
+6   chromedriver                        0x00000001095b69bb chromedriver + 747963
+7   chromedriver                        0x00000001095a880d chromedriver + 690189
+8   chromedriver                        0x00000001095dec02 chromedriver + 912386
+9   chromedriver                        0x00000001095a8068 chromedriver + 688232
+10  chromedriver                        0x00000001095df25e chromedriver + 914014
+11  chromedriver                        0x00000001095fdae2 chromedriver + 1039074
+12  chromedriver                        0x00000001095de9a3 chromedriver + 911779
+13  chromedriver                        0x00000001095a6103 chromedriver + 680195
+14  chromedriver                        0x00000001095a771e chromedriver + 685854
+15  chromedriver                        0x0000000109960792 chromedriver + 4589458
+16  chromedriver                        0x000000010996599c chromedriver + 4610460
+17  chromedriver                        0x0000000109945cb1 chromedriver + 4480177
+18  chromedriver                        0x0000000109966716 chromedriver + 4613910
+19  chromedriver                        0x000000010993723c chromedriver + 4420156
+20  chromedriver                        0x0000000109986798 chromedriver + 4745112
+21  chromedriver                        0x000000010998694e chromedriver + 4745550
+22  chromedriver                        0x0000000109997df3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:59:11,113-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:59:11,572-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000105567c48 chromedriver + 4852808
+1   chromedriver                        0x000000010555f1b3 chromedriver + 4817331
+2   chromedriver                        0x000000010512b7bd chromedriver + 411581
+3   chromedriver                        0x0000000105184472 chromedriver + 775282
+4   chromedriver                        0x0000000105181c06 chromedriver + 764934
+5   chromedriver                        0x000000010517eea7 chromedriver + 753319
+6   chromedriver                        0x000000010517d9bb chromedriver + 747963
+7   chromedriver                        0x000000010516f80d chromedriver + 690189
+8   chromedriver                        0x00000001051a5c02 chromedriver + 912386
+9   chromedriver                        0x000000010516f068 chromedriver + 688232
+10  chromedriver                        0x00000001051a625e chromedriver + 914014
+11  chromedriver                        0x00000001051c4ae2 chromedriver + 1039074
+12  chromedriver                        0x00000001051a59a3 chromedriver + 911779
+13  chromedriver                        0x000000010516d103 chromedriver + 680195
+14  chromedriver                        0x000000010516e71e chromedriver + 685854
+15  chromedriver                        0x0000000105527792 chromedriver + 4589458
+16  chromedriver                        0x000000010552c99c chromedriver + 4610460
+17  chromedriver                        0x000000010550ccb1 chromedriver + 4480177
+18  chromedriver                        0x000000010552d716 chromedriver + 4613910
+19  chromedriver                        0x00000001054fe23c chromedriver + 4420156
+20  chromedriver                        0x000000010554d798 chromedriver + 4745112
+21  chromedriver                        0x000000010554d94e chromedriver + 4745550
+22  chromedriver                        0x000000010555edf3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:59:11,576-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:59:12,526-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="fbb0dee9b4b32d08346d9aea043a5932")>
+2023-12-14 17:59:12,978-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000108af8c48 chromedriver + 4852808
+1   chromedriver                        0x0000000108af01b3 chromedriver + 4817331
+2   chromedriver                        0x00000001086bc7bd chromedriver + 411581
+3   chromedriver                        0x0000000108715472 chromedriver + 775282
+4   chromedriver                        0x0000000108712c06 chromedriver + 764934
+5   chromedriver                        0x000000010870fea7 chromedriver + 753319
+6   chromedriver                        0x000000010870e9bb chromedriver + 747963
+7   chromedriver                        0x000000010870080d chromedriver + 690189
+8   chromedriver                        0x0000000108736c02 chromedriver + 912386
+9   chromedriver                        0x0000000108700068 chromedriver + 688232
+10  chromedriver                        0x000000010873725e chromedriver + 914014
+11  chromedriver                        0x0000000108755ae2 chromedriver + 1039074
+12  chromedriver                        0x00000001087369a3 chromedriver + 911779
+13  chromedriver                        0x00000001086fe103 chromedriver + 680195
+14  chromedriver                        0x00000001086ff71e chromedriver + 685854
+15  chromedriver                        0x0000000108ab8792 chromedriver + 4589458
+16  chromedriver                        0x0000000108abd99c chromedriver + 4610460
+17  chromedriver                        0x0000000108a9dcb1 chromedriver + 4480177
+18  chromedriver                        0x0000000108abe716 chromedriver + 4613910
+19  chromedriver                        0x0000000108a8f23c chromedriver + 4420156
+20  chromedriver                        0x0000000108ade798 chromedriver + 4745112
+21  chromedriver                        0x0000000108ade94e chromedriver + 4745550
+22  chromedriver                        0x0000000108aefdf3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:59:12,981-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:59:13,730-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="539ff3f12b472c0ffe500f8a6f88e9f1")>
+2023-12-14 17:59:15,061-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0b00a3c777413e327701c8902fb63a47")>
+2023-12-14 17:59:15,459-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="6c2b11014e23db2d72aea8b6ef146233")>
+2023-12-14 17:59:15,686-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000102251c48 chromedriver + 4852808
+1   chromedriver                        0x00000001022491b3 chromedriver + 4817331
+2   chromedriver                        0x0000000101e157bd chromedriver + 411581
+3   chromedriver                        0x0000000101e6e472 chromedriver + 775282
+4   chromedriver                        0x0000000101e6bc06 chromedriver + 764934
+5   chromedriver                        0x0000000101e68ea7 chromedriver + 753319
+6   chromedriver                        0x0000000101e679bb chromedriver + 747963
+7   chromedriver                        0x0000000101e5980d chromedriver + 690189
+8   chromedriver                        0x0000000101e8fc02 chromedriver + 912386
+9   chromedriver                        0x0000000101e59068 chromedriver + 688232
+10  chromedriver                        0x0000000101e9025e chromedriver + 914014
+11  chromedriver                        0x0000000101eaeae2 chromedriver + 1039074
+12  chromedriver                        0x0000000101e8f9a3 chromedriver + 911779
+13  chromedriver                        0x0000000101e57103 chromedriver + 680195
+14  chromedriver                        0x0000000101e5871e chromedriver + 685854
+15  chromedriver                        0x0000000102211792 chromedriver + 4589458
+16  chromedriver                        0x000000010221699c chromedriver + 4610460
+17  chromedriver                        0x00000001021f6cb1 chromedriver + 4480177
+18  chromedriver                        0x0000000102217716 chromedriver + 4613910
+19  chromedriver                        0x00000001021e823c chromedriver + 4420156
+20  chromedriver                        0x0000000102237798 chromedriver + 4745112
+21  chromedriver                        0x000000010223794e chromedriver + 4745550
+22  chromedriver                        0x0000000102248df3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:59:15,688-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:59:16,089-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010077fc48 chromedriver + 4852808
+1   chromedriver                        0x00000001007771b3 chromedriver + 4817331
+2   chromedriver                        0x00000001003437bd chromedriver + 411581
+3   chromedriver                        0x000000010039c472 chromedriver + 775282
+4   chromedriver                        0x0000000100399c06 chromedriver + 764934
+5   chromedriver                        0x0000000100396ea7 chromedriver + 753319
+6   chromedriver                        0x00000001003959bb chromedriver + 747963
+7   chromedriver                        0x000000010038780d chromedriver + 690189
+8   chromedriver                        0x00000001003bdc02 chromedriver + 912386
+9   chromedriver                        0x0000000100387068 chromedriver + 688232
+10  chromedriver                        0x00000001003be25e chromedriver + 914014
+11  chromedriver                        0x00000001003dcae2 chromedriver + 1039074
+12  chromedriver                        0x00000001003bd9a3 chromedriver + 911779
+13  chromedriver                        0x0000000100385103 chromedriver + 680195
+14  chromedriver                        0x000000010038671e chromedriver + 685854
+15  chromedriver                        0x000000010073f792 chromedriver + 4589458
+16  chromedriver                        0x000000010074499c chromedriver + 4610460
+17  chromedriver                        0x0000000100724cb1 chromedriver + 4480177
+18  chromedriver                        0x0000000100745716 chromedriver + 4613910
+19  chromedriver                        0x000000010071623c chromedriver + 4420156
+20  chromedriver                        0x0000000100765798 chromedriver + 4745112
+21  chromedriver                        0x000000010076594e chromedriver + 4745550
+22  chromedriver                        0x0000000100776df3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:59:16,093-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:59:16,848-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0b20669056886e0bd6bda3880b290bdb")>
+2023-12-14 17:59:17,120-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING toys. Number of items fetched: 39
+2023-12-14 17:59:17,135-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2023-12-14 17:59:17,441-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING promotional-items. Number of items fetched: 1
+2023-12-14 17:59:17,465-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from promotional-items
+2023-12-14 17:59:17,764-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000101515c48 chromedriver + 4852808
+1   chromedriver                        0x000000010150d1b3 chromedriver + 4817331
+2   chromedriver                        0x00000001010d97bd chromedriver + 411581
+3   chromedriver                        0x0000000101132472 chromedriver + 775282
+4   chromedriver                        0x000000010112fc06 chromedriver + 764934
+5   chromedriver                        0x000000010112cea7 chromedriver + 753319
+6   chromedriver                        0x000000010112b9bb chromedriver + 747963
+7   chromedriver                        0x000000010111d80d chromedriver + 690189
+8   chromedriver                        0x0000000101153c02 chromedriver + 912386
+9   chromedriver                        0x000000010111d068 chromedriver + 688232
+10  chromedriver                        0x000000010115425e chromedriver + 914014
+11  chromedriver                        0x0000000101172ae2 chromedriver + 1039074
+12  chromedriver                        0x00000001011539a3 chromedriver + 911779
+13  chromedriver                        0x000000010111b103 chromedriver + 680195
+14  chromedriver                        0x000000010111c71e chromedriver + 685854
+15  chromedriver                        0x00000001014d5792 chromedriver + 4589458
+16  chromedriver                        0x00000001014da99c chromedriver + 4610460
+17  chromedriver                        0x00000001014bacb1 chromedriver + 4480177
+18  chromedriver                        0x00000001014db716 chromedriver + 4613910
+19  chromedriver                        0x00000001014ac23c chromedriver + 4420156
+20  chromedriver                        0x00000001014fb798 chromedriver + 4745112
+21  chromedriver                        0x00000001014fb94e chromedriver + 4745550
+22  chromedriver                        0x000000010150cdf3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 17:59:17,767-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 17:59:18,423-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING costumes. Number of items fetched: 40
+2023-12-14 17:59:18,492-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2023-12-14 17:59:19,888-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0132fa4160fab0f0cda6a9a8366a167b")>
+2023-12-14 17:59:19,972-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="9ff8c496c700780dc7c12622532dfea7")>
+2023-12-14 17:59:20,040-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING autographs. Number of items fetched: 38
+2023-12-14 17:59:20,062-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2023-12-14 17:59:21,421-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING artwork. Number of items fetched: 38
+2023-12-14 17:59:21,443-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2023-12-14 17:59:21,645-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="080f48a1ceb06865b0fd2f81386d1ecf")>
+2023-12-14 17:59:22,496-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING production. Number of items fetched: 37
+2023-12-14 17:59:22,503-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from production
+2023-12-14 17:59:22,810-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING posters. Number of items fetched: 40
+2023-12-14 17:59:22,818-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2023-12-14 17:59:23,759-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING props. Number of items fetched: 40
+2023-12-14 17:59:23,767-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2023-12-14 18:06:34,750-ERROR-FILE:main_file.py-FUNC:main-LINE:83-Error: cannot access local variable 'categories' where it is not associated with a value
+2023-12-14 18:06:43,754-ERROR-FILE:main_file.py-FUNC:main-LINE:83-Error: cannot access local variable 'categories' where it is not associated with a value
+2023-12-14 18:07:33,795-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-14 18:08:05,138-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000100d15c48 chromedriver + 4852808
+1   chromedriver                        0x0000000100d0d1b3 chromedriver + 4817331
+2   chromedriver                        0x00000001008d97bd chromedriver + 411581
+3   chromedriver                        0x0000000100932472 chromedriver + 775282
+4   chromedriver                        0x000000010092fc06 chromedriver + 764934
+5   chromedriver                        0x000000010092cea7 chromedriver + 753319
+6   chromedriver                        0x000000010092b9bb chromedriver + 747963
+7   chromedriver                        0x000000010091d80d chromedriver + 690189
+8   chromedriver                        0x0000000100953c02 chromedriver + 912386
+9   chromedriver                        0x000000010091d068 chromedriver + 688232
+10  chromedriver                        0x000000010095425e chromedriver + 914014
+11  chromedriver                        0x0000000100972ae2 chromedriver + 1039074
+12  chromedriver                        0x00000001009539a3 chromedriver + 911779
+13  chromedriver                        0x000000010091b103 chromedriver + 680195
+14  chromedriver                        0x000000010091c71e chromedriver + 685854
+15  chromedriver                        0x0000000100cd5792 chromedriver + 4589458
+16  chromedriver                        0x0000000100cda99c chromedriver + 4610460
+17  chromedriver                        0x0000000100cbacb1 chromedriver + 4480177
+18  chromedriver                        0x0000000100cdb716 chromedriver + 4613910
+19  chromedriver                        0x0000000100cac23c chromedriver + 4420156
+20  chromedriver                        0x0000000100cfb798 chromedriver + 4745112
+21  chromedriver                        0x0000000100cfb94e chromedriver + 4745550
+22  chromedriver                        0x0000000100d0cdf3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 18:08:05,139-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 18:08:08,191-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000102ebac48 chromedriver + 4852808
+1   chromedriver                        0x0000000102eb21b3 chromedriver + 4817331
+2   chromedriver                        0x0000000102a7e7bd chromedriver + 411581
+3   chromedriver                        0x0000000102ad7472 chromedriver + 775282
+4   chromedriver                        0x0000000102ad4c06 chromedriver + 764934
+5   chromedriver                        0x0000000102ad1ea7 chromedriver + 753319
+6   chromedriver                        0x0000000102ad09bb chromedriver + 747963
+7   chromedriver                        0x0000000102ac280d chromedriver + 690189
+8   chromedriver                        0x0000000102af8c02 chromedriver + 912386
+9   chromedriver                        0x0000000102ac2068 chromedriver + 688232
+10  chromedriver                        0x0000000102af925e chromedriver + 914014
+11  chromedriver                        0x0000000102b17ae2 chromedriver + 1039074
+12  chromedriver                        0x0000000102af89a3 chromedriver + 911779
+13  chromedriver                        0x0000000102ac0103 chromedriver + 680195
+14  chromedriver                        0x0000000102ac171e chromedriver + 685854
+15  chromedriver                        0x0000000102e7a792 chromedriver + 4589458
+16  chromedriver                        0x0000000102e7f99c chromedriver + 4610460
+17  chromedriver                        0x0000000102e5fcb1 chromedriver + 4480177
+18  chromedriver                        0x0000000102e80716 chromedriver + 4613910
+19  chromedriver                        0x0000000102e5123c chromedriver + 4420156
+20  chromedriver                        0x0000000102ea0798 chromedriver + 4745112
+21  chromedriver                        0x0000000102ea094e chromedriver + 4745550
+22  chromedriver                        0x0000000102eb1df3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 18:08:08,192-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 18:08:08,369-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000103110c48 chromedriver + 4852808
+1   chromedriver                        0x00000001031081b3 chromedriver + 4817331
+2   chromedriver                        0x0000000102cd47bd chromedriver + 411581
+3   chromedriver                        0x0000000102d2d472 chromedriver + 775282
+4   chromedriver                        0x0000000102d2ac06 chromedriver + 764934
+5   chromedriver                        0x0000000102d27ea7 chromedriver + 753319
+6   chromedriver                        0x0000000102d269bb chromedriver + 747963
+7   chromedriver                        0x0000000102d1880d chromedriver + 690189
+8   chromedriver                        0x0000000102d4ec02 chromedriver + 912386
+9   chromedriver                        0x0000000102d18068 chromedriver + 688232
+10  chromedriver                        0x0000000102d4f25e chromedriver + 914014
+11  chromedriver                        0x0000000102d6dae2 chromedriver + 1039074
+12  chromedriver                        0x0000000102d4e9a3 chromedriver + 911779
+13  chromedriver                        0x0000000102d16103 chromedriver + 680195
+14  chromedriver                        0x0000000102d1771e chromedriver + 685854
+15  chromedriver                        0x00000001030d0792 chromedriver + 4589458
+16  chromedriver                        0x00000001030d599c chromedriver + 4610460
+17  chromedriver                        0x00000001030b5cb1 chromedriver + 4480177
+18  chromedriver                        0x00000001030d6716 chromedriver + 4613910
+19  chromedriver                        0x00000001030a723c chromedriver + 4420156
+20  chromedriver                        0x00000001030f6798 chromedriver + 4745112
+21  chromedriver                        0x00000001030f694e chromedriver + 4745550
+22  chromedriver                        0x0000000103107df3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 18:08:08,370-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 18:08:09,906-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010d049c48 chromedriver + 4852808
+1   chromedriver                        0x000000010d0411b3 chromedriver + 4817331
+2   chromedriver                        0x000000010cc0d7bd chromedriver + 411581
+3   chromedriver                        0x000000010cc66472 chromedriver + 775282
+4   chromedriver                        0x000000010cc63c06 chromedriver + 764934
+5   chromedriver                        0x000000010cc60ea7 chromedriver + 753319
+6   chromedriver                        0x000000010cc5f9bb chromedriver + 747963
+7   chromedriver                        0x000000010cc5180d chromedriver + 690189
+8   chromedriver                        0x000000010cc87c02 chromedriver + 912386
+9   chromedriver                        0x000000010cc51068 chromedriver + 688232
+10  chromedriver                        0x000000010cc8825e chromedriver + 914014
+11  chromedriver                        0x000000010cca6ae2 chromedriver + 1039074
+12  chromedriver                        0x000000010cc879a3 chromedriver + 911779
+13  chromedriver                        0x000000010cc4f103 chromedriver + 680195
+14  chromedriver                        0x000000010cc5071e chromedriver + 685854
+15  chromedriver                        0x000000010d009792 chromedriver + 4589458
+16  chromedriver                        0x000000010d00e99c chromedriver + 4610460
+17  chromedriver                        0x000000010cfeecb1 chromedriver + 4480177
+18  chromedriver                        0x000000010d00f716 chromedriver + 4613910
+19  chromedriver                        0x000000010cfe023c chromedriver + 4420156
+20  chromedriver                        0x000000010d02f798 chromedriver + 4745112
+21  chromedriver                        0x000000010d02f94e chromedriver + 4745550
+22  chromedriver                        0x000000010d040df3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 18:08:09,907-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 18:08:10,582-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x000000010c7bfc48 chromedriver + 4852808
+1   chromedriver                        0x000000010c7b71b3 chromedriver + 4817331
+2   chromedriver                        0x000000010c3837bd chromedriver + 411581
+3   chromedriver                        0x000000010c3dc472 chromedriver + 775282
+4   chromedriver                        0x000000010c3d9c06 chromedriver + 764934
+5   chromedriver                        0x000000010c3d6ea7 chromedriver + 753319
+6   chromedriver                        0x000000010c3d59bb chromedriver + 747963
+7   chromedriver                        0x000000010c3c780d chromedriver + 690189
+8   chromedriver                        0x000000010c3fdc02 chromedriver + 912386
+9   chromedriver                        0x000000010c3c7068 chromedriver + 688232
+10  chromedriver                        0x000000010c3fe25e chromedriver + 914014
+11  chromedriver                        0x000000010c41cae2 chromedriver + 1039074
+12  chromedriver                        0x000000010c3fd9a3 chromedriver + 911779
+13  chromedriver                        0x000000010c3c5103 chromedriver + 680195
+14  chromedriver                        0x000000010c3c671e chromedriver + 685854
+15  chromedriver                        0x000000010c77f792 chromedriver + 4589458
+16  chromedriver                        0x000000010c78499c chromedriver + 4610460
+17  chromedriver                        0x000000010c764cb1 chromedriver + 4480177
+18  chromedriver                        0x000000010c785716 chromedriver + 4613910
+19  chromedriver                        0x000000010c75623c chromedriver + 4420156
+20  chromedriver                        0x000000010c7a5798 chromedriver + 4745112
+21  chromedriver                        0x000000010c7a594e chromedriver + 4745550
+22  chromedriver                        0x000000010c7b6df3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 18:08:10,583-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 18:08:12,990-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x0000000104760c48 chromedriver + 4852808
+1   chromedriver                        0x00000001047581b3 chromedriver + 4817331
+2   chromedriver                        0x00000001043247bd chromedriver + 411581
+3   chromedriver                        0x000000010437d472 chromedriver + 775282
+4   chromedriver                        0x000000010437ac06 chromedriver + 764934
+5   chromedriver                        0x0000000104377ea7 chromedriver + 753319
+6   chromedriver                        0x00000001043769bb chromedriver + 747963
+7   chromedriver                        0x000000010436880d chromedriver + 690189
+8   chromedriver                        0x000000010439ec02 chromedriver + 912386
+9   chromedriver                        0x0000000104368068 chromedriver + 688232
+10  chromedriver                        0x000000010439f25e chromedriver + 914014
+11  chromedriver                        0x00000001043bdae2 chromedriver + 1039074
+12  chromedriver                        0x000000010439e9a3 chromedriver + 911779
+13  chromedriver                        0x0000000104366103 chromedriver + 680195
+14  chromedriver                        0x000000010436771e chromedriver + 685854
+15  chromedriver                        0x0000000104720792 chromedriver + 4589458
+16  chromedriver                        0x000000010472599c chromedriver + 4610460
+17  chromedriver                        0x0000000104705cb1 chromedriver + 4480177
+18  chromedriver                        0x0000000104726716 chromedriver + 4613910
+19  chromedriver                        0x00000001046f723c chromedriver + 4420156
+20  chromedriver                        0x0000000104746798 chromedriver + 4745112
+21  chromedriver                        0x000000010474694e chromedriver + 4745550
+22  chromedriver                        0x0000000104757df3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 18:08:12,991-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 18:08:19,870-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1029, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.109)
+Stacktrace:
+0   chromedriver                        0x00000001084e6c48 chromedriver + 4852808
+1   chromedriver                        0x00000001084de1b3 chromedriver + 4817331
+2   chromedriver                        0x00000001080aa7bd chromedriver + 411581
+3   chromedriver                        0x0000000108103472 chromedriver + 775282
+4   chromedriver                        0x0000000108100c06 chromedriver + 764934
+5   chromedriver                        0x00000001080fdea7 chromedriver + 753319
+6   chromedriver                        0x00000001080fc9bb chromedriver + 747963
+7   chromedriver                        0x00000001080ee80d chromedriver + 690189
+8   chromedriver                        0x0000000108124c02 chromedriver + 912386
+9   chromedriver                        0x00000001080ee068 chromedriver + 688232
+10  chromedriver                        0x000000010812525e chromedriver + 914014
+11  chromedriver                        0x0000000108143ae2 chromedriver + 1039074
+12  chromedriver                        0x00000001081249a3 chromedriver + 911779
+13  chromedriver                        0x00000001080ec103 chromedriver + 680195
+14  chromedriver                        0x00000001080ed71e chromedriver + 685854
+15  chromedriver                        0x00000001084a6792 chromedriver + 4589458
+16  chromedriver                        0x00000001084ab99c chromedriver + 4610460
+17  chromedriver                        0x000000010848bcb1 chromedriver + 4480177
+18  chromedriver                        0x00000001084ac716 chromedriver + 4613910
+19  chromedriver                        0x000000010847d23c chromedriver + 4420156
+20  chromedriver                        0x00000001084cc798 chromedriver + 4745112
+21  chromedriver                        0x00000001084cc94e chromedriver + 4745550
+22  chromedriver                        0x00000001084dddf3 chromedriver + 4816371
+23  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 18:08:19,871-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 18:08:32,415-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="8c0e45fbb8a5e2d393983c9e14a72372")>
+2023-12-14 18:08:33,072-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING promotional-items. Number of items fetched: 1
+2023-12-14 18:08:33,080-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from promotional-items
+2023-12-14 18:08:35,621-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-CONNECTING TO WEBSITE: Message: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.109); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001034a7c48 chromedriver + 4852808
+1   chromedriver                        0x000000010349f1b3 chromedriver + 4817331
+2   chromedriver                        0x000000010306b7bd chromedriver + 411581
+3   chromedriver                        0x000000010307d332 chromedriver + 484146
+4   chromedriver                        0x00000001030729c4 chromedriver + 440772
+5   chromedriver                        0x0000000103070781 chromedriver + 432001
+6   chromedriver                        0x0000000103074447 chromedriver + 447559
+7   chromedriver                        0x00000001030745ac chromedriver + 447916
+8   chromedriver                        0x00000001030be233 chromedriver + 750131
+9   chromedriver                        0x00000001030af691 chromedriver + 689809
+10  chromedriver                        0x00000001030e5c02 chromedriver + 912386
+11  chromedriver                        0x00000001030af068 chromedriver + 688232
+12  chromedriver                        0x00000001030e625e chromedriver + 914014
+13  chromedriver                        0x0000000103104ae2 chromedriver + 1039074
+14  chromedriver                        0x00000001030e59a3 chromedriver + 911779
+15  chromedriver                        0x00000001030ad103 chromedriver + 680195
+16  chromedriver                        0x00000001030ae71e chromedriver + 685854
+17  chromedriver                        0x0000000103467792 chromedriver + 4589458
+18  chromedriver                        0x000000010346c99c chromedriver + 4610460
+19  chromedriver                        0x000000010344ccb1 chromedriver + 4480177
+20  chromedriver                        0x000000010346d716 chromedriver + 4613910
+21  chromedriver                        0x000000010343e23c chromedriver + 4420156
+22  chromedriver                        0x000000010348d798 chromedriver + 4745112
+23  chromedriver                        0x000000010348d94e chromedriver + 4745550
+24  chromedriver                        0x000000010349edf3 chromedriver + 4816371
+25  libsystem_pthread.dylib             0x00007ff809281202 _pthread_start + 99
+26  libsystem_pthread.dylib             0x00007ff80927cbab thread_start + 15
+
+2023-12-14 18:08:35,622-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-14 18:09:34,757-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="ff5dd08f6ff5478c0f27a9a6ace5092a")>
+2023-12-14 18:09:35,343-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="1a6b07f31248b0b2941cd2e13bcf62ce")>
+2023-12-14 18:09:35,745-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="c69d6f0e7def72c6abf27bfe179da065")>
+2023-12-14 18:09:36,189-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="911ff3613ae65d031d44b08e0cd178b7")>
+2023-12-14 18:09:36,681-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="371948a55a79087587ba59d18d4e3ee4")>
+2023-12-14 18:09:36,819-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="2e2ed3c84c84b591c3bb806d94a3db30")>
+2023-12-14 18:09:38,865-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="1127ef69071148f99466db11d3c16b95")>
+2023-12-14 18:09:42,844-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING autographs. Number of items fetched: 631
+2023-12-14 18:09:42,868-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2023-12-14 18:09:42,940-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING costumes. Number of items fetched: 659
+2023-12-14 18:09:42,957-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2023-12-14 18:09:43,710-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING artwork. Number of items fetched: 705
+2023-12-14 18:09:43,728-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2023-12-14 18:09:43,881-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING posters. Number of items fetched: 793
+2023-12-14 18:09:43,931-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2023-12-14 18:09:44,414-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING props. Number of items fetched: 628
+2023-12-14 18:09:44,428-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2023-12-14 18:09:45,434-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING production. Number of items fetched: 705
+2023-12-14 18:09:45,493-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from production
+2023-12-14 18:09:47,789-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:72-FINISHED EXTRACTING toys. Number of items fetched: 838
+2023-12-14 18:09:47,804-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2023-12-14 18:16:13,249-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for Posters
+2023-12-14 18:40:41,301-ERROR-FILE:main_file.py-FUNC:main-LINE:83-Error: cannot access local variable 'categories' where it is not associated with a value
+2023-12-14 18:44:46,967-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for Posters
+2023-12-14 19:06:05,168-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:82-Couldnt get connection: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2023-12-14 19:11:27,286-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:82-Couldnt get connection: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2023-12-14 19:11:43,544-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:82-Couldnt get connection: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2023-12-14 19:12:07,503-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:82-Couldnt get connection: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2023-12-14 19:12:21,370-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:82-Couldnt get connection: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2023-12-14 19:12:51,920-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:82-Couldnt get connection: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")

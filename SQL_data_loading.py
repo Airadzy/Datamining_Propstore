@@ -3,15 +3,22 @@ import csv
 from pathlib import Path
 from datetime import datetime
 import logging
+import json
+from main_file import load_config
 
+config_filename = "config.json"
+config = load_config(config_filename)
 
 def get_connection():
     """
     Establishes and returns a database connection
     :return: Database connection
     """
-    connection = pymysql.connect(host='localhost', user='root', password='root', database="propstore_details",
-                             cursorclass=pymysql.cursors.DictCursor)
+    connection = pymysql.connect(host='localhost',
+                                 user=config["mysql_username"],
+                                 password=config["mysql_password"],
+                                 database="propstore_details",
+                                 cursorclass=pymysql.cursors.DictCursor)
     return connection
 
 
