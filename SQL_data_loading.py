@@ -1,8 +1,6 @@
 import pymysql
 import csv
-from pathlib import Path
 from datetime import datetime
-import logging
 
 
 def get_connection(config):
@@ -11,9 +9,9 @@ def get_connection(config):
     :config: parameters from json file
     :return: Database connection
     """
-    connection = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"], password=["SQL_password"],
+    connection = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"], password=config["SQL_password"],
                                  database=config['database_name'],
-                                 cursorclass=config["SQL_cursorclass"])
+                                 cursorclass=pymysql.cursors.DictCursor)
     return connection
 
 

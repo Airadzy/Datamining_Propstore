@@ -18,7 +18,7 @@ def load_config(config_filename):
     :param config_filename: the respective configuration file with key variables
     :return: json_dict that contains key variables
     """
-    with open("config.json", "r") as json_file:
+    with open(config_filename, "r") as json_file:
         json_dict = json.load(json_file)
         return json_dict
 

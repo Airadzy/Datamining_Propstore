@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import logging
 import csv
 from pathlib import Path
 import logging
