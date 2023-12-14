@@ -31,10 +31,10 @@ Download the appropriate version of ChromeDriver based on your Chrome browser ve
 On Propstore.com, create a username and password and update the config.json file with those as well as relevant details for mySQL installation
 
 ## Usage
-Run the script by executing the following command:
+Run the script by executing the following command (specifying :
    
    ```bash 
-   python script.py
+   python main_file.py [--all/--categories category_1 category_2] [--live/--sold]
    ```
 
 ## ERD
