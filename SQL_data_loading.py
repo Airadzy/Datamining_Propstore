@@ -11,11 +11,11 @@ def get_connection():
     :return: Database connection
     """
     connection = pymysql.connect(host='localhost', user='root', password='root', database="propstore_details",
-                             cursorclass=pymysql.cursors.DictCursor)
+                                 cursorclass=pymysql.cursors.DictCursor)
     return connection
 
 
-def load_data(path,connection):
+def load_data(path, connection):
     """
     Main function to load data from a CSV file into the Propstore_details database.
     It processes each row in the CSV, parses various fields, and inserts them into the database.
@@ -23,7 +23,6 @@ def load_data(path,connection):
     """
 
     def parse_price(price_str):
-
         """
         Parse a price string and extract the currency and value.
 

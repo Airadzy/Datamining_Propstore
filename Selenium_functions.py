@@ -68,7 +68,7 @@ def login(driver, username, password, config):
         login_button.click()
         WebDriverWait(driver, 10)
     except Exception as error:
-        logging.error(f"CONNECTING TO WEBSITE: {error}")
+        logging.error(f"Logging in TO WEBSITE: {error}")
 
 
 def process_category(category_url, username, password, option, config):
