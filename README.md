@@ -27,8 +27,8 @@ and extract relevant information, including movie name, price(either sold at for
 3. Configure ChromeDriver:
 Download the appropriate version of ChromeDriver based on your Chrome browser version from ChromeDriver Downloads.
 
-4. Create Propstore log-in details and update in config.json file
-On Propstore.com, create a username and password and update the config.json file with those
+4. Updated config.json file for (1) Create Propstore log-in details and (2) mySQL configurations
+On Propstore.com, create a username and password and update the config.json file with those as well as relevant details for mySQL installation
 
 ## Usage
 Run the script by executing the following command:
