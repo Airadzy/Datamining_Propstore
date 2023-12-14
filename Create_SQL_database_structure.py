@@ -5,23 +5,21 @@ from pathlib import Path
 import logging
 import main_file
 from main_file import load_config
+import main_file
 
 logging.basicConfig(filename=main_file.log_filename,
                     format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
                     level=logging.INFO)
 
-connection_without_database = pymysql.connect(host='localhost', user='root', password='root',
-                                              cursorclass=pymysql.cursors.DictCursor)
 
-
-def create_database():
-    with connection_without_database.cursor() as cursor:
+def create_database(config, connection):
+    with connection.cursor() as cursor:
         try:
-            cursor.execute("CREATE DATABASE propstore_details;")
+            cursor.execute(f"CREATE DATABASE {config['database_name']};")
         except (pymysql.err.ProgrammingError, pymysql.err.InternalError) as error:
             print(f"Database already exists so inserting new data into database")
         try:
-            cursor.execute("USE propstore_details;")
+            cursor.execute(f"USE {config['database_name']};")
             cursor.execute("""
                     CREATE TABLE IF NOT EXISTS categories(
                         categories_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -62,25 +60,29 @@ def create_database():
                         FOREIGN KEY (currencies_id) REFERENCES currencies (currencies_id)
                     )
                 """)
-            connection_without_database.commit()
+            connection.commit()
 
         finally:
             print("Finished creating database")
 
 
 def main():
-    create_database()
+    config = load_config(main_file.config_filename)
+    connection_without_database = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"],
+                                                  password=config["SQL_password"],
+                                                  cursorclass=config["SQL_cursorclass"])
+    create_database(config, connection_without_database)
     try:
-        connection = SQL_data_loading.get_connection()
+        connection = SQL_data_loading.get_connection(config)
     except Exception as error:
         logging.error(f"Couldnt get connection: {error}")
         print(f"Couldnt get connection: {error}")
-    path = Path("./Propstore_data.csv")
+    path = Path(config["csv_file_path"])
     if path:
         SQL_data_loading.load_data(path, connection)
         print("finished loading items into database")
     else:
-        print(f"Need to create propstore csv file first")
+        print(f"Need to create propstore.csv file first")
 
 
 if __name__ == "__main__":

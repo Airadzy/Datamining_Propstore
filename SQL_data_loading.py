@@ -5,13 +5,15 @@ from datetime import datetime
 import logging
 
 
-def get_connection():
+def get_connection(config):
     """
     Establishes and returns a database connection
+    :config: parameters from json file
     :return: Database connection
     """
-    connection = pymysql.connect(host='localhost', user='root', password='root', database="propstore_details",
-                                 cursorclass=pymysql.cursors.DictCursor)
+    connection = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"], password=["SQL_password"],
+                                 database=config['database_name'],
+                                 cursorclass=config["SQL_cursorclass"])
     return connection
 
 
