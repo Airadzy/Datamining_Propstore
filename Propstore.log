@@ -42660,3 +42660,653 @@ Stacktrace:
 2023-12-14 21:37:13,914-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:76-Finished creating database
 2023-12-14 21:37:13,916-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:108-Couldnt get connection: object supporting the buffer API required
 2023-12-14 21:41:36,004-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:76-Finished creating database
+2023-12-15 18:40:48,569-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-15 18:40:51,598-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-15 18:40:51,600-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-15 18:40:51,601-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-15 18:40:51,603-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-15 18:40:51,605-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-15 18:40:51,605-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-15 18:40:51,615-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-15 18:40:51,626-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-15 18:41:04,258-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7734382B2+55298]
+	(No symbol) [0x00007FF7733A5E02]
+	(No symbol) [0x00007FF7732605AB]
+	(No symbol) [0x00007FF7732A7A77]
+	(No symbol) [0x00007FF7732A5E39]
+	(No symbol) [0x00007FF7732A3C08]
+	(No symbol) [0x00007FF7732A2C8A]
+	(No symbol) [0x00007FF7732987BF]
+	(No symbol) [0x00007FF7732C20AA]
+	(No symbol) [0x00007FF7732980CF]
+	(No symbol) [0x00007FF7732C22C0]
+	(No symbol) [0x00007FF7732DAAA4]
+	(No symbol) [0x00007FF7732C1E83]
+	(No symbol) [0x00007FF77329670A]
+	(No symbol) [0x00007FF773297964]
+	GetHandleVerifier [0x00007FF7737B0AAB+3694587]
+	GetHandleVerifier [0x00007FF77380728E+4048862]
+	GetHandleVerifier [0x00007FF7737FF173+4015811]
+	GetHandleVerifier [0x00007FF7734D47D6+695590]
+	(No symbol) [0x00007FF7733B0CE8]
+	(No symbol) [0x00007FF7733ACF34]
+	(No symbol) [0x00007FF7733AD062]
+	(No symbol) [0x00007FF77339D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-15 18:41:04,258-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-15 18:41:04,898-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7734382B2+55298]
+	(No symbol) [0x00007FF7733A5E02]
+	(No symbol) [0x00007FF7732605AB]
+	(No symbol) [0x00007FF7732A7A77]
+	(No symbol) [0x00007FF7732A5E39]
+	(No symbol) [0x00007FF7732A3C08]
+	(No symbol) [0x00007FF7732A2C8A]
+	(No symbol) [0x00007FF7732987BF]
+	(No symbol) [0x00007FF7732C20AA]
+	(No symbol) [0x00007FF7732980CF]
+	(No symbol) [0x00007FF7732C22C0]
+	(No symbol) [0x00007FF7732DAAA4]
+	(No symbol) [0x00007FF7732C1E83]
+	(No symbol) [0x00007FF77329670A]
+	(No symbol) [0x00007FF773297964]
+	GetHandleVerifier [0x00007FF7737B0AAB+3694587]
+	GetHandleVerifier [0x00007FF77380728E+4048862]
+	GetHandleVerifier [0x00007FF7737FF173+4015811]
+	GetHandleVerifier [0x00007FF7734D47D6+695590]
+	(No symbol) [0x00007FF7733B0CE8]
+	(No symbol) [0x00007FF7733ACF34]
+	(No symbol) [0x00007FF7733AD062]
+	(No symbol) [0x00007FF77339D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-15 18:41:04,898-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-15 18:41:04,988-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7734382B2+55298]
+	(No symbol) [0x00007FF7733A5E02]
+	(No symbol) [0x00007FF7732605AB]
+	(No symbol) [0x00007FF7732A7A77]
+	(No symbol) [0x00007FF7732A5E39]
+	(No symbol) [0x00007FF7732A3C08]
+	(No symbol) [0x00007FF7732A2C8A]
+	(No symbol) [0x00007FF7732987BF]
+	(No symbol) [0x00007FF7732C20AA]
+	(No symbol) [0x00007FF7732980CF]
+	(No symbol) [0x00007FF7732C22C0]
+	(No symbol) [0x00007FF7732DAAA4]
+	(No symbol) [0x00007FF7732C1E83]
+	(No symbol) [0x00007FF77329670A]
+	(No symbol) [0x00007FF773297964]
+	GetHandleVerifier [0x00007FF7737B0AAB+3694587]
+	GetHandleVerifier [0x00007FF77380728E+4048862]
+	GetHandleVerifier [0x00007FF7737FF173+4015811]
+	GetHandleVerifier [0x00007FF7734D47D6+695590]
+	(No symbol) [0x00007FF7733B0CE8]
+	(No symbol) [0x00007FF7733ACF34]
+	(No symbol) [0x00007FF7733AD062]
+	(No symbol) [0x00007FF77339D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-15 18:41:04,989-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-15 18:41:04,991-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7734382B2+55298]
+	(No symbol) [0x00007FF7733A5E02]
+	(No symbol) [0x00007FF7732605AB]
+	(No symbol) [0x00007FF7732A7A77]
+	(No symbol) [0x00007FF7732A5E39]
+	(No symbol) [0x00007FF7732A3C08]
+	(No symbol) [0x00007FF7732A2C8A]
+	(No symbol) [0x00007FF7732987BF]
+	(No symbol) [0x00007FF7732C20AA]
+	(No symbol) [0x00007FF7732980CF]
+	(No symbol) [0x00007FF7732C22C0]
+	(No symbol) [0x00007FF7732DAAA4]
+	(No symbol) [0x00007FF7732C1E83]
+	(No symbol) [0x00007FF77329670A]
+	(No symbol) [0x00007FF773297964]
+	GetHandleVerifier [0x00007FF7737B0AAB+3694587]
+	GetHandleVerifier [0x00007FF77380728E+4048862]
+	GetHandleVerifier [0x00007FF7737FF173+4015811]
+	GetHandleVerifier [0x00007FF7734D47D6+695590]
+	(No symbol) [0x00007FF7733B0CE8]
+	(No symbol) [0x00007FF7733ACF34]
+	(No symbol) [0x00007FF7733AD062]
+	(No symbol) [0x00007FF77339D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-15 18:41:04,991-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-15 18:41:05,084-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7734382B2+55298]
+	(No symbol) [0x00007FF7733A5E02]
+	(No symbol) [0x00007FF7732605AB]
+	(No symbol) [0x00007FF7732A7A77]
+	(No symbol) [0x00007FF7732A5E39]
+	(No symbol) [0x00007FF7732A3C08]
+	(No symbol) [0x00007FF7732A2C8A]
+	(No symbol) [0x00007FF7732987BF]
+	(No symbol) [0x00007FF7732C20AA]
+	(No symbol) [0x00007FF7732980CF]
+	(No symbol) [0x00007FF7732C22C0]
+	(No symbol) [0x00007FF7732DAAA4]
+	(No symbol) [0x00007FF7732C1E83]
+	(No symbol) [0x00007FF77329670A]
+	(No symbol) [0x00007FF773297964]
+	GetHandleVerifier [0x00007FF7737B0AAB+3694587]
+	GetHandleVerifier [0x00007FF77380728E+4048862]
+	GetHandleVerifier [0x00007FF7737FF173+4015811]
+	GetHandleVerifier [0x00007FF7734D47D6+695590]
+	(No symbol) [0x00007FF7733B0CE8]
+	(No symbol) [0x00007FF7733ACF34]
+	(No symbol) [0x00007FF7733AD062]
+	(No symbol) [0x00007FF77339D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-15 18:41:05,085-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-15 18:41:05,162-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7734382B2+55298]
+	(No symbol) [0x00007FF7733A5E02]
+	(No symbol) [0x00007FF7732605AB]
+	(No symbol) [0x00007FF7732A7A77]
+	(No symbol) [0x00007FF7732A5E39]
+	(No symbol) [0x00007FF7732A3C08]
+	(No symbol) [0x00007FF7732A2C8A]
+	(No symbol) [0x00007FF7732987BF]
+	(No symbol) [0x00007FF7732C20AA]
+	(No symbol) [0x00007FF7732980CF]
+	(No symbol) [0x00007FF7732C22C0]
+	(No symbol) [0x00007FF7732DAAA4]
+	(No symbol) [0x00007FF7732C1E83]
+	(No symbol) [0x00007FF77329670A]
+	(No symbol) [0x00007FF773297964]
+	GetHandleVerifier [0x00007FF7737B0AAB+3694587]
+	GetHandleVerifier [0x00007FF77380728E+4048862]
+	GetHandleVerifier [0x00007FF7737FF173+4015811]
+	GetHandleVerifier [0x00007FF7734D47D6+695590]
+	(No symbol) [0x00007FF7733B0CE8]
+	(No symbol) [0x00007FF7733ACF34]
+	(No symbol) [0x00007FF7733AD062]
+	(No symbol) [0x00007FF77339D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-15 18:41:05,162-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-15 18:41:05,238-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7734382B2+55298]
+	(No symbol) [0x00007FF7733A5E02]
+	(No symbol) [0x00007FF7732605AB]
+	(No symbol) [0x00007FF7732A7A77]
+	(No symbol) [0x00007FF7732A5E39]
+	(No symbol) [0x00007FF7732A3C08]
+	(No symbol) [0x00007FF7732A2C8A]
+	(No symbol) [0x00007FF7732987BF]
+	(No symbol) [0x00007FF7732C20AA]
+	(No symbol) [0x00007FF7732980CF]
+	(No symbol) [0x00007FF7732C22C0]
+	(No symbol) [0x00007FF7732DAAA4]
+	(No symbol) [0x00007FF7732C1E83]
+	(No symbol) [0x00007FF77329670A]
+	(No symbol) [0x00007FF773297964]
+	GetHandleVerifier [0x00007FF7737B0AAB+3694587]
+	GetHandleVerifier [0x00007FF77380728E+4048862]
+	GetHandleVerifier [0x00007FF7737FF173+4015811]
+	GetHandleVerifier [0x00007FF7734D47D6+695590]
+	(No symbol) [0x00007FF7733B0CE8]
+	(No symbol) [0x00007FF7733ACF34]
+	(No symbol) [0x00007FF7733AD062]
+	(No symbol) [0x00007FF77339D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-15 18:41:05,238-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-15 18:41:05,312-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7734382B2+55298]
+	(No symbol) [0x00007FF7733A5E02]
+	(No symbol) [0x00007FF7732605AB]
+	(No symbol) [0x00007FF7732A7A77]
+	(No symbol) [0x00007FF7732A5E39]
+	(No symbol) [0x00007FF7732A3C08]
+	(No symbol) [0x00007FF7732A2C8A]
+	(No symbol) [0x00007FF7732987BF]
+	(No symbol) [0x00007FF7732C20AA]
+	(No symbol) [0x00007FF7732980CF]
+	(No symbol) [0x00007FF7732C22C0]
+	(No symbol) [0x00007FF7732DAAA4]
+	(No symbol) [0x00007FF7732C1E83]
+	(No symbol) [0x00007FF77329670A]
+	(No symbol) [0x00007FF773297964]
+	GetHandleVerifier [0x00007FF7737B0AAB+3694587]
+	GetHandleVerifier [0x00007FF77380728E+4048862]
+	GetHandleVerifier [0x00007FF7737FF173+4015811]
+	GetHandleVerifier [0x00007FF7734D47D6+695590]
+	(No symbol) [0x00007FF7733B0CE8]
+	(No symbol) [0x00007FF7733ACF34]
+	(No symbol) [0x00007FF7733AD062]
+	(No symbol) [0x00007FF77339D3A3]
+	BaseThreadInitThunk [0x00007FFF212C257D+29]
+	RtlUserThreadStart [0x00007FFF2308AA58+40]
+
+2023-12-15 18:41:05,314-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-15 18:41:08,112-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="c2cf2f33cb8b244aef50906576bfd328")>
+2023-12-15 18:41:08,293-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING artwork. Number of items fetched: 38
+2023-12-15 18:41:08,296-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from artwork
+2023-12-15 18:41:08,765-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="821d9e4cf1481dd17883d7f80e3cff4c")>
+2023-12-15 18:41:08,827-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="88d75ed533af8d9dfb2b5c3941e00ef2")>
+2023-12-15 18:41:08,832-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="84412ea8c36c650315d6440aff82424a")>
+2023-12-15 18:41:08,936-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="6469285be6daa6f7118077081b5bdb69")>
+2023-12-15 18:41:08,999-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="2fdf27b6066119c12d89817af2d2dbbe")>
+2023-12-15 18:41:09,010-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING posters. Number of items fetched: 40
+2023-12-15 18:41:09,011-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from posters
+2023-12-15 18:41:09,044-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING props. Number of items fetched: 40
+2023-12-15 18:41:09,045-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from props
+2023-12-15 18:41:09,050-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING production. Number of items fetched: 37
+2023-12-15 18:41:09,053-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from production
+2023-12-15 18:41:09,092-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="ce1f7f1a27078045d17c7f42336ddde7")>
+2023-12-15 18:41:09,178-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING costumes. Number of items fetched: 40
+2023-12-15 18:41:09,180-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from costumes
+2023-12-15 18:41:09,215-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="75ef66fa7d9e77b08d1ee187c18de397")>
+2023-12-15 18:41:09,311-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING autographs. Number of items fetched: 38
+2023-12-15 18:41:09,313-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from autographs
+2023-12-15 18:41:09,362-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING promotional-items. Number of items fetched: 1
+2023-12-15 18:41:09,365-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from promotional-items
+2023-12-15 18:41:09,426-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING toys. Number of items fetched: 39
+2023-12-15 18:41:09,427-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from toys
+2023-12-21 06:44:28,916-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-21 06:45:07,551-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-21 06:46:17,974-INFO-FILE:main_file.py-FUNC:main-LINE:77-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-21 06:46:20,653-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.110); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-21 06:46:20,656-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.110); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-21 06:46:20,656-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.110); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-21 06:46:20,657-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.110); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-21 06:46:33,248-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C06C82B2+55298]
+	(No symbol) [0x00007FF7C0635E02]
+	(No symbol) [0x00007FF7C04F05AB]
+	(No symbol) [0x00007FF7C0537A77]
+	(No symbol) [0x00007FF7C0535E39]
+	(No symbol) [0x00007FF7C0533C08]
+	(No symbol) [0x00007FF7C0532C8A]
+	(No symbol) [0x00007FF7C05287BF]
+	(No symbol) [0x00007FF7C05520AA]
+	(No symbol) [0x00007FF7C05280CF]
+	(No symbol) [0x00007FF7C05522C0]
+	(No symbol) [0x00007FF7C056AAA4]
+	(No symbol) [0x00007FF7C0551E83]
+	(No symbol) [0x00007FF7C052670A]
+	(No symbol) [0x00007FF7C0527964]
+	GetHandleVerifier [0x00007FF7C0A40AAB+3694587]
+	GetHandleVerifier [0x00007FF7C0A9728E+4048862]
+	GetHandleVerifier [0x00007FF7C0A8F173+4015811]
+	GetHandleVerifier [0x00007FF7C07647D6+695590]
+	(No symbol) [0x00007FF7C0640CE8]
+	(No symbol) [0x00007FF7C063CF34]
+	(No symbol) [0x00007FF7C063D062]
+	(No symbol) [0x00007FF7C062D3A3]
+	BaseThreadInitThunk [0x00007FF805CD257D+29]
+	RtlUserThreadStart [0x00007FF806AAAA58+40]
+
+2023-12-21 06:46:33,252-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-21 06:46:33,424-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C06C82B2+55298]
+	(No symbol) [0x00007FF7C0635E02]
+	(No symbol) [0x00007FF7C04F05AB]
+	(No symbol) [0x00007FF7C0537A77]
+	(No symbol) [0x00007FF7C0535E39]
+	(No symbol) [0x00007FF7C0533C08]
+	(No symbol) [0x00007FF7C0532C8A]
+	(No symbol) [0x00007FF7C05287BF]
+	(No symbol) [0x00007FF7C05520AA]
+	(No symbol) [0x00007FF7C05280CF]
+	(No symbol) [0x00007FF7C05522C0]
+	(No symbol) [0x00007FF7C056AAA4]
+	(No symbol) [0x00007FF7C0551E83]
+	(No symbol) [0x00007FF7C052670A]
+	(No symbol) [0x00007FF7C0527964]
+	GetHandleVerifier [0x00007FF7C0A40AAB+3694587]
+	GetHandleVerifier [0x00007FF7C0A9728E+4048862]
+	GetHandleVerifier [0x00007FF7C0A8F173+4015811]
+	GetHandleVerifier [0x00007FF7C07647D6+695590]
+	(No symbol) [0x00007FF7C0640CE8]
+	(No symbol) [0x00007FF7C063CF34]
+	(No symbol) [0x00007FF7C063D062]
+	(No symbol) [0x00007FF7C062D3A3]
+	BaseThreadInitThunk [0x00007FF805CD257D+29]
+	RtlUserThreadStart [0x00007FF806AAAA58+40]
+
+2023-12-21 06:46:33,424-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-21 06:46:34,392-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C06C82B2+55298]
+	(No symbol) [0x00007FF7C0635E02]
+	(No symbol) [0x00007FF7C04F05AB]
+	(No symbol) [0x00007FF7C0537A77]
+	(No symbol) [0x00007FF7C0535E39]
+	(No symbol) [0x00007FF7C0533C08]
+	(No symbol) [0x00007FF7C0532C8A]
+	(No symbol) [0x00007FF7C05287BF]
+	(No symbol) [0x00007FF7C05520AA]
+	(No symbol) [0x00007FF7C05280CF]
+	(No symbol) [0x00007FF7C05522C0]
+	(No symbol) [0x00007FF7C056AAA4]
+	(No symbol) [0x00007FF7C0551E83]
+	(No symbol) [0x00007FF7C052670A]
+	(No symbol) [0x00007FF7C0527964]
+	GetHandleVerifier [0x00007FF7C0A40AAB+3694587]
+	GetHandleVerifier [0x00007FF7C0A9728E+4048862]
+	GetHandleVerifier [0x00007FF7C0A8F173+4015811]
+	GetHandleVerifier [0x00007FF7C07647D6+695590]
+	(No symbol) [0x00007FF7C0640CE8]
+	(No symbol) [0x00007FF7C063CF34]
+	(No symbol) [0x00007FF7C063D062]
+	(No symbol) [0x00007FF7C062D3A3]
+	BaseThreadInitThunk [0x00007FF805CD257D+29]
+	RtlUserThreadStart [0x00007FF806AAAA58+40]
+
+2023-12-21 06:46:34,392-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-21 06:46:35,147-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C06C82B2+55298]
+	(No symbol) [0x00007FF7C0635E02]
+	(No symbol) [0x00007FF7C04F05AB]
+	(No symbol) [0x00007FF7C0537A77]
+	(No symbol) [0x00007FF7C0535E39]
+	(No symbol) [0x00007FF7C0533C08]
+	(No symbol) [0x00007FF7C0532C8A]
+	(No symbol) [0x00007FF7C05287BF]
+	(No symbol) [0x00007FF7C05520AA]
+	(No symbol) [0x00007FF7C05280CF]
+	(No symbol) [0x00007FF7C05522C0]
+	(No symbol) [0x00007FF7C056AAA4]
+	(No symbol) [0x00007FF7C0551E83]
+	(No symbol) [0x00007FF7C052670A]
+	(No symbol) [0x00007FF7C0527964]
+	GetHandleVerifier [0x00007FF7C0A40AAB+3694587]
+	GetHandleVerifier [0x00007FF7C0A9728E+4048862]
+	GetHandleVerifier [0x00007FF7C0A8F173+4015811]
+	GetHandleVerifier [0x00007FF7C07647D6+695590]
+	(No symbol) [0x00007FF7C0640CE8]
+	(No symbol) [0x00007FF7C063CF34]
+	(No symbol) [0x00007FF7C063D062]
+	(No symbol) [0x00007FF7C062D3A3]
+	BaseThreadInitThunk [0x00007FF805CD257D+29]
+	RtlUserThreadStart [0x00007FF806AAAA58+40]
+
+2023-12-21 06:46:35,147-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-21 06:46:35,331-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (846, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C06C82B2+55298]
+	(No symbol) [0x00007FF7C0635E02]
+	(No symbol) [0x00007FF7C04F05AB]
+	(No symbol) [0x00007FF7C0537A77]
+	(No symbol) [0x00007FF7C0535E39]
+	(No symbol) [0x00007FF7C0533C08]
+	(No symbol) [0x00007FF7C0532C8A]
+	(No symbol) [0x00007FF7C05287BF]
+	(No symbol) [0x00007FF7C05520AA]
+	(No symbol) [0x00007FF7C05280CF]
+	(No symbol) [0x00007FF7C05522C0]
+	(No symbol) [0x00007FF7C056AAA4]
+	(No symbol) [0x00007FF7C0551E83]
+	(No symbol) [0x00007FF7C052670A]
+	(No symbol) [0x00007FF7C0527964]
+	GetHandleVerifier [0x00007FF7C0A40AAB+3694587]
+	GetHandleVerifier [0x00007FF7C0A9728E+4048862]
+	GetHandleVerifier [0x00007FF7C0A8F173+4015811]
+	GetHandleVerifier [0x00007FF7C07647D6+695590]
+	(No symbol) [0x00007FF7C0640CE8]
+	(No symbol) [0x00007FF7C063CF34]
+	(No symbol) [0x00007FF7C063D062]
+	(No symbol) [0x00007FF7C062D3A3]
+	BaseThreadInitThunk [0x00007FF805CD257D+29]
+	RtlUserThreadStart [0x00007FF806AAAA58+40]
+
+2023-12-21 06:46:35,331-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-21 06:46:35,378-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C06C82B2+55298]
+	(No symbol) [0x00007FF7C0635E02]
+	(No symbol) [0x00007FF7C04F05AB]
+	(No symbol) [0x00007FF7C0537A77]
+	(No symbol) [0x00007FF7C0535E39]
+	(No symbol) [0x00007FF7C0533C08]
+	(No symbol) [0x00007FF7C0532C8A]
+	(No symbol) [0x00007FF7C05287BF]
+	(No symbol) [0x00007FF7C05520AA]
+	(No symbol) [0x00007FF7C05280CF]
+	(No symbol) [0x00007FF7C05522C0]
+	(No symbol) [0x00007FF7C056AAA4]
+	(No symbol) [0x00007FF7C0551E83]
+	(No symbol) [0x00007FF7C052670A]
+	(No symbol) [0x00007FF7C0527964]
+	GetHandleVerifier [0x00007FF7C0A40AAB+3694587]
+	GetHandleVerifier [0x00007FF7C0A9728E+4048862]
+	GetHandleVerifier [0x00007FF7C0A8F173+4015811]
+	GetHandleVerifier [0x00007FF7C07647D6+695590]
+	(No symbol) [0x00007FF7C0640CE8]
+	(No symbol) [0x00007FF7C063CF34]
+	(No symbol) [0x00007FF7C063D062]
+	(No symbol) [0x00007FF7C062D3A3]
+	BaseThreadInitThunk [0x00007FF805CD257D+29]
+	RtlUserThreadStart [0x00007FF806AAAA58+40]
+
+2023-12-21 06:46:35,378-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-21 06:46:35,545-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <button type="submit" class="waves-effect waves-light btn modal-register__submit">...</button> is not clickable at point (518, 656). Other element would receive the click: <div class="modal__title modal-mail__title">...</div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C06C82B2+55298]
+	(No symbol) [0x00007FF7C0635E02]
+	(No symbol) [0x00007FF7C04F05AB]
+	(No symbol) [0x00007FF7C0537A77]
+	(No symbol) [0x00007FF7C0535E39]
+	(No symbol) [0x00007FF7C0533C08]
+	(No symbol) [0x00007FF7C0532C8A]
+	(No symbol) [0x00007FF7C05287BF]
+	(No symbol) [0x00007FF7C05520AA]
+	(No symbol) [0x00007FF7C05280CF]
+	(No symbol) [0x00007FF7C05522C0]
+	(No symbol) [0x00007FF7C056AAA4]
+	(No symbol) [0x00007FF7C0551E83]
+	(No symbol) [0x00007FF7C052670A]
+	(No symbol) [0x00007FF7C0527964]
+	GetHandleVerifier [0x00007FF7C0A40AAB+3694587]
+	GetHandleVerifier [0x00007FF7C0A9728E+4048862]
+	GetHandleVerifier [0x00007FF7C0A8F173+4015811]
+	GetHandleVerifier [0x00007FF7C07647D6+695590]
+	(No symbol) [0x00007FF7C0640CE8]
+	(No symbol) [0x00007FF7C063CF34]
+	(No symbol) [0x00007FF7C063D062]
+	(No symbol) [0x00007FF7C062D3A3]
+	BaseThreadInitThunk [0x00007FF805CD257D+29]
+	RtlUserThreadStart [0x00007FF806AAAA58+40]
+
+2023-12-21 06:46:35,579-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C06C82B2+55298]
+	(No symbol) [0x00007FF7C0635E02]
+	(No symbol) [0x00007FF7C04F05AB]
+	(No symbol) [0x00007FF7C0537A77]
+	(No symbol) [0x00007FF7C0535E39]
+	(No symbol) [0x00007FF7C0533C08]
+	(No symbol) [0x00007FF7C0532C8A]
+	(No symbol) [0x00007FF7C05287BF]
+	(No symbol) [0x00007FF7C05520AA]
+	(No symbol) [0x00007FF7C05280CF]
+	(No symbol) [0x00007FF7C05522C0]
+	(No symbol) [0x00007FF7C056AAA4]
+	(No symbol) [0x00007FF7C0551E83]
+	(No symbol) [0x00007FF7C052670A]
+	(No symbol) [0x00007FF7C0527964]
+	GetHandleVerifier [0x00007FF7C0A40AAB+3694587]
+	GetHandleVerifier [0x00007FF7C0A9728E+4048862]
+	GetHandleVerifier [0x00007FF7C0A8F173+4015811]
+	GetHandleVerifier [0x00007FF7C07647D6+695590]
+	(No symbol) [0x00007FF7C0640CE8]
+	(No symbol) [0x00007FF7C063CF34]
+	(No symbol) [0x00007FF7C063D062]
+	(No symbol) [0x00007FF7C062D3A3]
+	BaseThreadInitThunk [0x00007FF805CD257D+29]
+	RtlUserThreadStart [0x00007FF806AAAA58+40]
+
+2023-12-21 06:46:35,579-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-21 06:46:36,629-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C06C82B2+55298]
+	(No symbol) [0x00007FF7C0635E02]
+	(No symbol) [0x00007FF7C04F05AB]
+	(No symbol) [0x00007FF7C0537A77]
+	(No symbol) [0x00007FF7C0535E39]
+	(No symbol) [0x00007FF7C0533C08]
+	(No symbol) [0x00007FF7C0532C8A]
+	(No symbol) [0x00007FF7C05287BF]
+	(No symbol) [0x00007FF7C05520AA]
+	(No symbol) [0x00007FF7C05280CF]
+	(No symbol) [0x00007FF7C05522C0]
+	(No symbol) [0x00007FF7C056AAA4]
+	(No symbol) [0x00007FF7C0551E83]
+	(No symbol) [0x00007FF7C052670A]
+	(No symbol) [0x00007FF7C0527964]
+	GetHandleVerifier [0x00007FF7C0A40AAB+3694587]
+	GetHandleVerifier [0x00007FF7C0A9728E+4048862]
+	GetHandleVerifier [0x00007FF7C0A8F173+4015811]
+	GetHandleVerifier [0x00007FF7C07647D6+695590]
+	(No symbol) [0x00007FF7C0640CE8]
+	(No symbol) [0x00007FF7C063CF34]
+	(No symbol) [0x00007FF7C063D062]
+	(No symbol) [0x00007FF7C062D3A3]
+	BaseThreadInitThunk [0x00007FF805CD257D+29]
+	RtlUserThreadStart [0x00007FF806AAAA58+40]
+
+2023-12-21 06:46:36,630-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-21 06:46:37,085-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="15af39300d450ac29850c7ebfb4a8c3a")>
+2023-12-21 06:46:37,194-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2023-12-21 06:46:37,196-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from promotional-items
+2023-12-21 06:46:37,256-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a8d02863c4d06b2c91c3c65914f3dc1e")>
+2023-12-21 06:46:37,489-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING costumes. Number of items fetched: 40
+2023-12-21 06:46:37,491-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from costumes
+2023-12-21 06:46:38,246-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="303001d623469b1519303012280e58be")>
+2023-12-21 06:46:38,475-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING production. Number of items fetched: 38
+2023-12-21 06:46:38,476-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from production
+2023-12-21 06:46:38,977-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="07cf16bacb3660539538f9bedf25845b")>
+2023-12-21 06:46:39,215-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="b87511a73c65d6354b720a19ac3a8c2c")>
+2023-12-21 06:46:39,254-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING props. Number of items fetched: 40
+2023-12-21 06:46:39,256-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from props
+2023-12-21 06:46:39,328-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a46753bafcbe654bc8ab7ccb3032d2de")>
+2023-12-21 06:46:39,384-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING posters. Number of items fetched: 40
+2023-12-21 06:46:39,385-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from posters
+2023-12-21 06:46:39,424-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a02f1ce3e8ce288e809cc16abc0a5e36")>
+2023-12-21 06:46:39,560-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING autographs. Number of items fetched: 37
+2023-12-21 06:46:39,562-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from autographs
+2023-12-21 06:46:39,644-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING toys. Number of items fetched: 39
+2023-12-21 06:46:39,647-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from toys
+2023-12-21 06:46:40,460-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="24e303bf820b8c92dcc48d0ddade158a")>
+2023-12-21 06:46:40,695-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:71-FINISHED EXTRACTING artwork. Number of items fetched: 39
+2023-12-21 06:46:40,698-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from artwork
+2023-12-21 09:03:31,442-ERROR-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:75-Error in creating tables: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'release_year INT UNIQUE\n                    )' at line 4")
+2023-12-21 09:03:31,443-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 09:03:31,481-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: name 'movie_name' is not defined
+2023-12-21 09:05:01,773-ERROR-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:75-Error in creating tables: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'release_year INT UNIQUE\n                    )' at line 4")
+2023-12-21 09:05:01,773-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 09:05:01,806-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: name 'movie_name' is not defined
+2023-12-21 14:48:20,778-ERROR-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:75-Error in creating tables: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'release_year INT UNIQUE\n                    )' at line 4")
+2023-12-21 14:48:20,779-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 14:48:20,811-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1146, "Table 'propstore_details.movies' doesn't exist")
+2023-12-21 14:50:59,142-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 14:50:59,155-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 14:52:37,471-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 14:52:37,503-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 14:54:15,888-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 14:54:15,900-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 14:54:15,927-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 14:57:14,539-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 14:57:14,548-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 14:57:14,554-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 14:58:50,996-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 14:58:51,008-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 14:58:51,043-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:00:43,668-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:00:43,677-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:00:43,688-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:01:04,007-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:01:04,017-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:01:04,046-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:01:20,511-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:01:20,519-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:01:20,525-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:01:22,002-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:01:22,013-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:01:22,020-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:01:40,913-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:01:40,920-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:01:40,939-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:04:08,196-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:04:08,208-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:04:08,228-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:06:32,301-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:06:32,309-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:06:32,318-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:07:23,660-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:07:23,666-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:07:23,699-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:07:28,335-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:07:28,341-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:07:28,346-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1054, "Unknown column 'movies' in 'where clause'")
+2023-12-21 15:07:40,560-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:07:40,566-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:07:40,678-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1062, "Duplicate entry '2005' for key 'movies.release_year'")
+2023-12-21 15:09:03,489-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:09:03,495-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:09:03,522-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1265, "Data truncated for column 'release_year' at row 1")
+2023-12-21 15:09:26,747-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:09:26,792-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1265, "Data truncated for column 'release_year' at row 1")
+2023-12-21 15:11:16,902-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:11:16,909-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:11:16,963-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1265, "Data truncated for column 'release_year' at row 1")
+2023-12-21 15:11:37,283-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:11:37,291-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:11:37,331-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1265, "Data truncated for column 'release_year' at row 1")
+2023-12-21 15:12:28,500-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:12:28,614-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1062, "Duplicate entry '2005' for key 'movies.release_year'")
+2023-12-21 15:13:32,691-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:13:33,197-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1062, "Duplicate entry 'BATMAN' for key 'movies.movies_name'")
+2023-12-21 15:17:19,090-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:17:19,453-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1062, "Duplicate entry 'VARIOUS PRODUCTIONS' for key 'movies.movies_name'")
+2023-12-21 15:18:01,451-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:18:01,458-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:18:01,558-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1062, "Duplicate entry 'VARIOUS PRODUCTIONS' for key 'movies.movies_name'")
+2023-12-21 15:22:23,508-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:22:23,522-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database
+2023-12-21 15:22:23,693-ERROR-FILE:Create_SQL_database_structure.py-FUNC:main-LINE:109-Couldnt get connection: (1062, "Duplicate entry 'VARIOUS PRODUCTIONS' for key 'movies.movies_name'")
+2023-12-21 15:25:21,354-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:27-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-21 15:25:21,363-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:77-Finished creating database

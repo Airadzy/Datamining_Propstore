@@ -1,6 +1,7 @@
 import pymysql
 import csv
 from datetime import datetime
+import re
 
 
 def get_connection(config):
@@ -21,6 +22,27 @@ def load_data(path, connection):
     It processes each row in the CSV, parses various fields, and inserts them into the database.
     :return: None
     """
+
+    def parse_movie_name_and_year(movie_item):
+        """
+        Parses a string containing a movie's name and its release year.
+
+        :param movie_item: A string in the format "Movie Name (Release Year)".
+        :return: A tuple containing the movie's name and release year. Returns (None, None) if parsing fails or the format is incorrect.
+        """
+
+        try:
+            match = re.search(r"\(\d", movie_item)
+            if match:
+                movies_name_position = match.start()
+                movies_name, release_year = movie_item[:movies_name_position - 1], movie_item[movies_name_position + 1:-1]
+                return movies_name, release_year
+            else:
+                print(f"Invalid format for movie item {movie_item}. Expected format: 'Movie Name (Release Year)'")
+                return movie_item, None
+        except Exception as error:
+            print(f"Error in parsing movie name and year: {error}")
+            return None, None
 
     def parse_price(price_str):
         """
@@ -92,20 +114,41 @@ def load_data(path, connection):
         cursor.execute("INSERT INTO status (status, sold_date) VALUES (%s, %s)", (status, sold_date))
         return cursor.lastrowid
 
+    def create_or_get_movies_id(cursor, movies_name, release_year):
+        """
+        Retrieve or create a status ID for a given status and sold date.
+
+        :param cursor: The database cursor for executing queries.
+        :param status: The status of the item.
+        :param sold_date: The date when the item was sold.
+        :return: The ID of the existing or newly inserted status.
+        """
+        try:
+            cursor.execute("SELECT movies_id FROM movies WHERE movies_name = %s", (movies_name,))
+            result = cursor.fetchone()
+            if result:
+                return result['movies_id']
+
+            cursor.execute("INSERT INTO movies (movies_name, release_year) VALUES (%s, %s)", (movies_name, release_year))
+            return cursor.lastrowid
+        except pymysql.err.IntegrityError as e:
+            print(f"Integrity error: {e}")
+
     with connection.cursor() as cursor:
         with open(path, "r") as file:
             reader = csv.DictReader(file)
             for row in reader:
                 price, currencies = parse_price(row["price"]) if row["price"] else (None, None)
+                movies_name, release_year, = parse_movie_name_and_year(row["movie_name"]) if row["movie_name"] else (
+                    None, None)
                 sold_date = parse_date(row["sold_date"]) if row["sold_date"].strip() else None
 
                 categories = row["category"]
-                movie_name = row["movie_name"]
                 card_title = row["card_title"]
                 status = row["button"]
 
                 categories_id = create_or_get_id(cursor, 'categories', 'categories', categories)
-                movies_id = create_or_get_id(cursor, 'movies', 'movies_name', movie_name)
+                movies_id = create_or_get_movies_id(cursor, movies_name, release_year)
                 currencies_id = create_or_get_id(cursor, 'currencies', 'currencies', currencies)
                 status_id = create_or_get_status_id(cursor, status, sold_date)
 

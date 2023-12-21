@@ -37,7 +37,8 @@ def create_database(config, connection):
             cursor.execute("""
                     CREATE TABLE IF NOT EXISTS movies (
                         movies_id INT AUTO_INCREMENT PRIMARY KEY,
-                        movies_name VARCHAR(255) UNIQUE 
+                        movies_name VARCHAR(255) UNIQUE, 
+                        release_year VARCHAR(40)
                     )
                 """)
             cursor.execute("""
