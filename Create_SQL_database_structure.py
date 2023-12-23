@@ -1,9 +1,6 @@
 import pymysql
 import pymysql.err
-import SQL_data_loading
-from pathlib import Path
 import logging
-from main_file import load_config
 import main_file
 
 logging.basicConfig(filename=main_file.log_filename,
@@ -20,8 +17,6 @@ def create_database(config, connection):
     :param connection: A pymysql connection object used to execute database operations.
     :return: None. The function creates a database and tables, and handles exceptions internally.
     """
-    config = load_config(main_file.config_filename)
-
 
     with connection.cursor() as cursor:
         try:

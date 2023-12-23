@@ -1,4 +1,10 @@
 import requests
+import logging
+
+logging.basicConfig(filename="Propstore.log",
+                    format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
+                    level=logging.INFO)
+
 
 def create_omdb_session(api_key):
     """
@@ -12,29 +18,26 @@ def create_omdb_session(api_key):
 
 
 class Movie:
-    def __init__(self, movie_name, year, session, api_key):
+    def __init__(self, movie_name, year, session):
         self.movie_name = movie_name
         self.year = year
         self.session = session
-        self.api_key = api_key
 
     def info(self):
-        path = f"http://www.omdbapi.com/?t={self.movie_name}&y={self.year}&apikey={self.api_key}"
-        response = self.session.get(path)
+        response = self.session.get("http://www.omdbapi.com/", params={"t": self.movie_name, "y": self.year})
         return response.json()
 
 
-def OMDB_data_loading(connection, session, api_key):
+def load_OMDB_data(connection, session):
     try:
         with connection.cursor() as cursor:
             cursor.execute("Select * from movies WHERE API_title IS NULL;")
             movies = cursor.fetchall()
 
             for movie in movies:
-                movie_info = Movie(movie["movies_name"], movie["release_year"], session, api_key).info()
+                movie_info = Movie(movie["movies_name"], movie["release_year"], session).info()
                 if movie_info['Response'] == "False":
-                    print(
-                        f"Error fetching data for {movie['movies_name']} {movie['release_year']}: {movie_info.get('Error', 'Unknown Error')}")
+                    logging.error(f"Error fetching data for {movie['movies_name']} {movie['release_year']}: {movie_info.get('Error', 'Unknown Error')}")
                     continue
                 cursor.execute(
                     "UPDATE movies SET API_title = %s, "
@@ -47,10 +50,12 @@ def OMDB_data_loading(connection, session, api_key):
                      movie_info.get("Awards", None),
                      movie_info.get("imdbRating", None), movie_info.get("Metascore", None),
                      movie_info.get("BoxOffice", None), movie["movies_id"]))
-
-            connection.commit()
-            print("All OMDB movies inserted into database")
+        connection.commit()
+        logging.info("All OMDB movies inserted into database")
+        print("All OMDB movies inserted into database")
     except Exception as error:
         print(f"An error occurred: {error}")
     finally:
         connection.close()
+        logging.info("Database connection closed")
+

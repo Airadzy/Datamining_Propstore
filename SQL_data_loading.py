@@ -34,8 +34,14 @@ def load_data(items_list, connection):
             match = re.search(r"\(\d", movie_item)
             if match:
                 movies_name_position = match.start()
-                movies_name, release_year = movie_item[:movies_name_position - 1], movie_item[
-                                                                                   movies_name_position + 1:movies_name_position + 5]
+                full_movie_name = movie_item[:movies_name_position].strip()
+                if full_movie_name.lower().endswith(", the"):
+                    movies_name = full_movie_name.rsplit(',', 1)[0].strip()
+                else:
+                    movies_name = full_movie_name
+
+                release_year = movie_item[movies_name_position + 1:movies_name_position + 5]
+
                 return movies_name, release_year
             else:
                 return movie_item, None
@@ -156,4 +162,3 @@ def load_data(items_list, connection):
                     "%s,%s,%s,%s,%s,%s)",
                     (card_title, categories_id, status_id, movies_id, price, currencies_id))
             connection.commit()
-

@@ -93,8 +93,8 @@ def main():
                 SQL_data_loading.load_data(item, connection)
 
         omdb_session = OMDB_API_data_loading.create_omdb_session(config["OMDB_api_key"])
-        OMDB_API_data_loading.OMDB_data_loading(connection,omdb_session,config["OMDB_api_key"])
-
+        OMDB_API_data_loading.load_OMDB_data(connection,omdb_session)
+        print("Successfully finished running the program")
 
     except UnboundLocalError as error:
         logging.error(f"Error: {error}")

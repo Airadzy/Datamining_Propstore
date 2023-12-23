@@ -48560,3 +48560,1943 @@ Stacktrace:
 2023-12-23 11:40:02,163-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from props
 2023-12-23 11:40:02,177-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING production. Number of items fetched: 1333
 2023-12-23 11:40:02,198-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from production
+2023-12-23 17:39:07,725-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-23 17:39:07,775-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:30-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-23 17:39:07,802-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:91-Finished creating database
+2023-12-23 17:39:11,457-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:39:11,460-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:39:11,462-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:39:11,477-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:39:11,478-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:39:11,483-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:39:11,485-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:39:11,486-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:39:22,962-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:22,973-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:22,973-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:39:23,366-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:23,379-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:23,380-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:39:24,437-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:24,438-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:39:24,976-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:25,063-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:25,064-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:39:25,382-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:25,595-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:25,595-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:39:25,640-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:25,640-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:39:25,720-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:25,720-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:39:26,440-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:27,067-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:27,597-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:27,643-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:27,724-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:113-ERROR IN THE SCROLL WEBSITE FUNCTION: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADE80038]
+	(No symbol) [0x00007FF7ADF06BC7]
+	(No symbol) [0x00007FF7ADF1A15F]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:39:28,778-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2023-12-23 17:39:32,888-WARNING-FILE:connectionpool.py-FUNC:urlopen-LINE:871-Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002349D9F1510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2b991351a3cb7307181a638201240aaf/element
+2023-12-23 17:40:29,277-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-23 17:40:29,614-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:91-Finished creating database
+2023-12-23 17:40:31,200-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:40:31,207-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:40:31,219-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:40:31,225-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:40:31,227-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:40:31,228-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:40:31,237-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 17:40:41,393-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:40:41,394-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:40:41,621-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:40:41,622-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:40:41,668-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:40:41,669-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:40:41,690-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:40:41,691-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:40:41,691-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:40:41,692-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:40:42,007-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:40:42,007-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:40:42,406-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:40:42,406-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:40:43,070-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 17:40:43,070-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 17:40:55,471-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a221aa85ff183742bbdbc66c3f644396")>
+2023-12-23 17:40:55,566-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2023-12-23 17:40:55,567-ERROR-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:29-ERROR IN WRITE CSV FILE: {error}
+2023-12-23 17:41:25,718-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="05c27167ec6c2093ed1e18352e0cd122")>
+2023-12-23 17:41:26,132-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="60c8b73f1453afa6163b6c7e4f2d2e3f")>
+2023-12-23 17:41:26,272-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="4f9d726b84ee7d697808f22d9bc5f0af")>
+2023-12-23 17:41:26,423-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="95dc538cd1f8559ff6118d1e5781bc36")>
+2023-12-23 17:41:26,630-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="dd1c72515d5d8edf95042f9005c972c1")>
+2023-12-23 17:41:26,637-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f8b0b1e811ad5adf9449a955f63f3f65")>
+2023-12-23 17:41:26,891-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="623a7fb21df38f1de6f15abccb1f6e12")>
+2023-12-23 17:41:27,599-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING props. Number of items fetched: 788
+2023-12-23 17:41:27,599-ERROR-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:29-ERROR IN WRITE CSV FILE: {error}
+2023-12-23 17:41:27,967-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING artwork. Number of items fetched: 708
+2023-12-23 17:41:27,967-ERROR-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:29-ERROR IN WRITE CSV FILE: {error}
+2023-12-23 17:41:28,309-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING costumes. Number of items fetched: 740
+2023-12-23 17:41:28,310-ERROR-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:29-ERROR IN WRITE CSV FILE: {error}
+2023-12-23 17:41:28,336-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING toys. Number of items fetched: 758
+2023-12-23 17:41:28,337-ERROR-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:29-ERROR IN WRITE CSV FILE: {error}
+2023-12-23 17:41:28,563-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING autographs. Number of items fetched: 751
+2023-12-23 17:41:28,564-ERROR-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:29-ERROR IN WRITE CSV FILE: {error}
+2023-12-23 17:41:28,619-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING production. Number of items fetched: 786
+2023-12-23 17:41:28,620-ERROR-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:29-ERROR IN WRITE CSV FILE: {error}
+2023-12-23 17:41:28,829-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING posters. Number of items fetched: 793
+2023-12-23 17:41:28,830-ERROR-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:29-ERROR IN WRITE CSV FILE: {error}
+2023-12-23 18:06:19,662-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:22,165-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:22,897-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:22,900-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:22,900-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:22,998-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-23 18:06:23,009-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:25-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-23 18:06:23,023-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:86-Finished creating database
+2023-12-23 18:06:24,016-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,042-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,085-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,100-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,103-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,107-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,145-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,145-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,169-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,172-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,178-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,189-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,190-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,194-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,232-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,233-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,270-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,272-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,272-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,279-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,279-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,289-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,292-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,300-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,317-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,320-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:06:24,365-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,368-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,376-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,384-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,405-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,408-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:06:24,459-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,494-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,504-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:06:24,649-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:24,868-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:25,954-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:25,955-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:26,042-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:26,124-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:26,481-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:26,481-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:26,573-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:26,662-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:06:26,679-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:26,953-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:06:27,028-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:27,028-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:27,110-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:27,195-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:27,544-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:27,544-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:27,647-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:27,653-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:06:27,746-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:28,139-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:28,140-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:28,238-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:28,335-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:28,709-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:06:28,751-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:28,751-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:28,841-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:28,933-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:29,306-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:29,307-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:29,401-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:29,446-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:06:29,492-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:29,846-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:06:29,921-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:29,921-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:30,019-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:30,125-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:30,513-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:30,513-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:30,602-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:30,685-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:30,730-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:06:31,076-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:31,078-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:31,187-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:31,287-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:31,682-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:31,685-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:31,788-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:06:31,876-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:06:32,261-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:06:32,262-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:06:35,236-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:06:37,165-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:06:37,165-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:06:37,220-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:06:37,220-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:06:37,655-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:06:37,655-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:06:37,945-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:06:37,946-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:06:38,246-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:06:38,246-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:06:38,848-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:06:38,850-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:06:39,957-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <button type="submit" class="waves-effect waves-light btn modal-register__submit">...</button> is not clickable at point (518, 656). Other element would receive the click: <div class="modal__title modal-mail__title">...</div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:06:41,072-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:06:41,072-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:06:44,931-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="91b6dfe88af80c37dc240981882f2368")>
+2023-12-23 18:06:45,317-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING autographs. Number of items fetched: 38
+2023-12-23 18:06:45,324-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from autographs
+2023-12-23 18:06:47,779-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.111); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEAE59A]
+	(No symbol) [0x00007FF7ADEA59E9]
+	(No symbol) [0x00007FF7ADEA4298]
+	(No symbol) [0x00007FF7ADEA6FDF]
+	(No symbol) [0x00007FF7ADEA70D0]
+	(No symbol) [0x00007FF7ADEE3265]
+	(No symbol) [0x00007FF7ADED8586]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:06:47,780-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:06:51,634-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="ccf02f4aa5f7b8149095f4d7f38002a8")>
+2023-12-23 18:06:51,750-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2023-12-23 18:06:51,752-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from promotional-items
+2023-12-23 18:07:26,344-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="4b07f849cb3f30176eeab16e75c629fe")>
+2023-12-23 18:07:26,358-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="ddb473155eb54a2649c67f6d51f6f84c")>
+2023-12-23 18:07:26,807-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="78a6ae93a5be8f67754aa6c52aea563c")>
+2023-12-23 18:07:26,974-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="80de842d93595e662dfe4a3cc6748f95")>
+2023-12-23 18:07:27,343-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="2fe6c995db05ff9b02157c1e80a7962a")>
+2023-12-23 18:07:27,398-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="39cc9ba31699d470d7115f93099ea427")>
+2023-12-23 18:07:28,300-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING posters. Number of items fetched: 913
+2023-12-23 18:07:28,309-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from posters
+2023-12-23 18:07:29,005-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING production. Number of items fetched: 905
+2023-12-23 18:07:29,010-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from production
+2023-12-23 18:07:29,083-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING artwork. Number of items fetched: 908
+2023-12-23 18:07:29,095-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from artwork
+2023-12-23 18:07:29,410-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING toys. Number of items fetched: 918
+2023-12-23 18:07:29,421-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from toys
+2023-12-23 18:07:30,454-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING costumes. Number of items fetched: 1695
+2023-12-23 18:07:30,465-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from costumes
+2023-12-23 18:07:31,189-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING props. Number of items fetched: 1702
+2023-12-23 18:07:31,197-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from props
+2023-12-23 18:08:32,083-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:32,174-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:32,265-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:32,356-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:32,448-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:32,815-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:34,057-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:34,059-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:34,060-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-23 18:08:34,065-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:25-Database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-23 18:08:34,077-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:86-Finished creating database
+2023-12-23 18:08:34,977-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:34,988-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,004-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,034-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,038-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,068-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,070-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,072-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,086-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,095-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,097-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,102-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,106-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,118-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,130-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,143-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,147-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:08:35,154-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,162-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,162-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,178-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,184-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,187-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,187-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,201-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,204-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,223-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,230-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,234-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:08:35,242-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,250-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,258-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,262-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,271-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,271-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,284-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,287-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,301-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,308-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,317-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,324-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:08:35,341-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,341-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,344-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,352-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,355-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,365-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,366-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,370-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,387-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,394-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,411-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,419-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:08:35,425-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,426-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,427-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,439-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,444-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,452-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,458-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,467-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,470-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,490-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,511-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:08:35,513-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,515-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,518-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,525-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,541-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,545-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,586-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:35,603-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:08:36,003-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:36,589-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:36,598-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:36,599-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:36,688-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:36,859-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:36,860-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:36,860-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:36,959-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:37,143-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:37,143-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:37,143-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:37,300-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:08:37,351-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:08:37,431-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:37,611-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:37,613-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:37,613-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:37,697-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:37,725-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:08:37,859-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:37,860-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:37,860-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:37,958-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:38,149-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:38,149-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:38,150-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:38,241-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:38,426-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:38,427-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:38,428-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:38,518-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:38,569-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:08:38,700-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:38,702-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:38,702-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:38,811-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:39,014-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:39,015-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:39,015-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:39,103-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:39,297-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:39,298-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:39,298-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:39,359-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:08:39,386-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:39,563-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:39,564-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:39,565-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:39,667-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:08:39,810-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:08:39,873-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:08:39,873-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:08:39,873-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:08:39,888-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:08:40,043-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:08:49,681-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:08:49,988-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:08:49,988-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:08:50,509-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:08:51,250-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:08:51,802-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:08:51,848-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:08:52,266-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:08:59,954-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:08:59,954-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:09:00,267-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:09:00,267-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:09:00,270-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:09:00,271-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:09:00,786-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:09:00,786-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:09:01,537-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:09:01,540-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:09:02,054-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:09:02,054-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:09:02,151-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:09:02,151-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:09:02,569-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE175C]
+	(No symbol) [0x00007FF7ADEE18DC]
+	(No symbol) [0x00007FF7ADF1CBC7]
+	(No symbol) [0x00007FF7ADF020EF]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:09:02,569-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:09:03,792-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="75f1d34d61bed517d964a737cb512245")>
+2023-12-23 18:09:03,799-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING costumes. Number of items fetched: 0
+2023-12-23 18:09:03,799-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:17-items_list is empty. No CSV file created.
+2023-12-23 18:09:03,799-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from costumes
+2023-12-23 18:09:04,102-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f180df637ad178b4a40f60883e7f9369")>
+2023-12-23 18:09:04,105-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="b3290cd60067a5719dd49b8cde353c9b")>
+2023-12-23 18:09:04,105-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING artwork. Number of items fetched: 0
+2023-12-23 18:09:04,105-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:17-items_list is empty. No CSV file created.
+2023-12-23 18:09:04,106-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from artwork
+2023-12-23 18:09:04,118-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING props. Number of items fetched: 0
+2023-12-23 18:09:04,118-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:17-items_list is empty. No CSV file created.
+2023-12-23 18:09:04,119-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from props
+2023-12-23 18:09:04,624-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="31f88e1207e4f72f6acbeed96a4e9966")>
+2023-12-23 18:09:04,628-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING posters. Number of items fetched: 0
+2023-12-23 18:09:04,628-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:17-items_list is empty. No CSV file created.
+2023-12-23 18:09:04,628-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from posters
+2023-12-23 18:09:05,379-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="6cc65d287b638d79c71798b6080a1431")>
+2023-12-23 18:09:05,385-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING toys. Number of items fetched: 0
+2023-12-23 18:09:05,385-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:17-items_list is empty. No CSV file created.
+2023-12-23 18:09:05,386-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from toys
+2023-12-23 18:09:05,881-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="df5fa0438284d8c7d742b5a655e1308c")>
+2023-12-23 18:09:05,886-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING production. Number of items fetched: 0
+2023-12-23 18:09:05,886-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:17-items_list is empty. No CSV file created.
+2023-12-23 18:09:05,887-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from production
+2023-12-23 18:09:06,004-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="858c6b14023245c1b565d9ce8b992f36")>
+2023-12-23 18:09:06,009-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING autographs. Number of items fetched: 0
+2023-12-23 18:09:06,009-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:17-items_list is empty. No CSV file created.
+2023-12-23 18:09:06,010-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from autographs
+2023-12-23 18:09:06,401-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f7c675d706846e963d786638bd15aa29")>
+2023-12-23 18:09:06,406-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING promotional-items. Number of items fetched: 0
+2023-12-23 18:09:06,406-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:17-items_list is empty. No CSV file created.
+2023-12-23 18:09:06,407-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from promotional-items
+2023-12-23 18:09:12,925-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:09:13,012-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:09:13,103-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:09:13,205-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:09:13,303-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:09:13,396-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:09:13,481-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:09:13,572-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:41-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:09:14,055-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:55-All OMDB movies inserted into database
+2023-12-23 18:09:14,056-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:11:24,486-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:11:24,575-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:11:24,668-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:11:24,757-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:11:24,847-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:11:24,947-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:11:25,039-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:11:25,132-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:11:25,864-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:54-All OMDB movies inserted into database
+2023-12-23 18:11:25,865-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:59-Database connection closed
+2023-12-23 18:11:27,814-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:11:28,194-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:11:28,585-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:11:28,799-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:11:29,199-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:11:29,576-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:59-Database connection closed
+2023-12-23 18:11:31,989-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:11:32,080-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:11:32,171-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:11:32,291-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:11:32,391-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:11:32,488-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:11:32,585-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:11:32,697-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:11:33,301-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:54-All OMDB movies inserted into database
+2023-12-23 18:11:33,301-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:59-Database connection closed
+2023-12-23 18:13:30,854-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:59-Database connection closed
+2023-12-23 18:13:31,559-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for AVP: ALIEN VS. PREDATOR 2004: Movie not found!
+2023-12-23 18:13:31,691-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998: Movie not found!
+2023-12-23 18:13:31,792-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for KROFFT SUPERSHOW, THE 1976: Movie not found!
+2023-12-23 18:13:31,889-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for MATRIX RELOADED, THE 2003: Movie not found!
+2023-12-23 18:13:31,982-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for DARK KNIGHT RISES, THE 2012: Movie not found!
+2023-12-23 18:13:32,075-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967: Movie not found!
+2023-12-23 18:13:32,169-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012: Movie not found!
+2023-12-23 18:13:32,263-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for MARTIAN, THE 2015: Movie not found!
+2023-12-23 18:13:32,915-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:54-All OMDB movies inserted into database
+2023-12-23 18:13:32,916-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
+2023-12-23 18:25:13,340-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-23 18:25:14,506-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:86-Finished creating database
+2023-12-23 18:25:16,518-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:25:16,527-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:25:16,534-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:25:16,538-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:25:16,574-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:25:16,585-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:25:16,610-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:25:16,610-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-23 18:25:28,635-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:25:28,635-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:25:28,635-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:25:29,080-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:25:29,081-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:25:29,149-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:25:29,150-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:25:29,152-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:25:29,152-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:25:29,167-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:25:29,167-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:25:29,249-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:25:29,249-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:25:29,580-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Logging in TO WEBSITE: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AE0782B2+55298]
+	(No symbol) [0x00007FF7ADFE5E02]
+	(No symbol) [0x00007FF7ADEA05AB]
+	(No symbol) [0x00007FF7ADEE7A77]
+	(No symbol) [0x00007FF7ADEE5E39]
+	(No symbol) [0x00007FF7ADEE3C08]
+	(No symbol) [0x00007FF7ADEE2C8A]
+	(No symbol) [0x00007FF7ADED87BF]
+	(No symbol) [0x00007FF7ADF020AA]
+	(No symbol) [0x00007FF7ADED80CF]
+	(No symbol) [0x00007FF7ADF022C0]
+	(No symbol) [0x00007FF7ADF1AAA4]
+	(No symbol) [0x00007FF7ADF01E83]
+	(No symbol) [0x00007FF7ADED670A]
+	(No symbol) [0x00007FF7ADED7964]
+	GetHandleVerifier [0x00007FF7AE3F0AAB+3694587]
+	GetHandleVerifier [0x00007FF7AE44728E+4048862]
+	GetHandleVerifier [0x00007FF7AE43F173+4015811]
+	GetHandleVerifier [0x00007FF7AE1147D6+695590]
+	(No symbol) [0x00007FF7ADFF0CE8]
+	(No symbol) [0x00007FF7ADFECF34]
+	(No symbol) [0x00007FF7ADFED062]
+	(No symbol) [0x00007FF7ADFDD3A3]
+	BaseThreadInitThunk [0x00007FFF716B257D+29]
+	RtlUserThreadStart [0x00007FFF7338AA58+40]
+
+2023-12-23 18:25:29,580-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:100-Ran function None
+2023-12-23 18:25:38,561-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="e46a0f861beaa7dd8cd29bd3dad8cafe")>
+2023-12-23 18:25:38,659-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2023-12-23 18:25:38,661-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from promotional-items
+2023-12-23 18:26:00,201-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="628d0e7f55b8787799252555e5cda1c3")>
+2023-12-23 18:26:02,670-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING posters. Number of items fetched: 1138
+2023-12-23 18:26:02,679-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from posters
+2023-12-23 18:26:15,779-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="1f0706a1592f2faec4e5e331691148a6")>
+2023-12-23 18:26:16,130-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="cf806813427431a741ef8c42b4feac74")>
+2023-12-23 18:26:16,142-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="c42e3973acc9b83e4a3629afca7f487e")>
+2023-12-23 18:26:16,511-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="bf5e7218302c34afd0ca6e6987f03fdb")>
+2023-12-23 18:26:16,647-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="98f9e30b6d4a40c978b7ad25c97fa0c2")>
+2023-12-23 18:26:17,102-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:29-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="caf4dcbdb897c4001d5084667108549d")>
+2023-12-23 18:26:17,572-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING production. Number of items fetched: 825
+2023-12-23 18:26:17,579-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from production
+2023-12-23 18:26:17,901-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING autographs. Number of items fetched: 870
+2023-12-23 18:26:17,908-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from autographs
+2023-12-23 18:26:18,106-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING props. Number of items fetched: 827
+2023-12-23 18:26:18,113-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from props
+2023-12-23 18:26:18,693-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING artwork. Number of items fetched: 868
+2023-12-23 18:26:18,699-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from artwork
+2023-12-23 18:26:18,865-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING costumes. Number of items fetched: 860
+2023-12-23 18:26:18,872-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from costumes
+2023-12-23 18:26:19,013-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:69-FINISHED EXTRACTING toys. Number of items fetched: 878
+2023-12-23 18:26:19,024-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:26-Successfully inserted into csv file data from toys
+2023-12-23 18:26:46,548-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for FIVE CHILDREN & IT 2004: Movie not found!
+2023-12-23 18:26:46,901-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:40-Error fetching data for STAR TREK: FRANCHISE None: Movie not found!
+2023-12-23 18:26:48,137-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:54-All OMDB movies inserted into database
+2023-12-23 18:26:48,138-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:60-Database connection closed
