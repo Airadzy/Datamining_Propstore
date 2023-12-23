@@ -28,8 +28,6 @@ def extract_to_csv(items_list, category, config):
     except Exception as error:
         logging.error(config["csv_error_message"])
         print(config["csv_error_message"])
-    finally:
-        pass
 
 
 def extract_data(html_content, category_url, option, config):
@@ -70,6 +68,7 @@ def extract_data(html_content, category_url, option, config):
         print(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")
         logging.info(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")
         extract_to_csv(items_list, category, config)
+        return items_list
 
     except Exception as error:
         logging.error(f"Error in extract_data: {error}")

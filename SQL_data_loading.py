@@ -1,5 +1,4 @@
 import pymysql
-import csv
 from datetime import datetime
 import re
 
@@ -16,7 +15,7 @@ def get_connection(config):
     return connection
 
 
-def load_data(path, connection):
+def load_data(items_list, connection):
     """
     Main function to load data from a CSV file into the Propstore_details database.
     It processes each row in the CSV, parses various fields, and inserts them into the database.
@@ -35,10 +34,10 @@ def load_data(path, connection):
             match = re.search(r"\(\d", movie_item)
             if match:
                 movies_name_position = match.start()
-                movies_name, release_year = movie_item[:movies_name_position - 1], movie_item[movies_name_position + 1:-1]
+                movies_name, release_year = movie_item[:movies_name_position - 1], movie_item[
+                                                                                   movies_name_position + 1:movies_name_position + 5]
                 return movies_name, release_year
             else:
-                print(f"Invalid format for movie item {movie_item}. Expected format: 'Movie Name (Release Year)'")
                 return movie_item, None
         except Exception as error:
             print(f"Error in parsing movie name and year: {error}")
@@ -129,33 +128,32 @@ def load_data(path, connection):
             if result:
                 return result['movies_id']
 
-            cursor.execute("INSERT INTO movies (movies_name, release_year) VALUES (%s, %s)", (movies_name, release_year))
+            cursor.execute("INSERT INTO movies (movies_name, release_year) VALUES (%s, %s)",
+                           (movies_name, release_year))
             return cursor.lastrowid
         except pymysql.err.IntegrityError as e:
             print(f"Integrity error: {e}")
 
     with connection.cursor() as cursor:
-        with open(path, "r") as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                price, currencies = parse_price(row["price"]) if row["price"] else (None, None)
-                movies_name, release_year, = parse_movie_name_and_year(row["movie_name"]) if row["movie_name"] else (
-                    None, None)
-                sold_date = parse_date(row["sold_date"]) if row["sold_date"].strip() else None
+        for item in items_list:
+            price, currencies = parse_price(item[4]) if item[4] else (None, None)
+            movies_name, release_year, = parse_movie_name_and_year(item[2]) if item[2] else (
+                None, None)
+            sold_date = parse_date(item[5]) if item[5] else None
 
-                categories = row["category"]
-                card_title = row["card_title"]
-                status = row["button"]
+            categories = item[1]
+            card_title = item[3]
+            status = item[0]
 
-                categories_id = create_or_get_id(cursor, 'categories', 'categories', categories)
-                movies_id = create_or_get_movies_id(cursor, movies_name, release_year)
-                currencies_id = create_or_get_id(cursor, 'currencies', 'currencies', currencies)
-                status_id = create_or_get_status_id(cursor, status, sold_date)
+            categories_id = create_or_get_id(cursor, 'categories', 'categories', categories)
+            movies_id = create_or_get_movies_id(cursor, movies_name, release_year)
+            currencies_id = create_or_get_id(cursor, 'currencies', 'currencies', currencies)
+            status_id = create_or_get_status_id(cursor, status, sold_date)
 
-                if categories_id and movies_id and status_id and currencies_id:
-                    cursor.execute(
-                        "INSERT INTO items (description,categories_id,status_id,movies_id,price,currencies_id) VALUES (%s,%s,%s,%s,%s,%s)",
-                        (card_title, categories_id, status_id, movies_id, price, currencies_id))
+            if categories_id and movies_id and status_id and currencies_id:
+                cursor.execute(
+                    "INSERT INTO items (description,categories_id,status_id,movies_id,price,currencies_id) VALUES ("
+                    "%s,%s,%s,%s,%s,%s)",
+                    (card_title, categories_id, status_id, movies_id, price, currencies_id))
+            connection.commit()
 
-                connection.commit()
-    connection.close()

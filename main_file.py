@@ -3,6 +3,10 @@ from multiprocessing import Pool
 import logging
 import Selenium_functions
 import argparse
+import Create_SQL_database_structure
+import SQL_data_loading
+import OMDB_API_data_loading
+import pymysql
 
 log_filename = 'Propstore.log'
 config_filename = "config.json"
@@ -76,12 +80,25 @@ def main():
         option = "live_items" if args.live else "sold_items" if args.sold else "all_items"
         logging.info(f"Scraping {option} on Propstore.com for {categories}")
         print(f"Scraping {option} on Propstore.com for {categories}")
+        connection_without_database = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"],
+                                                      password=config["SQL_password"],
+                                                      cursorclass=pymysql.cursors.DictCursor)
+        Create_SQL_database_structure.create_database(config,connection_without_database)
+        connection = SQL_data_loading.get_connection(config)
         with Pool() as pool:
-            pool.starmap(Selenium_functions.process_category,
-                         [(category_url, username, password, option, config) for category_url in category_url_list])
+            items_list = pool.starmap(Selenium_functions.process_category,
+                                   [(category_url, username, password, option, config) for category_url in
+                                    category_url_list])
+            for item in items_list:
+                SQL_data_loading.load_data(item, connection)
+
+        OMDB_API_data_loading.OMDB_data_loading(connection)
+
+
     except UnboundLocalError as error:
         logging.error(f"Error: {error}")
         print(f"Please define the scrape method")
+
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 import requests
+import pymysql
 
 OMDB_API_KEY = "b98bb901"
 
@@ -6,7 +7,7 @@ session = requests.Session()
 session.params = {}
 session.params["api_key"] = OMDB_API_KEY
 
-class movie(object):
+class movie:
     def __init__(self,movie_name,year):
         self.movie_name = movie_name
         self.year = year

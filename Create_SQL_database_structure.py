@@ -20,6 +20,9 @@ def create_database(config, connection):
     :param connection: A pymysql connection object used to execute database operations.
     :return: None. The function creates a database and tables, and handles exceptions internally.
     """
+    config = load_config(main_file.config_filename)
+
+
     with connection.cursor() as cursor:
         try:
             cursor.execute(f"CREATE DATABASE {config['database_name']};")
@@ -38,7 +41,18 @@ def create_database(config, connection):
                     CREATE TABLE IF NOT EXISTS movies (
                         movies_id INT AUTO_INCREMENT PRIMARY KEY,
                         movies_name VARCHAR(255) UNIQUE, 
-                        release_year VARCHAR(40)
+                        release_year VARCHAR(255),
+                        API_title VARCHAR (255),
+                        API_year VARCHAR(255),
+                        API_rated VARCHAR(255),
+                        API_runtime VARCHAR(255),
+                        API_genre VARCHAR(255),
+                        API_directors VARCHAR(255),
+                        API_country VARCHAR(255),
+                        API_awards VARCHAR(255),
+                        API_rating_imdb VARCHAR(255),
+                        API_rating_metascore VARCHAR(255),
+                        API_boxoffice VARCHAR(255)
                     )
                 """)
             cursor.execute("""
@@ -76,39 +90,3 @@ def create_database(config, connection):
         finally:
             logging.info("Finished creating database")
             print("Finished creating database")
-
-
-def main():
-    """
-    The main function to execute the database creation and data loading process.
-    It loads the configuration, establishes a connection to the database, creates the database,
-    and loads data from a CSV file into the database. Handles exceptions and logs errors during the process.
-
-    :return: None
-    """
-    try:
-        config = load_config(main_file.config_filename)
-        connection_without_database = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"],
-                                                      password=config["SQL_password"],
-                                                      cursorclass=pymysql.cursors.DictCursor)
-        create_database(config, connection_without_database)
-    except Exception as error:
-        logging.error(f"Error in database creation process: {error}")
-        print(f"Error in database creation process: {error}")
-        return
-
-    try:
-        connection = SQL_data_loading.get_connection(config)
-        path = Path(config["csv_file_path"])
-        if path:
-            SQL_data_loading.load_data(path, connection)
-            print("finished loading items into database")
-        else:
-            print(f"Need to create propstore.csv file first")
-    except Exception as error:
-        logging.error(f"Couldnt get connection: {error}")
-        print(f"Couldnt get connection: {error}")
-
-
-if __name__ == "__main__":
-    main()
