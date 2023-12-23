@@ -1,7 +1,11 @@
 {
+    "username": "[ENTER PROPSTORE EMAIL HERE]",
+    "password": "[ENTER PROPSTORE PASSWORD HERE]",
+    "OMDB_api_key": "[ENTER OMDB API KEY HERE]",
+    "SQL_host": "localhost",
+    "SQL_user": "[ENTER SQL USERNAME HERE]",
+    "SQL_password": "[ENTER SQL PASSWORD HERE]",
     "url": "https://propstore.com/products/?sortType=5&buyNow=1&archive=1&scroll=220",
-    "username": "a.radzyminski@icloud.com",
-    "password": "tze_fby9UPG1vek4vey",
     "category_list": ["props", "costumes", "artwork", "posters", "toys", "production", "autographs", "promotional-items"],
     "scrape_category_warning": "Warning: The category '{category}' doesn't exist or has not been included. Skipping...",
     "argparse_help_text": "Welcome to the Propstore mining tool. Please enter your desired items to be scraped in this format: function [--all / --categories Category_1 Category_2 ...] [--live / --sold] Categories to choose from (can select multiple): props, costumes, artwork, posters, toys, production, autographs, promotional-items \n Examples: 1. propstore_scraper.py --all | Scrape all content on website 2. propstore_scraper.py --categories props costumes | Scrape only categories props and costumes 3. propstore_scraper.py --all --live | Scrape across all categories only the items that are currently being sold 4. propstore_scraper.py --categories artwork posters --sold | Scrape across categories artwork and posters, only the items that have already been sold",
@@ -21,8 +25,6 @@
     "extract_data_item_error": "Error in extracting data: {error} in {card.text}",
     "extract_data_success": "FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}",
     "extract_data_error": "Error in extract_data: {error}",
-    "database_name": "propstore_details",
-    "SQL_host": "localhost",
-    "SQL_user": "root",
-    "SQL_password": "root"	
+    "database_name": "propstore_details
+   	
 }

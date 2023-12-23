@@ -92,7 +92,8 @@ def main():
             for item in items_list:
                 SQL_data_loading.load_data(item, connection)
 
-        OMDB_API_data_loading.OMDB_data_loading(connection)
+        omdb_session = OMDB_API_data_loading.create_omdb_session(config["OMDB_api_key"])
+        OMDB_API_data_loading.OMDB_data_loading(connection,omdb_session,config["OMDB_api_key"])
 
 
     except UnboundLocalError as error:
