@@ -81,7 +81,7 @@ def process_category(category_url, username, password, option, config):
     """
     driver = webdriver.Chrome()
     driver.get(category_url)
-    scroll_website(driver, username, password, category_url, option, config)
+    return scroll_website(driver, username, password, category_url, option, config)
 
 
 def scroll_website(driver, username, password, category_url, option, config):
@@ -108,9 +108,9 @@ def scroll_website(driver, username, password, category_url, option, config):
                 break
             last_height = new_height
         html_content = get_page_content(driver)
-        Extract_data_function.extract_data(html_content, category_url, option, config)
+        return Extract_data_function.extract_data(html_content, category_url, option, config)
     except Exception as e:
         logging.error(f"ERROR IN THE SCROLL WEBSITE FUNCTION: {e}")
-        print(f"ERROR IN THE SCROLL WEBSITE FUNCTION: {e}")
+        return f"ERROR IN THE SCROLL WEBSITE FUNCTION: {e}"
     finally:
         driver.quit()
