@@ -37,6 +37,25 @@ Run the script by executing the following command (specifying :
    python main_file.py [--all/--categories category_1 category_2] [--live/--sold]
    ```
 
+## Public API Instructions
+
+## Overview
+This README provides instructions on how to use the public API for interacting with the OMDB (Open Movie Database). The API allows for fetching detailed information about movies.
+
+### Requirements
+- Python 3
+- `requests` library
+- A valid OMDB API key from https://www.omdbapi.com/apikey.aspx
+
+### Installation
+1. **Ensure Python 3 is installed** on your system.
+2. **Add personal "OMDB_api_key"** to config.json
+3. **Install the `requests` library** using pip:
+   
+   ```bash
+   pip install requests
+   ```
+   
 ## ERD
 
 ### Table items:
