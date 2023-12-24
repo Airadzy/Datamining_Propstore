@@ -101,5 +101,7 @@ status_description (varchar(50)): A textual description of the status (e.g., 'Bu
 sold_date (date): The date on which the item was sold. This field stores dates in the format YYYY-MM-DD.
 
 
-![PropStore Scraper (3)](https://github.com/Airadzy/Datamining_Propstore/assets/114605683/c0dae16a-a2e4-441f-a7a1-b600fb53b1f8)
+<img width="723" alt="Screenshot 2023-12-24 at 17 50 37_2" src="https://github.com/Airadzy/Datamining_Propstore/assets/114605683/0ec71310-f6c0-4723-bb55-d322060c2f13">
+
+
 
