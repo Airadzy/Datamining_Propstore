@@ -6,8 +6,8 @@ Adrian: https://www.linkedin.com/in/adrianradzyminski/
 Nick: https://www.linkedin.com/in/nickmishkin/
 
 ## Description
-PropStore Scraper is a Python script using Selenium and BeautifulSoup to scrape data from the PropStore website (https://propstore.com/) which shows historic prices paid and current listings for prop items from film & music. It uses a combination of Selenium and beautifulsoup to log in, scroll through the product listings, 
-and extract relevant information, including movie name, price(either sold at for archived items or price offered for live items) from each prop.
+PropStore Scraper is a Python script using Selenium and BeautifulSoup to scrape data from the PropStore website (https://propstore.com/), which shows historic prices paid and current listings for prop items from film & music. It uses a combination of Selenium and beautifulsoup to log in, scroll through the product listings, 
+and extract relevant information, including movie name, price(either sold at for archived items or price offered for live items) from each prop and inserts it into SQL database. It complements the Propstore item information by also accessing the OMDB API (https://www.omdbapi.com/) to find further relevant information for each movie (including ratings, director, box office revenue etc.)
 
 ## Prerequisites
 - Python 3.x
@@ -27,8 +27,8 @@ and extract relevant information, including movie name, price(either sold at for
 3. Configure ChromeDriver:
 Download the appropriate version of ChromeDriver based on your Chrome browser version from ChromeDriver Downloads.
 
-4. Updated config.json file for (1) Create Propstore log-in details and (2) mySQL configurations
-On Propstore.com, create a username and password and update the config.json file with those as well as relevant details for mySQL installation
+4. Updated config.json file for (1) Create Propstore log-in details, (2) mySQL configurations and (3) the OMDB API.
+For (1) On Propstore.com, create a username and password. On (2) update the config.json file with those as well as relevant details for mySQL installation. On (3), go on https://www.omdbapi.com/ and create an API key to then place into the config.json (note that the free API only allows 1,000 API accesses per day)
 
 ## Usage
 Run the script by executing the following command (specifying :
