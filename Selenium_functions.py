@@ -7,17 +7,15 @@ from selenium.webdriver.common.action_chains import ActionChains
 import logging
 import time
 import Extract_data_function
-
-
-def can_scroll(driver):
-    """
-    Checks if the user has scrolled to the bottom of the page or not.
-    :param driver: driver with url for each category site
-    :return: None
-    """
-
-    return driver.execute_script(
-        "return window.scrollY + window.innerHeight < document.body.scrollHeight;")  # scroll down completely body
+from selenium.common.exceptions import (
+    NoSuchElementException,
+    TimeoutException,
+    ElementClickInterceptedException,
+    ElementNotInteractableException,
+    WebDriverException,
+    JavascriptException,
+    StaleElementReferenceException,
+)
 
 
 def get_page_content(driver):
@@ -67,8 +65,18 @@ def login(driver, username, password, config):
             ec.element_to_be_clickable((By.CSS_SELECTOR, 'button.modal-register__submit')))
         login_button.click()
         WebDriverWait(driver, 10)
-    except Exception as error:
-        logging.error(f"Logging in TO WEBSITE: {error}")
+    except NoSuchElementException as e:
+        logging.error(f"Element not found: {e}")
+    except TimeoutException as e:
+        logging.error(f"Timed out waiting for element: {e}")
+    except ElementClickInterceptedException as e:
+        logging.error(f"Error clicking element: {e}")
+    except ElementNotInteractableException as e:
+        logging.error(f"Element not interactable: {e}")
+    except WebDriverException as e:
+        logging.error(f"Webdriver error: {e}")
+    finally:
+        logging.info("Successfully logged in")
 
 
 def process_category(category_url, username, password, option, config):
@@ -109,8 +117,20 @@ def scroll_website(driver, username, password, category_url, option, config):
             last_height = new_height
         html_content = get_page_content(driver)
         return Extract_data_function.extract_data(html_content, category_url, option, config)
-    except Exception as e:
-        logging.error(f"ERROR IN THE SCROLL WEBSITE FUNCTION: {e}")
-        return f"ERROR IN THE SCROLL WEBSITE FUNCTION: {e}"
+    except TimeoutException as e:
+        logging.error(f"Timeout occurred: {e}")
+        return e
+    except NoSuchElementException as e:
+        logging.error(f"Element not found: {e}")
+        return e
+    except StaleElementReferenceException as e:
+        logging.error(f"Stale element reference: {e}")
+        return e
+    except JavascriptException as e:
+        logging.error(f"JavaScript execution error: {e}")
+        return e
+    except WebDriverException as e:
+        logging.error(f"WebDriver error: {e}")
+        return e
     finally:
         driver.quit()

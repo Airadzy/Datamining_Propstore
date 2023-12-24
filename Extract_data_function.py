@@ -6,9 +6,10 @@ import logging
 
 def extract_to_csv(items_list, category, config):
     """
-    Write data from the items_list into a CSV file.
+    Write data from the items_list into a CSV file. Not needed for parser flow.
     :param items_list: List containing category items and details.
     :param category: Category for which data is being written to the CSV file.
+    :param config: Configuration dictionary containing messages and settings.
     :return: None
     """
     path = Path(config["csv_file_path"])
@@ -25,9 +26,42 @@ def extract_to_csv(items_list, category, config):
             writer.writerows(items_list)
         logging.info(f"Successfully inserted into csv file data from {category}")
         print(f"Successfully inserted into csv file data from {category}")
-    except Exception as error:
-        logging.error(config["csv_error_message"])
-        print(config["csv_error_message"])
+    except FileNotFoundError as error:
+        logging.error(f"File not found: {error}")
+        print(config["csv_error_message"], error)
+    except IOError as error:
+        logging.error(f"I/O error: {error}")
+        print(config["csv_error_message"], error)
+    except csv.Error as error:
+        logging.error(f"CSV error: {error}")
+        print(config["csv_error_message"], error)
+
+
+def extract_card_data(card, category, items_set, button_dict, option):
+    """
+    Extracts data from a single card on Propstore.com.
+    :param card: The card to extract data from.
+    :param category: The category of the items (e.g. toys, art, etc.).
+    :param items_set: Set to store unique items.
+    :param button_dict: Dictionary for button configurations.
+    :param option: The scraping option (live_items, sold_items, all_items).
+    """
+    try:
+        button = card.find("button").text.strip()
+        movie_name = card.find("div", class_="card__movie").text.strip()
+        card_title = " ".join(card.find("div", class_="card__title").text.strip().split())
+        price_element = card.find("span", class_="card__price-title")
+        price = price_element.text.strip() if price_element else None
+        sold_date_element = card.find("span", class_="card__price-soldon")
+        sold_date = sold_date_element.text.strip() if sold_date_element else None
+
+        item_tuple = (button, category, movie_name, card_title, price, sold_date)
+        if item_tuple not in items_set and button in button_dict[option]:
+            items_set.add(item_tuple)
+    except AttributeError as error:
+        logging.error(f"Attribute error in extracting data: {error} in {card.text}")
+    except KeyError as error:
+        logging.error(f"Key error in processing: {error} in {card.text}")
 
 
 def extract_data(html_content, category_url, option, config):
@@ -36,40 +70,25 @@ def extract_data(html_content, category_url, option, config):
     :param html_content: The HTML content of the webpage.
     :param category_url: The URL of the category.
     :param option: The scraping option (live_items, sold_items, all_items).
-    :param config (dict): Configuration dictionary containing messages and settings.
+    :param config: Configuration dictionary containing messages and settings.
     :return: n/a
     """
     try:
         button_dict = config["button_dict"]
-
         soup = BeautifulSoup(html_content, "html.parser")
         cards = soup.find_all("div", class_="card__info")
         items_set = set()
         category = category_url.split("/")[4]
-        for number, card in enumerate(cards):
-            try:
-                button = card.find("button").text.strip()
-                movie_name = card.find("div", class_="card__movie").text.strip()
-                card_title = " ".join(card.find("div", class_="card__title").text.strip().split())
-                price_element = card.find("span", class_="card__price-title")
-                price = price_element.text.strip() if price_element else None
-                sold_date_element = card.find("span", class_="card__price-soldon")
-                sold_date = sold_date_element.text.strip() if sold_date_element else None
-
-                item_tuple = (button, category, movie_name, card_title, price, sold_date)
-                if item_tuple not in items_set and button in button_dict[option]:
-                    items_set.add(item_tuple)
-            except Exception as error:
-                logging.error(f"Error in extracting data: {error} in {card.text}")
-                print(f"Error in extracting data: {error} in {card.text}")
-                continue
-
+        for card in cards:
+            extract_card_data(card, category, items_set, button_dict, option)
         items_list = list(items_set)
         print(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")
         logging.info(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")
         extract_to_csv(items_list, category, config)
         return items_list
-
-    except Exception as error:
-        logging.error(f"Error in extract_data: {error}")
-        print(f"Error in extract_data: {error}")
+    except BeautifulSoup.ParserError as error:
+        logging.error(f"Error parsing HTML content: {error}")
+        return f"Error parsing HTML content: {error}"
+    except TypeError as error:
+        logging.error(f"Type error in processing: {error}")
+        return f"Type error in processing: {error}"

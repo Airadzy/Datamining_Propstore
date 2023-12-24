@@ -1,5 +1,6 @@
 import requests
 import logging
+import pymysql.err
 
 logging.basicConfig(filename="Propstore.log",
                     format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
@@ -29,15 +30,24 @@ class Movie:
 
 
 def load_OMDB_data(connection, session):
+    """
+    Fetches movies from the database with missing OMDB data, and retrieves the data
+    using the OMDB API, and then updates the database with this information.
+
+    :param connection: A pymysql connection object used for database operations.
+    :param session: A session object to interact with the OMDB API.
+    :return: None. The function updates the database and handles exceptions internally.
+    """
     try:
         with connection.cursor() as cursor:
             cursor.execute("Select * from movies WHERE API_title IS NULL;")
-            movies = cursor.fetchall()
+            movies = cursor.fetchmany(10)
 
             for movie in movies:
                 movie_info = Movie(movie["movies_name"], movie["release_year"], session).info()
                 if movie_info['Response'] == "False":
-                    logging.error(f"Error fetching data for {movie['movies_name']} {movie['release_year']}: {movie_info.get('Error', 'Unknown Error')}")
+                    logging.error(
+                        f"Error fetching data for {movie['movies_name']} {movie['release_year']}: {movie_info.get('Error', 'Unknown Error')}")
                     continue
                 cursor.execute(
                     "UPDATE movies SET API_title = %s, "
@@ -53,9 +63,12 @@ def load_OMDB_data(connection, session):
         connection.commit()
         logging.info("All OMDB movies inserted into database")
         print("All OMDB movies inserted into database")
-    except Exception as error:
-        print(f"An error occurred: {error}")
+    except pymysql.err.OperationalError as error:
+        logging.error(f"Operational error in database connection: {error}")
+        print(f"Operational error in database connection: {error}")
+    except pymysql.err.DatabaseError as error:
+        logging.error(f"Database error occurred: {error}")
+        print(f"Database error occurred: {error}")
     finally:
         connection.close()
         logging.info("Database connection closed")
-

@@ -8,9 +8,47 @@ logging.basicConfig(filename=main_file.log_filename,
                     level=logging.INFO)
 
 
+def get_connection_without_database(config):
+    """
+    Establishes and returns a SQL connection without a specified database
+    :config: parameters from json file
+    :return: Database connection
+    """
+    try:
+        connection_without_database = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"],
+                                                  password=config["SQL_password"],
+                                                  cursorclass=pymysql.cursors.DictCursor)
+        return connection_without_database
+    except pymysql.err.OperationalError as e:
+        logging.error(f"Operational error in database connection: {e}")
+    except pymysql.err.InternalError as e:
+        logging.error(f"Internal error in database: {e}")
+    except pymysql.err.DatabaseError as e:
+        logging.error(f"Database error: {e}")
+
+
+def get_connection_with_database(config):
+    """
+    Establishes and returns a connection to the relevant propstore database
+    :config: parameters from json file
+    :return: Database connection
+    """
+    try:
+        connection = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"], password=config["SQL_password"],
+                                     database=config['database_name'],
+                                     cursorclass=pymysql.cursors.DictCursor)
+        return connection
+    except pymysql.err.OperationalError as e:
+        logging.error(f"Operational error in database connection: {e}")
+    except pymysql.err.InternalError as e:
+        logging.error(f"Internal error in database: {e}")
+    except pymysql.err.DatabaseError as e:
+        logging.error(f"Database error: {e}")
+
+
 def create_database(config, connection):
     """
-    Creates a database and necessary tables based on the provided configuration.
+    Creates a database unless the relevant database already exists.
 
     :param config: A dictionary containing configuration data such as the database name.
                    Expected keys include 'database_name'.
@@ -21,9 +59,23 @@ def create_database(config, connection):
     with connection.cursor() as cursor:
         try:
             cursor.execute(f"CREATE DATABASE {config['database_name']};")
+            logging.info(f"Created new database: {config['database_name']}")
+            print(f"Created new SQL database: {config['database_name']}")
         except (pymysql.err.ProgrammingError, pymysql.err.InternalError) as error:
-            logging.warning(f"Database already exists or error occurred: {error}")
-            print(f"Database already exists so inserting new data into database")
+            logging.warning(f"SQL database already exists or error occurred: {error}")
+            print(f"SQL database already exists so inserting new data into existing database instead")
+
+
+def create_database_tables(config, connection):
+    """
+    Creates a database and necessary tables based on the provided configuration.
+
+    :param config: A dictionary containing configuration data such as the database name.
+                   Expected keys include 'database_name'.
+    :param connection: A pymysql connection object used to execute database operations.
+    :return: None. The function creates the relevant database tables, and handles exceptions internally.
+    """
+    with connection.cursor() as cursor:
         try:
             cursor.execute(f"USE {config['database_name']};")
             cursor.execute("""
@@ -78,10 +130,9 @@ def create_database(config, connection):
                         FOREIGN KEY (currencies_id) REFERENCES currencies (currencies_id)
                     )
                 """)
+            logging.info("Finished creating database")
+            print("Finished creating database")
             connection.commit()
 
         except Exception as error:
             logging.error(f"Error in creating tables: {error}")
-        finally:
-            logging.info("Finished creating database")
-            print("Finished creating database")

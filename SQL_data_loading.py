@@ -3,17 +3,6 @@ from datetime import datetime
 import re
 
 
-def get_connection(config):
-    """
-    Establishes and returns a database connection
-    :config: parameters from json file
-    :return: Database connection
-    """
-    connection = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"], password=config["SQL_password"],
-                                 database=config['database_name'],
-                                 cursorclass=pymysql.cursors.DictCursor)
-    return connection
-
 
 def load_data(items_list, connection):
     """

@@ -67,6 +67,7 @@ def main():
 
     args = parse_argument(config)
     categories = " "
+    category_url_list = " "
     if args.all:
         category_url_list = scrape_select_categories(url, config["category_list"], config["category_list"])
         categories = " ".join(config["category_list"])
@@ -80,11 +81,10 @@ def main():
         option = "live_items" if args.live else "sold_items" if args.sold else "all_items"
         logging.info(f"Scraping {option} on Propstore.com for {categories}")
         print(f"Scraping {option} on Propstore.com for {categories}")
-        connection_without_database = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"],
-                                                      password=config["SQL_password"],
-                                                      cursorclass=pymysql.cursors.DictCursor)
+        connection_without_database = Create_SQL_database_structure.get_connection_without_database(config)
         Create_SQL_database_structure.create_database(config, connection_without_database)
-        connection = SQL_data_loading.get_connection(config)
+        connection = Create_SQL_database_structure.get_connection_with_database(config)
+        Create_SQL_database_structure.create_database_tables(config, connection)
         with Pool() as pool:
             items_list = pool.starmap(Selenium_functions.process_category,
                                       [(category_url, username, password, option, config) for category_url in
@@ -92,6 +92,7 @@ def main():
             for item in items_list:
                 SQL_data_loading.load_data(item, connection)
 
+        print("Program now accessing OMDB API and loading OMDB API data into the SQL database")
         omdb_session = OMDB_API_data_loading.create_omdb_session(config["OMDB_api_key"])
         OMDB_API_data_loading.load_OMDB_data(connection, omdb_session)
         print("Successfully finished running the program")
