@@ -41,13 +41,13 @@ def load_OMDB_data(connection, session):
     try:
         with connection.cursor() as cursor:
             cursor.execute("Select * from movies WHERE API_title IS NULL;")
-            movies = cursor.fetchmany(10)
+            movies = cursor.fetchall()
 
             for movie in movies:
                 movie_info = Movie(movie["movies_name"], movie["release_year"], session).info()
                 if movie_info['Response'] == "False":
                     logging.error(
-                        f"Error fetching data for {movie['movies_name']} {movie['release_year']}: {movie_info.get('Error', 'Unknown Error')}")
+                        f"Error fetching data for {movie['movies_name']} {movie['release_year']}:{movie_info.get('Error', 'Unknown Error')}")
                     continue
                 cursor.execute(
                     "UPDATE movies SET API_title = %s, "

@@ -46,6 +46,7 @@ def login(driver, username, password, config):
     :param driver: The Selenium WebDriver instance.
     :param username: The username for login.
     :param password: The password for login.
+    :param config: Configuration dictionary containing messages and settings.
     :return: None
     """
 
@@ -81,10 +82,12 @@ def login(driver, username, password, config):
 
 def process_category(category_url, username, password, option, config):
     """
-    Function to open a url in Selenium and act on it by calling the next function that scrolls through it.
+    Function to open an url in Selenium and act on it by calling the next function that scrolls through it.
     :param category_url: url of category site (e.g. toys)
     :param username: Propstore username
     :param password: Propstore password
+    :param option: The scraping option (live_items, sold_items, all_items).
+    :param config: Configuration dictionary containing messages and settings.
     :return: None
     """
     driver = webdriver.Chrome()

@@ -16,8 +16,8 @@ def get_connection_without_database(config):
     """
     try:
         connection_without_database = pymysql.connect(host=config["SQL_host"], user=config["SQL_user"],
-                                                  password=config["SQL_password"],
-                                                  cursorclass=pymysql.cursors.DictCursor)
+                                                      password=config["SQL_password"],
+                                                      cursorclass=pymysql.cursors.DictCursor)
         return connection_without_database
     except pymysql.err.OperationalError as e:
         logging.error(f"Operational error in database connection: {e}")

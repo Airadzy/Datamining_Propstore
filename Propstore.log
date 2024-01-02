@@ -51088,3 +51088,1843 @@ Stacktrace:
 2023-12-24 15:48:39,106-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: THE WORLD IS NOT ENOUGH 1999: Movie not found!
 2023-12-24 15:48:39,129-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:64-All OMDB movies inserted into database
 2023-12-24 15:48:39,140-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:74-Database connection closed
+2023-12-24 21:49:38,962-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-24 21:49:38,979-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:62-Created new database: propstore_details
+2023-12-24 21:49:39,279-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database_tables-LINE:133-Finished creating database
+2023-12-24 21:49:41,886-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:49:41,889-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:49:41,892-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:49:41,896-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:49:41,948-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:49:41,955-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:49:41,955-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:49:51,907-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:53,474-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:53,525-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:53,526-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:53,730-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:53,914-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:54,507-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:54,712-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:54,714-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:73-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:49:54,714-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:54,714-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:49:54,779-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:73-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:49:54,779-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:54,779-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:49:54,808-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:73-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:49:54,808-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:54,809-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:49:55,042-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:73-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:49:55,042-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:55,042-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:49:55,362-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:73-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:49:55,362-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:55,362-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:49:55,696-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:73-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:49:55,696-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:55,696-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:49:55,880-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:73-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:49:55,880-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:55,880-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:49:58,100-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:77-Webdriver error: Message: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.111); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E284E59A]
+	(No symbol) [0x00007FF6E28459E9]
+	(No symbol) [0x00007FF6E2844298]
+	(No symbol) [0x00007FF6E2846FDF]
+	(No symbol) [0x00007FF6E28470D0]
+	(No symbol) [0x00007FF6E2883265]
+	(No symbol) [0x00007FF6E2878586]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:49:58,101-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:49:58,101-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:50:03,946-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="89846d1d6f8e077089f03f185a058fcf")>
+2023-12-24 21:50:04,090-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2023-12-24 21:50:04,096-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from promotional-items
+2023-12-24 21:50:52,371-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="390316a4c1152a2f932051fa1a286dc2")>
+2023-12-24 21:50:53,096-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="de91630e2e090377e97580a98be9ee2c")>
+2023-12-24 21:50:53,169-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="fa59b5bed0820608057c76d84528ccde")>
+2023-12-24 21:50:53,646-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="29ee1f8f006e7658df8a570248567efc")>
+2023-12-24 21:50:53,647-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="e285e8c54116c2dcd3f51152eac8a692")>
+2023-12-24 21:50:53,808-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="18bf5aae43af1b4f877d0bb22fdab453")>
+2023-12-24 21:50:53,816-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="cb2306af2827a35694bf83fec022adac")>
+2023-12-24 21:50:54,967-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING costumes. Number of items fetched: 1057
+2023-12-24 21:50:54,978-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2023-12-24 21:50:55,647-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING artwork. Number of items fetched: 1106
+2023-12-24 21:50:55,654-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2023-12-24 21:50:55,751-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING autographs. Number of items fetched: 1141
+2023-12-24 21:50:55,762-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2023-12-24 21:50:55,955-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING toys. Number of items fetched: 1052
+2023-12-24 21:50:55,966-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2023-12-24 21:50:56,228-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING posters. Number of items fetched: 1110
+2023-12-24 21:50:56,239-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2023-12-24 21:50:56,426-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING props. Number of items fetched: 1103
+2023-12-24 21:50:56,434-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2023-12-24 21:50:56,761-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING production. Number of items fetched: 1094
+2023-12-24 21:50:56,768-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from production
+2023-12-24 21:51:29,056-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SESAME STREET: 4D MOVIE MAGIC (THEME PARK ATTRACTION, 2003-PRESENT) None: Movie not found!
+2023-12-24 21:51:30,835-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:64-All OMDB movies inserted into database
+2023-12-24 21:51:30,836-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:74-Database connection closed
+2023-12-24 21:52:44,410-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-24 21:52:44,424-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:65-SQL database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-24 21:52:44,455-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database_tables-LINE:133-Finished creating database
+2023-12-24 21:52:46,055-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:52:46,060-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:52:46,062-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:52:46,064-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:52:46,069-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:52:46,097-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:52:46,098-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 21:52:53,985-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:77-Webdriver error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2820038]
+	(No symbol) [0x00007FF6E28A6BC7]
+	(No symbol) [0x00007FF6E28BA15F]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:53,985-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:52:53,988-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:77-Webdriver error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2820038]
+	(No symbol) [0x00007FF6E28A6BC7]
+	(No symbol) [0x00007FF6E28BA15F]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:53,990-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:52:53,990-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:52:55,042-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:77-Webdriver error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2820038]
+	(No symbol) [0x00007FF6E28A6BC7]
+	(No symbol) [0x00007FF6E28BA15F]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:55,042-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:52:55,046-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:77-Webdriver error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2820038]
+	(No symbol) [0x00007FF6E28A6BC7]
+	(No symbol) [0x00007FF6E28BA15F]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:55,046-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:52:55,047-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:52:55,992-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:133-WebDriver error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2820038]
+	(No symbol) [0x00007FF6E28A6BC7]
+	(No symbol) [0x00007FF6E28BA15F]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:57,052-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:133-WebDriver error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2820038]
+	(No symbol) [0x00007FF6E28A6BC7]
+	(No symbol) [0x00007FF6E28BA15F]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:59,201-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:59,201-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:52:59,207-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:59,208-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:52:59,411-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:59,411-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:52:59,450-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:52:59,450-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:53:00,247-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:53:00,247-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:53:00,249-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:53:00,250-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:53:09,660-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:53:09,660-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:53:09,660-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:53:09,660-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:53:09,660-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:53:09,661-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:53:09,715-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:53:09,716-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:53:09,716-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:53:09,798-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:53:09,798-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:53:09,798-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:53:10,699-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:53:10,699-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:53:10,699-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:71-Timed out waiting for element: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E288175C]
+	(No symbol) [0x00007FF6E28818DC]
+	(No symbol) [0x00007FF6E28BCBC7]
+	(No symbol) [0x00007FF6E28A20EF]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 21:53:10,700-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:79-Successfully logged in
+2023-12-24 21:53:10,700-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:53:10,700-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:108-Ran function None
+2023-12-24 21:53:13,508-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="5fa1df8f3e91c87dd664a74b4e5eb4ee")>
+2023-12-24 21:53:13,510-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="ae517564f71bcf535a47fd3ff8e943d7")>
+2023-12-24 21:53:13,515-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING costumes. Number of items fetched: 0
+2023-12-24 21:53:13,515-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-24 21:53:13,516-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING toys. Number of items fetched: 0
+2023-12-24 21:53:13,516-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2023-12-24 21:53:13,516-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-24 21:53:13,517-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2023-12-24 21:53:13,611-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="d23aa27fa502e4cd31f9bf7780f62fea")>
+2023-12-24 21:53:13,618-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING posters. Number of items fetched: 0
+2023-12-24 21:53:13,618-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-24 21:53:13,619-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2023-12-24 21:53:13,668-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="4a391b626c57b152cdbc88083eaf5445")>
+2023-12-24 21:53:13,720-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING artwork. Number of items fetched: 0
+2023-12-24 21:53:13,721-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-24 21:53:13,722-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2023-12-24 21:53:14,543-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="25ccfa3fadd5691eca9fa3f9561c4176")>
+2023-12-24 21:53:14,545-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="18be9ca47ec947c61d86955cb19f91a2")>
+2023-12-24 21:53:14,551-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING props. Number of items fetched: 0
+2023-12-24 21:53:14,551-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING autographs. Number of items fetched: 0
+2023-12-24 21:53:14,552-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:18-items_list is empty. No CSV file created.
+2023-12-24 21:53:14,552-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2023-12-24 21:53:14,552-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2023-12-24 22:07:21,381-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2023-12-24 22:07:21,387-WARNING-FILE:Create_SQL_database_structure.py-FUNC:create_database-LINE:65-SQL database already exists or error occurred: (1007, "Can't create database 'propstore_details'; database exists")
+2023-12-24 22:07:21,427-INFO-FILE:Create_SQL_database_structure.py-FUNC:create_database_tables-LINE:133-Finished creating database
+2023-12-24 22:07:23,063-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 22:07:23,068-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 22:07:23,079-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 22:07:23,082-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 22:07:23,083-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 22:07:23,087-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\airad\OneDrive\Desktop\ITC\Data science course\Exercises\Python Advanced\Data mining project\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.111); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2023-12-24 22:07:32,680-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:32,822-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:32,826-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:32,990-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:33,108-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:33,543-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:33,794-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:33,812-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:74-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 22:07:33,812-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:33,812-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2023-12-24 22:07:33,964-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:74-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 22:07:33,964-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:33,965-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2023-12-24 22:07:33,993-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:74-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 22:07:33,994-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:33,994-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2023-12-24 22:07:34,196-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:74-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 22:07:34,196-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:34,196-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2023-12-24 22:07:34,362-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:74-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 22:07:34,363-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:34,363-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2023-12-24 22:07:34,432-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:35,018-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:74-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 22:07:35,018-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:74-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 22:07:35,019-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2023-12-24 22:07:35,019-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:35,020-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2023-12-24 22:07:35,560-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:74-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (848, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2A182B2+55298]
+	(No symbol) [0x00007FF6E2985E02]
+	(No symbol) [0x00007FF6E28405AB]
+	(No symbol) [0x00007FF6E2887A77]
+	(No symbol) [0x00007FF6E2885E39]
+	(No symbol) [0x00007FF6E2883C08]
+	(No symbol) [0x00007FF6E2882C8A]
+	(No symbol) [0x00007FF6E28787BF]
+	(No symbol) [0x00007FF6E28A20AA]
+	(No symbol) [0x00007FF6E28780CF]
+	(No symbol) [0x00007FF6E28A22C0]
+	(No symbol) [0x00007FF6E28BAAA4]
+	(No symbol) [0x00007FF6E28A1E83]
+	(No symbol) [0x00007FF6E287670A]
+	(No symbol) [0x00007FF6E2877964]
+	GetHandleVerifier [0x00007FF6E2D90AAB+3694587]
+	GetHandleVerifier [0x00007FF6E2DE728E+4048862]
+	GetHandleVerifier [0x00007FF6E2DDF173+4015811]
+	GetHandleVerifier [0x00007FF6E2AB47D6+695590]
+	(No symbol) [0x00007FF6E2990CE8]
+	(No symbol) [0x00007FF6E298CF34]
+	(No symbol) [0x00007FF6E298D062]
+	(No symbol) [0x00007FF6E297D3A3]
+	BaseThreadInitThunk [0x00007FF8BEDD257D+29]
+	RtlUserThreadStart [0x00007FF8BFEAAA58+40]
+
+2023-12-24 22:07:35,561-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2023-12-24 22:07:35,561-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2023-12-24 22:07:44,465-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="ac299a0ec86cb52fab31ad37ac758ba7")>
+2023-12-24 22:07:44,665-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2023-12-24 22:07:44,670-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from promotional-items
+2023-12-24 22:08:21,954-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="e3c799e94265e7d2d36021ca4fb5e7f3")>
+2023-12-24 22:08:22,083-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="a30b02d478ffc4777a850140028476e0")>
+2023-12-24 22:08:22,216-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="6891aa2c7165f7304cb79c642bb9592c")>
+2023-12-24 22:08:22,316-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="fc3712affd59ec466b7cbabf08246f1c")>
+2023-12-24 22:08:22,340-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="3804ab7d6f8db03bbcb9d881c285bed8")>
+2023-12-24 22:08:22,512-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="2ceed776db656ff7b5d7d1097d025287")>
+2023-12-24 22:08:23,627-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="bbe3a48ea6cf482a8d4cbeba3e0f7d98")>
+2023-12-24 22:08:23,731-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING production. Number of items fetched: 825
+2023-12-24 22:08:23,738-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from production
+2023-12-24 22:08:23,757-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING posters. Number of items fetched: 873
+2023-12-24 22:08:23,773-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2023-12-24 22:08:24,240-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING artwork. Number of items fetched: 868
+2023-12-24 22:08:24,248-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2023-12-24 22:08:24,256-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING costumes. Number of items fetched: 860
+2023-12-24 22:08:24,261-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2023-12-24 22:08:24,338-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING toys. Number of items fetched: 918
+2023-12-24 22:08:24,353-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2023-12-24 22:08:24,735-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING props. Number of items fetched: 865
+2023-12-24 22:08:24,740-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2023-12-24 22:08:25,553-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING autographs. Number of items fetched: 909
+2023-12-24 22:08:25,558-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2023-12-24 22:08:54,072-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SESAME STREET: 4D MOVIE MAGIC (THEME PARK ATTRACTION, 2003-PRESENT) None:Movie not found!
+2023-12-24 22:08:55,254-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PLAY SCHOOL 1965:Movie not found!
+2023-12-24 22:08:55,477-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DEATH HOUSE 2016:Movie not found!
+2023-12-24 22:09:01,918-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MUPPETS FRANCHISE 1975:Movie not found!
+2023-12-24 22:09:02,126-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PIRATES! IN AN ADVENTURE WITH SCIENTISTS! THE, 2012:Movie not found!
+2023-12-24 22:09:09,109-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LORD OF THE RINGS, THE: THE FELLOWSHIP OF THE RING 2001:Movie not found!
+2023-12-24 22:09:11,465-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: RETURN OF THE JEDI 1983:Movie not found!
+2023-12-24 22:09:13,270-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL'S DAREDEVIL 2015:Movie not found!
+2023-12-24 22:09:15,503-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INDIANA JONES AND THE RAIDERS OF THE LOST ARK 1981:Movie not found!
+2023-12-24 22:09:16,357-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BREAKING BAD (T.V. SERIES, 2008-2013) None:Movie not found!
+2023-12-24 22:09:19,224-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AVP: ALIEN VS. PREDATOR 2004:Movie not found!
+2023-12-24 22:09:23,518-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SCARY MOVIE 5 2013:Movie not found!
+2023-12-24 22:09:23,939-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: A NEW HOPE 1977:Movie not found!
+2023-12-24 22:09:25,728-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: REVENGE OF THE SITH 2005:Movie not found!
+2023-12-24 22:09:27,247-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AMERICAN WEREWOLF IN LONDON, AN 1981:Movie not found!
+2023-12-24 22:09:27,463-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CHRONICLES OF NARNIA, THE: PRINCE CASPIAN 2008:Movie not found!
+2023-12-24 22:09:34,750-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: YOU ONLY LIVE TWICE 1967:Movie not found!
+2023-12-24 22:09:35,395-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for UNKNOWN PRODUCTION None:Movie not found!
+2023-12-24 22:09:36,019-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: THE WORLD IS NOT ENOUGH 1999:Movie not found!
+2023-12-24 22:09:36,426-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ERIC AND THE BARBARIAN (Short Film) None:Movie not found!
+2023-12-24 22:09:38,338-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CHRONICLES OF NARNIA, THE: THE VOYAGE OF THE DAWN TREADER 2010:Movie not found!
+2023-12-24 22:09:41,122-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPACE ABOVE & BEYOND 1995:Movie not found!
+2023-12-24 22:09:41,568-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: THE PHANTOM MENACE 1999:Movie not found!
+2023-12-24 22:09:43,280-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for I AM LEGEND (UNPRODUCED, RIDLEY SCOTT) None:Movie not found!
+2023-12-24 22:09:45,964-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: THE EMPIRE STRIKES BACK 1980:Movie not found!
+2023-12-24 22:09:48,587-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: GOLDENEYE 1995:Movie not found!
+2023-12-24 22:09:52,071-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DIVERGENT SERIES: ALLEGIANT 2016:Movie not found!
+2023-12-24 22:09:52,540-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WARLORDS OF ATLANTIS 1978:Movie not found!
+2023-12-24 22:09:56,184-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: LICENCE TO KILL 1989:Movie not found!
+2023-12-24 22:09:58,995-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL-VARIOUS PRODUCTIONS 2015:Movie not found!
+2023-12-24 22:10:06,797-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FIVE CHILDREN & IT 2004:Movie not found!
+2023-12-24 22:10:07,949-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for X FILES, THE-FIGHT THE FUTURE 1998:Movie not found!
+2023-12-24 22:10:12,739-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CHRONICLES OF NARNIA, THE: THE LION, THE WITCH AND THE WARDROBE 2005:Movie not found!
+2023-12-24 22:10:15,600-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for X2: X-MEN UNITED 2003:Movie not found!
+2023-12-24 22:10:15,806-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOGFATHER-TERRY PRATCHETT 2006:Movie not found!
+2023-12-24 22:10:24,042-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WOMAN IN BLACK 2: ANGEL OF DEATH 2015:Movie not found!
+2023-12-24 22:10:25,804-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FAST AND FURIOUS 6 2013:Movie not found!
+2023-12-24 22:10:26,007-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL'S IRON FIST 2017:Movie not found!
+2023-12-24 22:10:27,387-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: A VIEW TO A KILL 1985:Movie not found!
+2023-12-24 22:10:28,435-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STRATTON 2016:Movie not found!
+2023-12-24 22:10:29,068-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SANDS OF MARS - BOOK None:Movie not found!
+2023-12-24 22:10:34,870-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BACK TO THE FUTURE TRILOGY 1985:Movie not found!
+2023-12-24 22:10:35,071-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK: FRANCHISE None:Movie not found!
+2023-12-24 22:10:35,485-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL'S LUKE CAGE 2016:Movie not found!
+2023-12-24 22:10:35,900-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WORST WITCH, THE None:Movie not found!
+2023-12-24 22:10:40,475-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: NO TIME TO DIE 2021:Movie not found!
+2023-12-24 22:10:41,338-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPOOKS 2015:Movie not found!
+2023-12-24 22:10:45,249-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL'S THE PUNISHER 2017:Movie not found!
+2023-12-24 22:10:46,528-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SGT. BILKO 1996:Movie not found!
+2023-12-24 22:10:46,965-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ENTERTAINMENT MEMORABILIA LIVE AUCTION - LONDON None:Movie not found!
+2023-12-24 22:10:49,690-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BABYLON 5 1994:Movie not found!
+2023-12-24 22:10:49,911-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NIGHTMARE ON ELM STREET 3, A: DREAM WARRIORS 1987:Movie not found!
+2023-12-24 22:10:52,281-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK: THE ORIGINAL SERIES 1966:Movie not found!
+2023-12-24 22:10:52,496-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INDUSTRIAL LIGHT & MAGIC (ILM) None:Movie not found!
+2023-12-24 22:10:56,719-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SUPERMAN FRANCHISE 1978:Movie not found!
+2023-12-24 22:10:57,440-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TWILIGHT SAGA, THE: ECLIPSE 2010:Movie not found!
+2023-12-24 22:11:01,758-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL'S JESSICA JONES 2015:Movie not found!
+2023-12-24 22:11:03,113-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL'S THE DEFENDERS 2017:Movie not found!
+2023-12-24 22:11:03,759-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FRANK HERBERT'S CHILDREN OF DUNE 2003:Movie not found!
+2023-12-24 22:11:06,889-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AVPR: ALIENS VS. PREDATOR - REQUIEM 2007:Movie not found!
+2023-12-24 22:11:08,659-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPY KIDS: ALL THE TIME IN THE WORLD 2011:Movie not found!
+2023-12-24 22:11:12,762-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MOCKING THE COSMOS 1992:Movie not found!
+2023-12-24 22:11:18,210-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL'S AGENTS OF S.H.I.E.L.D. 2013:Movie not found!
+2023-12-24 22:11:19,526-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: THE COMPLETE SAGA 1976:Movie not found!
+2023-12-24 22:11:19,763-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SARAH JANE ADVENTURES 2007:Movie not found!
+2023-12-24 22:11:21,090-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WHISTLEBLOWER 1986:Movie not found!
+2023-12-24 22:11:21,723-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MOONTRAP 1989:Movie not found!
+2023-12-24 22:11:22,611-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KENNETH BRANAGH'S HAMLET 1996:Movie not found!
+2023-12-24 22:11:26,262-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: LIVING DAYLIGHTS 1987:Movie not found!
+2023-12-24 22:11:29,021-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MR. SATURDAY NIGHT 1992:Movie not found!
+2023-12-24 22:11:31,195-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RIDDICK: RULE THE DARK 2013:Movie not found!
+2023-12-24 22:11:31,816-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for VERLASTING PIECE, AN 2000:Movie not found!
+2023-12-24 22:11:33,702-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ALIEN3 1992:Movie not found!
+2023-12-24 22:11:35,443-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WAGNER 1981:Movie not found!
+2023-12-24 22:11:37,107-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for VARIOUS PRODUCTIONS None:Movie not found!
+2023-12-24 22:11:43,384-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for OCTOBER 16 2014 LIVE AUCTION 2014:Movie not found!
+2023-12-24 22:11:43,594-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BURKE & HARE 2010:Movie not found!
+2023-12-24 22:11:45,280-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LUCASFILM None:Movie not found!
+2023-12-24 22:11:45,486-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: ORIGINAL TRILOGY 1977:Movie not found!
+2023-12-24 22:11:47,712-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CARAVAN OF COURAGE: AN EWOK ADVENTURE 1984:Movie not found!
+2023-12-24 22:11:52,016-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: THE MOS EISLEY CANTINA POP-UP BOOK 1995:Movie not found!
+2023-12-24 22:11:53,115-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INDIANA JONES SERIES 1981:Movie not found!
+2023-12-24 22:11:53,331-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROBOT VISIONS 1990:Movie not found!
+2023-12-24 22:11:54,013-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SOFT BEDS, HARD BATTLES 1974:Movie not found!
+2023-12-24 22:11:56,207-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOBBIT, THE: THE DESOLATION OF SMAUG 2013:Movie not found!
+2023-12-24 22:11:56,638-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DUNE, UNREALIZED JODOROWSKY PROJECT 1970:Movie not found!
+2023-12-24 22:11:56,857-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARLEY QUINN #18 2017:Movie not found!
+2023-12-24 22:11:58,419-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: THUNDERBALL 1965:Movie not found!
+2023-12-24 22:11:58,626-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: PREQUEL TRILOGY 1999:Movie not found!
+2023-12-24 22:11:59,048-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DARK HORSE COMICS None:Movie not found!
+2023-12-24 22:11:59,264-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FEMME FATALES (MAGAZINE) None:Movie not found!
+2023-12-24 22:11:59,691-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL TELEVISION LIVE AUCTION None:Movie not found!
+2023-12-24 22:12:00,558-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for REPLACEMENT 1983:Movie not found!
+2023-12-24 22:12:00,768-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DRACULA, TOMB OF DRACULA #61 1977:Movie not found!
+2023-12-24 22:12:00,977-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TIMELY COMICS None:Movie not found!
+2023-12-24 22:12:01,418-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ISAAC ASIMOV'S INFERNO None:Movie not found!
+2023-12-24 22:12:01,864-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SCHOONY None:Movie not found!
+2023-12-24 22:12:02,094-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ILLUSTRATED STAR WARS UNIVERSE 1995:Movie not found!
+2023-12-24 22:12:02,303-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARD DAY'S NIGHT, A 1964:Movie not found!
+2023-12-24 22:12:03,680-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for G.I. JOE: A REAL AMERICAN HERO #32 1985:Movie not found!
+2023-12-24 22:12:03,888-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: VARIOUS PRODUCTIONS None:Movie not found!
+2023-12-24 22:12:04,765-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HELLBOY: SWORD OF STORMS 2006:Movie not found!
+2023-12-24 22:12:04,973-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND FRANCHISE 1953:Movie not found!
+2023-12-24 22:12:05,812-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DISNEYLAND PARK None:Movie not found!
+2023-12-24 22:12:06,023-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS - ALL ITEMS None:Movie not found!
+2023-12-24 22:12:06,663-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RON COBB ARTWORK (NON-MOVIE RELATED) None:Movie not found!
+2023-12-24 22:12:06,877-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MONTY PYTHON'S THE MEANING OF LIFE 1983:Movie not found!
+2023-12-24 22:12:07,084-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KING OF THE GENIIS None:Movie not found!
+2023-12-24 22:12:07,290-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CINEMA POSTER LIVE AUCTION None:Movie not found!
+2023-12-24 22:12:07,721-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THEATRE OF BLOOD 1973:Movie not found!
+2023-12-24 22:12:07,932-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HEAVEN AND EARTH 1993:Movie not found!
+2023-12-24 22:12:09,770-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: DIAMONDS ARE FOREVER 1971:Movie not found!
+2023-12-24 22:12:09,980-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PUNISHER 2: WAR ZONE 2008:Movie not found!
+2023-12-24 22:12:10,687-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HORZU None:Movie not found!
+2023-12-24 22:12:10,911-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOCTOR WHO: TERROR OF THE ZYGONS (S13) 1975:Movie not found!
+2023-12-24 22:12:11,546-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: JABBA'S PALACE POP-UP BOOK None:Movie not found!
+2023-12-24 22:12:12,423-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOCTOR WHO: ROBOT (S12 E4) 1974:Movie not found!
+2023-12-24 22:12:14,712-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FANTASTIC FOUR #286 1984:Movie not found!
+2023-12-24 22:12:15,614-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AMAZING SPIDER-MAN 1963:Movie not found!
+2023-12-24 22:12:18,023-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CAPTAIN MARVEL 1989:Movie not found!
+2023-12-24 22:12:18,452-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SCOOBY DOO, WHERE ARE YOU! (T.V. SERIES, 1969-1970) None:Movie not found!
+2023-12-24 22:12:19,119-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: STAR TOURS 1987:Movie not found!
+2023-12-24 22:12:19,339-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MONTY PYTHON'S: LIFE OF BRIAN 1979:Movie not found!
+2023-12-24 22:12:20,216-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ENTERTAINMENT MEMORABILIA LIVE AUCTION-LOS ANGELES 2020:Movie not found!
+2023-12-24 22:12:21,305-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: SHADOWS OF THE EMPIRE 1990:Movie not found!
+2023-12-24 22:12:21,506-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPACE RACE 1991:Movie not found!
+2023-12-24 22:12:22,574-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOCTOR WHO: THE DEADLY ASSASSIN (S14) 1976:Movie not found!
+2023-12-24 22:12:23,661-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WOLVERINE / THE MIGHTY WORLD OF MARVEL #199 None:Movie not found!
+2023-12-24 22:12:23,865-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DUNE (UNPRODUCED, CIRCA 1970S) None:Movie not found!
+2023-12-24 22:12:24,524-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THOR / JOURNEY INTO MYSTERY #84 1962:Movie not found!
+2023-12-24 22:12:24,744-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FOUNTAINS OF PARADISE None:Movie not found!
+2023-12-24 22:12:26,381-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOCTOR WHO: THE TIME WARRIOR (S11) 1973:Movie not found!
+2023-12-24 22:12:26,596-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PARAMOUNT PICTURES 1951:Movie not found!
+2023-12-24 22:12:27,247-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOCTOR WHO: THE THREE DOCTORS (S10) 1972:Movie not found!
+2023-12-24 22:12:27,445-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: CASINO ROYALE 2006:Movie not found!
+2023-12-24 22:12:27,654-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SWAMP THING / HOUSE OF SECRETS #92 1971:Movie not found!
+2023-12-24 22:12:28,118-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPIDER-MAN SUPER THRILLER: MIDNIGHT JUSTICE None:Movie not found!
+2023-12-24 22:12:28,556-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THE LORD OF THE RINGS TRILOGY 2001:Movie not found!
+2023-12-24 22:12:29,254-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MAD MAX 2: THE ROAD WARRIOR 1981:Movie not found!
+2023-12-24 22:12:29,883-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PUNISHER, THE: RETURN TO BIG NOTHING 1989:Movie not found!
+2023-12-24 22:12:30,109-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: SPECTRE 2015:Movie not found!
+2023-12-24 22:12:31,283-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KNIGHT RIDER (T.V. SERIES, 1982 - 1986) None:Movie not found!
+2023-12-24 22:12:32,173-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MGM FILM CORP. None:Movie not found!
+2023-12-24 22:12:32,605-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: DR. NO 1962:Movie not found!
+2023-12-24 22:12:32,818-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: ON HER MAJESTY'S SECRET SERVICE 1969:Movie not found!
+2023-12-24 22:12:33,088-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLUES BROTHERS 1980:Request limit reached!
+2023-12-24 22:12:33,299-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BRIDGE ON THE RIVER KWAI 1957:Request limit reached!
+2023-12-24 22:12:33,506-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LA DOLCE VITA 1960:Request limit reached!
+2023-12-24 22:12:33,722-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: GOLDFINGER 1964:Request limit reached!
+2023-12-24 22:12:33,927-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SCARFACE 1983:Request limit reached!
+2023-12-24 22:12:34,151-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SUSPICION 1941:Request limit reached!
+2023-12-24 22:12:34,360-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: OCTOPUSSY 1983:Request limit reached!
+2023-12-24 22:12:34,560-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for M 1931:Request limit reached!
+2023-12-24 22:12:34,762-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PARASITE 2019:Request limit reached!
+2023-12-24 22:12:34,969-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TOY STORY 2 1999:Request limit reached!
+2023-12-24 22:12:35,181-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for IPCRESS FILE 1965:Request limit reached!
+2023-12-24 22:12:35,391-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROBOT MONSTER 1953:Request limit reached!
+2023-12-24 22:12:35,599-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KILL BILL: VOL. 2 2004:Request limit reached!
+2023-12-24 22:12:35,818-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KARATE KID 1984:Request limit reached!
+2023-12-24 22:12:36,021-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LETHAL WEAPON 1987:Request limit reached!
+2023-12-24 22:12:36,253-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOCTOR WHO AND THE DALEKS 1965:Request limit reached!
+2023-12-24 22:12:36,492-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPOILERS 1930:Request limit reached!
+2023-12-24 22:12:36,702-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOUND OF THE BASKERVILLES 1959:Request limit reached!
+2023-12-24 22:12:36,958-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INVASION OF THE BODY SNATCHERS 1956:Request limit reached!
+2023-12-24 22:12:37,168-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SEA HAWK 1940:Request limit reached!
+2023-12-24 22:12:37,393-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LORD OF THE RINGS, THE: THE RETURN OF THE KING 2003:Request limit reached!
+2023-12-24 22:12:37,640-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for COCOANUTS 1929:Request limit reached!
+2023-12-24 22:12:37,843-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FRANKENSTEIN MUST BE DESTROYED 1969:Request limit reached!
+2023-12-24 22:12:38,064-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LIVE AND LET DIE 1973:Request limit reached!
+2023-12-24 22:12:38,293-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GREATEST SHOWMAN 2017:Request limit reached!
+2023-12-24 22:12:38,506-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MATRIX 1999:Request limit reached!
+2023-12-24 22:12:38,716-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DALEKS' INVASION EARTH 2150 A.D. 1966:Request limit reached!
+2023-12-24 22:12:38,911-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BRIDES OF DRACULA 1960:Request limit reached!
+2023-12-24 22:12:39,147-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GOOD, THE BAD AND THE UGLY 1966:Request limit reached!
+2023-12-24 22:12:39,355-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TARZAN AND THE VALLEY OF GOLD 1966:Request limit reached!
+2023-12-24 22:12:39,560-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THING-FROM ANOTHER WORLD 1951:Request limit reached!
+2023-12-24 22:12:39,762-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAWS 1975:Request limit reached!
+2023-12-24 22:12:39,963-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LOVE BEFORE BREAKFAST 1936:Request limit reached!
+2023-12-24 22:12:40,160-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BEAUTY'S WORTH 1922:Request limit reached!
+2023-12-24 22:12:40,357-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WALT DISNEY 2011:Request limit reached!
+2023-12-24 22:12:40,564-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TEN COMMANDMENTS 1956:Request limit reached!
+2023-12-24 22:12:40,769-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BONNIE AND CLYDE 1967:Request limit reached!
+2023-12-24 22:12:40,973-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GENTLEMEN 2019:Request limit reached!
+2023-12-24 22:12:41,173-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SOME LIKE IT HOT 1959:Request limit reached!
+2023-12-24 22:12:41,369-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STORYTELLER 1987:Request limit reached!
+2023-12-24 22:12:41,577-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INCREDIBLE HULK COMICS, THE None:Request limit reached!
+2023-12-24 22:12:41,776-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PEOPLE THAT TIME FORGOT 1977:Request limit reached!
+2023-12-24 22:12:41,987-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LITTLE WOMEN 1994:Request limit reached!
+2023-12-24 22:12:42,186-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PSYCHO 1960:Request limit reached!
+2023-12-24 22:12:42,393-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SUMMER WITH MONIKA 1953:Request limit reached!
+2023-12-24 22:12:42,608-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: FROM RUSSIA WITH LOVE 1963:Request limit reached!
+2023-12-24 22:12:42,809-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ZULU 1964:Request limit reached!
+2023-12-24 22:12:43,007-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ABBOTT AND COSTELLO MEET FRANKENSTEIN 1948:Request limit reached!
+2023-12-24 22:12:43,230-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for REBEL WITHOUT A CAUSE 1955:Request limit reached!
+2023-12-24 22:12:43,433-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ICE FOLLIES OF 1939 1939:Request limit reached!
+2023-12-24 22:12:43,634-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: VARIOUS PRODUCTIONS None:Request limit reached!
+2023-12-24 22:12:43,835-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PENNY DREADFUL 2014:Request limit reached!
+2023-12-24 22:12:44,032-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BUTCH CASSIDY AND THE SUNDANCE KID 1969:Request limit reached!
+2023-12-24 22:12:44,251-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for EVIL DEAD 1981:Request limit reached!
+2023-12-24 22:12:44,461-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ARMY OF DARKNESS 1992:Request limit reached!
+2023-12-24 22:12:44,660-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for X-FILES 1993:Request limit reached!
+2023-12-24 22:12:44,857-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for COMISAR COLLECTION, THE None:Request limit reached!
+2023-12-24 22:12:45,056-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LÉON: THE PROFESSIONAL 1994:Request limit reached!
+2023-12-24 22:12:45,267-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for POINT BLANK 1967:Request limit reached!
+2023-12-24 22:12:45,465-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for COLLECTIBLE POSTERS LIVE AUCTION - LOS ANGELES None:Request limit reached!
+2023-12-24 22:12:45,673-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KILL BILL: VOLUME 1 2003:Request limit reached!
+2023-12-24 22:12:45,887-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MONTY PYTHON'S FLYING CIRCUS 1969:Request limit reached!
+2023-12-24 22:12:46,085-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARRY POTTER AND THE PRISONER OF AZKABAN 2004:Request limit reached!
+2023-12-24 22:12:46,291-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NIGHT OF THE LIVING DEAD 1968:Request limit reached!
+2023-12-24 22:12:46,486-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FRANKENSTEIN MEETS THE WOLF MAN 1943:Request limit reached!
+2023-12-24 22:12:46,684-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ADVENTURES OF ROBIN HOOD 1938:Request limit reached!
+2023-12-24 22:12:46,874-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BREAKFAST CLUB 1985:Request limit reached!
+2023-12-24 22:12:47,092-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KILL BILL: VOL. 1 2003:Request limit reached!
+2023-12-24 22:12:47,294-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for APOCALYPSE NOW 1979:Request limit reached!
+2023-12-24 22:12:47,509-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GRAFT 1931:Request limit reached!
+2023-12-24 22:12:47,715-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for VARIOUS ARTISTS None:Request limit reached!
+2023-12-24 22:12:47,913-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NIGHTMARE ON ELM STREET, A 1984:Request limit reached!
+2023-12-24 22:12:48,115-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WATCHER 2000:Request limit reached!
+2023-12-24 22:12:48,318-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LASCA OF THE RIO GRANDE 1931:Request limit reached!
+2023-12-24 22:12:48,526-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FOR A FEW DOLLARS MORE 1965:Request limit reached!
+2023-12-24 22:12:48,748-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JURASSIC PARK: THE RIDE None:Request limit reached!
+2023-12-24 22:12:48,978-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MURDER, MY SWEET 1944:Request limit reached!
+2023-12-24 22:12:49,183-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SMASHING THE VICE TRUST 1937:Request limit reached!
+2023-12-24 22:12:49,386-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DUMBO 1941:Request limit reached!
+2023-12-24 22:12:49,583-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for EVIL OF FRANKENSTEIN 1964:Request limit reached!
+2023-12-24 22:12:49,785-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for UNFORGIVEN 1992:Request limit reached!
+2023-12-24 22:12:49,982-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: THE MAN WITH THE GOLDEN GUN 1974:Request limit reached!
+2023-12-24 22:12:50,209-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LOCK, STOCK AND TWO SMOKING BARRELS 1998:Request limit reached!
+2023-12-24 22:12:50,412-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK 2009:Request limit reached!
+2023-12-24 22:12:50,605-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BULLITT 1968:Request limit reached!
+2023-12-24 22:12:50,824-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KAGEMUSHA 1980:Request limit reached!
+2023-12-24 22:12:51,029-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BIRDS 1963:Request limit reached!
+2023-12-24 22:12:51,237-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ONCE UPON A TIME IN HOLLYWOOD 2019:Request limit reached!
+2023-12-24 22:12:51,446-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for COCAINE 1925:Request limit reached!
+2023-12-24 22:12:51,639-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SIGOURNEY WEAVER None:Request limit reached!
+2023-12-24 22:12:51,835-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ALIEN WAR (ATTRACTION, 1992) None:Request limit reached!
+2023-12-24 22:12:52,037-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: THE LIVING DAYLIGHTS 1987:Request limit reached!
+2023-12-24 22:12:52,249-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CREATURE FROM THE BLACK LAGOON 1954:Request limit reached!
+2023-12-24 22:12:52,462-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HALLOWEEN 1978:Request limit reached!
+2023-12-24 22:12:52,663-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LA BELLE ET LA BETE 1946:Request limit reached!
+2023-12-24 22:12:52,856-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for EVIL DEAD II 1987:Request limit reached!
+2023-12-24 22:12:53,065-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GENERAL HOSPITAL 1963:Request limit reached!
+2023-12-24 22:12:53,259-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SHAPE OF WATER 2017:Request limit reached!
+2023-12-24 22:12:53,456-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for QUEST FOR CAMELOT 1998:Request limit reached!
+2023-12-24 22:12:53,666-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TREASURE OF THE SIERRA MADRE 1948:Request limit reached!
+2023-12-24 22:12:53,867-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TARZAN AND HIS MATE 1934:Request limit reached!
+2023-12-24 22:12:54,070-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ABBOTT AND COSTELLO MEET THE KEYSTONE KOPS 1955:Request limit reached!
+2023-12-24 22:12:54,262-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: THE POWER OF THE FORCE None:Request limit reached!
+2023-12-24 22:12:54,471-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for REAR WINDOW 1954:Request limit reached!
+2023-12-24 22:12:54,673-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DR. STRANGELOVE OR: HOW I LEARNED TO STOP WORRYING AND LOVE THE BOMB 1964:Request limit reached!
+2023-12-24 22:12:54,875-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for YOUNG AND THE RESTLESS 1973:Request limit reached!
+2023-12-24 22:12:55,102-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARRY POTTER AND THE HALF-BLOOD PRINCE 2009:Request limit reached!
+2023-12-24 22:12:55,316-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BIRD OF PARADISE 1932:Request limit reached!
+2023-12-24 22:12:55,521-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DUNGEONS & DRAGONS 2000:Request limit reached!
+2023-12-24 22:12:55,722-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ENDLESS SUMMER 1965:Request limit reached!
+2023-12-24 22:12:56,305-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BEATLES 1960:Request limit reached!
+2023-12-24 22:12:56,517-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARRY POTTER AND THE PHILOSOPHER'S STONE 2001:Request limit reached!
+2023-12-24 22:12:56,714-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DAY THE EARTH STOOD STILL 1951:Request limit reached!
+2023-12-24 22:12:56,927-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TRAPPED 2002:Request limit reached!
+2023-12-24 22:12:57,182-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MAGNUM FORCE 1973:Request limit reached!
+2023-12-24 22:12:57,391-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FALLOUT 3 2008:Request limit reached!
+2023-12-24 22:12:57,593-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARY POPPINS RETURNS 2018:Request limit reached!
+2023-12-24 22:12:57,797-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CARRY ON CRUISING 1962:Request limit reached!
+2023-12-24 22:12:58,023-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DRACULA PRINCE OF DARKNESS 1966:Request limit reached!
+2023-12-24 22:12:58,227-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROCKY HORROR PICTURE SHOW 1975:Request limit reached!
+2023-12-24 22:12:58,441-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CASABLANCA 1942:Request limit reached!
+2023-12-24 22:12:58,654-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TERMINATOR SALVATION 2009:Request limit reached!
+2023-12-24 22:12:58,857-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BARBARELLA 1968:Request limit reached!
+2023-12-24 22:12:59,054-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DIRTY HARRY 1971:Request limit reached!
+2023-12-24 22:12:59,259-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DAY OF THE TRIFFIDS 1962:Request limit reached!
+2023-12-24 22:12:59,460-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PRIMAL LURE 1916:Request limit reached!
+2023-12-24 22:12:59,672-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HUNCHBACK OF NOTRE DAME 1996:Request limit reached!
+2023-12-24 22:12:59,871-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CARRY ON SPYING 1964:Request limit reached!
+2023-12-24 22:13:00,088-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FAST LADY 1962:Request limit reached!
+2023-12-24 22:13:00,290-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THEM 1954:Request limit reached!
+2023-12-24 22:13:00,489-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARRY POTTER AND THE SORCERER'S STONE 2001:Request limit reached!
+2023-12-24 22:13:00,688-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SHOOT THE MOON 1982:Request limit reached!
+2023-12-24 22:13:00,895-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for EXIT THROUGH THE GIFT SHOP 2010:Request limit reached!
+2023-12-24 22:13:01,097-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ALPHAVILLE 1965:Request limit reached!
+2023-12-24 22:13:01,301-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LE MANS 1971:Request limit reached!
+2023-12-24 22:13:01,507-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PIRATES OF THE CARIBBEAN FRANCHISE 2003:Request limit reached!
+2023-12-24 22:13:01,706-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SIMPSONS MOVIE 2007:Request limit reached!
+2023-12-24 22:13:01,909-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AUDREY HEPBURN None:Request limit reached!
+2023-12-24 22:13:02,144-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JOURNEY TO THE FAR SIDE OF THE SUN 1969:Request limit reached!
+2023-12-24 22:13:02,347-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLACK SWAN 2010:Request limit reached!
+2023-12-24 22:13:02,550-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLADE RUNNER 2049 2017:Request limit reached!
+2023-12-24 22:13:02,753-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LEGEND OF THE WEREWOLF 1975:Request limit reached!
+2023-12-24 22:13:02,961-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BREAKFAST AT TIFFANY'S 1961:Request limit reached!
+2023-12-24 22:13:03,178-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOUSE OF FRANKENSTEIN 1997:Request limit reached!
+2023-12-24 22:13:03,382-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ENTERTAINMENT MEMORABILIA LIVE AUCTION - LOS ANGELES None:Request limit reached!
+2023-12-24 22:13:03,580-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CHILD'S PLAY 3 1991:Request limit reached!
+2023-12-24 22:13:03,780-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KICK-ASS 2010:Request limit reached!
+2023-12-24 22:13:03,993-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WHAT LIES BENEATH 2000:Request limit reached!
+2023-12-24 22:13:04,202-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOWARD THE DUCK 1986:Request limit reached!
+2023-12-24 22:13:04,426-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for IT'S A WONDERFUL LIFE 1946:Request limit reached!
+2023-12-24 22:13:04,624-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLOW-UP 1966:Request limit reached!
+2023-12-24 22:13:04,827-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BRIDE OF THE MONSTER 1956:Request limit reached!
+2023-12-24 22:13:05,051-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GREEN HORNET 1966:Request limit reached!
+2023-12-24 22:13:05,254-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SEVEN SAMURAI 1954:Request limit reached!
+2023-12-24 22:13:05,455-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LADY FROM SHANGHAI 1947:Request limit reached!
+2023-12-24 22:13:05,675-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CLOCKWORK ORANGE, A 1971:Request limit reached!
+2023-12-24 22:13:05,877-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FRANKENSTEIN 1931:Request limit reached!
+2023-12-24 22:13:06,149-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for QUATERMASS II 1957:Request limit reached!
+2023-12-24 22:13:06,357-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BIG SLEEP 1946:Request limit reached!
+2023-12-24 22:13:06,573-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RAVEN 1935:Request limit reached!
+2023-12-24 22:13:06,770-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for VERTIGO 1958:Request limit reached!
+2023-12-24 22:13:07,002-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RESIDENT EVIL: APOCALYPSE 2004:Request limit reached!
+2023-12-24 22:13:07,207-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MAN WHO LAUGHS 1928:Request limit reached!
+2023-12-24 22:13:07,437-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOUBLE INDEMNITY 1944:Request limit reached!
+2023-12-24 22:13:07,645-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INVICTUS 2009:Request limit reached!
+2023-12-24 22:13:07,860-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ESCAPE TO ATHENA 1979:Request limit reached!
+2023-12-24 22:13:08,070-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THAT THING YOU DO 1996:Request limit reached!
+2023-12-24 22:13:08,308-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ARMAGEDDON 1998:Request limit reached!
+2023-12-24 22:13:08,506-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ODD JOB 1978:Request limit reached!
+2023-12-24 22:13:08,716-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLACK SUNDAY 1960:Request limit reached!
+2023-12-24 22:13:08,912-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FIRST MEN IN THE MOON 1964:Request limit reached!
+2023-12-24 22:13:09,118-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOT NEON 1975:Request limit reached!
+2023-12-24 22:13:09,354-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BATTLESTAR GALACTICA THEME PARK ATTRACTION None:Request limit reached!
+2023-12-24 22:13:09,566-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND COLLECTIBLES None:Request limit reached!
+2023-12-24 22:13:09,773-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for V 1983:Request limit reached!
+2023-12-24 22:13:10,002-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOLLYOAKS 1995:Request limit reached!
+2023-12-24 22:13:10,210-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THE LORD OF THE RINGS: THE FELLOWSHIP OF THE RING 2001:Request limit reached!
+2023-12-24 22:13:10,428-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TAXI DRIVER 1976:Request limit reached!
+2023-12-24 22:13:10,629-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HISTORY OF THE WORLD: PART 1 1981:Request limit reached!
+2023-12-24 22:13:10,833-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MIDNIGHT COWBOY 1969:Request limit reached!
+2023-12-24 22:13:11,053-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WITHNAIL & I 1987:Request limit reached!
+2023-12-24 22:13:11,260-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HONEY, I SHRUNK THE KIDS 1989:Request limit reached!
+2023-12-24 22:13:11,472-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HELP! 1965:Request limit reached!
+2023-12-24 22:13:11,680-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GHOST OF FRANKENSTEIN 1942:Request limit reached!
+2023-12-24 22:13:11,883-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GREAT ESCAPE 1963:Request limit reached!
+2023-12-24 22:13:12,098-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FLASH GORDON'S TRIP TO MARS 1938:Request limit reached!
+2023-12-24 22:13:12,319-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KUBO AND THE TWO STRINGS 2016:Request limit reached!
+2023-12-24 22:13:12,523-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SON OF FRANKENSTEIN 1939:Request limit reached!
+2023-12-24 22:13:12,726-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FISTFUL OF DOLLARS, A 1964:Request limit reached!
+2023-12-24 22:13:12,932-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PHILADELPHIA STORY 1940:Request limit reached!
+2023-12-24 22:13:13,134-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ANGELS WITH DIRTY FACES 1938:Request limit reached!
+2023-12-24 22:13:13,330-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JUNGLE BOOK 1942:Request limit reached!
+2023-12-24 22:13:13,541-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PRIVATE LIVES OF ELIZABETH AND ESSEX 1939:Request limit reached!
+2023-12-24 22:13:13,744-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MTV MOVIE AWARDS None:Request limit reached!
+2023-12-24 22:13:13,944-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PLAN 9 FROM OUTER SPACE 1957:Request limit reached!
+2023-12-24 22:13:14,150-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BATTLE FOR THE PLANET OF THE APES 1973:Request limit reached!
+2023-12-24 22:13:14,357-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ANATOMY OF A MURDER 1959:Request limit reached!
+2023-12-24 22:13:14,566-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BUS STOP 1956:Request limit reached!
+2023-12-24 22:13:14,777-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ALICE IN WONDERLAND 1951:Request limit reached!
+2023-12-24 22:13:14,986-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AVATAR 2009:Request limit reached!
+2023-12-24 22:13:15,584-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TASTE THE BLOOD OF DRACULA 1970:Request limit reached!
+2023-12-24 22:13:15,780-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FREDDY'S DEAD: THE FINAL NIGHTMARE 1991:Request limit reached!
+2023-12-24 22:13:15,987-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SABOTEUR 1942:Request limit reached!
+2023-12-24 22:13:16,197-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROBIN HOOD: PRINCE OF THIEVES 1991:Request limit reached!
+2023-12-24 22:13:16,404-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for OCEAN'S ELEVEN 1960:Request limit reached!
+2023-12-24 22:13:16,615-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ARRIVAL 1996:Request limit reached!
+2023-12-24 22:13:16,811-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: SKYFALL 2012:Request limit reached!
+2023-12-24 22:13:17,002-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LAND OF THE BLIND 2006:Request limit reached!
+2023-12-24 22:13:17,217-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TEXAS CHAINSAW MASSACRE 2003:Request limit reached!
+2023-12-24 22:13:17,420-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS CELEBRATION IV 2007:Request limit reached!
+2023-12-24 22:13:17,619-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TIM BURTON None:Request limit reached!
+2023-12-24 22:13:17,812-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WIZARD OF OZ 1939:Request limit reached!
+2023-12-24 22:13:18,008-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CINCINNATI KID 1965:Request limit reached!
+2023-12-24 22:13:18,210-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LAWRENCE OF ARABIA 1962:Request limit reached!
+2023-12-24 22:13:18,411-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FASTER, PUSSYCAT! KILL! KILL! 1965:Request limit reached!
+2023-12-24 22:13:18,612-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPIDER-MAN: FAR FROM HOME 2019:Request limit reached!
+2023-12-24 22:13:18,812-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROAD HOUSE 1989:Request limit reached!
+2023-12-24 22:13:19,015-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NEVER SAY NEVER AGAIN 1983:Request limit reached!
+2023-12-24 22:13:19,217-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SCARLET CLAW 1944:Request limit reached!
+2023-12-24 22:13:19,426-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FORBIDDEN PLANET 1956:Request limit reached!
+2023-12-24 22:13:19,625-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DEAD OF NIGHT 1945:Request limit reached!
+2023-12-24 22:13:19,818-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KING KONG 1933:Request limit reached!
+2023-12-24 22:13:20,031-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TO CATCH A THIEF 1955:Request limit reached!
+2023-12-24 22:13:20,241-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NORTH BY NORTHWEST 1959:Request limit reached!
+2023-12-24 22:13:20,449-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NEW FRONTIER 1935:Request limit reached!
+2023-12-24 22:13:20,688-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STING 1973:Request limit reached!
+2023-12-24 22:13:20,886-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KING CREOLE 1958:Request limit reached!
+2023-12-24 22:13:21,098-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GREAT RACE 1965:Request limit reached!
+2023-12-24 22:13:21,312-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ALL THROUGH THE NIGHT & OTHER LOT 1942:Request limit reached!
+2023-12-24 22:13:21,516-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HELLRAISER 1987:Request limit reached!
+2023-12-24 22:13:21,728-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AGATHA CHRISTIE None:Request limit reached!
+2023-12-24 22:13:21,936-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TARZAN AND THE LOST CITY 1998:Request limit reached!
+2023-12-24 22:13:22,162-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOCTOR ZHIVAGO 1965:Request limit reached!
+2023-12-24 22:13:22,370-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for METROPOLIS 1927:Request limit reached!
+2023-12-24 22:13:22,581-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THUNDERBIRDS ARE GO 1966:Request limit reached!
+2023-12-24 22:13:22,786-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MAD MAX 1979:Request limit reached!
+2023-12-24 22:13:23,018-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JACK REACHER 2012:Request limit reached!
+2023-12-24 22:13:23,229-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TRUE LIES 1994:Request limit reached!
+2023-12-24 22:13:23,451-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CANNIBAL HOLOCAUST 1980:Request limit reached!
+2023-12-24 22:13:23,662-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INVASION OF THE SAUCER-MEN 1957:Request limit reached!
+2023-12-24 22:13:23,894-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MISSION: IMPOSSIBLE 2 2000:Request limit reached!
+2023-12-24 22:13:24,110-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NEXT KARATE KID 1994:Request limit reached!
+2023-12-24 22:13:24,321-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MEXICAN HAYRIDE 1948:Request limit reached!
+2023-12-24 22:13:24,521-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ATOM MAN VS. SUPERMAN 1950:Request limit reached!
+2023-12-24 22:13:24,730-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAWS: THE REVENGE 1987:Request limit reached!
+2023-12-24 22:13:24,932-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BOB DYLAN 1967:Request limit reached!
+2023-12-24 22:13:25,131-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for YODA-MARDI GRAS 1981:Request limit reached!
+2023-12-24 22:13:25,335-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WARRIORS 1979:Request limit reached!
+2023-12-24 22:13:25,532-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: EVERYTHING OR NOTHING 2012:Request limit reached!
+2023-12-24 22:13:25,744-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WILD BUNCH 1969:Request limit reached!
+2023-12-24 22:13:25,945-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CARRY ON CLEO 1964:Request limit reached!
+2023-12-24 22:13:26,178-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TIME MACHINE 1960:Request limit reached!
+2023-12-24 22:13:26,393-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CAMPAIGN 2012:Request limit reached!
+2023-12-24 22:13:26,603-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GOLD RUSH 1925:Request limit reached!
+2023-12-24 22:13:26,814-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for EVERYTHING YOU ALWAYS WANTED TO KNOW ABOUT SEX BUT WERE AFRAID TO ASK 1972:Request limit reached!
+2023-12-24 22:13:27,027-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: TOMORROW NEVER DIES 1997:Request limit reached!
+2023-12-24 22:13:27,267-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for A HARD DAY'S NIGHT 1964:Request limit reached!
+2023-12-24 22:13:27,486-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SEVEN YEAR ITCH 1955:Request limit reached!
+2023-12-24 22:13:27,684-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AFRICAN QUEEN 1951:Request limit reached!
+2023-12-24 22:13:27,898-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROCKY 1976:Request limit reached!
+2023-12-24 22:13:28,125-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WOLF MAN 1941:Request limit reached!
+2023-12-24 22:13:28,327-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GORGON 1964:Request limit reached!
+2023-12-24 22:13:28,527-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GATE OF HELL 1953:Request limit reached!
+2023-12-24 22:13:28,742-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROLLERBALL 1975:Request limit reached!
+2023-12-24 22:13:28,951-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BICYCLE THIEVES 1948:Request limit reached!
+2023-12-24 22:13:29,154-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for EROTIKON 1929:Request limit reached!
+2023-12-24 22:13:29,363-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NOT OF THIS EARTH 1957:Request limit reached!
+2023-12-24 22:13:29,570-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FRENCH CONNECTION 1971:Request limit reached!
+2023-12-24 22:13:29,784-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOW I WON THE WAR 1967:Request limit reached!
+2023-12-24 22:13:30,004-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SOUND OF MUSIC 1965:Request limit reached!
+2023-12-24 22:13:30,209-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HEAT 1995:Request limit reached!
+2023-12-24 22:13:30,408-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GOLEM (LE GOLEM) None:Request limit reached!
+2023-12-24 22:13:30,603-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for QUEEN None:Request limit reached!
+2023-12-24 22:13:30,803-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BEATLES COME TO TOWN 1963:Request limit reached!
+2023-12-24 22:13:31,006-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BOHEMIAN RHAPSODY 2018:Request limit reached!
+2023-12-24 22:13:31,247-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JOURNEY TO TATAOUINE 2017:Request limit reached!
+2023-12-24 22:13:31,444-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROSITA 1923:Request limit reached!
+2023-12-24 22:13:31,643-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STRANGER ON THE THIRD FLOOR 1940:Request limit reached!
+2023-12-24 22:13:31,842-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FRIENDS 1994:Request limit reached!
+2023-12-24 22:13:32,047-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK VI: THE UNDISCOVERED COUNTRY 1991:Request limit reached!
+2023-12-24 22:13:32,249-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SUPER POWERS COLLECTION TOYS None:Request limit reached!
+2023-12-24 22:13:32,447-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LEONARD NIMOY STAR TREK None:Request limit reached!
+2023-12-24 22:13:32,651-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THE LORD OF THE RINGS 1978:Request limit reached!
+2023-12-24 22:13:32,880-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MAN FROM U.N.C.L.E 1964:Request limit reached!
+2023-12-24 22:13:33,088-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BUCK ROGERS IN THE 25TH CENTURY 1979:Request limit reached!
+2023-12-24 22:13:33,287-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STARGATE 1994:Request limit reached!
+2023-12-24 22:13:33,505-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PUNISHER 2004:Request limit reached!
+2023-12-24 22:13:33,708-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TEENAGE MUTANT NINJA TURTLES ACTION FIGURES None:Request limit reached!
+2023-12-24 22:13:33,911-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SOLOMON KANE 2009:Request limit reached!
+2023-12-24 22:13:34,105-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: DROIDS 1985:Request limit reached!
+2023-12-24 22:13:34,311-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARILYN MONROE None:Request limit reached!
+2023-12-24 22:13:34,510-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for UFO 2012:Request limit reached!
+2023-12-24 22:13:34,739-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: POWER OF THE FORCE 2 None:Request limit reached!
+2023-12-24 22:13:34,940-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for G.I JOE: A REAL AMERICAN HERO 1987:Request limit reached!
+2023-12-24 22:13:35,130-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GODZILLA #12 1978:Request limit reached!
+2023-12-24 22:13:35,333-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MOON KNIGHT None:Request limit reached!
+2023-12-24 22:13:35,535-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BATMAN ACTION FIGURES None:Request limit reached!
+2023-12-24 22:13:35,728-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WORLD'S GREATEST SUPERHEROES! TOYS None:Request limit reached!
+2023-12-24 22:13:35,931-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS EXPANDED UNIVERSE None:Request limit reached!
+2023-12-24 22:13:36,145-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CEREBUS THE AARDVARK 1977:Request limit reached!
+2023-12-24 22:13:36,341-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BATMAN / DETECTIVE COMIC #600 1989:Request limit reached!
+2023-12-24 22:13:36,544-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CALIFORNIA RAISINS None:Request limit reached!
+2023-12-24 22:13:36,736-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MRS. DOUBTFIRE 1993:Request limit reached!
+2023-12-24 22:13:36,936-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLACK CANARY COMICS 1947:Request limit reached!
+2023-12-24 22:13:37,132-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for REAL GHOSTBUSTERS 1986:Request limit reached!
+2023-12-24 22:13:37,330-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THE ROLLING STONES None:Request limit reached!
+2023-12-24 22:13:37,540-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TRANSFORMERS ACTION FIGURES None:Request limit reached!
+2023-12-24 22:13:37,738-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: REBELS 2014:Request limit reached!
+2023-12-24 22:13:37,947-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DUKES OF HAZZARD 1979:Request limit reached!
+2023-12-24 22:13:38,149-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FRAZETTA PAINTING None:Request limit reached!
+2023-12-24 22:13:38,344-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR WARS: EWOKS 1985:Request limit reached!
+2023-12-24 22:13:38,576-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MOONRAKER 1979:Request limit reached!
+2023-12-24 22:13:38,785-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RAMBO: FIRST BLOOD 1982:Request limit reached!
+2023-12-24 22:13:38,996-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SMURFS 2011:Request limit reached!
+2023-12-24 22:13:39,205-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JUSTICE LEAGUE / BRAVE AND THE BOLD, THE #30 1955:Request limit reached!
+2023-12-24 22:13:39,436-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for IRON MAN 2 2010:Request limit reached!
+2023-12-24 22:13:39,646-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DAVID BOWIE None:Request limit reached!
+2023-12-24 22:13:39,849-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for UNIVERSAL MONSTERS None:Request limit reached!
+2023-12-24 22:13:40,045-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MORK & MINDY 1978:Request limit reached!
+2023-12-24 22:13:40,260-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for VINTAGE TOYS None:Request limit reached!
+2023-12-24 22:13:40,460-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DC COMICS None:Request limit reached!
+2023-12-24 22:13:40,666-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DEADPOOL 2016:Request limit reached!
+2023-12-24 22:13:40,886-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLACK SABBATH 1964:Request limit reached!
+2023-12-24 22:13:41,090-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARRY POTTER SERIES 2001:Request limit reached!
+2023-12-24 22:13:41,291-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BATMAN COMICS None:Request limit reached!
+2023-12-24 22:13:41,499-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PAN'S LABYRINTH 2006:Request limit reached!
+2023-12-24 22:13:41,709-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WHAT THE--?! None:Request limit reached!
+2023-12-24 22:13:41,917-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ISLE OF DOGS 2018:Request limit reached!
+2023-12-24 22:13:42,124-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL PREVIEW COMICS None:Request limit reached!
+2023-12-24 22:13:42,329-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WALLACE & GROMIT 1996:Request limit reached!
+2023-12-24 22:13:42,549-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CAPTAIN SCARLET AND THE MYSTERONS 1967:Request limit reached!
+2023-12-24 22:13:42,749-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SMOKEY AND THE BANDIT 2 1980:Request limit reached!
+2023-12-24 22:13:42,959-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TEENAGE MUTANT NINJA TURTLES: OUT OF THE SHADOWS 2016:Request limit reached!
+2023-12-24 22:13:43,169-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for X-MEN ORIGINS: WOLVERINE 2009:Request limit reached!
+2023-12-24 22:13:43,375-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CAMELOT 3000 1982:Request limit reached!
+2023-12-24 22:13:43,588-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PLAYMATES SHOGUN NINJA TEENAGE MUTANT NINJA TURTLES None:Request limit reached!
+2023-12-24 22:13:43,794-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MICHAEL JACKSON VARIOUS None:Request limit reached!
+2023-12-24 22:13:43,998-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ASTONISHING TALES 1970:Request limit reached!
+2023-12-24 22:13:44,202-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARRY POTTER FRANCHISE 1997:Request limit reached!
+2023-12-24 22:13:44,425-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STINGRAY 1985:Request limit reached!
+2023-12-24 22:13:44,636-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DC UNIVERSE None:Request limit reached!
+2023-12-24 22:13:44,848-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TURNER AND HOOCH 1989:Request limit reached!
+2023-12-24 22:13:45,051-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for YENTL 1983:Request limit reached!
+2023-12-24 22:13:45,251-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INTOLERABLE CRUELTY 2003:Request limit reached!
+2023-12-24 22:13:45,460-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TALES THAT WITNESS MADNESS 1973:Request limit reached!
+2023-12-24 22:13:45,663-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RETURN OF THE SOLDIER 1982:Request limit reached!
+2023-12-24 22:13:45,869-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AFTERLIFE 2005:Request limit reached!
+2023-12-24 22:13:46,074-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROBOT OVERLORDS 2014:Request limit reached!
+2023-12-24 22:13:46,273-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SHANGHAI SURPRISE 1986:Request limit reached!
+2023-12-24 22:13:46,473-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JIM HENSON PRODUCTIONS None:Request limit reached!
+2023-12-24 22:13:46,685-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARY SHELLEY'S FRANKENSTEIN 1994:Request limit reached!
+2023-12-24 22:13:46,885-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MASK OF ZORRO 1998:Request limit reached!
+2023-12-24 22:13:47,086-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AMERICAN GANGSTER 2007:Request limit reached!
+2023-12-24 22:13:47,284-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK: GENERATIONS 1994:Request limit reached!
+2023-12-24 22:13:47,492-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GAME OF THRONES 2011:Request limit reached!
+2023-12-24 22:13:47,705-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KULL THE CONQUEROR 1997:Request limit reached!
+2023-12-24 22:13:47,908-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BEACH 2000:Request limit reached!
+2023-12-24 22:13:48,142-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ANTZ 1998:Request limit reached!
+2023-12-24 22:13:48,347-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CADDYSHACK II 1988:Request limit reached!
+2023-12-24 22:13:48,548-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LADY JANE 1986:Request limit reached!
+2023-12-24 22:13:48,766-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MISTRESSES 2013:Request limit reached!
+2023-12-24 22:13:48,972-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CUTTHROAT ISLAND 1995:Request limit reached!
+2023-12-24 22:13:49,197-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DEVIL'S BACKBONE 2001:Request limit reached!
+2023-12-24 22:13:49,394-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JUGGERNAUT 1974:Request limit reached!
+2023-12-24 22:13:49,591-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WITHOUT A CLUE 1988:Request limit reached!
+2023-12-24 22:13:49,803-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MUTINY ON THE BOUNTY 1962:Request limit reached!
+2023-12-24 22:13:50,014-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SOLDIER'S TALE 1984:Request limit reached!
+2023-12-24 22:13:50,220-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HUNT FOR RED OCTOBER 1990:Request limit reached!
+2023-12-24 22:13:50,599-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STARMAN 1984:Request limit reached!
+2023-12-24 22:13:50,792-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FAN 1996:Request limit reached!
+2023-12-24 22:13:51,001-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CHAPLIN 1992:Request limit reached!
+2023-12-24 22:13:51,207-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JOHN CHAMBERS COLLECTION None:Request limit reached!
+2023-12-24 22:13:51,413-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FOURTH PROTOCOL 1987:Request limit reached!
+2023-12-24 22:13:51,614-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ARTHUR 2: ON THE ROCKS 1988:Request limit reached!
+2023-12-24 22:13:51,819-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FILTH: THE MARY WHITEHOUSE STORY 2008:Request limit reached!
+2023-12-24 22:13:52,028-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TERRAHAWKS 1983:Request limit reached!
+2023-12-24 22:13:52,223-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KHARTOUM 1966:Request limit reached!
+2023-12-24 22:13:52,422-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ELEPHANT MAN 1980:Request limit reached!
+2023-12-24 22:13:52,623-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOBBIT, THE: AN UNEXPECTED JOURNEY 2012:Request limit reached!
+2023-12-24 22:13:52,828-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MY FAVORITE HUSBAND (RADIO SHOW, 1948-1951) None:Request limit reached!
+2023-12-24 22:13:53,033-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CHARGE OF THE LIGHT BRIGADE 1968:Request limit reached!
+2023-12-24 22:13:53,230-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOGS OF WAR 1980:Request limit reached!
+2023-12-24 22:13:53,453-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLACK HAWK DOWN 2001:Request limit reached!
+2023-12-24 22:13:53,659-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GOOD MORNING, VIETNAM 1987:Request limit reached!
+2023-12-24 22:13:53,858-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for EVENT HORIZON 1997:Request limit reached!
+2023-12-24 22:13:54,084-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JEEPERS CREEPERS 2 2003:Request limit reached!
+2023-12-24 22:13:54,298-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RADIOHEAD None:Request limit reached!
+2023-12-24 22:13:54,491-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for YOUNG SHERLOCK HOLMES 1985:Request limit reached!
+2023-12-24 22:13:54,700-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for YOUNG INDIANA JONES CHRONICLES 1992:Request limit reached!
+2023-12-24 22:13:54,894-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LADY CHATTERLEY 1993:Request limit reached!
+2023-12-24 22:13:55,092-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for I, MONSTER 1971:Request limit reached!
+2023-12-24 22:13:55,296-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DRAGONHEART 1996:Request limit reached!
+2023-12-24 22:13:55,495-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LOST WORLD, THE: JURASSIC PARK 1997:Request limit reached!
+2023-12-24 22:13:55,708-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CSI: MIAMI 2002:Request limit reached!
+2023-12-24 22:13:55,914-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for POKÉMON - DETECTIVE PIKACHU 2019:Request limit reached!
+2023-12-24 22:13:56,131-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MAGNUM, P.I 1980:Request limit reached!
+2023-12-24 22:13:56,351-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NUTTY PROFESSOR 1996:Request limit reached!
+2023-12-24 22:13:56,552-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for I LOVE LUCY 1951:Request limit reached!
+2023-12-24 22:13:56,763-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WORLD WAR Z 2013:Request limit reached!
+2023-12-24 22:13:56,972-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NIGHT TRAIN TO LISBON 2013:Request limit reached!
+2023-12-24 22:13:57,184-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HELLBOY 2004:Request limit reached!
+2023-12-24 22:13:57,388-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BOURNE ULTIMATUM 2007:Request limit reached!
+2023-12-24 22:13:57,592-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FORCE 10 FROM NAVARONE 1978:Request limit reached!
+2023-12-24 22:13:57,823-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THAT RIVIERA TOUCH 1966:Request limit reached!
+2023-12-24 22:13:58,023-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK FRANCHISE 1966:Request limit reached!
+2023-12-24 22:13:58,229-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BOSS FILMS VFX COMPANY None:Request limit reached!
+2023-12-24 22:13:58,442-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for 47 RONIN 2013:Request limit reached!
+2023-12-24 22:13:58,650-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SINGLE SHOT, A 2013:Request limit reached!
+2023-12-24 22:13:58,850-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOPE AND GLORY 1987:Request limit reached!
+2023-12-24 22:13:59,060-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JURASSIC WORLD: FALLEN KINGDOM 2018:Request limit reached!
+2023-12-24 22:13:59,279-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TALENTED MR RIPLEY 1999:Request limit reached!
+2023-12-24 22:13:59,478-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CHICAGO JOE AND THE SHOWGIRL 1990:Request limit reached!
+2023-12-24 22:13:59,830-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for COLOR PURPLE 1985:Request limit reached!
+2023-12-24 22:14:00,056-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MOON 2009:Request limit reached!
+2023-12-24 22:14:00,261-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BULLET TO THE HEAD 2012:Request limit reached!
+2023-12-24 22:14:00,475-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPACE JAM 1996:Request limit reached!
+2023-12-24 22:14:00,700-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GRAVITY 2013:Request limit reached!
+2023-12-24 22:14:00,909-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HUMAN FACTOR 1979:Request limit reached!
+2023-12-24 22:14:01,110-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DANGER ROUTE 1967:Request limit reached!
+2023-12-24 22:14:01,312-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WARGAMES 1983:Request limit reached!
+2023-12-24 22:14:01,526-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WATERWORLD 1995:Request limit reached!
+2023-12-24 22:14:01,731-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DON QUIXOTE 2000:Request limit reached!
+2023-12-24 22:14:01,943-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FRANKENSTEIN UNBOUND 1990:Request limit reached!
+2023-12-24 22:14:02,147-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ARTHUR CONAN DOYLE'S THE LOST WORLD 1998:Request limit reached!
+2023-12-24 22:14:02,352-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DIRTY DOZEN: THE NEXT MISSION 1985:Request limit reached!
+2023-12-24 22:14:02,560-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DEATH RACE: INFERNO 2013:Request limit reached!
+2023-12-24 22:14:02,782-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ISLAND OF DR. MOREAU 1996:Request limit reached!
+2023-12-24 22:14:03,027-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for OUTLANDER 2014:Request limit reached!
+2023-12-24 22:14:03,226-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MR. MAGORIUM'S WONDER EMPORIUM 2007:Request limit reached!
+2023-12-24 22:14:03,439-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KINDERGARTEN COP 1990:Request limit reached!
+2023-12-24 22:14:03,643-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SILVER STREAK 1976:Request limit reached!
+2023-12-24 22:14:03,855-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SEANCE ON A WET AFTERNOON 1964:Request limit reached!
+2023-12-24 22:14:04,059-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INN OF THE SIXTH HAPPINESS 1958:Request limit reached!
+2023-12-24 22:14:04,268-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PIRATES OF THE CARIBBEAN: ON STRANGER TIDES 2011:Request limit reached!
+2023-12-24 22:14:04,480-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RAVENOUS 1999:Request limit reached!
+2023-12-24 22:14:04,681-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for COWBOYS & ALIENS 2011:Request limit reached!
+2023-12-24 22:14:04,884-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AMERICAN FRIENDS 1991:Request limit reached!
+2023-12-24 22:14:05,082-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WHAT WE DO IN THE SHADOWS 2014:Request limit reached!
+2023-12-24 22:14:05,275-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KING ARTHUR: LEGEND OF THE SWORD 2017:Request limit reached!
+2023-12-24 22:14:05,483-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CAPTAIN EO 1986:Request limit reached!
+2023-12-24 22:14:05,688-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RAY HARRYHAUSEN None:Request limit reached!
+2023-12-24 22:14:05,896-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROB ROY 1995:Request limit reached!
+2023-12-24 22:14:06,144-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RUM DIARY 2011:Request limit reached!
+2023-12-24 22:14:06,349-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ABSOLUTE POWER 1997:Request limit reached!
+2023-12-24 22:14:06,573-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TOURIST 2010:Request limit reached!
+2023-12-24 22:14:06,785-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SCOTT PILGRIM VS. THE WORLD 2010:Request limit reached!
+2023-12-24 22:14:06,989-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WANDERLUST 2012:Request limit reached!
+2023-12-24 22:14:07,190-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MEET DAVE 2008:Request limit reached!
+2023-12-24 22:14:07,395-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CURIOUS CASE OF BENJAMIN BUTTON 2008:Request limit reached!
+2023-12-24 22:14:07,990-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RETURN OF THE MAGNIFICENT SEVEN 1966:Request limit reached!
+2023-12-24 22:14:08,204-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INDIAN IN THE CUPBOARD 1995:Request limit reached!
+2023-12-24 22:14:08,410-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STUART LITTLE 2 2002:Request limit reached!
+2023-12-24 22:14:08,622-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CASUALTIES OF WAR 1989:Request limit reached!
+2023-12-24 22:14:08,862-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ONE DIRECTION: THIS IS US 2013:Request limit reached!
+2023-12-24 22:14:09,065-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FIDDLER ON THE ROOF 1971:Request limit reached!
+2023-12-24 22:14:09,286-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WILD GEESE 1978:Request limit reached!
+2023-12-24 22:14:09,515-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for COLOUR OF MAGIC 2008:Request limit reached!
+2023-12-24 22:14:09,715-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JASON X 2001:Request limit reached!
+2023-12-24 22:14:09,915-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TRIAGE 2009:Request limit reached!
+2023-12-24 22:14:10,122-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SMALL TOWN IN TEXAS, A 1976:Request limit reached!
+2023-12-24 22:14:10,352-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GOODBYE MR CHIPS 1969:Request limit reached!
+2023-12-24 22:14:10,561-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPIES LIKE US 1985:Request limit reached!
+2023-12-24 22:14:10,867-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MOBY DICK PLAY 1955:Request limit reached!
+2023-12-24 22:14:11,077-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK ADVENTURE 1991:Request limit reached!
+2023-12-24 22:14:11,277-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOORS 1991:Request limit reached!
+2023-12-24 22:14:11,489-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MIMIC 2 2001:Request limit reached!
+2023-12-24 22:14:11,693-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THE 11TH 2016:Request limit reached!
+2023-12-24 22:14:11,899-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for UNDERDOG 2007:Request limit reached!
+2023-12-24 22:14:12,104-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DA VINCI CODE 2006:Request limit reached!
+2023-12-24 22:14:12,313-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for EARLY BIRD 1965:Request limit reached!
+2023-12-24 22:14:12,522-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LIFE 1999:Request limit reached!
+2023-12-24 22:14:12,811-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for X-MEN: FIRST CLASS 2011:Request limit reached!
+2023-12-24 22:14:13,010-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LITTLE SHOP OF HORRORS 1986:Request limit reached!
+2023-12-24 22:14:13,236-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JIM MORRISON None:Request limit reached!
+2023-12-24 22:14:13,443-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CAPTAIN AMERICA 1990:Request limit reached!
+2023-12-24 22:14:13,736-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WRONG BOX 1966:Request limit reached!
+2023-12-24 22:14:14,040-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for IRONSIDE 1967:Request limit reached!
+2023-12-24 22:14:14,242-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for OZZY OSBOURNE None:Request limit reached!
+2023-12-24 22:14:14,551-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DRACULA 2000 2000:Request limit reached!
+2023-12-24 22:14:14,857-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RESIDENT 2011:Request limit reached!
+2023-12-24 22:14:15,063-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GRADUATE 1967:Request limit reached!
+2023-12-24 22:14:15,267-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FAT MAN AND LITTLE BOY 1989:Request limit reached!
+2023-12-24 22:14:15,476-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for I AM LEGEND 2007:Request limit reached!
+2023-12-24 22:14:15,732-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MALEFICENT 2014:Request limit reached!
+2023-12-24 22:14:15,955-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FORD LUCILLE BALL-DESI ARNAZ SHOW 1971:Request limit reached!
+2023-12-24 22:14:16,173-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SHAUN OF THE DEAD 2004:Request limit reached!
+2023-12-24 22:14:16,392-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MISSING LINK 2019:Request limit reached!
+2023-12-24 22:14:16,606-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WHITE SQUALL 1996:Request limit reached!
+2023-12-24 22:14:16,813-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for UNDER FIRE 1983:Request limit reached!
+2023-12-24 22:14:17,030-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DANISH GIRL 2015:Request limit reached!
+2023-12-24 22:14:17,314-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RETURN OF THE LIVING DEAD: NECROPOLIS 2005:Request limit reached!
+2023-12-24 22:14:17,622-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WEDDING RINGER 2015:Request limit reached!
+2023-12-24 22:14:17,830-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WHITNEY HOUSTON None:Request limit reached!
+2023-12-24 22:14:18,135-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DARK SHADOWS 2012:Request limit reached!
+2023-12-24 22:14:18,442-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DEEP PURPLE None:Request limit reached!
+2023-12-24 22:14:18,748-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CROSSING JORDAN 2001:Request limit reached!
+2023-12-24 22:14:18,957-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ADDAMS FAMILY 1964:Request limit reached!
+2023-12-24 22:14:19,261-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WORLD'S END 2013:Request limit reached!
+2023-12-24 22:14:19,467-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CLASH, THE None:Request limit reached!
+2023-12-24 22:14:19,764-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SEINFELD 1989:Request limit reached!
+2023-12-24 22:14:20,081-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROCKY III 1982:Request limit reached!
+2023-12-24 22:14:20,382-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CAVEMAN 1981:Request limit reached!
+2023-12-24 22:14:20,589-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INCREDIBLE BURT WONDERSTONE 2013:Request limit reached!
+2023-12-24 22:14:20,896-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TRUE ROMANCE 1993:Request limit reached!
+2023-12-24 22:14:21,081-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CARS 2 2011:Request limit reached!
+2023-12-24 22:14:21,322-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ORPHAN BLACK 2013:Request limit reached!
+2023-12-24 22:14:21,542-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MICHAEL JACKSON: 30TH ANNIVERSARY SPECIAL 2001:Request limit reached!
+2023-12-24 22:14:21,813-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ROCKY IV 1985:Request limit reached!
+2023-12-24 22:14:22,019-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LORD OF THE RINGS, THE: THE TWO TOWERS 2002:Request limit reached!
+2023-12-24 22:14:22,230-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WICKER MAN 1973:Request limit reached!
+2023-12-24 22:14:22,559-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GIRL WITH THE DRAGON TATTOO 2011:Request limit reached!
+2023-12-24 22:14:22,781-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for 3RD ROCK FROM THE SUN 1996:Request limit reached!
+2023-12-24 22:14:23,020-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MARVEL: ALL ITEMS None:Request limit reached!
+2023-12-24 22:14:23,239-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DR. WHO: DEATH TO THE DALEKS 1974:Request limit reached!
+2023-12-24 22:14:23,560-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TOY STORY 3 2010:Request limit reached!
+2023-12-24 22:14:23,764-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for A MATTER  OF GRAVITY 1977:Request limit reached!
+2023-12-24 22:14:24,066-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPY GAME 2001:Request limit reached!
+2023-12-24 22:14:24,365-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PLANK 1967:Request limit reached!
+2023-12-24 22:14:24,572-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GLASS 2019:Request limit reached!
+2023-12-24 22:14:24,889-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SAW 3D: THE FINAL CHAPTER 2010:Request limit reached!
+2023-12-24 22:14:25,095-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HELLRAISER: DEADER 2005:Request limit reached!
+2023-12-24 22:14:25,301-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLAKE'S 7 1978:Request limit reached!
+2023-12-24 22:14:25,602-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FANTASTIC FOUR: RISE OF THE SILVER SURFER 2007:Request limit reached!
+2023-12-24 22:14:25,918-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for REBECCA 1940:Request limit reached!
+2023-12-24 22:14:26,229-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MAIGRET 1988:Request limit reached!
+2023-12-24 22:14:26,522-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARRY POTTER AND THE DEATHLY HALLOWS: PART 1 2010:Request limit reached!
+2023-12-24 22:14:26,728-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLOOD OF THE VAMPIRE 1958:Request limit reached!
+2023-12-24 22:14:27,030-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ADVENTURES OF TINTIN 2011:Request limit reached!
+2023-12-24 22:14:27,350-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CONCUSSION 2015:Request limit reached!
+2023-12-24 22:14:27,553-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FANTASTIC FOUR 2005:Request limit reached!
+2023-12-24 22:14:27,854-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BELLE DE JOUR 1968:Request limit reached!
+2023-12-24 22:14:28,070-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for FULL METAL JACKET 1987:Request limit reached!
+2023-12-24 22:14:28,361-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KARATE KID PART II 1986:Request limit reached!
+2023-12-24 22:14:28,677-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SWEENEY TODD: THE DEMON BARBER OF FLEET STREET 2007:Request limit reached!
+2023-12-24 22:14:28,977-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BUCK ROGERS 1979:Request limit reached!
+2023-12-24 22:14:29,183-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NEW BATMAN ADVENTURES 1997:Request limit reached!
+2023-12-24 22:14:29,484-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NEVERENDING STORY 1984:Request limit reached!
+2023-12-24 22:14:29,767-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for EX MACHINA 2014:Request limit reached!
+2023-12-24 22:14:30,006-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CASINO 1995:Request limit reached!
+2023-12-24 22:14:30,307-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BATMAN: THE ANIMATED SERIES 1992:Request limit reached!
+2023-12-24 22:14:30,623-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THEORY OF EVERYTHING 2014:Request limit reached!
+2023-12-24 22:14:30,829-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LAW AND HARRY MCGRAW 1987:Request limit reached!
+2023-12-24 22:14:31,138-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DEADPOOL 2 2018:Request limit reached!
+2023-12-24 22:14:31,433-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MAN OF STEEL 2013:Request limit reached!
+2023-12-24 22:14:31,750-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CHILD'S PLAY 1988:Request limit reached!
+2023-12-24 22:14:32,053-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CASANOVA 2005:Request limit reached!
+2023-12-24 22:14:32,367-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for N/A None:Request limit reached!
+2023-12-24 22:14:32,668-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BOB PATTERSON 2001:Request limit reached!
+2023-12-24 22:14:32,983-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SPAWN 1997:Request limit reached!
+2023-12-24 22:14:33,287-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TREMORS 1990:Request limit reached!
+2023-12-24 22:14:33,588-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HEARTS OF FIRE 1987:Request limit reached!
+2023-12-24 22:14:33,800-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SON OF THE PINK PANTHER 1993:Request limit reached!
+2023-12-24 22:14:34,002-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SWAMP THING 1990:Request limit reached!
+2023-12-24 22:14:34,209-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOG'S LIFE, A 1918:Request limit reached!
+2023-12-24 22:14:34,516-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for GREAT MUPPET CAPER 1981:Request limit reached!
+2023-12-24 22:14:34,811-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ALADDIN 2019:Request limit reached!
+2023-12-24 22:14:35,018-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BLOODSPORT 1988:Request limit reached!
+2023-12-24 22:14:35,230-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for G.I. BLUES 1960:Request limit reached!
+2023-12-24 22:14:35,432-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LAST KING OF SCOTLAND 2006:Request limit reached!
+2023-12-24 22:14:35,637-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MUPPET SHOW 1976:Request limit reached!
+2023-12-24 22:14:35,940-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LIFEBOAT 1944:Request limit reached!
+2023-12-24 22:14:36,160-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WIRE 2002:Request limit reached!
+2023-12-24 22:14:36,398-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK V: THE FINAL FRONTIER 1989:Request limit reached!
+2023-12-24 22:14:36,618-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HILLS HAVE EYES 2 2007:Request limit reached!
+2023-12-24 22:14:36,878-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SHADOWLANDS 1993:Request limit reached!
+2023-12-24 22:14:37,084-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for SOPRANOS 1999:Request limit reached!
+2023-12-24 22:14:37,313-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ALITA: BATTLE ANGEL 2019:Request limit reached!
+2023-12-24 22:14:37,522-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BOOK OF ELI 2010:Request limit reached!
+2023-12-24 22:14:37,719-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: THE STORY OF JAMES BOND 2008:Request limit reached!
+2023-12-24 22:14:37,958-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for OLIVER TWIST 1982:Request limit reached!
+2023-12-24 22:14:38,205-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PRIDE & PREJUDICE 1995:Request limit reached!
+2023-12-24 22:14:38,405-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JUSTICE LEAGUE 2018:Request limit reached!
+2023-12-24 22:14:38,599-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LINCOLN 2012:Request limit reached!
+2023-12-24 22:14:38,817-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DAY OF THE DEAD 1985:Request limit reached!
+2023-12-24 22:14:39,021-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for T. REX None:Request limit reached!
+2023-12-24 22:14:39,322-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HAPPY DAYS 1974:Request limit reached!
+2023-12-24 22:14:39,623-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AMERICAN HISTORY X 1998:Request limit reached!
+2023-12-24 22:14:39,846-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ELVIS PRESLEY None:Request limit reached!
+2023-12-24 22:14:40,131-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HARRY POTTER AND THE GOBLET OF FIRE 2005:Request limit reached!
+2023-12-24 22:14:40,352-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ALFRED HITCHCOCK PRESENTS 1955:Request limit reached!
+2023-12-24 22:14:40,558-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for THE JACKSON 5 None:Request limit reached!
+2023-12-24 22:14:40,764-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TWILIGHT ZONE 1986:Request limit reached!
+2023-12-24 22:14:41,378-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RAMBO: LAST BLOOD 2019:Request limit reached!
+2023-12-24 22:14:41,684-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BATMAN OF THE FUTURE 1999:Request limit reached!
+2023-12-24 22:14:41,986-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for TO KILL A KING 2003:Request limit reached!
+2023-12-24 22:14:42,580-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOWLING 1981:Request limit reached!
+2023-12-24 22:14:42,788-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HELLRAISER: JUDGMENT 2018:Request limit reached!
+2023-12-24 22:14:42,988-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BASIC INSTINCT 1992:Request limit reached!
+2023-12-24 22:14:43,235-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BRING 'EM BACK ALIVE 1982:Request limit reached!
+2023-12-24 22:14:43,426-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BEST LITTLE WHOREHOUSE IN TEXAS 1982:Request limit reached!
+2023-12-24 22:14:43,663-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LITTLE MISS SUNSHINE 2006:Request limit reached!
+2023-12-24 22:14:43,870-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for KALIFORNIA 1993:Request limit reached!
+2023-12-24 22:14:44,138-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PRICK UP YOUR EARS 1987:Request limit reached!
+2023-12-24 22:14:44,328-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for OFFICE 2005:Request limit reached!
+2023-12-24 22:14:44,645-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JAMES BOND: THE ROBERT MCGINNIS HOLLYWOOD EDITION 2000:Request limit reached!
+2023-12-24 22:14:44,962-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for CORPSE BRIDE 2005:Request limit reached!
+2023-12-24 22:14:45,153-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for NINE MONTHS 1995:Request limit reached!
+2023-12-24 22:14:45,468-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ENEMY AT THE GATES 2001:Request limit reached!
+2023-12-24 22:14:45,767-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for MONTY PYTHON None:Request limit reached!
+2023-12-24 22:14:46,082-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for RESERVOIR DOGS 1992:Request limit reached!
+2023-12-24 22:14:46,397-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DRY WHITE SEASON, A 1989:Request limit reached!
+2023-12-24 22:14:46,604-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DRIVE 2011:Request limit reached!
+2023-12-24 22:14:46,902-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK: VARIOUS PRODUCTIONS None:Request limit reached!
+2023-12-24 22:14:47,204-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for WINGS None:Request limit reached!
+2023-12-24 22:14:47,524-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PERSONAL ITEMS None:Request limit reached!
+2023-12-24 22:14:47,825-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for B.A.T. (BATMAN ADVANCED TOOL) TECH STYLE GUIDE None:Request limit reached!
+2023-12-24 22:14:48,127-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for LIBERTINE 2004:Request limit reached!
+2023-12-24 22:14:48,444-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for OBLIVION 2013:Request limit reached!
+2023-12-24 22:14:48,633-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PEE-WEE'S PLAYHOUSE 1986:Request limit reached!
+2023-12-24 22:14:48,854-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JERRY MAGUIRE 1996:Request limit reached!
+2023-12-24 22:14:49,151-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for AUSTIN POWERS: THE SPY WHO SHAGGED ME 1999:Request limit reached!
+2023-12-24 22:14:49,750-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DOCTOR SLEEP 2019:Request limit reached!
+2023-12-24 22:14:50,033-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for INSOMNIA 2002:Request limit reached!
+2023-12-24 22:14:50,403-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for STAR TREK BEYOND 2016:Request limit reached!
+2023-12-24 22:14:50,646-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for DEATH ON THE NILE 1978:Request limit reached!
+2023-12-24 22:14:50,842-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for JEEPERS CREEPERS 2001:Request limit reached!
+2023-12-24 22:14:51,220-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for BOND None:Request limit reached!
+2023-12-24 22:14:51,512-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ESTELLE GETTY None:Request limit reached!
+2023-12-24 22:14:51,820-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for HOT FUZZ 2007:Request limit reached!
+2023-12-24 22:14:52,043-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for ENTER THE DRAGON 1973:Request limit reached!
+2023-12-24 22:14:52,327-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PROPSTORE MERCHANDISE None:Request limit reached!
+2023-12-24 22:14:52,344-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:64-All OMDB movies inserted into database
+2023-12-24 22:14:52,344-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:74-Database connection closed

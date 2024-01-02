@@ -6,7 +6,6 @@ import argparse
 import Create_SQL_database_structure
 import SQL_data_loading
 import OMDB_API_data_loading
-import pymysql
 
 log_filename = 'Propstore.log'
 config_filename = "config.json"
@@ -89,6 +88,7 @@ def main():
             items_list = pool.starmap(Selenium_functions.process_category,
                                       [(category_url, username, password, option, config) for category_url in
                                        category_url_list])
+            print("Program now updating SQL database with data scraped from Propstore.com")
             for item in items_list:
                 SQL_data_loading.load_data(item, connection)
 
