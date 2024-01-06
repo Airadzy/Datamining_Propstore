@@ -79,8 +79,10 @@ def extract_data(html_content, category_url, option, config):
         cards = soup.find_all("div", class_="card__info")
         items_set = set()
         category = category_url.split("/")[4]
+        print("extracting 1")
         for card in cards:
             extract_card_data(card, category, items_set, button_dict, option)
+        print("extracting 2")
         items_list = list(items_set)
         print(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")
         logging.info(f"FINISHED EXTRACTING {category}. Number of items fetched: {len(items_list)}")

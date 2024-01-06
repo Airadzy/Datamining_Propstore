@@ -7,6 +7,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 import logging
 import time
 import Extract_data_function
+from selenium.webdriver.chrome.options import Options
+import undetected_chromedriver as uc
 from selenium.common.exceptions import (
     NoSuchElementException,
     TimeoutException,
@@ -37,8 +39,10 @@ def scroll_to_bottom(driver):
 
     actions = ActionChains(driver)
     actions.send_keys(Keys.END).perform()
-    time.sleep(0.8)
-
+    print("scroll to bottom")
+    WebDriverWait(driver, 100).until(
+        lambda d: d.execute_script('return document.readyState') == 'complete')
+    print("scroll to bottom finish")
 
 def login(driver, username, password, config):
     """
@@ -50,21 +54,21 @@ def login(driver, username, password, config):
     """
 
     try:
-        signin_button = WebDriverWait(driver, 10).until(
+        signin_button = WebDriverWait(driver, 100).until(
             ec.presence_of_element_located((By.XPATH, '//a[text()="Sign In"]')))
         # signin_button = driver.find_element(By.XPATH, '//a[text()="Sign In"]')
         signin_button.click()
 
-        WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.XPATH, '//input[@id="email"]')))
+        WebDriverWait(driver, 100).until(ec.presence_of_element_located((By.XPATH, '//input[@id="email"]')))
         username_field = driver.find_element(By.XPATH, '//input[@id="email"]')
         username_field.send_keys(username)
         password_field = driver.find_element(By.XPATH, '//input[@id="password"]')
         password_field.send_keys(password)
 
-        login_button = WebDriverWait(driver, 30).until(
+        login_button = WebDriverWait(driver, 300).until(
             ec.element_to_be_clickable((By.CSS_SELECTOR, 'button.modal-register__submit')))
         login_button.click()
-        WebDriverWait(driver, 10)
+        WebDriverWait(driver, 100)
     except NoSuchElementException as e:
         logging.error(f"Element not found: {e}")
     except TimeoutException as e:
@@ -87,8 +91,18 @@ def process_category(category_url, username, password, option, config):
     :param password: Propstore password
     :return: None
     """
-    driver = webdriver.Chrome()
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("window-size=1920,1080")
+    # chrome_options.add_argument("start-maximized")
+    # chrome_options.add_argument("disable-infobars")
+    # chrome_options.add_argument("--disable-extensions")
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+    chrome_options.add_argument(f"user-agent={user_agent}")
+    chrome_options.add_argument("--no-sandbox")
+    driver = uc.Chrome(options=chrome_options)
     driver.get(category_url)
+    print("process category")
     return scroll_website(driver, username, password, category_url, option, config)
 
 
@@ -108,14 +122,20 @@ def scroll_website(driver, username, password, category_url, option, config):
         logging.info(f"Ran function {login(driver, username, password, config)}")
         time.sleep(2)
         last_height = driver.execute_script("return document.body.scrollHeight")
+        print("scroll 1")
         while True:
             scroll_to_bottom(driver)
+            print("scroll 2")
             time.sleep(1)
             new_height = driver.execute_script("return document.body.scrollHeight")
+            print("scroll 3")
             if new_height == last_height:
+                print("scroll 4")
                 break
             last_height = new_height
+            print("scroll 5")
         html_content = get_page_content(driver)
+        print("scroll 6")
         return Extract_data_function.extract_data(html_content, category_url, option, config)
     except TimeoutException as e:
         logging.error(f"Timeout occurred: {e}")

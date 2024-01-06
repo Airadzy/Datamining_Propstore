@@ -85,12 +85,14 @@ def main():
         Create_SQL_database_structure.create_database(config, connection_without_database)
         connection = Create_SQL_database_structure.get_connection_with_database(config)
         Create_SQL_database_structure.create_database_tables(config, connection)
-        with Pool() as pool:
-            items_list = pool.starmap(Selenium_functions.process_category,
-                                      [(category_url, username, password, option, config) for category_url in
-                                       category_url_list])
-            for item in items_list:
-                SQL_data_loading.load_data(item, connection)
+
+        items_list = []
+        for category_url in category_url_list[0]:
+            item = Selenium_functions.process_category(category_url, username, password, option, config)
+            items_list.append(item)
+
+        for item in items_list:
+            SQL_data_loading.load_data(item, connection)
 
         print("Program now accessing OMDB API and loading OMDB API data into the SQL database")
         omdb_session = OMDB_API_data_loading.create_omdb_session(config["OMDB_api_key"])
