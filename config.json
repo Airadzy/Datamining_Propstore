@@ -4,7 +4,7 @@
     "OMDB_api_key": "15493acc",
     "SQL_host": "localhost",
     "SQL_user": "root",
-    "SQL_password": "12345",
+    "SQL_password": "root",
     "url": "https://propstore.com/products/?sortType=5&buyNow=1&archive=1&scroll=220",
     "category_list": ["props", "costumes", "artwork", "posters", "toys", "production", "autographs", "promotional-items"],
     "scrape_category_warning": "Warning: The category '{category}' doesn't exist or has not been included. Skipping...",

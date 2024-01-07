@@ -36,18 +36,18 @@ def scroll_to_bottom(driver):
     :return: None
     """
 
-    #actions = ActionChains(driver)
-    #actions.send_keys(Keys.END).perform()
-    #time.sleep(0.8)
-
     print("scroll to bottom")
-    learn_more_span = WebDriverWait(driver, 10).until(
-        ec.presence_of_element_located(
-            (By.XPATH, "//span[contains(@class, 'btn-flat btn--link') and text()='Learn more']"))
-    )
-    driver.execute_script("arguments[0].scrollIntoView();", learn_more_span)
+    actions = ActionChains(driver)
+    actions.send_keys(Keys.END).perform()
+    time.sleep(0.8)
     print("scroll to bottom finish")
 
+    # learn_more_span = WebDriverWait(driver, 10).until(
+    #     ec.presence_of_element_located(
+    #         (By.XPATH, "//span[contains(@class, 'btn-flat btn--link') and text()='Learn more']"))
+    # )
+    # driver.execute_script("arguments[0].scrollIntoView();", learn_more_span)
+    #
 
 
 
