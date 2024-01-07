@@ -80,9 +80,11 @@ def extract_data(html_content, category_url, option, config):
     :return: n/a
     """
     try:
+        print(f"starting extraction of {category_url}")
         button_dict = config["button_dict"]
         soup = BeautifulSoup(html_content, "html.parser")
         cards = soup.find_all("div", class_="card__info")
+        print(f"found cards: {len(cards)}")
         items_set = set()
         category = category_url.split("/")[4]
         for card in cards:
