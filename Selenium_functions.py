@@ -16,7 +16,8 @@ from selenium.common.exceptions import (
     JavascriptException,
     StaleElementReferenceException,
 )
-
+import undetected_chromedriver as uc
+from selenium.webdriver.chrome.options import Options
 
 def get_page_content(driver):
     """
@@ -35,8 +36,31 @@ def scroll_to_bottom(driver):
     :return: None
     """
 
+    #actions = ActionChains(driver)
+    #actions.send_keys(Keys.END).perform()
+    #time.sleep(0.8)
+
+    print("scroll to bottom")
+    learn_more_span = WebDriverWait(driver, 10).until(
+        ec.presence_of_element_located(
+            (By.XPATH, "//span[contains(@class, 'btn-flat btn--link') and text()='Learn more']"))
+    )
+    driver.execute_script("arguments[0].scrollIntoView();", learn_more_span)
+    print("scroll to bottom finish")
+
+
+
+
+
+def scroll_to_top(driver):
+    """
+    Function to go to bottom of website.
+    :param driver: driver with url for each category site
+    :return: None
+    """
+
     actions = ActionChains(driver)
-    actions.send_keys(Keys.END).perform()
+    actions.send_keys(Keys.HOME).perform()
     time.sleep(0.8)
 
 
@@ -110,8 +134,13 @@ def scroll_website(driver, username, password, category_url, option, config):
         login(driver, username, password, config)
         logging.info(f"Ran function {login(driver, username, password, config)}")
         time.sleep(2)
+        driver.get(category_url)
+        scroll_to_top(driver)
         last_height = driver.execute_script("return document.body.scrollHeight")
+        scroll_counter = 0
         while True:
+            print(f"Scrolling iteration: {scroll_counter} ...")
+            scroll_counter+=1
             scroll_to_bottom(driver)
             time.sleep(1)
             new_height = driver.execute_script("return document.body.scrollHeight")
@@ -137,3 +166,32 @@ def scroll_website(driver, username, password, category_url, option, config):
         return e
     finally:
         driver.quit()
+
+
+
+def process_category_undetected_driver(category_url, username, password, option, config):
+    """
+    Function to open a url in Selenium and act on it by calling the next function that scrolls through it.
+    :param category_url: url of category site (e.g. toys)
+    :param username: Propstore username
+    :param password: Propstore password
+    :return: None
+    """
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--window-size=1920x1080")
+    #chrome_options.add_argument("start-maximized")
+    chrome_options.add_argument("--no-sandbox")
+    #chrome_options.add_argument("--disable-dev-shm-usage")
+    # chrome_options.add_argument("disable-infobars")
+    # chrome_options.add_argument("--disable-extensions")
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+    chrome_options.add_argument(f"user-agent={user_agent}")
+    chrome_options.add_argument("--no-sandbox")
+    logging.info('Opening Chrome...')
+    driver = uc.Chrome(options=chrome_options)
+    logging.info('Getting category url...')
+    driver.get(category_url)
+    print("process category")
+    return scroll_website(driver, username, password, category_url, option, config)
+

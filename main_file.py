@@ -1,4 +1,5 @@
 import json
+import os
 from multiprocessing import Pool
 import logging
 import Selenium_functions
@@ -6,13 +7,15 @@ import argparse
 import Create_SQL_database_structure
 import SQL_data_loading
 import OMDB_API_data_loading
+import pandas as pd
 
 log_filename = 'Propstore.log'
 config_filename = "config.json"
 
-logging.basicConfig(filename=log_filename,
-                    format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
-                    level=logging.INFO)
+#logging.basicConfig(filename=log_filename,
+#                    format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
+#                    level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 
 
 def load_config(config_filename):
@@ -80,21 +83,48 @@ def main():
         option = "live_items" if args.live else "sold_items" if args.sold else "all_items"
         logging.info(f"Scraping {option} on Propstore.com for {categories}")
         print(f"Scraping {option} on Propstore.com for {categories}")
-        connection_without_database = Create_SQL_database_structure.get_connection_without_database(config)
-        Create_SQL_database_structure.create_database(config, connection_without_database)
-        connection = Create_SQL_database_structure.get_connection_with_database(config)
-        Create_SQL_database_structure.create_database_tables(config, connection)
-        with Pool() as pool:
-            items_list = pool.starmap(Selenium_functions.process_category,
-                                      [(category_url, username, password, option, config) for category_url in
-                                       category_url_list])
-            print("Program now updating SQL database with data scraped from Propstore.com")
-            for item in items_list:
-                SQL_data_loading.load_data(item, connection)
 
-        print("Program now accessing OMDB API and loading OMDB API data into the SQL database")
+    #    connection_without_database = Create_SQL_database_structure.get_connection_without_database(config)
+    #    Create_SQL_database_structure.create_database(config, connection_without_database)
+    #    connection = Create_SQL_database_structure.get_connection_with_database(config)
+    #    Create_SQL_database_structure.create_database_tables(config, connection)
+
         omdb_session = OMDB_API_data_loading.create_omdb_session(config["OMDB_api_key"])
-        OMDB_API_data_loading.load_OMDB_data(connection, omdb_session)
+        db_interface = {}
+        csv_path = r"C:\repos\python\preply\adrian\Datamining_Propstore\Propstore_data.csv"
+        if os.path.exists(csv_path) == False:
+
+            input_list = [(category_url, username, password, option, config) for category_url in
+                                           category_url_list]
+            for input in input_list:
+                #Selenium_functions.process_category(*input)
+                Selenium_functions.process_category_undetected_driver(*input)
+
+
+            #with Pool() as pool:
+            #    items_list = pool.starmap(Selenium_functions.process_category,
+            #                              [(category_url, username, password, option, config) for category_url in
+            #                               category_url_list])
+            print("Program now updating SQL database with data scraped from Propstore.com")
+
+
+            print("Program now accessing OMDB API and loading OMDB API data into the SQL database")
+
+            db_interface['connection'] = None #connection
+            db_interface['session'] = omdb_session
+
+        else:
+            logging.info('Skipping scraping...')
+            df = pd.read_csv(csv_path,encoding='unicode_escape')
+
+            db_interface['connection'] = df
+            db_interface['session'] = omdb_session
+
+        result = OMDB_API_data_loading.load_OMDB_data(db_interface) # # connection, omdb_session)
+
+
+        print(result.movie_array[0].info())
+
         print("Successfully finished running the program")
 
     except UnboundLocalError as error:

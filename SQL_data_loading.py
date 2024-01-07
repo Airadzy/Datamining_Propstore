@@ -3,6 +3,32 @@ from datetime import datetime
 import re
 
 
+def parse_movie_name_and_year(movie_item):
+    """
+    Parses a string containing a movie's name and its release year.
+
+    :param movie_item: A string in the format "Movie Name (Release Year)".
+    :return: A tuple containing the movie's name and release year. Returns (None, None) if parsing fails or the format is incorrect.
+    """
+
+    try:
+        match = re.search(r"\(\d", movie_item)
+        if match:
+            movies_name_position = match.start()
+            full_movie_name = movie_item[:movies_name_position].strip()
+            if full_movie_name.lower().endswith(", the"):
+                movies_name = full_movie_name.rsplit(',', 1)[0].strip()
+            else:
+                movies_name = full_movie_name
+
+            release_year = movie_item[movies_name_position + 1:movies_name_position + 5]
+
+            return movies_name, release_year
+        else:
+            return movie_item, None
+    except Exception as error:
+        print(f"Error in parsing movie name and year: {error}")
+        return None, None
 
 def load_data(items_list, connection):
     """
@@ -11,32 +37,7 @@ def load_data(items_list, connection):
     :return: None
     """
 
-    def parse_movie_name_and_year(movie_item):
-        """
-        Parses a string containing a movie's name and its release year.
 
-        :param movie_item: A string in the format "Movie Name (Release Year)".
-        :return: A tuple containing the movie's name and release year. Returns (None, None) if parsing fails or the format is incorrect.
-        """
-
-        try:
-            match = re.search(r"\(\d", movie_item)
-            if match:
-                movies_name_position = match.start()
-                full_movie_name = movie_item[:movies_name_position].strip()
-                if full_movie_name.lower().endswith(", the"):
-                    movies_name = full_movie_name.rsplit(',', 1)[0].strip()
-                else:
-                    movies_name = full_movie_name
-
-                release_year = movie_item[movies_name_position + 1:movies_name_position + 5]
-
-                return movies_name, release_year
-            else:
-                return movie_item, None
-        except Exception as error:
-            print(f"Error in parsing movie name and year: {error}")
-            return None, None
 
     def parse_price(price_str):
         """

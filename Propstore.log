@@ -52928,3 +52928,2722 @@ Stacktrace:
 2023-12-24 22:14:52,327-ERROR-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:49-Error fetching data for PROPSTORE MERCHANDISE None:Request limit reached!
 2023-12-24 22:14:52,344-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:64-All OMDB movies inserted into database
 2023-12-24 22:14:52,344-INFO-FILE:OMDB_API_data_loading.py-FUNC:load_OMDB_data-LINE:74-Database connection closed
+2024-01-06 07:25:34,585-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 07:25:38,695-ERROR-FILE:Create_SQL_database_structure.py-FUNC:get_connection_without_database-LINE:23-Operational error in database connection: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione)")
+2024-01-06 07:34:21,478-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for  
+2024-01-06 07:34:25,569-ERROR-FILE:Create_SQL_database_structure.py-FUNC:get_connection_without_database-LINE:23-Operational error in database connection: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione)")
+2024-01-06 07:34:37,273-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for  
+2024-01-06 07:34:41,335-ERROR-FILE:Create_SQL_database_structure.py-FUNC:get_connection_without_database-LINE:23-Operational error in database connection: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione)")
+2024-01-06 07:35:16,162-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for  
+2024-01-06 07:38:53,399-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for  
+2024-01-06 07:38:56,711-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:45:21,667-INFO-FILE:main_file.py-FUNC:main-LINE:81-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 07:45:24,846-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:45:24,847-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:45:24,847-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:45:24,847-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:45:24,855-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:45:24,855-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:45:24,873-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:45:24,874-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:45:35,089-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:35,090-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:35,110-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:35,110-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:35,110-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:45:37,444-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:37,444-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:37,459-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:37,459-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:37,459-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:45:40,103-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:40,104-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:40,127-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:40,129-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:40,129-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:45:41,112-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:41,113-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:41,127-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:41,129-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:41,129-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:45:45,595-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:45,596-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:45,608-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:45,609-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:45,609-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:45:46,097-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:46,097-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:46,114-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:46,114-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:46,114-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:45:47,122-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:47,122-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:47,149-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:47,149-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:47,149-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:45:53,619-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:53,619-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:53,642-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:45:53,642-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:45:53,642-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:45:54,915-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="35c25cd4e24566e3be3a780904c141a5")>
+2024-01-06 07:45:57,480-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="59635322e4f0e935308752e347033fc6")>
+2024-01-06 07:45:57,640-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2024-01-06 07:45:57,641-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from promotional-items
+2024-01-06 07:46:01,481-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING toys. Number of items fetched: 1040
+2024-01-06 07:46:01,491-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2024-01-06 07:46:02,425-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="eb3ca8d926de9c32522910c35fefecb5")>
+2024-01-06 07:46:06,741-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="4fedcb68e3c3903d094a77de7656200f")>
+2024-01-06 07:46:09,914-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING posters. Number of items fetched: 1134
+2024-01-06 07:46:09,923-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2024-01-06 07:46:11,423-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="c13e3b01207cd4d25eee4a75b8f683d0")>
+2024-01-06 07:46:13,752-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING autographs. Number of items fetched: 1268
+2024-01-06 07:46:13,762-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2024-01-06 07:46:20,950-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING costumes. Number of items fetched: 1871
+2024-01-06 07:46:20,961-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2024-01-06 07:46:26,935-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="25a50c95435da98e97f249cc8419a54e")>
+2024-01-06 07:46:27,227-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="84c3ade1d5827d56e3e97165511dd9d6")>
+2024-01-06 07:46:28,569-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="b420a02d28b151a368ba526991b3f7af")>
+2024-01-06 07:46:32,303-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING props. Number of items fetched: 831
+2024-01-06 07:46:32,307-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2024-01-06 07:46:32,873-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING production. Number of items fetched: 1017
+2024-01-06 07:46:32,877-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from production
+2024-01-06 07:46:33,774-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING artwork. Number of items fetched: 990
+2024-01-06 07:46:33,783-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2024-01-06 07:56:12,003-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 07:56:16,361-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:56:16,361-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:56:16,362-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:56:16,363-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:56:16,363-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:56:16,363-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:56:16,393-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 07:56:25,917-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:25,918-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:25,945-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:25,945-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:25,945-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:56:26,959-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:26,959-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:26,980-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:26,980-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:26,980-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:56:28,511-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:28,511-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:28,526-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:28,526-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:28,527-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:56:29,765-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0020ba66efcf200e9dbd63fbe6b83310")>
+2024-01-06 07:56:29,895-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2024-01-06 07:56:29,896-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from promotional-items
+2024-01-06 07:56:30,395-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:30,395-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:30,417-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:30,417-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:30,417-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:56:38,924-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:38,924-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:38,944-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:38,945-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:38,945-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:56:41,182-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:41,182-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:41,206-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:41,206-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:41,206-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:56:41,709-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:41,709-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:41,730-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:41,730-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:41,730-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:56:42,871-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:42,871-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:42,885-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 07:56:42,885-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 07:56:42,885-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 07:56:45,319-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="2c725126a23a60881ac8c0c7362b04bd")>
+2024-01-06 07:56:51,278-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING toys. Number of items fetched: 1040
+2024-01-06 07:56:51,289-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2024-01-06 07:56:51,469-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="5166edef6580e423c0752185b061b14b")>
+2024-01-06 07:56:59,737-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="ee1a19a9e423c0471e21479a1a281f73")>
+2024-01-06 07:57:02,095-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING artwork. Number of items fetched: 1529
+2024-01-06 07:57:02,108-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2024-01-06 07:57:03,250-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="dff091850fcfe3bf025fe3f0840b4904")>
+2024-01-06 07:57:07,058-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING posters. Number of items fetched: 1134
+2024-01-06 07:57:07,064-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2024-01-06 07:57:10,219-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING autographs. Number of items fetched: 1268
+2024-01-06 07:57:10,230-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2024-01-06 07:57:15,462-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="179574245d2a265003a50ae24c4c8712")>
+2024-01-06 07:57:17,109-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="964a99385e14922f5f1653a7be4fa8d6")>
+2024-01-06 07:57:17,951-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="34a755f3057b882d0ee33d17fcce4181")>
+2024-01-06 07:57:23,939-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING costumes. Number of items fetched: 1023
+2024-01-06 07:57:23,948-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2024-01-06 07:57:25,044-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING props. Number of items fetched: 1986
+2024-01-06 07:57:25,054-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2024-01-06 07:57:27,267-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING production. Number of items fetched: 1972
+2024-01-06 07:57:27,276-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from production
+2024-01-06 08:15:16,575-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 08:15:21,008-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:15:21,012-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:15:21,012-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:15:21,012-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:15:21,012-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:15:21,012-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:15:21,012-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:15:21,025-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:15:28,118-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:28,118-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:28,130-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:28,132-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:28,132-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:15:31,951-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="187fc53d08e0c89439ab40f16e186e55")>
+2024-01-06 08:15:32,118-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2024-01-06 08:15:32,119-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from promotional-items
+2024-01-06 08:15:39,987-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:39,987-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:40,001-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:40,002-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:40,002-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:15:40,113-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:40,113-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:40,134-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:40,134-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:40,134-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:15:40,337-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:40,338-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:40,351-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:40,351-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:40,351-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:15:43,470-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:43,470-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:43,498-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:43,498-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:43,498-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:15:46,068-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:46,068-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:46,110-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:46,110-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:46,111-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:15:47,430-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:47,430-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:47,454-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:47,454-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:47,454-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:15:47,963-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:47,964-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:47,989-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:15:47,989-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:15:47,990-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:16:00,468-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="05a9e02ba91aab4990f6c919f2119c10")>
+2024-01-06 08:16:03,062-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="d897a29aaff5df9ba1acd38fb4ada492")>
+2024-01-06 08:16:08,041-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING autographs. Number of items fetched: 1268
+2024-01-06 08:16:08,049-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2024-01-06 08:16:08,773-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING toys. Number of items fetched: 1040
+2024-01-06 08:16:08,783-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2024-01-06 08:16:13,976-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="5cedd4c99832744bb14a7b4ffda15178")>
+2024-01-06 08:16:18,948-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="afc94e0828ad7295c9f2985173ef383f")>
+2024-01-06 08:16:21,582-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="f15f3067c980bf4bcf9b2196dfe7acd2")>
+2024-01-06 08:16:21,588-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING artwork. Number of items fetched: 1529
+2024-01-06 08:16:21,600-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2024-01-06 08:16:27,469-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="50eff23aa5be56c1e41333b192f3f119")>
+2024-01-06 08:16:27,721-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="b4fc8e12b313ff71870f4716a25bf9a6")>
+2024-01-06 08:16:28,169-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING costumes. Number of items fetched: 1871
+2024-01-06 08:16:28,186-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2024-01-06 08:16:32,024-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING props. Number of items fetched: 1986
+2024-01-06 08:16:32,034-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2024-01-06 08:16:32,606-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING posters. Number of items fetched: 989
+2024-01-06 08:16:32,614-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2024-01-06 08:16:33,404-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING production. Number of items fetched: 977
+2024-01-06 08:16:33,408-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from production
+2024-01-06 08:21:58,855-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 08:22:02,849-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:22:02,849-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:22:02,850-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:22:02,851-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:22:02,851-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:22:02,851-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:22:02,854-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:22:02,861-WARNING-FILE:selenium_manager.py-FUNC:run-LINE:135-The chromedriver version (119.0.6045.105) detected in PATH at C:\repos\python\preply\adrian\Datamining_Propstore\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+2024-01-06 08:22:10,917-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:10,918-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:10,937-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:10,937-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:10,937-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:22:13,168-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:13,168-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:13,184-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:13,184-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:13,184-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:22:13,360-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:13,360-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:13,395-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:13,395-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:13,395-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:22:17,024-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="1ba261262c80610003b0515130c8a49f")>
+2024-01-06 08:22:17,263-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING promotional-items. Number of items fetched: 2
+2024-01-06 08:22:17,264-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from promotional-items
+2024-01-06 08:22:20,222-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:20,222-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:20,237-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:20,237-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:20,237-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:22:24,834-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:24,835-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:24,854-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:24,855-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:24,855-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:22:27,483-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="81013fe14766f975f84fcd01f328e630")>
+2024-01-06 08:22:29,126-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:29,127-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:29,178-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:29,179-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:29,179-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:22:30,235-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:30,235-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:30,264-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:30,265-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:30,265-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:22:31,423-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:31,425-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:31,448-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:76-Element not interactable: Message: element not interactable
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF770B482B2+55298]
+	(No symbol) [0x00007FF770AB5E02]
+	(No symbol) [0x00007FF77097045D]
+	(No symbol) [0x00007FF7709B2B4C]
+	(No symbol) [0x00007FF7709A87BF]
+	(No symbol) [0x00007FF7709D20AA]
+	(No symbol) [0x00007FF7709A80CF]
+	(No symbol) [0x00007FF7709D22C0]
+	(No symbol) [0x00007FF7709EAAA4]
+	(No symbol) [0x00007FF7709D1E83]
+	(No symbol) [0x00007FF7709A670A]
+	(No symbol) [0x00007FF7709A7964]
+	GetHandleVerifier [0x00007FF770EC0AAB+3694587]
+	GetHandleVerifier [0x00007FF770F1728E+4048862]
+	GetHandleVerifier [0x00007FF770F0F173+4015811]
+	GetHandleVerifier [0x00007FF770BE47D6+695590]
+	(No symbol) [0x00007FF770AC0CE8]
+	(No symbol) [0x00007FF770ABCF34]
+	(No symbol) [0x00007FF770ABD062]
+	(No symbol) [0x00007FF770AAD3A3]
+	BaseThreadInitThunk [0x00007FFABE39257D+29]
+	RtlUserThreadStart [0x00007FFABFB6AA58+40]
+
+2024-01-06 08:22:31,448-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:80-Successfully logged in
+2024-01-06 08:22:31,448-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:111-Ran function None
+2024-01-06 08:22:34,009-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING posters. Number of items fetched: 1134
+2024-01-06 08:22:34,016-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from posters
+2024-01-06 08:22:45,663-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="be075d75815682cb736c491c42d9bb48")>
+2024-01-06 08:22:51,127-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING toys. Number of items fetched: 1040
+2024-01-06 08:22:51,133-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from toys
+2024-01-06 08:22:51,346-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="24db8b0e11f49d90fea2d21ee4e39460")>
+2024-01-06 08:22:57,691-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING autographs. Number of items fetched: 1268
+2024-01-06 08:22:57,704-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from autographs
+2024-01-06 08:23:00,537-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="7c4919e226856a97ce7f0e7a047e12f1")>
+2024-01-06 08:23:02,981-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="0bb00fb69141f03e9744e603bb1cb3cb")>
+2024-01-06 08:23:07,172-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="79cb571f8a67dfa13bb55eae4b94d115")>
+2024-01-06 08:23:07,892-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:27-Fetching page content via <selenium.webdriver.chrome.webdriver.WebDriver (session="619c9d07a94382152a24ebd857c85905")>
+2024-01-06 08:23:10,916-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING production. Number of items fetched: 1972
+2024-01-06 08:23:10,929-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from production
+2024-01-06 08:23:12,882-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING costumes. Number of items fetched: 1871
+2024-01-06 08:23:12,896-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from costumes
+2024-01-06 08:23:13,378-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING artwork. Number of items fetched: 1110
+2024-01-06 08:23:13,384-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from artwork
+2024-01-06 08:23:14,091-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING props. Number of items fetched: 990
+2024-01-06 08:23:14,095-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2024-01-06 08:32:28,672-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 08:36:46,629-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 08:38:12,054-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 08:38:57,328-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 08:43:03,677-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 08:43:31,676-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 08:53:25,724-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 09:03:08,872-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 09:21:56,255-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 09:22:13,519-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 10:28:51,054-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 10:40:29,076-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 10:42:33,879-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 10:43:14,831-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 10:47:20,655-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 10:47:26,731-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 10:48:48,000-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 10:49:11,763-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 10:50:21,487-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 10:50:29,981-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 10:51:22,225-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 10:51:28,990-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 10:53:09,999-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:81-Successfully logged in
+2024-01-06 10:53:11,083-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:75-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1499, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00776EE3+174339]
+	(No symbol) [0x006A0A51]
+	(No symbol) [0x003B6FF6]
+	(No symbol) [0x003EE48E]
+	(No symbol) [0x003ED09E]
+	(No symbol) [0x003EB5F8]
+	(No symbol) [0x003EAD7F]
+	(No symbol) [0x003E2B4E]
+	(No symbol) [0x0040700C]
+	(No symbol) [0x003E25B0]
+	(No symbol) [0x00407414]
+	(No symbol) [0x0041A104]
+	(No symbol) [0x00406DA6]
+	(No symbol) [0x003E1034]
+	(No symbol) [0x003E1F8D]
+	GetHandleVerifier [0x00814B1C+820540]
+	sqlite3_dbdata_init [0x008D53EE+653550]
+	sqlite3_dbdata_init [0x008D4E09+652041]
+	sqlite3_dbdata_init [0x008C97CC+605388]
+	sqlite3_dbdata_init [0x008D5D9B+656027]
+	(No symbol) [0x006AFE6C]
+	(No symbol) [0x006A83B8]
+	(No symbol) [0x006A84DD]
+	(No symbol) [0x00695818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 10:53:11,083-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:81-Successfully logged in
+2024-01-06 10:53:11,083-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-Ran function None
+2024-01-06 10:55:09,996-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="552bb27de09ac6e443f356fbd1499b3e")>
+2024-01-06 10:55:19,723-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:86-FINISHED EXTRACTING props. Number of items fetched: 1989
+2024-01-06 10:55:19,734-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:27-Successfully inserted into csv file data from props
+2024-01-06 11:01:36,029-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:02:17,094-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:04:18,220-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:05:30,405-INFO-FILE:main_file.py-FUNC:main-LINE:83-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:05:45,348-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:05:56,316-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:81-Successfully logged in
+2024-01-06 11:05:57,411-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:75-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x005A6EE3+174339]
+	(No symbol) [0x004D0A51]
+	(No symbol) [0x001E6FF6]
+	(No symbol) [0x0021E48E]
+	(No symbol) [0x0021D09E]
+	(No symbol) [0x0021B5F8]
+	(No symbol) [0x0021AD7F]
+	(No symbol) [0x00212B4E]
+	(No symbol) [0x0023700C]
+	(No symbol) [0x002125B0]
+	(No symbol) [0x00237414]
+	(No symbol) [0x0024A104]
+	(No symbol) [0x00236DA6]
+	(No symbol) [0x00211034]
+	(No symbol) [0x00211F8D]
+	GetHandleVerifier [0x00644B1C+820540]
+	sqlite3_dbdata_init [0x007053EE+653550]
+	sqlite3_dbdata_init [0x00704E09+652041]
+	sqlite3_dbdata_init [0x006F97CC+605388]
+	sqlite3_dbdata_init [0x00705D9B+656027]
+	(No symbol) [0x004DFE6C]
+	(No symbol) [0x004D83B8]
+	(No symbol) [0x004D84DD]
+	(No symbol) [0x004C5818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 11:05:57,411-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:81-Successfully logged in
+2024-01-06 11:05:57,411-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-Ran function None
+2024-01-06 11:06:14,788-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 0 ...
+2024-01-06 11:06:16,598-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 1 ...
+2024-01-06 11:06:18,406-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 2 ...
+2024-01-06 11:06:20,215-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 3 ...
+2024-01-06 11:06:22,023-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 4 ...
+2024-01-06 11:06:23,832-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 5 ...
+2024-01-06 11:06:25,643-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 6 ...
+2024-01-06 11:06:27,452-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 7 ...
+2024-01-06 11:06:29,261-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 8 ...
+2024-01-06 11:06:31,069-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 9 ...
+2024-01-06 11:06:32,878-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 10 ...
+2024-01-06 11:06:34,688-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 11 ...
+2024-01-06 11:06:36,510-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 12 ...
+2024-01-06 11:06:38,320-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 13 ...
+2024-01-06 11:06:40,131-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 14 ...
+2024-01-06 11:06:41,940-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 15 ...
+2024-01-06 11:06:43,752-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 16 ...
+2024-01-06 11:06:45,562-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 17 ...
+2024-01-06 11:06:47,370-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 18 ...
+2024-01-06 11:06:49,180-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 19 ...
+2024-01-06 11:06:50,990-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 20 ...
+2024-01-06 11:06:52,804-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 21 ...
+2024-01-06 11:06:54,699-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 22 ...
+2024-01-06 11:06:56,510-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 23 ...
+2024-01-06 11:06:58,320-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 24 ...
+2024-01-06 11:07:00,131-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 25 ...
+2024-01-06 11:07:01,941-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 26 ...
+2024-01-06 11:07:03,755-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 27 ...
+2024-01-06 11:07:05,575-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 28 ...
+2024-01-06 11:07:07,386-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 29 ...
+2024-01-06 11:07:09,196-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 30 ...
+2024-01-06 11:07:11,010-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 31 ...
+2024-01-06 11:07:12,822-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 32 ...
+2024-01-06 11:07:14,632-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 33 ...
+2024-01-06 11:07:16,440-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 34 ...
+2024-01-06 11:07:18,258-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 35 ...
+2024-01-06 11:07:20,072-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 36 ...
+2024-01-06 11:07:21,884-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 37 ...
+2024-01-06 11:07:23,699-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 38 ...
+2024-01-06 11:07:25,510-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 39 ...
+2024-01-06 11:07:27,322-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 40 ...
+2024-01-06 11:07:29,142-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 41 ...
+2024-01-06 11:07:30,952-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 42 ...
+2024-01-06 11:07:32,762-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 43 ...
+2024-01-06 11:07:34,572-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 44 ...
+2024-01-06 11:07:36,393-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 45 ...
+2024-01-06 11:07:38,205-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 46 ...
+2024-01-06 11:07:40,025-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 47 ...
+2024-01-06 11:07:41,836-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 48 ...
+2024-01-06 11:07:43,706-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 49 ...
+2024-01-06 11:07:45,518-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 50 ...
+2024-01-06 11:08:15,576-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="03f5d7effa7cd5bb24241735bac183bb")>
+2024-01-06 11:08:35,759-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:87-FINISHED EXTRACTING props. Number of items fetched: 1989
+2024-01-06 11:15:20,339-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:28-Successfully inserted into csv file data from props
+2024-01-06 11:18:05,299-INFO-FILE:main_file.py-FUNC:main-LINE:85-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:18:25,105-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:164-Opening Chrome...
+2024-01-06 11:18:25,515-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:18:26,238-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:166-Getting category url...
+2024-01-06 11:21:20,740-INFO-FILE:main_file.py-FUNC:main-LINE:85-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:21:20,741-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:164-Opening Chrome...
+2024-01-06 11:21:21,981-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:21:22,742-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:166-Getting category url...
+2024-01-06 11:22:09,898-INFO-FILE:<ipython-input-1-21cf319b15ed>-FUNC:<module>-LINE:1-Getting category url...
+2024-01-06 11:22:14,626-INFO-FILE:<ipython-input-2-21cf319b15ed>-FUNC:<module>-LINE:1-Getting category url...
+2024-01-06 11:23:09,826-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:23:09,827-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:164-Opening Chrome...
+2024-01-06 11:23:11,532-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:23:12,277-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:166-Getting category url...
+2024-01-06 11:23:37,566-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:81-Successfully logged in
+2024-01-06 11:23:38,652-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:75-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00746EE3+174339]
+	(No symbol) [0x00670A51]
+	(No symbol) [0x00386FF6]
+	(No symbol) [0x003BE48E]
+	(No symbol) [0x003BD09E]
+	(No symbol) [0x003BB5F8]
+	(No symbol) [0x003BAD7F]
+	(No symbol) [0x003B2B4E]
+	(No symbol) [0x003D700C]
+	(No symbol) [0x003B25B0]
+	(No symbol) [0x003D7414]
+	(No symbol) [0x003EA104]
+	(No symbol) [0x003D6DA6]
+	(No symbol) [0x003B1034]
+	(No symbol) [0x003B1F8D]
+	GetHandleVerifier [0x007E4B1C+820540]
+	sqlite3_dbdata_init [0x008A53EE+653550]
+	sqlite3_dbdata_init [0x008A4E09+652041]
+	sqlite3_dbdata_init [0x008997CC+605388]
+	sqlite3_dbdata_init [0x008A5D9B+656027]
+	(No symbol) [0x0067FE6C]
+	(No symbol) [0x006783B8]
+	(No symbol) [0x006784DD]
+	(No symbol) [0x00665818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 11:23:38,653-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:81-Successfully logged in
+2024-01-06 11:23:38,653-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-Ran function None
+2024-01-06 11:23:40,660-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:117-Scrolling iteration: 0 ...
+2024-01-06 11:23:42,472-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="5e5c3f67d422a7b6d5d156c816c57262")>
+2024-01-06 11:23:42,485-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:92-FINISHED EXTRACTING props. Number of items fetched: 0
+2024-01-06 11:27:01,711-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:27:01,712-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:164-Opening Chrome...
+2024-01-06 11:27:03,046-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:27:03,767-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:166-Getting category url...
+2024-01-06 11:27:21,575-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:81-Successfully logged in
+2024-01-06 11:27:22,670-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:75-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x01356EE3+174339]
+	(No symbol) [0x01280A51]
+	(No symbol) [0x00F96FF6]
+	(No symbol) [0x00FCE48E]
+	(No symbol) [0x00FCD09E]
+	(No symbol) [0x00FCB5F8]
+	(No symbol) [0x00FCAD7F]
+	(No symbol) [0x00FC2B4E]
+	(No symbol) [0x00FE700C]
+	(No symbol) [0x00FC25B0]
+	(No symbol) [0x00FE7414]
+	(No symbol) [0x00FFA104]
+	(No symbol) [0x00FE6DA6]
+	(No symbol) [0x00FC1034]
+	(No symbol) [0x00FC1F8D]
+	GetHandleVerifier [0x013F4B1C+820540]
+	sqlite3_dbdata_init [0x014B53EE+653550]
+	sqlite3_dbdata_init [0x014B4E09+652041]
+	sqlite3_dbdata_init [0x014A97CC+605388]
+	sqlite3_dbdata_init [0x014B5D9B+656027]
+	(No symbol) [0x0128FE6C]
+	(No symbol) [0x012883B8]
+	(No symbol) [0x012884DD]
+	(No symbol) [0x01275818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 11:27:22,671-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:81-Successfully logged in
+2024-01-06 11:27:22,671-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:112-Ran function None
+2024-01-06 11:33:38,547-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:33:38,548-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:177-Opening Chrome...
+2024-01-06 11:33:39,770-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:33:40,501-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:179-Getting category url...
+2024-01-06 11:33:47,703-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:33:48,796-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:87-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00896EE3+174339]
+	(No symbol) [0x007C0A51]
+	(No symbol) [0x004D6FF6]
+	(No symbol) [0x0050E48E]
+	(No symbol) [0x0050D09E]
+	(No symbol) [0x0050B5F8]
+	(No symbol) [0x0050AD7F]
+	(No symbol) [0x00502B4E]
+	(No symbol) [0x0052700C]
+	(No symbol) [0x005025B0]
+	(No symbol) [0x00527414]
+	(No symbol) [0x0053A104]
+	(No symbol) [0x00526DA6]
+	(No symbol) [0x00501034]
+	(No symbol) [0x00501F8D]
+	GetHandleVerifier [0x00934B1C+820540]
+	sqlite3_dbdata_init [0x009F53EE+653550]
+	sqlite3_dbdata_init [0x009F4E09+652041]
+	sqlite3_dbdata_init [0x009E97CC+605388]
+	sqlite3_dbdata_init [0x009F5D9B+656027]
+	(No symbol) [0x007CFE6C]
+	(No symbol) [0x007C83B8]
+	(No symbol) [0x007C84DD]
+	(No symbol) [0x007B5818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 11:33:48,796-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:33:48,796-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:124-Ran function None
+2024-01-06 11:33:53,425-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="a9009c6745d0e343ca9c8d4f5d9f592a")>
+2024-01-06 11:33:53,441-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:92-FINISHED EXTRACTING props. Number of items fetched: 0
+2024-01-06 11:34:26,767-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:34:26,767-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:177-Opening Chrome...
+2024-01-06 11:34:27,993-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:34:28,759-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:179-Getting category url...
+2024-01-06 11:35:17,322-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:35:18,421-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:87-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00EE6EE3+174339]
+	(No symbol) [0x00E10A51]
+	(No symbol) [0x00B26FF6]
+	(No symbol) [0x00B5E48E]
+	(No symbol) [0x00B5D09E]
+	(No symbol) [0x00B5B5F8]
+	(No symbol) [0x00B5AD7F]
+	(No symbol) [0x00B52B4E]
+	(No symbol) [0x00B7700C]
+	(No symbol) [0x00B525B0]
+	(No symbol) [0x00B77414]
+	(No symbol) [0x00B8A104]
+	(No symbol) [0x00B76DA6]
+	(No symbol) [0x00B51034]
+	(No symbol) [0x00B51F8D]
+	GetHandleVerifier [0x00F84B1C+820540]
+	sqlite3_dbdata_init [0x010453EE+653550]
+	sqlite3_dbdata_init [0x01044E09+652041]
+	sqlite3_dbdata_init [0x010397CC+605388]
+	sqlite3_dbdata_init [0x01045D9B+656027]
+	(No symbol) [0x00E1FE6C]
+	(No symbol) [0x00E183B8]
+	(No symbol) [0x00E184DD]
+	(No symbol) [0x00E05818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 11:35:18,421-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:35:18,421-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:124-Ran function None
+2024-01-06 11:38:43,393-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:38:43,394-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:177-Opening Chrome...
+2024-01-06 11:38:44,632-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:41:58,292-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:41:58,293-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:177-Opening Chrome...
+2024-01-06 11:41:59,604-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:44:04,160-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:44:04,161-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:177-Opening Chrome...
+2024-01-06 11:44:05,271-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:44:05,976-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:179-Getting category url...
+2024-01-06 11:44:21,736-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:44:22,820-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:87-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00C36EE3+174339]
+	(No symbol) [0x00B60A51]
+	(No symbol) [0x00876FF6]
+	(No symbol) [0x008AE48E]
+	(No symbol) [0x008AD09E]
+	(No symbol) [0x008AB5F8]
+	(No symbol) [0x008AAD7F]
+	(No symbol) [0x008A2B4E]
+	(No symbol) [0x008C700C]
+	(No symbol) [0x008A25B0]
+	(No symbol) [0x008C7414]
+	(No symbol) [0x008DA104]
+	(No symbol) [0x008C6DA6]
+	(No symbol) [0x008A1034]
+	(No symbol) [0x008A1F8D]
+	GetHandleVerifier [0x00CD4B1C+820540]
+	sqlite3_dbdata_init [0x00D953EE+653550]
+	sqlite3_dbdata_init [0x00D94E09+652041]
+	sqlite3_dbdata_init [0x00D897CC+605388]
+	sqlite3_dbdata_init [0x00D95D9B+656027]
+	(No symbol) [0x00B6FE6C]
+	(No symbol) [0x00B683B8]
+	(No symbol) [0x00B684DD]
+	(No symbol) [0x00B55818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 11:44:22,820-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:44:22,820-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:124-Ran function None
+2024-01-06 11:50:04,975-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:50:04,975-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:177-Opening Chrome...
+2024-01-06 11:50:06,094-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:50:06,823-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:179-Getting category url...
+2024-01-06 11:50:30,162-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:50:31,205-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:87-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1499, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00B86EE3+174339]
+	(No symbol) [0x00AB0A51]
+	(No symbol) [0x007C6FF6]
+	(No symbol) [0x007FE48E]
+	(No symbol) [0x007FD09E]
+	(No symbol) [0x007FB5F8]
+	(No symbol) [0x007FAD7F]
+	(No symbol) [0x007F2B4E]
+	(No symbol) [0x0081700C]
+	(No symbol) [0x007F25B0]
+	(No symbol) [0x00817414]
+	(No symbol) [0x0082A104]
+	(No symbol) [0x00816DA6]
+	(No symbol) [0x007F1034]
+	(No symbol) [0x007F1F8D]
+	GetHandleVerifier [0x00C24B1C+820540]
+	sqlite3_dbdata_init [0x00CE53EE+653550]
+	sqlite3_dbdata_init [0x00CE4E09+652041]
+	sqlite3_dbdata_init [0x00CD97CC+605388]
+	sqlite3_dbdata_init [0x00CE5D9B+656027]
+	(No symbol) [0x00ABFE6C]
+	(No symbol) [0x00AB83B8]
+	(No symbol) [0x00AB84DD]
+	(No symbol) [0x00AA5818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 11:50:31,206-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:50:31,206-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:124-Ran function None
+2024-01-06 11:52:39,167-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 11:52:39,167-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:177-Opening Chrome...
+2024-01-06 11:52:40,348-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 11:52:41,076-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:179-Getting category url...
+2024-01-06 11:52:52,953-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:52:54,042-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:87-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x005C6EE3+174339]
+	(No symbol) [0x004F0A51]
+	(No symbol) [0x00206FF6]
+	(No symbol) [0x0023E48E]
+	(No symbol) [0x0023D09E]
+	(No symbol) [0x0023B5F8]
+	(No symbol) [0x0023AD7F]
+	(No symbol) [0x00232B4E]
+	(No symbol) [0x0025700C]
+	(No symbol) [0x002325B0]
+	(No symbol) [0x00257414]
+	(No symbol) [0x0026A104]
+	(No symbol) [0x00256DA6]
+	(No symbol) [0x00231034]
+	(No symbol) [0x00231F8D]
+	GetHandleVerifier [0x00664B1C+820540]
+	sqlite3_dbdata_init [0x007253EE+653550]
+	sqlite3_dbdata_init [0x00724E09+652041]
+	sqlite3_dbdata_init [0x007197CC+605388]
+	sqlite3_dbdata_init [0x00725D9B+656027]
+	(No symbol) [0x004FFE6C]
+	(No symbol) [0x004F83B8]
+	(No symbol) [0x004F84DD]
+	(No symbol) [0x004E5818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 11:52:54,042-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 11:52:54,042-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:124-Ran function None
+2024-01-06 11:58:10,670-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="859dd18047f253cd71fef3ac332729c5")>
+2024-01-06 11:58:36,716-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="859dd18047f253cd71fef3ac332729c5")>
+2024-01-06 11:58:48,873-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="859dd18047f253cd71fef3ac332729c5")>
+2024-01-06 12:03:36,871-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="859dd18047f253cd71fef3ac332729c5")>
+2024-01-06 12:08:02,278-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 12:08:02,279-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:179-Opening Chrome...
+2024-01-06 12:08:04,496-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 12:09:38,561-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 12:09:38,562-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:179-Opening Chrome...
+2024-01-06 12:09:39,854-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 12:11:08,847-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 12:11:08,848-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:179-Opening Chrome...
+2024-01-06 12:11:10,175-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 12:11:10,897-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:181-Getting category url...
+2024-01-06 12:11:13,513-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 12:11:18,005-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 12:11:18,006-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:179-Opening Chrome...
+2024-01-06 12:11:19,733-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 12:11:20,489-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:181-Getting category url...
+2024-01-06 12:11:54,486-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 12:11:55,532-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:87-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00926EE3+174339]
+	(No symbol) [0x00850A51]
+	(No symbol) [0x00566FF6]
+	(No symbol) [0x0059E48E]
+	(No symbol) [0x0059D09E]
+	(No symbol) [0x0059B5F8]
+	(No symbol) [0x0059AD7F]
+	(No symbol) [0x00592B4E]
+	(No symbol) [0x005B700C]
+	(No symbol) [0x005925B0]
+	(No symbol) [0x005B7414]
+	(No symbol) [0x005CA104]
+	(No symbol) [0x005B6DA6]
+	(No symbol) [0x00591034]
+	(No symbol) [0x00591F8D]
+	GetHandleVerifier [0x009C4B1C+820540]
+	sqlite3_dbdata_init [0x00A853EE+653550]
+	sqlite3_dbdata_init [0x00A84E09+652041]
+	sqlite3_dbdata_init [0x00A797CC+605388]
+	sqlite3_dbdata_init [0x00A85D9B+656027]
+	(No symbol) [0x0085FE6C]
+	(No symbol) [0x008583B8]
+	(No symbol) [0x008584DD]
+	(No symbol) [0x00845818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 12:11:55,532-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:93-Successfully logged in
+2024-01-06 12:11:55,532-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:124-Ran function None
+2024-01-06 12:13:41,560-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 12:13:41,561-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:190-Opening Chrome...
+2024-01-06 12:13:42,827-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 12:13:43,585-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:192-Getting category url...
+2024-01-06 12:13:55,051-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 12:13:56,150-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:98-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00556EE3+174339]
+	(No symbol) [0x00480A51]
+	(No symbol) [0x00196FF6]
+	(No symbol) [0x001CE48E]
+	(No symbol) [0x001CD09E]
+	(No symbol) [0x001CB5F8]
+	(No symbol) [0x001CAD7F]
+	(No symbol) [0x001C2B4E]
+	(No symbol) [0x001E700C]
+	(No symbol) [0x001C25B0]
+	(No symbol) [0x001E7414]
+	(No symbol) [0x001FA104]
+	(No symbol) [0x001E6DA6]
+	(No symbol) [0x001C1034]
+	(No symbol) [0x001C1F8D]
+	GetHandleVerifier [0x005F4B1C+820540]
+	sqlite3_dbdata_init [0x006B53EE+653550]
+	sqlite3_dbdata_init [0x006B4E09+652041]
+	sqlite3_dbdata_init [0x006A97CC+605388]
+	sqlite3_dbdata_init [0x006B5D9B+656027]
+	(No symbol) [0x0048FE6C]
+	(No symbol) [0x004883B8]
+	(No symbol) [0x004884DD]
+	(No symbol) [0x00475818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+	(No symbol) [0x00000000]
+
+2024-01-06 12:13:56,150-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 12:13:56,150-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:135-Ran function None
+2024-01-06 12:14:16,059-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:152-Timeout occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00556EE3+174339]
+	(No symbol) [0x00480A51]
+	(No symbol) [0x00196FF6]
+	(No symbol) [0x001C9876]
+	(No symbol) [0x001C9C2C]
+	(No symbol) [0x001FBD42]
+	(No symbol) [0x001E7054]
+	(No symbol) [0x001FA104]
+	(No symbol) [0x001E6DA6]
+	(No symbol) [0x001C1034]
+	(No symbol) [0x001C1F8D]
+	GetHandleVerifier [0x005F4B1C+820540]
+	sqlite3_dbdata_init [0x006B53EE+653550]
+	sqlite3_dbdata_init [0x006B4E09+652041]
+	sqlite3_dbdata_init [0x006A97CC+605388]
+	sqlite3_dbdata_init [0x006B5D9B+656027]
+	(No symbol) [0x0048FE6C]
+	(No symbol) [0x004883B8]
+	(No symbol) [0x004884DD]
+	(No symbol) [0x00475818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+	(No symbol) [0x00000000]
+
+2024-01-06 12:14:53,622-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:190-Opening Chrome...
+2024-01-06 12:14:56,850-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 12:14:57,575-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:192-Getting category url...
+2024-01-06 12:15:59,003-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 12:16:00,050-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:98-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00AF6EE3+174339]
+	(No symbol) [0x00A20A51]
+	(No symbol) [0x00736FF6]
+	(No symbol) [0x0076E48E]
+	(No symbol) [0x0076D09E]
+	(No symbol) [0x0076B5F8]
+	(No symbol) [0x0076AD7F]
+	(No symbol) [0x00762B4E]
+	(No symbol) [0x0078700C]
+	(No symbol) [0x007625B0]
+	(No symbol) [0x00787414]
+	(No symbol) [0x0079A104]
+	(No symbol) [0x00786DA6]
+	(No symbol) [0x00761034]
+	(No symbol) [0x00761F8D]
+	GetHandleVerifier [0x00B94B1C+820540]
+	sqlite3_dbdata_init [0x00C553EE+653550]
+	sqlite3_dbdata_init [0x00C54E09+652041]
+	sqlite3_dbdata_init [0x00C497CC+605388]
+	sqlite3_dbdata_init [0x00C55D9B+656027]
+	(No symbol) [0x00A2FE6C]
+	(No symbol) [0x00A283B8]
+	(No symbol) [0x00A284DD]
+	(No symbol) [0x00A15818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 12:16:00,050-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 12:16:00,050-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:135-Ran function None
+2024-01-06 12:16:14,112-ERROR-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:152-Timeout occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00AF6EE3+174339]
+	(No symbol) [0x00A20A51]
+	(No symbol) [0x00736FF6]
+	(No symbol) [0x00769876]
+	(No symbol) [0x00769C2C]
+	(No symbol) [0x0079BD42]
+	(No symbol) [0x00787054]
+	(No symbol) [0x0079A104]
+	(No symbol) [0x00786DA6]
+	(No symbol) [0x00761034]
+	(No symbol) [0x00761F8D]
+	GetHandleVerifier [0x00B94B1C+820540]
+	sqlite3_dbdata_init [0x00C553EE+653550]
+	sqlite3_dbdata_init [0x00C54E09+652041]
+	sqlite3_dbdata_init [0x00C497CC+605388]
+	sqlite3_dbdata_init [0x00C55D9B+656027]
+	(No symbol) [0x00A2FE6C]
+	(No symbol) [0x00A283B8]
+	(No symbol) [0x00A284DD]
+	(No symbol) [0x00A15818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 12:17:19,615-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="f739e7862b4400f464c297b31923094e")>
+2024-01-06 12:17:49,948-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="f739e7862b4400f464c297b31923094e")>
+2024-01-06 12:17:49,954-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:92-FINISHED EXTRACTING costumes. Number of items fetched: 0
+2024-01-06 12:17:49,954-WARNING-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:24-items_list is empty. No CSV file created.
+2024-01-06 12:17:49,955-INFO-FILE:Extract_data_function.py-FUNC:extract_to_csv-LINE:33-Successfully inserted into csv file data from costumes
+2024-01-06 15:47:22,619-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 15:47:22,619-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:190-Opening Chrome...
+2024-01-06 15:47:24,228-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 15:47:24,928-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:192-Getting category url...
+2024-01-06 15:47:37,372-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 15:47:38,401-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:98-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00EE6EE3+174339]
+	(No symbol) [0x00E10A51]
+	(No symbol) [0x00B26FF6]
+	(No symbol) [0x00B5E48E]
+	(No symbol) [0x00B5D09E]
+	(No symbol) [0x00B5B5F8]
+	(No symbol) [0x00B5AD7F]
+	(No symbol) [0x00B52B4E]
+	(No symbol) [0x00B7700C]
+	(No symbol) [0x00B525B0]
+	(No symbol) [0x00B77414]
+	(No symbol) [0x00B8A104]
+	(No symbol) [0x00B76DA6]
+	(No symbol) [0x00B51034]
+	(No symbol) [0x00B51F8D]
+	GetHandleVerifier [0x00F84B1C+820540]
+	sqlite3_dbdata_init [0x010453EE+653550]
+	sqlite3_dbdata_init [0x01044E09+652041]
+	sqlite3_dbdata_init [0x010397CC+605388]
+	sqlite3_dbdata_init [0x01045D9B+656027]
+	(No symbol) [0x00E1FE6C]
+	(No symbol) [0x00E183B8]
+	(No symbol) [0x00E184DD]
+	(No symbol) [0x00E05818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 15:47:38,402-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 15:47:38,402-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:135-Ran function None
+2024-01-06 15:48:17,474-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="e1f12a00673723c1a106e74ad36636f4")>
+2024-01-06 15:55:01,279-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 15:55:01,280-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:191-Opening Chrome...
+2024-01-06 15:55:02,582-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 15:55:03,302-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:193-Getting category url...
+2024-01-06 15:55:16,534-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 15:55:17,619-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:98-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00A76EE3+174339]
+	(No symbol) [0x009A0A51]
+	(No symbol) [0x006B6FF6]
+	(No symbol) [0x006EE48E]
+	(No symbol) [0x006ED09E]
+	(No symbol) [0x006EB5F8]
+	(No symbol) [0x006EAD7F]
+	(No symbol) [0x006E2B4E]
+	(No symbol) [0x0070700C]
+	(No symbol) [0x006E25B0]
+	(No symbol) [0x00707414]
+	(No symbol) [0x0071A104]
+	(No symbol) [0x00706DA6]
+	(No symbol) [0x006E1034]
+	(No symbol) [0x006E1F8D]
+	GetHandleVerifier [0x00B14B1C+820540]
+	sqlite3_dbdata_init [0x00BD53EE+653550]
+	sqlite3_dbdata_init [0x00BD4E09+652041]
+	sqlite3_dbdata_init [0x00BC97CC+605388]
+	sqlite3_dbdata_init [0x00BD5D9B+656027]
+	(No symbol) [0x009AFE6C]
+	(No symbol) [0x009A83B8]
+	(No symbol) [0x009A84DD]
+	(No symbol) [0x00995818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 15:55:17,619-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 15:55:17,619-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:135-Ran function None
+2024-01-06 15:57:31,040-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 15:57:31,041-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:191-Opening Chrome...
+2024-01-06 15:57:32,172-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 15:57:32,872-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:193-Getting category url...
+2024-01-06 15:57:51,424-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 15:57:52,464-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:98-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x01136EE3+174339]
+	(No symbol) [0x01060A51]
+	(No symbol) [0x00D76FF6]
+	(No symbol) [0x00DAE48E]
+	(No symbol) [0x00DAD09E]
+	(No symbol) [0x00DAB5F8]
+	(No symbol) [0x00DAAD7F]
+	(No symbol) [0x00DA2B4E]
+	(No symbol) [0x00DC700C]
+	(No symbol) [0x00DA25B0]
+	(No symbol) [0x00DC7414]
+	(No symbol) [0x00DDA104]
+	(No symbol) [0x00DC6DA6]
+	(No symbol) [0x00DA1034]
+	(No symbol) [0x00DA1F8D]
+	GetHandleVerifier [0x011D4B1C+820540]
+	sqlite3_dbdata_init [0x012953EE+653550]
+	sqlite3_dbdata_init [0x01294E09+652041]
+	sqlite3_dbdata_init [0x012897CC+605388]
+	sqlite3_dbdata_init [0x01295D9B+656027]
+	(No symbol) [0x0106FE6C]
+	(No symbol) [0x010683B8]
+	(No symbol) [0x010684DD]
+	(No symbol) [0x01055818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 15:57:52,465-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 15:57:52,465-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:135-Ran function None
+2024-01-06 15:59:05,534-INFO-FILE:Selenium_functions.py-FUNC:get_page_content-LINE:28-Fetching page content via <undetected_chromedriver.Chrome (session="b70aab9733b7d033d9656436bb3efa9b")>
+2024-01-06 15:59:15,164-INFO-FILE:Extract_data_function.py-FUNC:extract_data-LINE:92-FINISHED EXTRACTING props. Number of items fetched: 1989
+2024-01-06 18:43:41,824-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-06 18:43:41,824-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:191-Opening Chrome...
+2024-01-06 18:43:43,378-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-06 18:43:44,089-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:193-Getting category url...
+2024-01-06 18:44:20,627-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 18:44:21,717-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:98-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1696, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x00F06EE3+174339]
+	(No symbol) [0x00E30A51]
+	(No symbol) [0x00B46FF6]
+	(No symbol) [0x00B7E48E]
+	(No symbol) [0x00B7D09E]
+	(No symbol) [0x00B7B5F8]
+	(No symbol) [0x00B7AD7F]
+	(No symbol) [0x00B72B4E]
+	(No symbol) [0x00B9700C]
+	(No symbol) [0x00B725B0]
+	(No symbol) [0x00B97414]
+	(No symbol) [0x00BAA104]
+	(No symbol) [0x00B96DA6]
+	(No symbol) [0x00B71034]
+	(No symbol) [0x00B71F8D]
+	GetHandleVerifier [0x00FA4B1C+820540]
+	sqlite3_dbdata_init [0x010653EE+653550]
+	sqlite3_dbdata_init [0x01064E09+652041]
+	sqlite3_dbdata_init [0x010597CC+605388]
+	sqlite3_dbdata_init [0x01065D9B+656027]
+	(No symbol) [0x00E3FE6C]
+	(No symbol) [0x00E383B8]
+	(No symbol) [0x00E384DD]
+	(No symbol) [0x00E25818]
+	BaseThreadInitThunk [0x760E7BA9+25]
+	RtlInitializeExceptionChain [0x773DBD2B+107]
+	RtlClearBits [0x773DBCAF+191]
+
+2024-01-06 18:44:21,718-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-06 18:44:21,718-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:135-Ran function None
+2024-01-07 07:06:35,775-INFO-FILE:main_file.py-FUNC:main-LINE:84-Scraping all_items on Propstore.com for props costumes artwork posters toys production autographs promotional-items
+2024-01-07 07:06:35,776-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:191-Opening Chrome...
+2024-01-07 07:06:36,348-INFO-FILE:patcher.py-FUNC:patch_exe-LINE:346-patching driver executable C:\Users\mcarr\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-01-07 07:06:37,082-INFO-FILE:Selenium_functions.py-FUNC:process_category_undetected_driver-LINE:193-Getting category url...
+2024-01-07 07:06:56,014-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-07 07:06:57,137-ERROR-FILE:Selenium_functions.py-FUNC:login-LINE:98-Error clicking element: Message: element click intercepted: Element <a class="waves-effect btn-flat header__btn modal-trigger" href="#modal-signin" tabindex="0">...</a> is not clickable at point (1698, 20). Other element would receive the click: <div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.25;"></div>
+  (Session info: chrome=120.0.6099.131)
+Stacktrace:
+	GetHandleVerifier [0x012C6EE3+174339]
+	(No symbol) [0x011F0A51]
+	(No symbol) [0x00F06FF6]
+	(No symbol) [0x00F3E48E]
+	(No symbol) [0x00F3D09E]
+	(No symbol) [0x00F3B5F8]
+	(No symbol) [0x00F3AD7F]
+	(No symbol) [0x00F32B4E]
+	(No symbol) [0x00F5700C]
+	(No symbol) [0x00F325B0]
+	(No symbol) [0x00F57414]
+	(No symbol) [0x00F6A104]
+	(No symbol) [0x00F56DA6]
+	(No symbol) [0x00F31034]
+	(No symbol) [0x00F31F8D]
+	GetHandleVerifier [0x01364B1C+820540]
+	sqlite3_dbdata_init [0x014253EE+653550]
+	sqlite3_dbdata_init [0x01424E09+652041]
+	sqlite3_dbdata_init [0x014197CC+605388]
+	sqlite3_dbdata_init [0x01425D9B+656027]
+	(No symbol) [0x011FFE6C]
+	(No symbol) [0x011F83B8]
+	(No symbol) [0x011F84DD]
+	(No symbol) [0x011E5818]
+	BaseThreadInitThunk [0x768E7BA9+25]
+	RtlInitializeExceptionChain [0x77A5BD2B+107]
+	RtlClearBits [0x77A5BCAF+191]
+
+2024-01-07 07:06:57,137-INFO-FILE:Selenium_functions.py-FUNC:login-LINE:104-Successfully logged in
+2024-01-07 07:06:57,137-INFO-FILE:Selenium_functions.py-FUNC:scroll_website-LINE:135-Ran function None

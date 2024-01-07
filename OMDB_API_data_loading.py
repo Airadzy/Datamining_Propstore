@@ -1,6 +1,7 @@
 import requests
 import logging
 import pymysql.err
+from SQL_data_loading import parse_movie_name_and_year
 
 logging.basicConfig(filename="Propstore.log",
                     format='%(asctime)s-%(levelname)s-FILE:%(filename)s-FUNC:%(funcName)s-LINE:%(lineno)d-%(message)s',
@@ -28,8 +29,22 @@ class Movie:
         response = self.session.get("http://www.omdbapi.com/", params={"t": self.movie_name, "y": self.year})
         return response.json()
 
+class DbInterface():
+    def __init__(self,data,session):
+        self.session = session
+        self.data = data
+        self.movie_array = None
+        self.join_movie_data()
 
-def load_OMDB_data(connection, session):
+    def join_movie_data(self):
+        my_fixed_data = self.data['movie_name'].apply(lambda x: parse_movie_name_and_year(x))
+        my_movie_array = my_fixed_data.apply(lambda x: Movie(x[0], x[1], self.session)).unique()
+        self.movie_array = my_movie_array
+
+
+
+
+def load_OMDB_data(db_interface): # connection, session):
     """
     Fetches movies from the database with missing OMDB data, and retrieves the data
     using the OMDB API, and then updates the database with this information.
@@ -38,37 +53,6 @@ def load_OMDB_data(connection, session):
     :param session: A session object to interact with the OMDB API.
     :return: None. The function updates the database and handles exceptions internally.
     """
-    try:
-        with connection.cursor() as cursor:
-            cursor.execute("Select * from movies WHERE API_title IS NULL;")
-            movies = cursor.fetchall()
+    my_interface = DbInterface(db_interface['connection'],db_interface['session'])
 
-            for movie in movies:
-                movie_info = Movie(movie["movies_name"], movie["release_year"], session).info()
-                if movie_info['Response'] == "False":
-                    logging.error(
-                        f"Error fetching data for {movie['movies_name']} {movie['release_year']}:{movie_info.get('Error', 'Unknown Error')}")
-                    continue
-                cursor.execute(
-                    "UPDATE movies SET API_title = %s, "
-                    "API_year = %s, API_rated = %s,API_runtime = %s,API_genre = %s,"
-                    "API_directors = %s,API_country = %s, API_awards = %s,API_rating_imdb = %s,"
-                    "API_rating_metascore = %s,API_boxoffice = %s WHERE movies_id = %s",
-                    (movie_info.get("Title", None), movie_info.get("Year", None), movie_info.get("Rated", None),
-                     movie_info.get("Runtime", None),
-                     movie_info.get("Genre", None), movie_info.get("Director", None), movie_info.get("Country", None),
-                     movie_info.get("Awards", None),
-                     movie_info.get("imdbRating", None), movie_info.get("Metascore", None),
-                     movie_info.get("BoxOffice", None), movie["movies_id"]))
-        connection.commit()
-        logging.info("All OMDB movies inserted into database")
-        print("All OMDB movies inserted into database")
-    except pymysql.err.OperationalError as error:
-        logging.error(f"Operational error in database connection: {error}")
-        print(f"Operational error in database connection: {error}")
-    except pymysql.err.DatabaseError as error:
-        logging.error(f"Database error occurred: {error}")
-        print(f"Database error occurred: {error}")
-    finally:
-        connection.close()
-        logging.info("Database connection closed")
+    return my_interface

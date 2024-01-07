@@ -12,7 +12,13 @@ def extract_to_csv(items_list, category, config):
     :param config: Configuration dictionary containing messages and settings.
     :return: None
     """
-    path = Path(config["csv_file_path"])
+
+    file_name = config["csv_file_path"]
+    csv_name =f"{file_name.split('.csv')[0]}_{category}.csv"
+    path = Path(csv_name)
+    print(path)
+
+
     try:
         if not items_list:
             logging.warning(config["empty_item_list_warning"])
